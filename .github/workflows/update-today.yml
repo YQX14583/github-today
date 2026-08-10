@@ -47,3 +47,15 @@ jobs:
             git commit -m "content: update GitHub Today $(date +%F)"
             git push
           fi
+
+      - name: Deploy today's content
+        env:
+          SERVER_SSH_KEY: ${{ secrets.SERVER_SSH_KEY }}
+        run: |
+          install -d -m 700 ~/.ssh
+          install -m 600 /dev/null ~/.ssh/github_today
+          printf '%s\n' "$SERVER_SSH_KEY" > ~/.ssh/github_today
+          ssh-keyscan -H 8.217.181.84 >> ~/.ssh/known_hosts
+          scp -i ~/.ssh/github_today data/today.json github-today@8.217.181.84:/opt/github-today/data/today.next.json
+          ssh -i ~/.ssh/github_today github-today@8.217.181.84 \
+            'mv /opt/github-today/data/today.next.json /opt/github-today/data/today.json'
