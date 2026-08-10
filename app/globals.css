@@ -7,16 +7,22 @@
 
 * { box-sizing: border-box; }
 svg { display: block; max-width: 100%; }
-body { margin: 0; background: #f6f8fa; color: #1f2328; }
+html { min-height: 100%; background: #24292f; }
+body { min-height: 100%; margin: 0; background: #f6f8fa; color: #1f2328; }
 a { color: inherit; }
 
-.site-nav { height: 64px; background: #24292f; color: #fff; }
+.site-nav {
+  height: calc(64px + env(safe-area-inset-top));
+  padding-top: env(safe-area-inset-top);
+  background: #24292f;
+  color: #fff;
+}
 .nav-inner { width: min(100% - 48px, 1012px); height: 100%; margin: auto; display: flex; align-items: center; justify-content: space-between; }
 .brand { display: inline-flex; align-items: center; gap: 10px; color: #fff; font-size: 16px; font-weight: 600; text-decoration: none; }
 .brand svg { width: 30px; height: 30px; fill: currentColor; }
 .nav-badge { padding: 3px 8px; border: 1px solid #57606a; border-radius: 20px; color: #c9d1d9; font-size: 12px; }
 
-.feed { width: min(100% - 48px, 1012px); margin: 0 auto; padding: 40px 0 80px; }
+.feed { width: min(100% - 48px, 1012px); margin: 0 auto; padding: 40px 0 calc(80px + env(safe-area-inset-bottom)); }
 .feed-header { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 24px; }
 .feed-header h1 { margin: 0 0 6px; font-size: 24px; line-height: 1.25; font-weight: 600; }
 .feed-header p { margin: 0; color: #57606a; font-size: 14px; }
@@ -42,7 +48,7 @@ a { color: inherit; }
 .github-button { border: 1px solid rgba(31,35,40,.15); border-radius: 6px; background: #f6f8fa; box-shadow: 0 1px 0 rgba(31,35,40,.04); color: #24292f; font-size: 12px; font-weight: 500; text-decoration: none; }
 .github-button:hover { background: #f3f4f6; border-color: rgba(31,35,40,.25); }
 
-.article-page { width: min(100% - 48px, 900px); margin: 0 auto; padding: 32px 0 80px; }
+.article-page { width: min(100% - 48px, 900px); margin: 0 auto; padding: 32px 0 calc(80px + env(safe-area-inset-bottom)); }
 .back-link { display: inline-block; margin-bottom: 20px; color: #0969da; font-size: 14px; text-decoration: none; }
 .back-link:hover { text-decoration: underline; }
 .article-header { padding: 0 0 20px; border-bottom: 1px solid #d8dee4; }
