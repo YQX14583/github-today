@@ -30,7 +30,6 @@ export default async function RepositoryPage({ params }: { params: Promise<{ slu
 
       <header className="article-header">
         <h1><span>{repository.owner}</span> / {repository.name}</h1>
-        <p>{repository.summary}</p>
         <div>
           <span><i className="language-dot" />{repository.language || "其他"}</span>
           <span>☆ {formatStars(repository.stars)}</span>
