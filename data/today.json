@@ -1,0 +1,18 @@
+{
+  "date": "2026-08-10",
+  "updatedAt": "2026-08-10T08:00:00+08:00",
+  "repositories": [
+    {
+      "slug": "example--project",
+      "owner": "example",
+      "name": "project",
+      "url": "https://github.com/trending",
+      "description": "示例项目",
+      "language": "TypeScript",
+      "stars": 12400,
+      "starsToday": 820,
+      "summary": "这里将显示由 AI 整理的一句话中文项目介绍。",
+      "article": "## 它是什么\n\n这是用于确认页面排版的示例文章。配置 AI 接口并运行更新命令后，它会被当天真实的 GitHub Trending 内容覆盖。\n\n## 主要能力\n\n- 自动读取 GitHub Trending Today\n- 提取仓库 README\n- 将内容整理成适合阅读的中文文章\n\n## 如何更新\n\n运行下面的命令：\n\n```bash\nnpm run update\n```"
+    }
+  ]
+}
