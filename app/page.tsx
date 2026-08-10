@@ -12,15 +12,6 @@ function formatDate(value: string) {
   }).format(new Date(`${value}T00:00:00+08:00`));
 }
 
-function formatUpdatedAt(value: string) {
-  return new Intl.DateTimeFormat("zh-CN", {
-    timeZone: "Asia/Shanghai",
-    hour: "2-digit",
-    minute: "2-digit",
-    hour12: false
-  }).format(new Date(value));
-}
-
 function formatStars(value: number) {
   return new Intl.NumberFormat("zh-CN", { notation: "compact", maximumFractionDigits: 1 }).format(value);
 }
@@ -48,7 +39,6 @@ export default async function HomePage() {
           </div>
           <div className="date-block">
             <strong>{formatDate(today.date)}</strong>
-            <span>更新于 {formatUpdatedAt(today.updatedAt)}</span>
           </div>
         </header>
 
