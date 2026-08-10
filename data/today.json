@@ -1,18 +1,126 @@
 {
   "date": "2026-08-10",
-  "updatedAt": "2026-08-10T08:00:00+08:00",
+  "updatedAt": "2026-08-10T09:45:57.970Z",
   "repositories": [
     {
-      "slug": "example--project",
-      "owner": "example",
-      "name": "project",
-      "url": "https://github.com/trending",
-      "description": "示例项目",
+      "owner": "PrimeIntellect-ai",
+      "name": "prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
       "language": "TypeScript",
-      "stars": 12400,
-      "starsToday": 820,
-      "summary": "这里将显示由 AI 整理的一句话中文项目介绍。",
-      "article": "## 它是什么\n\n这是用于确认页面排版的示例文章。配置 AI 接口并运行更新命令后，它会被当天真实的 GitHub Trending 内容覆盖。\n\n## 主要能力\n\n- 自动读取 GitHub Trending Today\n- 提取仓库 README\n- 将内容整理成适合阅读的中文文章\n\n## 如何更新\n\n运行下面的命令：\n\n```bash\nnpm run update\n```"
+      "stars": 12294,
+      "starsToday": 2356,
+      "slug": "PrimeIntellect-ai--prime-agent",
+      "summary": "Prime Agent是一个面向编码与研究的开源AI代理，基于RLM和持续化框架，支持长时间自主运行与自我改进。",
+      "article": "Prime Agent 是一个开源编码与研究代理，面向通用、长时间运行的自主任务。它围绕两个核心抽象设计：递归语言模型（RLM）与持续控制框架（Continual Harness）。\n\nRLM 把上下文视为变量（prompt-as-a-variable），把递归子代理等工具视为函数调用，在一个持久 REPL 中工作。持续控制框架则把补充提示、记忆、技能描述和可复用的子代理规格保存为持久状态，并允许代理通过 `/refine` 对状态做小的、有证据支持的更新，从而让有用的上下文和可复用的操作模式跨越单个聊天窗口保留下来。\n\n主要能力包括：\n\n- **一切皆可编程**：持久 IPython 是内置模型工具，文件操作、shell 命令、工具调用、子代理和管理上下文都通过代码完成。\n- **内置子代理**：`rlm(...)` 生成真实的子代理用于并行或后台工作，并程序化返回结果。\n- **可自我改进**：`/refine` 查找当前轨迹并对补充 harness 状态做小幅更新，不可变的基础系统提示不会被重写，快照支持回滚。\n- **技能可执行**：技能是可直接导入的 Python 包，内置技能创建器可把重复工作流转成项目或个人技能。\n- **后台会话**：daemon 代理在终端断开后继续运行，之后可以重新挂接。\n- **代理间直接通信**：运行中的代理可以直接互发消息、协调工作，无需全部经由用户。\n- **支持长任务**：自动压缩、持久目标、心跳、定时、自主模式、保留的子代理，跨轮次和会话保持进度。\n\n## 快速开始\n\n在 macOS 或 Linux 上安装最新稳定版：\n\n```bash\ncurl -fsSL https://app.primeintellect.ai/prime-agent/install.sh | sh\n```\n\n安装脚本会校验 SHA-256 校验和，安装 `prime-agent` 命令，并准备 IPython 运行时。在目标目录启动：\n\n```bash\ncd /path/to/project\nprime-agent\n```\n\n首次启动使用 `/login` 选择订阅或 API-key 提供商。它会直接在当前目录运行命令和修改文件，建议使用可复制的克隆、干净工作树或可回滚的检查点。\n\n常用命令：\n\n```bash\nprime-agent agents                   # 浏览运行、空闲和保存的会话\nprime-agent attach <agent>           # 重新挂接运行中的会话\nprime-agent --resume <path|id>       # 恢复保存的会话\nprime-agent status                   # 检查后台服务状态\nprime-agent doctor [--fix]           # 检查或修复后台服务\nprime-agent update [--force]         # 更新 Prime Agent\nprime-agent shutdown [--force]       # 停止所有 agent、worker 和后台服务\n```\n\n## 为长期运行而设计\n\nPrime Agent 尤其适合长期运行的工作，例如研究中的评估。TUI 和自主模式下均可用：\n\n- **持续控制框架**：`/refine` 可将聚焦的、可检查的经验保存为补充提示、记忆、可复用技能描述或子代理规格，并记录细化历史。\n- **直接代理间通信**：运行中的代理和保留的子代理可以发现彼此、交换消息并引导工作。\n- **daemon 连续性**：活动会话、IPython 状态、定时任务和子代理在终端分离后仍在运行，之后可重新挂接。\n- **心跳与定时**：`/heartbeat`、`rlm_heartbeat` 和 `prime-agent schedule` 可定期或定时重新进入会话。\n- **持久目标**：`/goal` 让目标和进展跨轮次保持活跃，直到完成、暂停或清除。\n- **有界的自主模式**：`/autonomous` 在配置的轮次、token 和时间预算内持续运行，并支持用户定义的质量门槛。通过门槛只表示该门槛已验证，达到某个限制不表示任务成功。\n\n## 注意事项\n\nPrime Agent 会以你的用户权限执行模型生成的 Python 和项目命令。worker 和 kernel 进程只改进生命周期隔离与恢复，**并非安全沙箱**。请检查变更，只使用可信的仓库、指令、技能和扩展，在外部沙箱或受限环境中运行不受信任的代码或指令。"
+    },
+    {
+      "owner": "vitali87",
+      "name": "code-graph-rag",
+      "url": "https://github.com/vitali87/code-graph-rag",
+      "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+      "language": "Python",
+      "stars": 3298,
+      "starsToday": 96,
+      "slug": "vitali87--code-graph-rag",
+      "summary": "基于知识图谱的多语言代码库RAG工具，支持自然语言查询、编辑与优化。",
+      "article": "Code-Graph-RAG 是一个面向多语言代码库的 RAG 系统。它用 Tree-sitter 解析代码，将函数、类、方法、模块及其关系存入 Memgraph 知识图谱，让你直接用自然语言查询、编辑和优化代码。整个 monorepo 中不同语言的项目可以共享同一个统一的图结构。\n\n## 核心能力\n\n- **自然语言问答**：基于真实的代码结构回答关于代码库的问题。\n- **源码检索**：按名称或意图获取任意函数、类、方法的实际源码。\n- **AI 编辑**：通过 agent 进行基于 AST 的精确修改，改动前可查看 diff 预览。\n- **代码优化**：对照语言最佳实践或自定义规范优化代码。\n- **死代码检测**：从入口点遍历调用和引用边，找出无用的代码。\n- **结构化搜索与替换**：通过 AST 模式匹配（ast-grep）实现跨代码库的结构化改写。\n\n## 工作原理\n\n系统由两部分组成：\n\n1. **多语言解析器**：基于 Tree-sitter，将代码解析为 AST，并把函数、类、方法、模块及其关系导入 Memgraph，使用统一的语言无关 Schema。\n2. **RAG 系统**（`codebase_rag/`）：交互式 CLI，将自然语言转换为 Cypher 查询，检索相关代码，并驱动 AI 编辑和优化。\n\n```\nSource Code -> Tree-sitter Parser -> AST Analysis -> Memgraph Knowledge Graph\n                                                             |\nUser Query -> AI Model (Cypher Gen) -> Cypher Query -> Graph Results -> Response\n```\n\n## 支持的语言\n\nPython、TypeScript、TSX、JavaScript、Rust、Go、Java、C、C++、C#、PHP、Lua 和 Dart 得到完整支持。Scala 正在开发中，Ruby 通过可插拔的 ast-grep 层提供结构化支持（模块、函数、类和导入）。\n\n## 安装\n\n`cgr` 已发布到 PyPI，可通过 `treesitter-full`（全语言）和 `semantic`（向量搜索）扩展安装：\n\n```bash\n# 使用 uv（推荐）\nuv tool install \"code-graph-rag[treesitter-full,semantic]\"\n\n# 或使用 pipx\npipx install \"code-graph-rag[treesitter-full,semantic]\"\n```\n\n还需要 Docker（用于 Memgraph）、`cmake` 和 `ripgrep`。完整的环境配置见文档。\n\n## 快速开始\n\n```bash\n# 启动内置的 Memgraph + Qdrant 栈（无需 compose 文件）\ncgr daemon up\n\n# 将仓库解析入图，然后查询\ncgr start --repo-path /path/to/repo --update-graph\ncgr start --repo-path /path/to/repo\n```\n\n对需要索引的每个仓库重复第一条命令。图是共享的，同步一个新项目不会影响其他项目。如果需要从空图重新开始，可以加 `--clean`——但注意它会删除共享图中的**所有**项目（而不仅是当前项目），并在会影响其他项目时先要求确认。\n\n## MCP Server\n\nCode-Graph-RAG 可作为 MCP 服务器运行，让 Claude Code 等 MCP 客户端直接查询和编辑代码库，配置方法见官方文档。"
+    },
+    {
+      "owner": "msitarzewski",
+      "name": "agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars": 141283,
+      "starsToday": 858,
+      "slug": "msitarzewski--agency-agents",
+      "summary": "Agency Agents 是一个包含大量专业 AI 智能体角色的开源集合，可安装到 Claude Code、Cursor、Codex 等工具中，提供前端、设计、营销、安全等领域的专家能力。",
+      "article": "Agency Agents 是一个不断扩充的 AI 智能体角色库，每个角色都针对特定领域深度定制，带有独特的个性、工作流程和可交付成果。你可以把它理解为一支由 AI 专家组成的全能团队——从 React 前端到 Reddit 社群运营，从创意注入到现实核查，覆盖工程、设计、广告投放、销售、市场、产品、项目管理、测试、安全、支持、空间计算等多个部门。\n\n## 解决什么问题\n\n日常使用 AI 编程工具时，通用提示词往往难以获得稳定、专业的结果。Agency Agents 将每个智能体设计为“领域专家”，不仅有明确的任务流程，还包含技术示例、成功指标和沟通风格。使用这些角色，AI 能更准确地完成诸如前端开发、代码审查、SEO 优化、渗透测试等任务。\n\n## 主要能力\n\n- **角色丰富**：包含 200+ 个智能体，如 Frontend Developer、Security Architect、WeChat Mini Program Developer、TikTok Strategist 等。\n- **个性驱动**：每个角色有独立的身份设定和沟通方式，避免“AI 味”过重。\n- **交付导向**：强调真实代码、可落地的流程和可量化的结果。\n- **多工具兼容**：支持 Claude Code、Cursor、Codex、Gemini CLI、OpenCode、Aider、Windsurf 等主流 AI 编程工具。\n\n## 快速开始\n\n### 方式一：安装桌面应用（推荐）\n\nAgency Agents 提供了 macOS、Linux、Windows 原生应用，可浏览全部角色并一键安装到 Claude Code、Cursor、Codex、Gemini 等工具，支持自动更新。\n\n```bash\nbrew install --cask msitarzewski/agency-agents/agency-agents\n```\n\n### 方式二：与 Claude Code 配合\n\n```bash\n# 安装全部角色到 Claude Code 目录\n./scripts/install.sh --tool claude-code\n\n# 或者手动复制某个部门的角色\ncp engineering/*.md ~/.claude/agents/\n```\n\n在 Claude Code 会话中可激活对应角色，例如：“Hey Claude, activate Frontend Developer mode and help me build a React component”。\n\n### 方式三：作为参考使用\n\n每个角色文件包含身份特征、核心任务、技术交付示例、成功指标与沟通风格，可浏览后自行复制或改编。\n\n### 方式四：配合其他工具\n\n```bash\n# 为所有支持的工具生成集成文件\n./scripts/convert.sh\n\n# 交互式安装（自动检测已安装的工具）\n./scripts/install.sh\n\n# 指定工具安装\n./scripts/install.sh --tool cursor\n./scripts/install.sh --tool gemini-cli\n./scripts/install.sh --tool opencode\n./scripts/install.sh --tool copilot\n```\n\n也可以只安装需要的团队：\n\n```bash\n./scripts/install.sh --tool claude-code --division engineering,security\n./scripts/install.sh --tool cursor --agent frontend-developer,ui-designer\n./scripts/install.sh --list teams\n```\n\n注意：OpenCode 目前存在上游 bug，仅能注册约 119 个 agent，超出部分会被静默丢弃。建议使用 `--division` 参数安装子集以规避该限制。\n\n## 其他说明\n\nAgency Agents 的安装脚本完全基于 Shell，动态生成各工具的配置文件。安装后，你可以按需启用不同角色，也可以查看角色 Markdown 文件了解其具体设定。这个项目仍在迭代中，角色列表会持续扩充。"
+    },
+    {
+      "owner": "pranshuparmar",
+      "name": "witr",
+      "url": "https://github.com/pranshuparmar/witr",
+      "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.",
+      "language": "Go",
+      "stars": 21103,
+      "starsToday": 210,
+      "slug": "pranshuparmar--witr",
+      "summary": "witr 是一个用 Go 编写的命令行工具，可追溯进程、端口、容器或文件的启动链，并提供 TUI 交互界面。",
+      "article": "当系统里某个进程、端口或容器在运行时，我们往往只能通过 ps、lsof 等工具看到它的状态，却很难快速弄清楚它到底为什么会被启动。witr 就是为解决这个问题而生的命令行工具，它能把任何进程、端口、容器或文件追溯到启动它的完整链条，并用清晰的人类可读输出或交互式 TUI 展示出来。\n\n## 它是什么\n\nwitr 的目标是回答一个简单的问题：**为什么这个在运行？** 它通过分析进程的父子关系、服务管理器、容器运行时等，构建出一条因果链，解释某个进程是如何被启动、被谁监管，以及它当前为什么存在。\n\n与 `ps`、`top`、`lsof` 等只展示状态的工具不同，witr 直接给出因果关系，省去你手动交叉比对多个工具的麻烦。\n\n## 安装\n\nwitr 提供单个静态二进制，支持 Linux、macOS、FreeBSD 和 Windows。以下是几种常见安装方式。\n\nUnix（Linux、macOS、FreeBSD）一键安装：\n\n```bash\ncurl -fsSL https://raw.githubusercontent.com/pranshuparmar/witr/main/install.sh | bash\n```\n\nmacOS 或 Linux 使用 Homebrew：\n\n```bash\nbrew install witr\n```\n\nWindows 使用 PowerShell：\n\n```powershell\nirm https://raw.githubusercontent.com/pranshuparmar/witr/main/install.ps1 | iex\n```\n\n也可以从源码安装：\n\n```bash\ngo install github.com/pranshuparmar/witr/cmd/witr@latest\n```\n\n## 基本用法\n\n直接传入进程名即可查询启动链：\n\n```bash\nwitr node\n```\n\n输出会显示目标进程的 PID、用户、命令、启动时间，以及“为什么存在”的因果链，例如：\n\n```\nProcess     : node (pid 14233)\nUser        : pm2\nCommand     : node index.js\nWhy It Exists :\n  systemd (pid 1) → pm2 (pid 5034) → node (pid 14233)\n```\n\n也可以按端口、PID、文件或容器查询：\n\n```bash\nwitr --port 5000 --short\nwitr --pid 143895 --tree\nwitr --file /var/lib/dpkg/lock\nwitr --container redis\n```\n\n`--short` 只显示因果链，`--tree` 以树状展示完整父子关系，`--json` 输出机器可读的 JSON 格式。多目标也可以混合使用，例如 `witr nginx --port 5432 --pid 1234`。\n\n## 交互式 TUI\n\n直接运行 `witr`（不加参数）或加上 `-i` 标志，就会进入终端交互界面，提供四个标签页：进程、端口、容器和文件锁。你可以实时查看进程的完整祖先树、环境变量、工作目录、套接字等信息，还能直接发送信号或调整进程优先级。TUI 支持鼠标操作，并会自动刷新。\n\n## 核心概念\n\nwitr 将所有查询对象都视为“进程问题”。无论是端口、服务、容器还是命令，最终都会映射到 PID。一旦找到 PID，witr 就沿着父子关系构建因果链，解释这个 PID 为什么会存在。\n\n## 平台支持与注意事项\n\nwitr 在不同平台上的功能支持有所差异：\n\n- **Linux**：功能最完整，基于 `/proc`。\n- **macOS**：使用 `ps`、`lsof` 等，受 System Integrity Protection (SIP) 限制，部分系统进程细节可能无法访问。\n- **Windows**：原生 Win32 API 实现，无需 PowerShell 或 WMI，但查看其他用户或系统服务需要以管理员身份运行。\n- **FreeBSD**：使用 `procstat`、`ps`、`lsof`。\n\n在 Linux/FreeBSD 上，如果看不到预期信息，可能需要用 `sudo` 运行；macOS 同理。\n\nwitr 还提供有意义的退出码，方便脚本和监控使用：0 表示无损，1 有警告，2 未找到目标，3 权限不足，4 输入无效，5 内部错误。\n\n如果你不想安装，还可以直接体验官方提供的浏览器模拟环境，在沙箱中自由探索一个模拟的 Linux 系统。"
+    },
+    {
+      "owner": "google-deepmind",
+      "name": "weathernext",
+      "url": "https://github.com/google-deepmind/weathernext",
+      "description": null,
+      "language": "Python",
+      "stars": 7209,
+      "starsToday": 86,
+      "slug": "google-deepmind--weathernext",
+      "summary": "谷歌深度思维发布的全球中程大气与气旋预报模型，包含代码与预训练权重。",
+      "article": "WeatherNext 2 是谷歌 DeepMind 与谷歌研究院联合开发的全球中程大气与气旋预报模型。它基于神经网络，能够从初始气象场出发，通过自回归滚动生成数天的全球天气预测，并直接输出气旋路径。该仓库还包含此前 GraphCast 和 GenCast 的代码与文档。\n\n## 主要能力\n\n- 全球 0.25° 分辨率（约 30km），预测温度、风速、位势高度等，同时支持 100m 风场。\n- 内置气旋追踪算法，模型输出可直接用于气旋路径预测。\n- 提供多个预训练版本：业务版 `WeatherNext2_<2025`（使用 ECMWF HRES 初始场）、为复现论文设计的 `WeatherNextCyclones` 系列，以及 1° 分辨率的 Mini 轻量版，便于在低资源环境运行。\n\n## 使用方式\n\n最简单的入门方式是用 Colab 笔记本，默认使用 Mini 模型，免费运行即可。若要在本地安装，命令如下：\n\n```bash\npip install git+https://github.com/google-deepmind/weathernext.git@v0.3.0\n```\n\n预训练权重和示例数据从 Google Cloud Bucket 下载。推荐在 TPU 上运行；GPU 需要切换注意力实现，非 Mini 模型需 H100 显存，Mini 模型可用 P100。\n\n## 数据获取与注意事项\n\n除了自行运行模型，Google Cloud、WeatherLab 和 OpenMeteo 等平台也提供每日预测数据。完整训练使用 ERA5 再分析数据，业务微调使用 ECMWF HRES 数据，可通过 WeatherBench2 获取。\n\n需要留意：这是研究代码，不保证 API 稳定性；模型并非谷歌官方支持产品，也未与任何气象机构合作，不能替代官方预警。"
+    },
+    {
+      "owner": "addyosmani",
+      "name": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 85411,
+      "starsToday": 680,
+      "slug": "addyosmani--agent-skills",
+      "summary": "为 AI 编程代理提供生产级工程技能包，约束其遵循资深工程师的开发纪律。",
+      "article": "Agent Skills 是一套为 AI 编程代理（coding agents）设计的生产级工程技能包。它将资深工程师的工作流、质量门禁和最佳实践编码为结构化流程，让代理在从需求定义到上线的每个阶段都遵循一致的规范。\n\n## 解决什么问题\n\nAI 编程代理默认会走最短路径——往往跳过规格说明、测试、安全审查等关键环节。Agent Skills 通过可执行的步骤、验证门禁和“反合理化”机制，把 Senior Engineer 的工程判断融入代理的工作流，避免产出“原型级”代码。\n\n## 主要能力\n\n- **8 个斜杠命令**：映射完整开发生命周期，`/spec`、`/plan`、`/build`、`/test`、`/review`、`/webperf`、`/code-simplify`、`/ship`，每个命令自动激活对应技能。\n- **24 个技能**：覆盖 Define、Plan、Build、Verify、Review、Ship 六个阶段，例如 `spec-driven-development`、`test-driven-development`、`code-review-and-quality` 等。每个技能都包含步骤、验证门禁、反合理化对照表。\n- **4 个专家角色（personas）**：预配置的 code-reviewer、test-engineer、security-auditor、web-performance-auditor，用于专项审查。\n- **参考清单**：definition-of-done、testing-patterns、security-checklist 等，技能在需要时按需加载，控制 token 用量。\n- **`/build auto`**：在规格确定后，自动生成计划并依次实现每个任务，只需批准一次；每个任务仍然遵循测试驱动，遇到失败或风险会暂停。\n\n此外，一些技能会根据当前任务自动激活，例如设计 API 时触发 `api-and-interface-design`，构建 UI 时触发 `frontend-ui-engineering`。\n\n## 快速开始\n\n通过开源的 skills CLI 可以安装到 70+ 种代理（Claude Code、Cursor、Codex、Copilot 等）：\n\n```bash\nnpx skills add addyosmani/agent-skills            # install all 24 skills\nnpx skills add addyosmani/agent-skills --list     # browse before installing\n```\n\n也可以单独安装某个技能：\n\n```bash\nnpx skills add addyosmani/agent-skills --skill code-review-and-quality   # five-axis review before merge\nnpx skills add addyosmani/agent-skills --skill interview-me              # requirements interrogation, one question at a time\n```\n\n如果使用 Claude Code，可以直接通过插件市场安装：\n\n```\n/plugin marketplace add addyosmani/agent-skills\n/plugin install agent-skills@addy-agent-skills\n```\n\n其他工具（Cursor、Codex、Gemini CLI、Windsurf 等）也有对应的原生集成方式，详见仓库 docs 目录。\n\n## 注意事项\n\n- 如果单独安装某个技能，`npx` 只会复制 `skills/<name>/`，不会包含仓库级的 `references/` 目录，导致技能引用的辅助清单不可用。此时建议采用整仓集成、克隆仓库，或把需要的清单手动复制到已安装技能的 `references/` 目录。\n- 在通过插件市场安装 Claude Code 插件时，如果遇到 SSH 错误，可以配置 Git 将 GitHub SSH URL 重写为 HTTPS：\n\n```bash\ngit config --global url.\"https://github.com/\".insteadOf git@github.com:\n```"
+    },
+    {
+      "owner": "ZhuLinsen",
+      "name": "daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "language": "Python",
+      "stars": 61610,
+      "starsToday": 306,
+      "slug": "ZhuLinsen--daily_stock_analysis",
+      "summary": "基于大语言模型的多市场股票智能分析系统，提供多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。",
+      "article": "这是一款由 LLM 驱动的多市场股票智能分析系统，覆盖 A股、港股、美股、日股、韩股、台股和 ETF。它每天自动抓取行情与新闻，生成包含核心结论、评分、趋势、买卖点位、风险警报和催化因素的「决策仪表盘」，并推送到企业微信、飞书、Telegram、Discord、Slack 或邮箱。\n\n## 核心能力\n\n- **AI 决策报告**：输出核心结论、评分、趋势、买卖点位、风险警报、催化因素和操作检查清单。\n- **多市场数据聚合**：覆盖多个市场，支持行情、K 线、技术指标、新闻、公告、基本面数据，不同市场的数据源和能力边界可参考文档。\n- **Web / 桌面工作台**：支持手动分析、任务进度、历史报告、完整 Markdown、回测、持仓和配置管理，并提供浅色 / 深色主题。\n- **Agent 策略问股**：支持多轮追问，内置均线、缠论、波浪、趋势、热点、事件等 15 种策略，可在 Web、Bot 和 API 中使用。\n- **智能导入与补全**：支持图片、CSV/Excel、剪贴板导入，并可自动补全股票代码、名称、拼音和别名。\n- **自动化与推送**：支持 GitHub Actions、Docker、本地定时任务和 FastAPI 服务，可推送到多种渠道。\n\n## 技术栈与数据来源\n\n- **AI 模型**：支持 Anspire、AIHubMix、Gemini、OpenAI 兼容接口、DeepSeek、通义千问、Claude、Ollama 本地模型等。\n- **行情数据**：内置 AkShare、Baostock、YFinance 等免费源，也可配置 TickFlow、Tushare、Longbridge 等 token 型数据源。\n- **新闻搜索**：支持 Anspire、SerpAPI、Tavily、博查、Brave、MiniMax、SearXNG 等。\n\n默认使用免费数据源，可零配置运行，但免费源受上游限流、接口变动和网络波动影响，稳定性不保证。长期定时或批量分析建议配置更稳定的数据源。\n\n## 快速开始\n\n### 方式一：GitHub Actions（推荐）\n\n5 分钟完成部署，零成本，无需服务器。\n\n1. **Fork 本仓库**。\n2. **配置 Secrets**：在 `Settings` → `Secrets and variables` → `Actions` 中，至少配置一个 AI 模型 Key（如 `ANSPIRE_API_KEYS`）、一个通知渠道（如 `WECHAT_WEBHOOK_URL`）和自选股列表 `STOCK_LIST`。\n3. **启用 Actions**：在 `Actions` 标签页点击 `I understand my workflows, go ahead and enable them`。\n4. **手动测试**：进入 `Actions` → `每日股票分析` → `Run workflow`。\n\n默认每个工作日 18:00（北京时间）自动执行，非交易日自动跳过。\n\n### 方式二：本地运行\n\n克隆并安装依赖：\n\n```bash\ngit clone https://github.com/ZhuLinsen/daily_stock_analysis.git && cd daily_stock_analysis\npip install -r requirements.txt\ncp .env.example .env && vim .env\npython main.py\n```\n\n常用命令：\n\n```bash\npython main.py --debug\npython main.py --dry-run\npython main.py --stocks 600519,hk00700,AAPL,2330.TW\npython main.py --market-review\npython main.py --schedule\npython main.py --serve-only\n```\n\n## 推送效果示例\n\n决策仪表盘会以文本形式推送到配置的渠道，例如：\n\n```\n🎯 2026-02-08 决策仪表盘\n共分析3只股票 | 🟢买入:0 🟡观望:2 🔴卖出:1\n\n📊 分析结果摘要\n⚪ 中钨高新(000657): 观望 | 评分 65 | 看多\n...\n```\n\n还支持大盘复盘，展示主要指数、涨跌家数和板块表现。\n\n## Web 界面与 Agent 问股\n\n启动 Web 工作台：\n\n```bash\npython main.py --webui\npython main.py --webui-only\n```\n\n访问 `http://127.0.0.1:8000` 即可使用，支持配置管理、任务监控、手动分析、历史报告、Agent 问股、回测、持仓管理和智能导入。配置任意可用 AI API Key 后，可以在 `/chat` 页面使用策略问股。\n\n## 注意事项\n\n- 免费数据源不稳定，长期使用建议配置付费数据源。\n- 本项目仅供学习和研究使用，不构成任何投资建议。\n- 更多完整配置、数据源优先级、交易纪律和部署细节，请参考项目的 `docs/full-guide.md`。"
+    },
+    {
+      "owner": "goauthentik",
+      "name": "authentik",
+      "url": "https://github.com/goauthentik/authentik",
+      "description": "The authentication glue you need.",
+      "language": "Python",
+      "stars": 24426,
+      "starsToday": 310,
+      "slug": "goauthentik--authentik",
+      "summary": "authentik 是一个开源身份提供商，支持 SAML、OAuth2/OIDC、LDAP、RADIUS 等协议，适用于自托管环境。",
+      "article": "authentik 是一个开源的身份提供商（IdP），为现代 SSO（单点登录）场景设计，支持 SAML、OAuth2/OIDC、LDAP、RADIUS 等协议，可以从小型实验环境扩展到大型生产集群。它适合需要自托管身份管理服务的团队，也提供企业版，用于替代 Okta、Auth0、Entra ID 和 Ping Identity 等商业方案。\n\n## 主要能力\n\n- 支持多种主流认证协议，覆盖 Web 单点登录、目录服务、网络认证等场景\n- 提供可配置的认证流程与策略，适应不同安全要求\n- 可作为集中身份源，与大量现有应用和服务集成\n- 支持 Docker Compose、Kubernetes（Helm Chart）、AWS CloudFormation、DigitalOcean Marketplace 等多种部署方式\n\n## 安装方式\n\n- Docker Compose：适合小型或测试环境，具体步骤见官方文档\n- Kubernetes（Helm Chart）：适合较大规模部署，相关图表见官方 Helm 仓库\n- AWS CloudFormation：可通过官方模板在 AWS 上部署\n- DigitalOcean Marketplace：支持一键部署\n\n## 注意事项\n\n- 项目面向自托管用户，需自行维护运行环境和数据备份\n- 企业版功能才覆盖大规模身份治理场景，开源版本可能有限制\n- 详细配置和开发文档见官方文档站，贡献代码和文档前请阅读对应指南"
+    },
+    {
+      "owner": "google",
+      "name": "skills",
+      "url": "https://github.com/google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "language": "Python",
+      "stars": 17476,
+      "starsToday": 528,
+      "slug": "google--skills",
+      "summary": "Google 官方发布的 Agent Skills 集合，为 Google 产品和技术提供可复用的技能包，支持多种 AI Agent 框架。",
+      "article": "Google 在 GitHub 上开源了 `google/skills` 仓库，其中包含面向 Google 产品与技术的 Agent Skills（代理技能），覆盖 Google Cloud、Google Ads、Google Analytics 等。项目仍处于积极开发阶段，这意味着技能列表和内容会持续更新。\n\n## 安装方式\n\n通过 `npx` 可以按需选择并安装仓库中的技能：\n\n```bash\nnpx skills add google/skills\n```\n\n执行后可以从交互式列表中选择需要的技能进行安装。\n\n## 技能分类\n\n仓库中的技能按应用场景和产品领域进行了划分，主要包括：\n\n- **Google Cloud 入门与认证**：如认证、基础构建器、Cloud 登录引导。\n- **多产品解决方案**：包括解决方案架构、Agentic 数据分析、数据湖仓、AI Agent 部署、数据科学工作流等。\n- **AI/ML**：覆盖 Agent Platform 的多个方面，如模型调优、推理、RAG 引擎、Prompt 管理等，以及 Gemini API、BigQuery AI/ML 等技能。\n- **基础设施**：以 GKE 为主的系列技能，涵盖集群创建、网络、存储、扩缩容、升级、故障排查等。\n- **数据库与分析**：包括 AlloyDB、BigQuery、Bigtable、Cloud SQL、Spanner 等基础技能，以及数据血缘分析。\n- **开发工具**：如 gcloud CLI 使用、Google Agents CLI 引导。\n- **管理工具**：涉及 Cloud Monitoring、Logging、SLO 告警、GKE 成本分析和可观测性等。\n- **Well-Architected Framework**：提供成本、性能、可靠性、安全等六大支柱的检查技能。\n- **安全与身份**：包括 GKE 平台/工作负载安全、SecOps 检测覆盖。\n- **Web 与应用托管**：Cloud Run、Firebase 基础技能。\n- **广告**：Google Ads API、Google Mobile Ads SDK、IMA SDK 等技能。\n- **其他**：Google Analytics Admin API 和 Data API 的入门技能。\n\n## 插件支持\n\n仓库还捆绑了 Google 产品插件（Skills + MCP 服务器），可用于以下 Agent 框架：\n\n- **Claude Code**：`claude plugin marketplace add google/skills`，然后 `claude plugin install <plugin>@google-plugins`\n- **Codex**：`codex plugin marketplace add google/skills`，从 `/plugins` 浏览器安装\n- **Antigravity CLI**：`agy plugin install https://github.com/google/skills/<plugin-path>`\n\n## 注意事项\n\n仓库目前处于活跃开发中，技能定义和安装方式可能发生变化。如果遇到问题，可以查阅 GitHub Issue Tracker 反馈。"
+    },
+    {
+      "owner": "Comfy-Org",
+      "name": "ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "language": "Python",
+      "stars": 125931,
+      "starsToday": 365,
+      "slug": "Comfy-Org--ComfyUI",
+      "summary": "ComfyUI 是一个模块化的 AI 内容生成引擎，通过节点图界面支持图像、视频、音频、3D 等多种模型的本地化工作流。",
+      "article": "ComfyUI 是一个功能强大且模块化的 AI 内容生成引擎，以节点图（graph/nodes）为核心交互方式。它专为需要精确控制每个模型、参数和输出结果的专业创作者设计，既能生成图像、视频、3D 模型，也能处理音频和文本。\n\n## 主要能力\n\n- **节点图工作流**：通过可视化节点图构建和复用图像、视频、音频、3D 与文本处理流程，无需编写代码。支持子图复用、工作流模板和 App Mode，还能将工作流封装成简单 UI 供他人使用。\n- **模型支持广泛**：原生支持最新的开源模型，涵盖图像生成（如 Stable Diffusion 系列、Flux、Qwen Image）、视频生成（如 Wan、LTX-Video、HunyuanVideo）、音频生成、3D 与视觉模型、文本生成等。同时通过 API 节点可访问 Nano Banana、Seedance、Hunyuan3D 等闭源模型。\n- **高效执行**：异步队列、部分图重执行、智能 VRAM/RAM 管理、模型卸载以及量化模型支持，让本地运行更高效。\n- **离线优先**：核心功能完全离线运行，不会自动下载内容；可通过 `--disable-api-nodes` 禁用付费 API 节点，强制全部内置功能保持离线。\n- **可扩展性**：支持自定义节点，也可通过 `extra_model_paths.yaml` 配置额外的模型目录。\n\n## 安装与使用\n\nComfyUI 可在 Windows、Linux、macOS 上本地运行，也提供云端版本。推荐普通用户使用桌面应用（支持 Windows 和 macOS），或者使用 Windows 便携版（支持 NVIDIA、AMD、Intel GPU）。\n\n手动安装时，首先克隆仓库，然后按平台安装对应 PyTorch 及依赖。例如 NVIDIA GPU 用户可执行：\n\n```bash\npip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu130\n```\n\nAMD GPU（Linux）用户可执行：\n\n```bash\npip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm7.2\n```\n\n接着安装依赖：\n\n```bash\npip install -r requirements.txt\n```\n\n启动服务：\n\n```bash\npython main.py\n```\n\n也可以通过 comfy-cli 快速安装和启动：\n\n```bash\npip install comfy-cli\ncomfy install\n```\n\n模型文件需要放到对应目录，例如 checkpoint 放在 `models/checkpoints`，VAE 放在 `models/vae`。\n\n## 运行细节与注意事项\n\n- 图中只有输出完整且输入正确的部分会被执行；只执行发生变化的部分，重复提交相同图时第二次不会执行。\n- 将生成的 PNG 拖回页面可恢复完整工作流和种子。\n- 提示词支持 `()` 调整权重（默认 1.1），也支持 `{day|night}` 形式的动态提示。\n- 预览默认使用低分辨率 latent 方法；如需高质量预览，可下载 TAESD 模型放入 `models/vae_approx`，并用 `--preview-method taesd` 启动。\n- Python 3.13 支持良好，3.12 也可；建议使用较新版本的 PyTorch。\n- 自定义节点可能存在兼容性问题，建议关注官方更新。\n\n## 生态与支持\n\nComfyUI 按周更新，核心仓库、桌面端和前端分别维护。通过 ComfyUI-Manager 可方便安装和管理自定义节点。社区支持可通过 Discord、Matrix 等渠道获取。"
     }
   ]
 }
