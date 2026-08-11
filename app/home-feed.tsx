@@ -19,6 +19,15 @@ function formatStars(value: number) {
   return new Intl.NumberFormat("zh-CN", { notation: "compact", maximumFractionDigits: 1 }).format(value);
 }
 
+function formatTime(value: string) {
+  return new Intl.DateTimeFormat("zh-CN", {
+    timeZone: "Asia/Shanghai",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23"
+  }).format(new Date(value));
+}
+
 export default function HomeFeed({
   today
 }: {
@@ -61,9 +70,8 @@ export default function HomeFeed({
         <header className="feed-header">
           <div>
             <h1>今日趋势仓库</h1>
-            <p>发现 GitHub 社区今天最受关注的项目。</p>
           </div>
-          <div className="date-block"><strong>{formatDate(today.date)}</strong></div>
+          <div className="date-block"><strong>{formatDate(today.date)}</strong><span>{formatTime(today.updatedAt)}</span></div>
         </header>
 
         <Link className="search-entry" href="/search">

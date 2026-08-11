@@ -38,7 +38,7 @@ npm run update
 
 更新成功后，`data/today.json` 会被整批替换。当前版本只保存今日内容。
 
-## 每天 8:07 更新
+## 每天 7:07 更新
 
 项目使用 GitHub Actions 在云端更新，不依赖本机开机或代理。
 
@@ -55,4 +55,4 @@ Name: DEEPSEEK_API_KEY
 Secret: 你的 DeepSeek API Key
 ```
 
-工作流位于 `.github/workflows/update-today.yml`，每天按 `Asia/Shanghai` 时区 08:07 运行，也可以在 Actions 页面手动执行。更新成功后只提交新的 `data/today.json`。
+工作流位于 `.github/workflows/update-today.yml`，每天按 `Asia/Shanghai` 时区 07:07 运行，也可以在 Actions 页面手动执行。更新成功后提交今日内容和文章缓存。

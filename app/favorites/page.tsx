@@ -43,7 +43,7 @@ export default function FavoritesPage() {
       <main className="feed favorites-page">
         <Link className="back-link" href="/">← 返回今日趋势</Link>
         <header className="feed-header">
-          <div><h1>我的收藏</h1><p>收藏内容保存在当前设备，不会被每日更新覆盖。</p></div>
+          <div><h1>我的收藏</h1></div>
         </header>
 
         <section className="repository-panel" aria-label="我的收藏">

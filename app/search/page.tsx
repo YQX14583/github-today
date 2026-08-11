@@ -52,7 +52,7 @@ export default function SearchPage() {
       <main className="feed search-page">
         <Link className="back-link" href="/">← 返回今日趋势</Link>
         <header className="feed-header">
-          <div><h1>AI 项目搜索</h1><p>用中文描述需求，AI 会检索并筛选合适的 GitHub 项目。</p></div>
+          <div><h1>AI 项目搜索</h1></div>
         </header>
 
         <form className="search-form" onSubmit={submit}>
