@@ -3,9 +3,11 @@ import { getCachedArticle, hashReadme, readArticleCache, setCachedArticle, write
 import { ARTICLE_PROMPT_VERSION } from "./content-versions";
 import { readToday } from "./data";
 import { cleanReadme, fetchReadme, prepareReadmeForArticle } from "./github";
+import { getCachedReadme, readReadmeCache, setCachedReadme, writeReadmeCache } from "./readme-cache";
 
 const inFlight = new Map<string, Promise<string>>();
 let writeQueue = Promise.resolve();
+let readmeWriteQueue = Promise.resolve();
 
 async function persistArticle(fullName: string, sourceHash: string, model: string, summary: string, article: string) {
   const write = writeQueue.then(async () => {
@@ -14,6 +16,16 @@ async function persistArticle(fullName: string, sourceHash: string, model: strin
     await writeArticleCache(latest);
   });
   writeQueue = write.catch(() => undefined);
+  await write;
+}
+
+async function persistReadme(fullName: string, sourceHash: string, content: string) {
+  const write = readmeWriteQueue.then(async () => {
+    const latest = await readReadmeCache();
+    setCachedReadme(latest, fullName, sourceHash, content);
+    await writeReadmeCache(latest);
+  });
+  readmeWriteQueue = write.catch(() => undefined);
   await write;
 }
 
@@ -35,12 +47,23 @@ export async function getOrGenerateArticle(slug: string) {
   if (existing) return existing;
 
   const task = (async () => {
-    const readme = cleanReadme(await fetchReadme(repository.owner, repository.name));
-    const sourceHash = hashReadme(readme);
+    const cachedReadme = knownHash ? getCachedReadme(await readReadmeCache(), fullName, knownHash) : null;
+    let sourceHash = knownHash;
+    let articleReadme = cachedReadme;
+
+    if (!articleReadme) {
+      const readme = cleanReadme(await fetchReadme(repository.owner, repository.name));
+      sourceHash = hashReadme(readme);
+      articleReadme = prepareReadmeForArticle(readme);
+      await persistReadme(fullName, sourceHash, articleReadme);
+    }
+
+    if (!sourceHash || !articleReadme) throw new Error("README_CACHE_FAILED");
+
     const cached = getCachedArticle(await readArticleCache(), fullName, sourceHash, model, ARTICLE_PROMPT_VERSION);
     if (cached) return cached.article;
 
-    const generated = await generateArticle(repository, prepareReadmeForArticle(readme));
+    const generated = await generateArticle(repository, articleReadme);
     await persistArticle(fullName, sourceHash, model, repository.summary, generated.article);
     return generated.article;
   })();

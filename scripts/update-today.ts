@@ -4,7 +4,8 @@ import { config } from "dotenv";
 import { generateSummary } from "../lib/ai";
 import { hashReadme } from "../lib/article-cache";
 import { SUMMARY_PROMPT_VERSION } from "../lib/content-versions";
-import { cleanReadme, fetchReadme, fetchTrending, prepareReadmeForSummary } from "../lib/github";
+import { cleanReadme, fetchReadme, fetchTrending, prepareReadmeForArticle, prepareReadmeForSummary } from "../lib/github";
+import { readReadmeCache, setCachedReadme, writeReadmeCache } from "../lib/readme-cache";
 import { getCachedSummary, readSummaryCache, setCachedSummary, writeSummaryCache } from "../lib/summary-cache";
 import type { RepositoryArticle, TodayData } from "../lib/types";
 
@@ -18,6 +19,7 @@ async function main() {
   const trending = await fetchTrending();
   const repositories: RepositoryArticle[] = [];
   const summaryCache = await readSummaryCache();
+  const readmeCache = await readReadmeCache();
   const model = process.env.AI_MODEL?.trim() || "";
   let reused = 0;
 
@@ -28,6 +30,7 @@ async function main() {
     try {
       const readme = cleanReadme(await fetchReadme(repository.owner, repository.name));
       const sourceHash = hashReadme(readme);
+      setCachedReadme(readmeCache, label, sourceHash, prepareReadmeForArticle(readme));
       const cached = getCachedSummary(summaryCache, label, sourceHash, model, SUMMARY_PROMPT_VERSION);
       const generated = cached ? { summary: cached } : await generateSummary(repository, prepareReadmeForSummary(readme));
       if (cached) {
@@ -62,6 +65,7 @@ async function main() {
   await writeFile(temporaryPath, `${JSON.stringify(data, null, 2)}\n`, "utf8");
   await rename(temporaryPath, targetPath);
   await writeSummaryCache(summaryCache);
+  await writeReadmeCache(readmeCache);
   console.log(`更新完成：${repositories.length} 个仓库，其中 ${reused} 个复用摘要缓存`);
 }
 

@@ -36,7 +36,7 @@ HTTPS_PROXY=http://127.0.0.1:7897
 npm run update
 ```
 
-更新成功后，`data/today.json` 会被整批替换。当前版本只保存今日列表，完整文章缓存在服务器的 `data/article-cache.json`。
+更新成功后，`data/today.json` 会被整批替换。当前版本只保存今日列表；处理后的 README 保存在 `data/readme-cache.json`，完整文章缓存在服务器的 `data/article-cache.json`。
 
 ## 每天 7:07 更新
 

@@ -39,7 +39,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/today.json data/summary-cache.json
+          git add data/today.json data/summary-cache.json data/readme-cache.json
           if git diff --cached --quiet; then
             echo "Today is already up to date."
           else
@@ -56,5 +56,6 @@ jobs:
           printf '%s\n' "$SERVER_SSH_KEY" > ~/.ssh/github_today
           ssh-keyscan -H 8.217.181.84 >> ~/.ssh/known_hosts
           scp -i ~/.ssh/github_today data/today.json github-today@8.217.181.84:/opt/github-today/data/today.next.json
+          scp -i ~/.ssh/github_today data/readme-cache.json github-today@8.217.181.84:/opt/github-today/data/readme-cache.next.json
           ssh -i ~/.ssh/github_today github-today@8.217.181.84 \
-            'mv /opt/github-today/data/today.next.json /opt/github-today/data/today.json'
+            'mv /opt/github-today/data/today.next.json /opt/github-today/data/today.json && mv /opt/github-today/data/readme-cache.next.json /opt/github-today/data/readme-cache.json'
