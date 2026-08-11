@@ -27,8 +27,8 @@ a { color: inherit; }
 .nav-favorites.active img { opacity: 1; }
 
 .feed { width: min(100% - 48px, 1012px); margin: 0 auto; padding: 40px 0 calc(80px + env(safe-area-inset-bottom)); }
-.feed-header { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 24px; }
-.feed-header h1 { margin: 0 0 6px; font-size: 24px; line-height: 1.25; font-weight: 600; }
+.feed-header { display: flex; align-items: baseline; justify-content: space-between; gap: 24px; margin-bottom: 20px; }
+.feed-header h1 { margin: 0; font-size: 24px; line-height: 1.25; font-weight: 600; }
 .feed-header p { margin: 0; color: #57606a; font-size: 14px; }
 .date-block { display: flex; align-items: baseline; gap: 10px; color: #57606a; font-size: 12px; }
 .date-block strong { color: #1f2328; font-size: 14px; font-weight: 500; }
