@@ -77,6 +77,27 @@ a { color: inherit; }
 .article-content img { display: none; }
 
 @media (max-width: 640px) {
+  body {
+    padding-top: calc(64px + env(safe-area-inset-top));
+  }
+  body::after {
+    content: "";
+    position: fixed;
+    z-index: 100;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: calc(12px + env(safe-area-inset-bottom));
+    background: #24292f;
+    pointer-events: none;
+  }
+  .site-nav {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
   .nav-inner, .feed, .article-page { width: min(100% - 32px, 1012px); }
   .feed { padding-top: 28px; }
   .feed-header { align-items: flex-start; flex-direction: column; }
