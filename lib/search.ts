@@ -72,8 +72,26 @@ const cachePath = path.join(process.cwd(), "data", "search-cache.json");
 const temporaryCachePath = path.join(process.cwd(), "data", "search-cache.tmp.json");
 const CACHE_TTL = 7 * 24 * 60 * 60 * 1000;
 
+export function normalizeSearchQuery(value: string) {
+  let normalized = value
+    .trim()
+    .toLocaleLowerCase("zh-CN")
+    .replace(/\s+/g, " ")
+    .replace(/^[，。！？、,.!?\s]+|[，。！？、,.!?\s]+$/g, "");
+
+  // 仅移除不携带项目需求的礼貌用语和检索动作，保留“有趣、易实现、离线”等全部限定词。
+  normalized = normalized
+    .replace(/^(?:请|麻烦)?(?:你)?(?:帮我|给我|我想(?:要)?|我希望)?(?:找找|找一个|找个|找一下|找|搜一下|搜索一下|搜索|推荐一个|推荐个|推荐一下|推荐)\s*/u, "")
+    .replace(/^(?:一个|一款)\s*/u, "")
+    .replace(/(?:可以吗|行吗|好吗|谢谢|谢谢你)$/u, "")
+    .trim()
+    .replace(/^[，。！？、,.!?\s]+|[，。！？、,.!?\s]+$/g, "");
+
+  return normalized || value.trim().toLocaleLowerCase("zh-CN").replace(/\s+/g, " ");
+}
+
 function normalizeQuery(value: string) {
-  return `v5:${value.trim().toLocaleLowerCase("zh-CN").replace(/\s+/g, " ")}`;
+  return `v6:${normalizeSearchQuery(value)}`;
 }
 
 async function readCache(): Promise<SearchCache> {
