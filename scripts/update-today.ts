@@ -3,7 +3,7 @@ import path from "node:path";
 import { config } from "dotenv";
 import { generateArticle } from "../lib/ai";
 import { getCachedArticle, hashReadme, readArticleCache, setCachedArticle, writeArticleCache } from "../lib/article-cache";
-import { cleanReadme, fetchReadme, fetchTrending } from "../lib/github";
+import { cleanReadme, fetchReadme, fetchTrending, prepareReadmeForArticle } from "../lib/github";
 import type { RepositoryArticle, TodayData } from "../lib/types";
 
 const dataDirectory = path.join(process.cwd(), "data");
@@ -28,7 +28,7 @@ async function main() {
       const readme = cleanReadme(await fetchReadme(repository.owner, repository.name));
       const sourceHash = hashReadme(readme);
       const cached = getCachedArticle(articleCache, label, sourceHash, model, ARTICLE_PROMPT_VERSION);
-      const generated = cached || await generateArticle(repository, readme);
+      const generated = cached || await generateArticle(repository, prepareReadmeForArticle(readme));
       if (cached) {
         reused += 1;
         console.log(`  已复用缓存：${label}`);

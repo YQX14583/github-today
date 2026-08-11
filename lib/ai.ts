@@ -85,9 +85,6 @@ export async function rankSearchCandidates(
     description: item.description,
     topics: item.topics,
     language: item.language,
-    stars: item.stars,
-    forks: item.forks,
-    pushedAt: item.pushedAt,
     readmeExcerpt: item.readmeExcerpt
   }));
   const prompt = `你是开源项目检索评估器。用户想寻找：${query}

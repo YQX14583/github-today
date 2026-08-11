@@ -17,7 +17,7 @@ export type ArticleCache = {
 
 const cachePath = path.join(process.cwd(), "data", "article-cache.json");
 const temporaryPath = path.join(process.cwd(), "data", "article-cache.tmp.json");
-const MAX_ENTRIES = 500;
+const MAX_ENTRIES = 100;
 
 export function hashReadme(readme: string) {
   return createHash("sha256").update(readme).digest("hex");

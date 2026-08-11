@@ -120,5 +120,46 @@ export function cleanReadme(markdown: string): string {
     if (!skipping) output.push(line);
   }
 
-  return output.join("\n").replace(/\n{4,}/g, "\n\n\n").trim().slice(0, 40_000);
+  return output.join("\n").replace(/\n{4,}/g, "\n\n\n").trim();
+}
+
+const ARTICLE_README_LIMIT = 24_000;
+const IMPORTANT_SECTION = /(overview|introduction|about|features?|capabilit|architecture|design|install|setup|getting started|quick ?start|usage|configuration|requirements?|compatib|limitations?|caveats?|security|简介|介绍|功能|特性|能力|架构|设计|安装|部署|快速开始|使用|配置|要求|兼容|限制|注意|安全)/i;
+
+function compactSection(section: string, budget: number) {
+  if (section.length <= budget) return section;
+  const marker = "\n\n[…本节省略部分细节…]\n\n";
+  const available = Math.max(0, budget - marker.length);
+  const headLength = Math.ceil(available * 0.7);
+  return `${section.slice(0, headLength).trimEnd()}${marker}${section.slice(-(available - headLength)).trimStart()}`;
+}
+
+/**
+ * Short READMEs stay intact. For unusually long files, preserve every section's
+ * heading plus its beginning and end, while assigning extra space to the parts
+ * most useful for a Chinese project introduction.
+ */
+export function prepareReadmeForArticle(readme: string) {
+  if (readme.length <= ARTICLE_README_LIMIT) return readme;
+
+  const heading = /^#{1,3}\s+.+$/gm;
+  const starts: number[] = [];
+  for (const match of readme.matchAll(heading)) starts.push(match.index);
+  if (!starts.length) return compactSection(readme, ARTICLE_README_LIMIT);
+
+  const sections: string[] = [];
+  if (starts[0] > 0) sections.push(readme.slice(0, starts[0]));
+  for (let index = 0; index < starts.length; index += 1) {
+    sections.push(readme.slice(starts[index], starts[index + 1] ?? readme.length));
+  }
+
+  const weights = sections.map((section, index) => index === 0 || IMPORTANT_SECTION.test(section.split("\n", 1)[0]) ? 2 : 1);
+  const totalWeight = weights.reduce((sum, weight) => sum + weight, 0);
+  const separatorCost = Math.max(0, sections.length - 1) * 2;
+  const available = ARTICLE_README_LIMIT - separatorCost;
+  const compacted = sections.map((section, index) => {
+    const budget = Math.max(240, Math.floor(available * weights[index] / totalWeight));
+    return compactSection(section.trim(), budget);
+  });
+  return compacted.join("\n\n").slice(0, ARTICLE_README_LIMIT);
 }
