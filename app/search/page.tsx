@@ -88,7 +88,6 @@ export default function SearchPage() {
                     <h3><a href={repository.url} target="_blank" rel="noreferrer"><span>{repository.owner}</span> / {repository.name}</a></h3>
                     <p>{repository.description}</p>
                   </div>
-                  <strong>{repository.score}<small>匹配</small></strong>
                 </div>
                 <div className="search-ai-note"><b>{repository.category}</b><p>{repository.reason}</p>{repository.caution && <small>注意：{repository.caution}</small>}</div>
                 <div className="repo-meta search-result-meta">

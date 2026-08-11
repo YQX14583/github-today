@@ -73,7 +73,7 @@ const temporaryCachePath = path.join(process.cwd(), "data", "search-cache.tmp.js
 const CACHE_TTL = 7 * 24 * 60 * 60 * 1000;
 
 function normalizeQuery(value: string) {
-  return `v2:${value.trim().toLocaleLowerCase("zh-CN").replace(/\s+/g, " ")}`;
+  return `v5:${value.trim().toLocaleLowerCase("zh-CN").replace(/\s+/g, " ")}`;
 }
 
 async function readCache(): Promise<SearchCache> {
@@ -130,7 +130,7 @@ async function searchGitHub(query: string): Promise<GitHubSearchItem[]> {
   return body.items || [];
 }
 
-async function collectCandidates(queries: string[]): Promise<SearchCandidate[]> {
+async function collectCandidates(queries: string[], limit: number): Promise<SearchCandidate[]> {
   const batches = await Promise.all(queries.map(searchGitHub));
   const candidates = new Map<string, SearchCandidate>();
 
@@ -162,7 +162,7 @@ async function collectCandidates(queries: string[]): Promise<SearchCandidate[]> 
     });
   }));
 
-  const shortlisted = [...candidates.values()].sort((a, b) => b.localScore - a.localScore).slice(0, 8);
+  const shortlisted = [...candidates.values()].sort((a, b) => b.localScore - a.localScore).slice(0, limit);
   return Promise.all(shortlisted.map(async (candidate) => {
     try {
       const readme = cleanReadme(await fetchReadme(candidate.owner, candidate.name));
@@ -211,13 +211,16 @@ export async function searchRepositories(query: string): Promise<SearchResponse>
 
   const intent = await generateSearchQueries(query);
   const generatedQueries = intent.queries;
-  const candidates = await collectCandidates(generatedQueries);
+  const candidates = await collectCandidates(generatedQueries, intent.mustHave.length > 0 ? 8 : 10);
   if (!candidates.length) throw new Error("没有找到合适的 GitHub 仓库");
   const assessments = await rankSearchCandidates(query, intent, candidates);
   const byName = new Map(candidates.map((candidate) => [candidate.fullName, candidate]));
+  // 宽泛需求应提供探索空间；只有用户提出明确硬性条件时才提高准入标准。
+  // 综合分包含热度、活跃度等排序信号，不适合作为相关性的绝对门槛。
+  const minimumRelevance = intent.mustHave.length > 0 ? 68 : 58;
   const scored = assessments.flatMap((assessment) => {
     const candidate = byName.get(assessment.fullName);
-    if (!candidate || !assessment.hardRequirementsMet) return [];
+    if (!candidate || !assessment.hardRequirementsMet || assessment.relevance < minimumRelevance) return [];
     const score = Math.round(
       assessment.relevance * 0.6 +
       candidate.retrievalScore * 0.15 +
@@ -225,7 +228,6 @@ export async function searchRepositories(query: string): Promise<SearchResponse>
       qualityScore(candidate) * 0.1 +
       documentationScore(candidate) * 0.05
     );
-    if (score < 72) return [];
     const { readmeExcerpt: _, localScore: __, retrievalScore: ___, ...repository } = candidate;
     return [{ ...repository, score, reason: assessment.reason, caution: assessment.caution, category: assessment.category }];
   });
