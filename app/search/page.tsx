@@ -76,9 +76,10 @@ export default function SearchPage() {
         {response && !loading && (
           <section className="search-results" aria-label="AI 搜索结果">
             <div className="search-results-heading">
-              <div><h2>推荐结果</h2><p>找到 {response.results.length} 个较合适的项目</p></div>
+              <div><h2>推荐结果</h2><p>{response.results.length ? `找到 ${response.results.length} 个达到推荐标准的项目` : "没有项目达到推荐阈值"}</p></div>
               {response.cached && <span>7 天缓存</span>}
             </div>
+            {response.results.length === 0 && <div className="search-no-results"><strong>没有找到足够匹配的项目</strong><p>可以补充使用场景、必须功能、编程语言或部署环境后再试。</p></div>}
             {response.results.map((repository, index) => (
               <article className="search-result" key={repository.fullName}>
                 <div className="search-result-top">

@@ -17,9 +17,26 @@ export type SearchCandidate = {
   pushedAt: string;
   readmeExcerpt: string;
   localScore: number;
+  retrievalScore: number;
 };
 
-export type SearchResult = Omit<SearchCandidate, "readmeExcerpt" | "localScore"> & {
+export type SearchIntent = {
+  queries: string[];
+  mustHave: string[];
+  preferences: string[];
+  avoid: string[];
+};
+
+export type SearchAssessment = {
+  fullName: string;
+  relevance: number;
+  hardRequirementsMet: boolean;
+  reason: string;
+  caution: string;
+  category: string;
+};
+
+export type SearchResult = Omit<SearchCandidate, "readmeExcerpt" | "localScore" | "retrievalScore"> & {
   score: number;
   reason: string;
   caution: string;
@@ -56,7 +73,7 @@ const temporaryCachePath = path.join(process.cwd(), "data", "search-cache.tmp.js
 const CACHE_TTL = 7 * 24 * 60 * 60 * 1000;
 
 function normalizeQuery(value: string) {
-  return value.trim().toLocaleLowerCase("zh-CN").replace(/\s+/g, " ");
+  return `v2:${value.trim().toLocaleLowerCase("zh-CN").replace(/\s+/g, " ")}`;
 }
 
 async function readCache(): Promise<SearchCache> {
@@ -125,6 +142,7 @@ async function collectCandidates(queries: string[]): Promise<SearchCandidate[]> 
       Math.log10(item.forks_count + 1) * 3 + freshnessScore(item.pushed_at) + rankScore;
     if (previous) {
       previous.localScore += rankScore + 10;
+      previous.retrievalScore = Math.min(100, previous.retrievalScore + 24 + Math.max(0, 9 - rank) * 2);
       return;
     }
     candidates.set(item.full_name, {
@@ -139,30 +157,79 @@ async function collectCandidates(queries: string[]): Promise<SearchCandidate[]> 
       topics: item.topics || [],
       pushedAt: item.pushed_at,
       readmeExcerpt: "",
-      localScore: baseScore
+      localScore: baseScore,
+      retrievalScore: Math.min(100, 28 + Math.max(0, 9 - rank) * 3)
     });
   }));
 
-  const shortlisted = [...candidates.values()].sort((a, b) => b.localScore - a.localScore).slice(0, 12);
+  const shortlisted = [...candidates.values()].sort((a, b) => b.localScore - a.localScore).slice(0, 8);
   return Promise.all(shortlisted.map(async (candidate) => {
     try {
       const readme = cleanReadme(await fetchReadme(candidate.owner, candidate.name));
-      return { ...candidate, readmeExcerpt: readme.slice(0, 1200) };
+      return { ...candidate, readmeExcerpt: readme.slice(0, 800) };
     } catch {
       return candidate;
     }
   }));
 }
 
+function qualityScore(candidate: SearchCandidate) {
+  const stars = Math.min(1, Math.log10(candidate.stars + 1) / 5);
+  const forks = Math.min(1, Math.log10(candidate.forks + 1) / 4);
+  return (stars * 0.75 + forks * 0.25) * 100;
+}
+
+function projectFreshnessScore(pushedAt: string) {
+  const days = Math.max(0, (Date.now() - new Date(pushedAt).getTime()) / 86_400_000);
+  return Math.exp(-days / 365) * 100;
+}
+
+function documentationScore(candidate: SearchCandidate) {
+  const readme = Math.min(1, candidate.readmeExcerpt.length / 800) * 65;
+  const topics = Math.min(1, candidate.topics.length / 5) * 20;
+  const description = candidate.description === "暂无项目描述" ? 0 : 15;
+  return readme + topics + description;
+}
+
+function selectDiverseResults(results: SearchResult[]) {
+  const remaining = [...results];
+  const selected: SearchResult[] = [];
+  while (remaining.length && selected.length < 7) {
+    remaining.sort((a, b) => {
+      const aPenalty = selected.filter((item) => item.category === a.category).length * 7;
+      const bPenalty = selected.filter((item) => item.category === b.category).length * 7;
+      return (b.score - bPenalty) - (a.score - aPenalty);
+    });
+    selected.push(remaining.shift()!);
+  }
+  return selected;
+}
+
 export async function searchRepositories(query: string): Promise<SearchResponse> {
   const cached = await getCached(query);
   if (cached) return cached;
 
-  const generatedQueries = await generateSearchQueries(query);
+  const intent = await generateSearchQueries(query);
+  const generatedQueries = intent.queries;
   const candidates = await collectCandidates(generatedQueries);
   if (!candidates.length) throw new Error("没有找到合适的 GitHub 仓库");
-  const results = await rankSearchCandidates(query, candidates);
-  if (!results.length) throw new Error("AI 没有返回有效的搜索结果");
+  const assessments = await rankSearchCandidates(query, intent, candidates);
+  const byName = new Map(candidates.map((candidate) => [candidate.fullName, candidate]));
+  const scored = assessments.flatMap((assessment) => {
+    const candidate = byName.get(assessment.fullName);
+    if (!candidate || !assessment.hardRequirementsMet) return [];
+    const score = Math.round(
+      assessment.relevance * 0.6 +
+      candidate.retrievalScore * 0.15 +
+      projectFreshnessScore(candidate.pushedAt) * 0.1 +
+      qualityScore(candidate) * 0.1 +
+      documentationScore(candidate) * 0.05
+    );
+    if (score < 72) return [];
+    const { readmeExcerpt: _, localScore: __, retrievalScore: ___, ...repository } = candidate;
+    return [{ ...repository, score, reason: assessment.reason, caution: assessment.caution, category: assessment.category }];
+  });
+  const results = selectDiverseResults(scored);
 
   const response = { query, generatedQueries, results };
   await setCached(response);

@@ -7,3 +7,4 @@ data/today.tmp.json
 data/*.log
 data/search-cache.json
 data/search-cache.tmp.json
+data/article-cache.tmp.json
