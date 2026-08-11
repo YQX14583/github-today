@@ -66,6 +66,12 @@ export default function HomeFeed({
           <div className="date-block"><strong>{formatDate(today.date)}</strong></div>
         </header>
 
+        <Link className="search-entry" href="/search">
+          <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M10.5 6.5a4 4 0 1 1-8 0 4 4 0 0 1 8 0Zm-.77 4.29a5.5 5.5 0 1 1 1.06-1.06l3.99 3.99a.75.75 0 1 1-1.06 1.06Z" /></svg>
+          <span>用中文描述你想找的 GitHub 项目</span>
+          <strong>AI 搜索</strong>
+        </Link>
+
         <section className="repository-panel" aria-label="今日趋势仓库">
           <div className="panel-title">Trending repositories</div>
           {today.repositories.map((repository, index) => {
