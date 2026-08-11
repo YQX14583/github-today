@@ -1,10 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
+import { readFavorites, writeFavorites } from "../lib/favorites";
+import type { RepositoryArticle } from "../lib/types";
 import type { TodayData } from "../lib/types";
-
-const FAVORITES_KEY = "github-today:favorites:v1";
 
 function formatDate(value: string) {
   return new Intl.DateTimeFormat("zh-CN", {
@@ -20,35 +20,25 @@ function formatStars(value: number) {
 }
 
 export default function HomeFeed({
-  today,
-  initialFavoritesOnly
+  today
 }: {
   today: TodayData;
-  initialFavoritesOnly: boolean;
 }) {
-  const [favorites, setFavorites] = useState<Set<string>>(new Set());
-  const [favoritesOnly, setFavoritesOnly] = useState(initialFavoritesOnly);
+  const [favorites, setFavorites] = useState<RepositoryArticle[]>([]);
 
   useEffect(() => {
     try {
-      const saved = JSON.parse(localStorage.getItem(FAVORITES_KEY) || "[]");
-      if (Array.isArray(saved)) setFavorites(new Set(saved.filter((item): item is string => typeof item === "string")));
-    } catch {
-      localStorage.removeItem(FAVORITES_KEY);
-    }
-  }, []);
+      setFavorites(readFavorites(today.repositories));
+    } catch {}
+  }, [today.repositories]);
 
-  const repositories = useMemo(
-    () => favoritesOnly ? today.repositories.filter((repository) => favorites.has(repository.slug)) : today.repositories,
-    [favorites, favoritesOnly, today.repositories]
-  );
-
-  function toggleFavorite(slug: string) {
+  function toggleFavorite(repository: RepositoryArticle) {
     setFavorites((current) => {
-      const next = new Set(current);
-      if (next.has(slug)) next.delete(slug);
-      else next.add(slug);
-      localStorage.setItem(FAVORITES_KEY, JSON.stringify([...next]));
+      const exists = current.some((item) => item.slug === repository.slug);
+      const next = exists
+        ? current.filter((item) => item.slug !== repository.slug)
+        : [repository, ...current];
+      writeFavorites(next);
       return next;
     });
   }
@@ -61,35 +51,28 @@ export default function HomeFeed({
             <svg width="30" height="30" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.64 0 8.13c0 3.59 2.29 6.64 5.47 7.71.4.08.55-.18.55-.39 0-.19-.01-.83-.01-1.51-2.01.38-2.53-.5-2.69-.96-.09-.23-.48-.96-.82-1.15-.28-.15-.68-.53-.01-.54.63-.01 1.08.59 1.23.83.72 1.23 1.87.88 2.33.67.07-.53.28-.88.51-1.08-1.78-.21-3.64-.91-3.64-4.02 0-.89.31-1.62.82-2.19-.08-.2-.36-1.04.08-2.16 0 0 .67-.22 2.2.84A7.53 7.53 0 0 1 8 3.91c.68 0 1.36.09 2 .27 1.53-1.06 2.2-.84 2.2-.84.44 1.12.16 1.96.08 2.16.51.57.82 1.3.82 2.19 0 3.12-1.87 3.81-3.65 4.02.29.25.54.74.54 1.51 0 1.09-.01 1.97-.01 2.24 0 .22.15.47.55.39A8.12 8.12 0 0 0 16 8.13C16 3.64 12.42 0 8 0Z" /></svg>
             <span>GitHub Today</span>
           </Link>
-          <button
-            className={`nav-favorites${favoritesOnly ? " active" : ""}`}
-            type="button"
-            aria-label={favoritesOnly ? "显示全部仓库" : "显示我的收藏"}
-            aria-pressed={favoritesOnly}
-            onClick={() => setFavoritesOnly((value) => !value)}
-          >
+          <Link className="nav-favorites" href="/favorites" aria-label="查看我的收藏">
             <img src="/favorites-folder.png" alt="" width="22" height="22" />
-          </button>
+          </Link>
         </div>
       </nav>
 
       <main className="feed">
         <header className="feed-header">
           <div>
-            <h1>{favoritesOnly ? "我的收藏" : "今日趋势仓库"}</h1>
-            <p>{favoritesOnly ? "收藏保存在当前设备。" : "发现 GitHub 社区今天最受关注的项目。"}</p>
+            <h1>今日趋势仓库</h1>
+            <p>发现 GitHub 社区今天最受关注的项目。</p>
           </div>
           <div className="date-block"><strong>{formatDate(today.date)}</strong></div>
         </header>
 
-        <section className="repository-panel" aria-label={favoritesOnly ? "我的收藏" : "今日趋势仓库"}>
-          <div className="panel-title">{favoritesOnly ? "Saved repositories" : "Trending repositories"}</div>
-          {repositories.length ? repositories.map((repository) => {
-            const originalIndex = today.repositories.findIndex((item) => item.slug === repository.slug);
-            const favorite = favorites.has(repository.slug);
+        <section className="repository-panel" aria-label="今日趋势仓库">
+          <div className="panel-title">Trending repositories</div>
+          {today.repositories.map((repository, index) => {
+            const favorite = favorites.some((item) => item.slug === repository.slug);
             return (
               <article className="repository-preview" key={repository.slug}>
-                <div className="repo-rank">{originalIndex + 1}</div>
+                <div className="repo-rank">{index + 1}</div>
                 <div className="repo-main">
                   <h2>
                     <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2H4.5c-.55 0-1 .45-1 1s.45 1 1 1H7a.75.75 0 0 1 0 1.5H4.5A2.5 2.5 0 0 1 2 11.5Zm1.5 6.71c.31-.13.65-.21 1-.21h8V1.5h-8a1 1 0 0 0-1 1Z" /></svg>
@@ -107,7 +90,7 @@ export default function HomeFeed({
                       type="button"
                       aria-label={favorite ? `取消收藏 ${repository.name}` : `收藏 ${repository.name}`}
                       aria-pressed={favorite}
-                      onClick={() => toggleFavorite(repository.slug)}
+                      onClick={() => toggleFavorite(repository)}
                     >
                       <img src="/favorite-bookmark.png" alt="" width="20" height="20" />
                     </button>
@@ -115,7 +98,7 @@ export default function HomeFeed({
                 </div>
               </article>
             );
-          }) : <p className="favorites-empty">还没有收藏今日仓库。</p>}
+          })}
         </section>
       </main>
     </>

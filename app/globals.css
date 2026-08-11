@@ -34,7 +34,7 @@ a { color: inherit; }
 
 .repository-panel { overflow: hidden; border: 1px solid #d0d7de; border-radius: 6px; background: #fff; }
 .panel-title { padding: 12px 16px; border-bottom: 1px solid #d8dee4; background: #f6f8fa; font-size: 14px; font-weight: 600; }
-.repository-preview { display: flex; gap: 12px; position: relative; padding: 24px 16px; border-bottom: 1px solid #d8dee4; }
+.repository-preview { display: flex; gap: 12px; position: relative; padding: 18px 16px; border-bottom: 1px solid #d8dee4; }
 .repository-preview:last-child { border-bottom: 0; }
 .repository-preview:hover { background: #f6f8fa; }
 .repo-rank { width: 24px; padding-top: 2px; color: #8c959f; font-size: 13px; text-align: center; }
@@ -44,15 +44,19 @@ a { color: inherit; }
 .repository-preview h2 a { text-decoration: none; }
 .repository-preview h2 a:hover { text-decoration: underline; }
 .repository-preview h2 span { font-weight: 400; }
-.repository-preview p { max-width: 720px; margin: 0 0 14px; color: #57606a; font-size: 14px; line-height: 1.6; }
+.repository-preview p { max-width: 720px; margin: 0 0 10px; color: #57606a; font-size: 14px; line-height: 1.55; }
 .repo-meta { display: flex; flex-wrap: wrap; gap: 18px; color: #57606a; font-size: 12px; }
 .repo-meta > span, .article-header div > span { display: inline-flex; align-items: center; gap: 5px; }
-.repo-footer { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; }
-.favorite-button { flex: 0 0 auto; width: 30px; height: 30px; padding: 5px; border: 0; border-radius: 6px; background: transparent; cursor: pointer; }
+.repo-footer { display: flex; min-height: 26px; align-items: center; justify-content: space-between; gap: 16px; }
+.favorite-button { display: grid; flex: 0 0 auto; width: 26px; height: 26px; padding: 3px; place-items: center; border: 0; border-radius: 6px; background: transparent; cursor: pointer; }
 .favorite-button img { width: 20px; height: 20px; filter: invert(55%); opacity: .58; transition: opacity .15s ease, filter .15s ease; }
 .favorite-button:hover { background: #eef1f4; }
 .favorite-button.active img { filter: none; opacity: .9; }
 .favorites-empty { margin: 0; padding: 44px 20px; color: #57606a; font-size: 14px; text-align: center; }
+.favorites-page .feed-header { margin-bottom: 20px; }
+.favorite-missing { padding: 32px; border: 1px solid #d0d7de; border-radius: 6px; background: #fff; }
+.favorite-missing h1 { margin: 0 0 8px; font-size: 22px; }
+.favorite-missing p { margin: 0; color: #57606a; }
 .language-dot { width: 12px; height: 12px; border: 1px solid rgba(31,35,40,.15); border-radius: 50%; background: #3178c6; }
 .github-button { border: 1px solid rgba(31,35,40,.15); border-radius: 6px; background: #f6f8fa; box-shadow: 0 1px 0 rgba(31,35,40,.04); color: #24292f; font-size: 12px; font-weight: 500; text-decoration: none; }
 .github-button:hover { background: #f3f4f6; border-color: rgba(31,35,40,.25); }
@@ -104,7 +108,7 @@ a { color: inherit; }
   .feed-header { align-items: flex-start; flex-direction: column; }
   .date-block { align-items: flex-start; }
   .repo-rank { display: none; }
-  .repository-preview { padding: 20px 16px; }
+  .repository-preview { padding: 14px 16px; }
   .repository-preview h2 { font-size: 17px; }
   .star-meta { display: none !important; }
   .article-header h1 { font-size: 22px; }
