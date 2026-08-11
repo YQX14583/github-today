@@ -132,6 +132,7 @@ a { color: inherit; }
 .search-result-meta a { margin-left: auto; color: #0969da; text-decoration: none; }
 
 @media (max-width: 640px) {
+  .search-form textarea { resize: none; font-size: 16px; }
   body {
     padding-top: calc(52px + env(safe-area-inset-top));
   }
