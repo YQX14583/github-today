@@ -6,119 +6,119 @@
       "sourceHash": "510ef26e06b79da018f6b80667a36b359bb75672ef1e9b5ae8d19ee0805a9d25",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T19:10:02.567Z"
+      "lastUsedAt": "2026-08-11T23:53:27.740Z"
     },
     "practical-tutorials/project-based-learning": {
       "summary": "一个精选的编程教程列表，按编程语言分类，帮助开发者通过构建实际应用来学习编程。",
       "sourceHash": "d02bd2464062e1a4c0e7c316688aa22e4909de104303ddff9c1fef1425877984",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T19:10:01.676Z"
+      "lastUsedAt": "2026-08-11T23:53:27.591Z"
     },
     "calesthio/openmontage": {
       "summary": "OpenMontage 是一个开源的智能体视频制作系统，提供12条生产流水线、100多个工具和700多个智能体技能文件，可将AI编程助手转变为完整的视频制作工作室。",
       "sourceHash": "9e47879966ff6d6af9ec37d887798c5334eea00dbbf5dd53c7a9cf5f26d1289a",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T19:10:00.846Z"
+      "lastUsedAt": "2026-08-11T23:53:27.402Z"
     },
     "jaywcjlove/awesome-mac": {
       "summary": "一个系统收集并分类整理高质量 macOS 软件的资源列表，方便用户查找和使用。",
       "sourceHash": "48a332be607df0cf29c0a660d15dd07075097494fea3ce3fce9d96696eaf1992",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T19:09:59.748Z"
+      "lastUsedAt": "2026-08-11T23:53:27.220Z"
     },
     "harveyai/harvey-labs": {
       "summary": "Harvey LAB 是一个开源基准测试，用于评估和提升 LLM 智能体在真实法律工作中的能力。",
       "sourceHash": "c6c199ab7494a39883f8140196e1daae6f2d789f651c1af54cb10f93292a962c",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T19:09:57.976Z"
+      "lastUsedAt": "2026-08-11T23:53:27.063Z"
     },
     "huggingface/transformers": {
       "summary": "Transformers 是 Hugging Face 推出的模型定义框架，支持文本、视觉、音频等多模态模型的推理与训练，提供统一 API 和大量预训练模型。",
       "sourceHash": "63781460ffb523e32db9fb08155e0c883d0e7e2a1ae3cffab782c49bb441cb15",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T19:09:57.073Z"
+      "lastUsedAt": "2026-08-11T23:53:26.909Z"
     },
     "paperclipai/paperclip": {
       "summary": "Paperclip 是用于协调多个 AI 智能体协同工作的开源编排平台。",
       "sourceHash": "bba4bbfc50767df631ce45f246f79e80b561c005167889ac22d06304d39233a9",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T19:09:56.068Z"
+      "lastUsedAt": "2026-08-11T23:53:26.739Z"
     },
     "stablyai/orca": {
       "summary": "Orca 是一个用于并行运行多个 AI 编码代理的桌面应用，支持在独立工作树中同时运行 Codex、Claude Code 等，并提供移动端配套应用。",
       "sourceHash": "f785fc66a2838a61fd35f45484f8ffd5190539bea6f7ecdeb8d193805486a166",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T19:09:55.198Z"
+      "lastUsedAt": "2026-08-11T23:53:26.526Z"
     },
     "hkuds/deeptutor": {
       "summary": "DeepTutor 是一个基于代理的终身个性化辅导学习工作区，集聊天、解题、测验、研究、可视化和掌握练习于一体。",
       "sourceHash": "43639927251602c2257ac956e38258be8a4f8ddec194c273e2e57f8b8a13dc8c",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T19:09:54.336Z"
+      "lastUsedAt": "2026-08-11T23:53:26.384Z"
     },
     "3b1b/manim": {
       "summary": "Manim 是用于创建精确数学动画的 Python 引擎，由 3Blue1Brown 作者开发，支持编程式动画制作。",
       "sourceHash": "4155c7a0c599152602788680fd6c8b599198612041c904ac25fe827514148fc9",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T19:09:53.298Z"
+      "lastUsedAt": "2026-08-11T23:53:26.243Z"
     },
     "anthropics/skills": {
       "summary": "Anthropic 官方发布的 Claude Agent Skills 示例仓库，包含多种技能模板与文档处理技能。",
       "sourceHash": "e74288aebc542b4cc8b7f31a93813befa9e1342c683f9540cad9ea266b17a6e0",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T19:09:52.530Z"
+      "lastUsedAt": "2026-08-11T23:53:26.073Z"
     },
     "vitali87/code-graph-rag": {
       "summary": "Code-Graph-RAG 是一个基于知识图谱的多语言代码库检索增强生成工具，支持自然语言查询、编辑和优化代码。",
       "sourceHash": "c231d744a608bd48c75c1b60002da4d11771a263d2ca229f3e08cfa7ad463807",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T19:09:51.710Z"
+      "lastUsedAt": "2026-08-11T23:53:25.920Z"
     },
     "zhulinsen/daily_stock_analysis": {
       "summary": "基于大模型的多市场股票智能分析系统，支持多源行情、实时新闻、决策看板与自动推送，可零成本定时运行。",
       "sourceHash": "031bb9c38b0ecabb6022137a998b5c726a0b6096e10dcb2d8222cfcbeeda3322",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T19:09:50.790Z"
+      "lastUsedAt": "2026-08-11T23:53:25.742Z"
     },
     "addyosmani/agent-skills": {
       "summary": "为 AI 编码代理提供生产级工程技能包，以斜杠命令和结构化流程强制规范开发。",
       "sourceHash": "225fb4ede2320d5ae273b0dc2bfc7efc4dad4e4c10e06ffd891dd43d9aa004ae",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T19:09:49.930Z"
+      "lastUsedAt": "2026-08-11T23:53:25.559Z"
     },
     "nvm-sh/nvm": {
       "summary": "nvm 是一个 POSIX 兼容的 bash 脚本，用于通过命令行快速安装和管理多个 Node.js 版本。",
       "sourceHash": "29a72e96be405ff0290627ae055e788138f50fc0484ef2ee9f950fb0b878344a",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T19:09:48.882Z"
+      "lastUsedAt": "2026-08-11T23:53:25.405Z"
     },
     "semantica-agi/semantica": {
       "summary": "Semantica 是一个开源 Python 框架，用于构建可查询、可审计的上下文知识图谱，以支持 AI 代理的决策记录与追溯。",
       "sourceHash": "a62093b8efecdc2e706c2fae23255a9baf3446923f895b5e9b3ddafaff56b45f",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T19:09:47.824Z"
+      "lastUsedAt": "2026-08-11T23:53:25.216Z"
     },
     "msitarzewski/agency-agents": {
       "summary": "一个提供多种专业AI代理角色配置的集合，可通过脚本或桌面应用安装到Claude Code等AI编程工具中。",
       "sourceHash": "b406fc53e42ed6d1fe6beb2e97140159fb3ba71340b24c42de79adde1e4e4899",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T19:09:46.439Z"
+      "lastUsedAt": "2026-08-11T23:53:24.974Z"
     },
     "cathrynlavery/diagram-design": {
       "summary": "为 Claude Code 设计的 29 种编辑级图表技能，生成自包含 HTML+SVG，可自动匹配品牌风格。",
