@@ -13,9 +13,8 @@ const temporaryPath = path.join(dataDirectory, "today.tmp.json");
 const ARTICLE_PROMPT_VERSION = "2026-08-11-v1";
 
 async function main() {
-  const limit = Math.max(1, Number(process.env.TRENDING_LIMIT || 10));
   console.log("正在获取 GitHub Trending Today…");
-  const trending = (await fetchTrending()).slice(0, limit);
+  const trending = await fetchTrending();
   const repositories: RepositoryArticle[] = [];
   const articleCache = await readArticleCache();
   const model = process.env.AI_MODEL?.trim() || "";
