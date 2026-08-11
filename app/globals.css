@@ -20,8 +20,10 @@ a { color: inherit; }
 .nav-inner { width: min(100% - 48px, 1012px); height: 100%; margin: auto; display: flex; align-items: center; justify-content: space-between; }
 .brand { display: inline-flex; align-items: center; gap: 10px; color: #fff; font-size: 16px; font-weight: 600; text-decoration: none; }
 .brand svg { width: 30px; height: 30px; fill: currentColor; }
-.nav-more { display: grid; width: 32px; height: 32px; place-items: center; border: 1px solid #57606a; border-radius: 6px; color: #c9d1d9; }
-.nav-more svg { fill: currentColor; }
+.nav-favorites { display: grid; width: 32px; height: 32px; padding: 0; place-items: center; border: 1px solid #57606a; border-radius: 6px; background: transparent; cursor: pointer; }
+.nav-favorites img { filter: brightness(0) invert(83%); opacity: .86; }
+.nav-favorites:hover, .nav-favorites.active { background: #32383f; border-color: #8c959f; }
+.nav-favorites.active img { opacity: 1; }
 
 .feed { width: min(100% - 48px, 1012px); margin: 0 auto; padding: 40px 0 calc(80px + env(safe-area-inset-bottom)); }
 .feed-header { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 24px; }
@@ -45,6 +47,12 @@ a { color: inherit; }
 .repository-preview p { max-width: 720px; margin: 0 0 14px; color: #57606a; font-size: 14px; line-height: 1.6; }
 .repo-meta { display: flex; flex-wrap: wrap; gap: 18px; color: #57606a; font-size: 12px; }
 .repo-meta > span, .article-header div > span { display: inline-flex; align-items: center; gap: 5px; }
+.repo-footer { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; }
+.favorite-button { flex: 0 0 auto; width: 30px; height: 30px; padding: 5px; border: 0; border-radius: 6px; background: transparent; cursor: pointer; }
+.favorite-button img { width: 20px; height: 20px; opacity: .9; transition: opacity .15s ease, filter .15s ease; }
+.favorite-button:hover { background: #eef1f4; }
+.favorite-button.active img { filter: invert(55%); opacity: .58; }
+.favorites-empty { margin: 0; padding: 44px 20px; color: #57606a; font-size: 14px; text-align: center; }
 .language-dot { width: 12px; height: 12px; border: 1px solid rgba(31,35,40,.15); border-radius: 50%; background: #3178c6; }
 .github-button { border: 1px solid rgba(31,35,40,.15); border-radius: 6px; background: #f6f8fa; box-shadow: 0 1px 0 rgba(31,35,40,.04); color: #24292f; font-size: 12px; font-weight: 500; text-decoration: none; }
 .github-button:hover { background: #f3f4f6; border-color: rgba(31,35,40,.25); }
@@ -79,7 +87,7 @@ a { color: inherit; }
 
 @media (max-width: 640px) {
   body {
-    padding-top: calc(64px + env(safe-area-inset-top));
+    padding-top: calc(52px + env(safe-area-inset-top));
   }
   .site-nav {
     position: fixed;
@@ -87,7 +95,10 @@ a { color: inherit; }
     top: 0;
     right: 0;
     left: 0;
+    height: calc(52px + env(safe-area-inset-top));
   }
+  .brand svg { width: 26px; height: 26px; }
+  .nav-favorites { width: 30px; height: 30px; }
   .nav-inner, .feed, .article-page { width: min(100% - 32px, 1012px); }
   .feed { padding-top: 28px; }
   .feed-header { align-items: flex-start; flex-direction: column; }
