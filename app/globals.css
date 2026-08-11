@@ -20,6 +20,7 @@ a { color: inherit; }
 .nav-inner { width: min(100% - 48px, 1012px); height: 100%; margin: auto; display: flex; align-items: center; justify-content: space-between; }
 .brand { display: inline-flex; align-items: center; gap: 10px; color: #fff; font-size: 16px; font-weight: 600; text-decoration: none; }
 .brand svg { width: 30px; height: 30px; fill: currentColor; }
+.brand-icon { display: block; width: 30px; height: 30px; border-radius: 7px; object-fit: cover; }
 .nav-favorites { display: grid; width: 32px; height: 32px; padding: 0; place-items: center; border: 1px solid #57606a; border-radius: 6px; background: transparent; cursor: pointer; }
 .nav-favorites img { filter: brightness(0) invert(83%); opacity: .86; }
 .nav-favorites:hover, .nav-favorites.active { background: #32383f; border-color: #8c959f; }
@@ -102,6 +103,7 @@ a { color: inherit; }
     height: calc(52px + env(safe-area-inset-top));
   }
   .brand svg { width: 26px; height: 26px; }
+  .brand-icon { width: 26px; height: 26px; border-radius: 6px; }
   .nav-favorites { width: 30px; height: 30px; }
   .nav-inner, .feed, .article-page { width: min(100% - 32px, 1012px); }
   .feed { padding-top: 28px; }
