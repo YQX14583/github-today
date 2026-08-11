@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "entries": {
+    "primeintellect-ai/prime-agent": {
+      "summary": "一个开源的自我改进RLM智能体，面向编码工作流和长时间自主任务。",
+      "sourceHash": "510ef26e06b79da018f6b80667a36b359bb75672ef1e9b5ae8d19ee0805a9d25",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-11T18:57:24.786Z"
+    },
+    "practical-tutorials/project-based-learning": {
+      "summary": "一个精选的编程教程列表，按编程语言分类，帮助开发者通过构建实际应用来学习编程。",
+      "sourceHash": "d02bd2464062e1a4c0e7c316688aa22e4909de104303ddff9c1fef1425877984",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-11T18:57:23.900Z"
+    },
+    "calesthio/openmontage": {
+      "summary": "OpenMontage 是一个开源的智能体视频制作系统，提供12条生产流水线、100多个工具和700多个智能体技能文件，可将AI编程助手转变为完整的视频制作工作室。",
+      "sourceHash": "9e47879966ff6d6af9ec37d887798c5334eea00dbbf5dd53c7a9cf5f26d1289a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-11T18:57:22.809Z"
+    },
+    "jaywcjlove/awesome-mac": {
+      "summary": "一个系统收集并分类整理高质量 macOS 软件的资源列表，方便用户查找和使用。",
+      "sourceHash": "48a332be607df0cf29c0a660d15dd07075097494fea3ce3fce9d96696eaf1992",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-11T18:57:21.587Z"
+    },
+    "harveyai/harvey-labs": {
+      "summary": "Harvey LAB 是一个开源基准测试，用于评估和提升 LLM 智能体在真实法律工作中的能力。",
+      "sourceHash": "c6c199ab7494a39883f8140196e1daae6f2d789f651c1af54cb10f93292a962c",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-11T18:57:20.194Z"
+    },
+    "huggingface/transformers": {
+      "summary": "Transformers 是 Hugging Face 推出的模型定义框架，支持文本、视觉、音频等多模态模型的推理与训练，提供统一 API 和大量预训练模型。",
+      "sourceHash": "63781460ffb523e32db9fb08155e0c883d0e7e2a1ae3cffab782c49bb441cb15",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-11T18:57:19.353Z"
+    },
+    "paperclipai/paperclip": {
+      "summary": "Paperclip 是用于协调多个 AI 智能体协同工作的开源编排平台。",
+      "sourceHash": "bba4bbfc50767df631ce45f246f79e80b561c005167889ac22d06304d39233a9",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-11T18:57:18.488Z"
+    },
+    "stablyai/orca": {
+      "summary": "Orca 是一个用于并行运行多个 AI 编码代理的桌面应用，支持在独立工作树中同时运行 Codex、Claude Code 等，并提供移动端配套应用。",
+      "sourceHash": "f785fc66a2838a61fd35f45484f8ffd5190539bea6f7ecdeb8d193805486a166",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-11T18:57:17.666Z"
+    },
+    "hkuds/deeptutor": {
+      "summary": "DeepTutor 是一个基于代理的终身个性化辅导学习工作区，集聊天、解题、测验、研究、可视化和掌握练习于一体。",
+      "sourceHash": "43639927251602c2257ac956e38258be8a4f8ddec194c273e2e57f8b8a13dc8c",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-11T18:57:16.615Z"
+    },
+    "3b1b/manim": {
+      "summary": "Manim 是用于创建精确数学动画的 Python 引擎，由 3Blue1Brown 作者开发，支持编程式动画制作。",
+      "sourceHash": "4155c7a0c599152602788680fd6c8b599198612041c904ac25fe827514148fc9",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-11T18:57:15.370Z"
+    },
+    "anthropics/skills": {
+      "summary": "Anthropic 官方发布的 Claude Agent Skills 示例仓库，包含多种技能模板与文档处理技能。",
+      "sourceHash": "e74288aebc542b4cc8b7f31a93813befa9e1342c683f9540cad9ea266b17a6e0",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-11T18:57:14.241Z"
+    },
+    "vitali87/code-graph-rag": {
+      "summary": "Code-Graph-RAG 是一个基于知识图谱的多语言代码库检索增强生成工具，支持自然语言查询、编辑和优化代码。",
+      "sourceHash": "c231d744a608bd48c75c1b60002da4d11771a263d2ca229f3e08cfa7ad463807",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-11T18:57:13.321Z"
+    },
+    "zhulinsen/daily_stock_analysis": {
+      "summary": "基于大模型的多市场股票智能分析系统，支持多源行情、实时新闻、决策看板与自动推送，可零成本定时运行。",
+      "sourceHash": "031bb9c38b0ecabb6022137a998b5c726a0b6096e10dcb2d8222cfcbeeda3322",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-11T18:57:12.435Z"
+    },
+    "addyosmani/agent-skills": {
+      "summary": "为 AI 编码代理提供生产级工程技能包，以斜杠命令和结构化流程强制规范开发。",
+      "sourceHash": "225fb4ede2320d5ae273b0dc2bfc7efc4dad4e4c10e06ffd891dd43d9aa004ae",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-11T18:57:11.418Z"
+    },
+    "nvm-sh/nvm": {
+      "summary": "nvm 是一个 POSIX 兼容的 bash 脚本，用于通过命令行快速安装和管理多个 Node.js 版本。",
+      "sourceHash": "29a72e96be405ff0290627ae055e788138f50fc0484ef2ee9f950fb0b878344a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-11T18:57:10.377Z"
+    },
+    "semantica-agi/semantica": {
+      "summary": "Semantica 是一个开源 Python 框架，用于构建可查询、可审计的上下文知识图谱，以支持 AI 代理的决策记录与追溯。",
+      "sourceHash": "a62093b8efecdc2e706c2fae23255a9baf3446923f895b5e9b3ddafaff56b45f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-11T18:57:09.253Z"
+    },
+    "msitarzewski/agency-agents": {
+      "summary": "一个提供多种专业AI代理角色配置的集合，可通过脚本或桌面应用安装到Claude Code等AI编程工具中。",
+      "sourceHash": "b406fc53e42ed6d1fe6beb2e97140159fb3ba71340b24c42de79adde1e4e4899",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-11T18:57:07.874Z"
+    },
+    "cathrynlavery/diagram-design": {
+      "summary": "为 Claude Code 设计的 29 种编辑级图表技能，生成自包含 HTML+SVG，可自动匹配品牌风格。",
+      "sourceHash": "5b2887fa8094f421ebe657d7392cbd96ac3134ae91d276d84ca69d634e0cf3a8",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-11T18:57:04.617Z"
+    },
+    "firecrawl/firecrawl": {
+      "summary": "Firecrawl 是一个开源 API，用于大规模搜索、抓取网页并将内容转换为 LLM 可用的 Markdown 或结构化数据。",
+      "sourceHash": "450e48cdd1b4031706d39e91a7a5394686bd9e72b3537fd80f4f2b22c90ae24a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-11T09:31:32.057Z"
+    },
+    "danielmiessler/lifeos": {
+      "summary": "LifeOS 是一个通用 AI harness，通过持久记忆与技能帮助你在生活与工作中从当前状态走向理想状态。",
+      "sourceHash": "2d5d23974ace150fb06bf4741b107a6ec3bf788a23a80198592844c2de8d79f2",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-11T09:31:29.737Z"
+    },
+    "ruvnet/ruview": {
+      "summary": "RuView 是一个利用 WiFi 信号实现无摄像头空间感知与生命体征监测的开源平台。",
+      "sourceHash": "cd1deb362e3b5c6806ca7a74f15c0dc467f5c359c42ea63097b111444c7fbdb3",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-11T09:31:25.774Z"
+    },
+    "ladybirdbrowser/ladybird": {
+      "summary": "Ladybird 是一个基于新颖引擎、真正独立的网页浏览器，采用多进程架构，目前处于 pre-alpha 阶段，仅供开发者使用。",
+      "sourceHash": "535787084499b009a5aae39a4782e4ad664fe8b7851a624b32d773781f7051d7",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-11T09:31:21.337Z"
+    },
+    "nanmicoder/mediacrawler": {
+      "summary": "多平台自媒体数据采集工具，无需逆向即可爬取小红书、抖音、B站等公开信息与评论。",
+      "sourceHash": "64778c78e2e55a61f0befa45bf3210d3995dd965f13b7628a66e47770013f0d8",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-11T09:31:08.014Z"
+    }
+  }
+}

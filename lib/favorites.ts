@@ -8,7 +8,7 @@ function isRepository(value: unknown): value is RepositoryArticle {
   const item = value as Partial<RepositoryArticle>;
   return typeof item.slug === "string" && typeof item.owner === "string" &&
     typeof item.name === "string" && typeof item.summary === "string" &&
-    typeof item.article === "string" && typeof item.url === "string";
+    (item.article === undefined || typeof item.article === "string") && typeof item.url === "string";
 }
 
 export function readFavorites(currentRepositories: RepositoryArticle[] = []): RepositoryArticle[] {
@@ -32,4 +32,10 @@ export function readFavorites(currentRepositories: RepositoryArticle[] = []): Re
 
 export function writeFavorites(repositories: RepositoryArticle[]) {
   localStorage.setItem(FAVORITES_KEY, JSON.stringify(repositories));
+}
+
+export function saveFavoriteArticle(slug: string, article: string) {
+  const favorites = readFavorites();
+  if (!favorites.some((item) => item.slug === slug)) return;
+  writeFavorites(favorites.map((item) => item.slug === slug ? { ...item, article } : item));
 }

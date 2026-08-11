@@ -1,0 +1,2 @@
+export const ARTICLE_PROMPT_VERSION = "2026-08-11-v1";
+export const SUMMARY_PROMPT_VERSION = "2026-08-12-v1";

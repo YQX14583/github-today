@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import ReactMarkdown from "react-markdown";
 import { readToday } from "../../../lib/data";
+import ArticleReader from "../../article-reader";
 
 export const dynamic = "force-dynamic";
 
@@ -40,9 +40,7 @@ export default async function RepositoryPage({ params }: { params: Promise<{ slu
         </div>
       </header>
 
-      <article className="article-content">
-        <ReactMarkdown skipHtml>{repository.article}</ReactMarkdown>
-      </article>
+      <ArticleReader slug={repository.slug} initialArticle={repository.article} />
       </main>
     </>
   );

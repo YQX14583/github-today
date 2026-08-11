@@ -1,22 +1,23 @@
 import { mkdir, rename, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { config } from "dotenv";
-import { generateArticle } from "../lib/ai";
-import { getCachedArticle, hashReadme, readArticleCache, setCachedArticle, writeArticleCache } from "../lib/article-cache";
-import { cleanReadme, fetchReadme, fetchTrending, prepareReadmeForArticle } from "../lib/github";
+import { generateSummary } from "../lib/ai";
+import { hashReadme } from "../lib/article-cache";
+import { SUMMARY_PROMPT_VERSION } from "../lib/content-versions";
+import { cleanReadme, fetchReadme, fetchTrending, prepareReadmeForSummary } from "../lib/github";
+import { getCachedSummary, readSummaryCache, setCachedSummary, writeSummaryCache } from "../lib/summary-cache";
 import type { RepositoryArticle, TodayData } from "../lib/types";
 
 const dataDirectory = path.join(process.cwd(), "data");
 config({ path: path.join(process.cwd(), ".env.local") });
 const targetPath = path.join(dataDirectory, "today.json");
 const temporaryPath = path.join(dataDirectory, "today.tmp.json");
-const ARTICLE_PROMPT_VERSION = "2026-08-11-v1";
 
 async function main() {
   console.log("正在获取 GitHub Trending Today…");
   const trending = await fetchTrending();
   const repositories: RepositoryArticle[] = [];
-  const articleCache = await readArticleCache();
+  const summaryCache = await readSummaryCache();
   const model = process.env.AI_MODEL?.trim() || "";
   let reused = 0;
 
@@ -27,17 +28,18 @@ async function main() {
     try {
       const readme = cleanReadme(await fetchReadme(repository.owner, repository.name));
       const sourceHash = hashReadme(readme);
-      const cached = getCachedArticle(articleCache, label, sourceHash, model, ARTICLE_PROMPT_VERSION);
-      const generated = cached || await generateArticle(repository, prepareReadmeForArticle(readme));
+      const cached = getCachedSummary(summaryCache, label, sourceHash, model, SUMMARY_PROMPT_VERSION);
+      const generated = cached ? { summary: cached } : await generateSummary(repository, prepareReadmeForSummary(readme));
       if (cached) {
         reused += 1;
         console.log(`  已复用缓存：${label}`);
       } else {
-        setCachedArticle(articleCache, label, sourceHash, model, ARTICLE_PROMPT_VERSION, generated);
+        setCachedSummary(summaryCache, label, sourceHash, model, SUMMARY_PROMPT_VERSION, generated.summary);
       }
       repositories.push({
         ...repository,
         slug: `${repository.owner}--${repository.name}`,
+        sourceHash,
         ...generated
       });
     } catch (error) {
@@ -59,8 +61,8 @@ async function main() {
   await mkdir(dataDirectory, { recursive: true });
   await writeFile(temporaryPath, `${JSON.stringify(data, null, 2)}\n`, "utf8");
   await rename(temporaryPath, targetPath);
-  await writeArticleCache(articleCache);
-  console.log(`更新完成：${repositories.length} 个仓库，其中 ${reused} 个复用文章缓存`);
+  await writeSummaryCache(summaryCache);
+  console.log(`更新完成：${repositories.length} 个仓库，其中 ${reused} 个复用摘要缓存`);
 }
 
 main().catch((error) => {

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
-import ReactMarkdown from "react-markdown";
+import ArticleReader from "../../article-reader";
 import { readFavorites } from "../../../lib/favorites";
 import type { RepositoryArticle } from "../../../lib/types";
 
@@ -37,7 +37,7 @@ export default function FavoriteRepositoryPage() {
               <h1><span>{repository.owner}</span> / {repository.name}</h1>
               <div><span><i className="language-dot" />{repository.language || "其他"}</span><span>☆ {formatStars(repository.stars)}</span><a className="github-button" href={repository.url} target="_blank" rel="noreferrer">在 GitHub 查看 ↗</a></div>
             </header>
-            <article className="article-content"><ReactMarkdown skipHtml>{repository.article}</ReactMarkdown></article>
+            <ArticleReader slug={repository.slug} initialArticle={repository.article} />
           </>
         )}
       </main>

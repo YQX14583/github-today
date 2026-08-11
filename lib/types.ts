@@ -3,6 +3,10 @@ export type ArticleResult = {
   article: string;
 };
 
+export type SummaryResult = {
+  summary: string;
+};
+
 export type RepositoryArticle = {
   slug: string;
   owner: string;
@@ -13,7 +17,8 @@ export type RepositoryArticle = {
   stars: number;
   starsToday: number;
   summary: string;
-  article: string;
+  article?: string;
+  sourceHash?: string;
 };
 
 export type TodayData = {
@@ -22,4 +27,4 @@ export type TodayData = {
   repositories: RepositoryArticle[];
 };
 
-export type TrendingRepository = Omit<RepositoryArticle, "slug" | "summary" | "article">;
+export type TrendingRepository = Omit<RepositoryArticle, "slug" | "summary" | "article" | "sourceHash">;

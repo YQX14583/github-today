@@ -129,6 +129,7 @@ const IMPORTANT_SECTION = /(overview|introduction|about|features?|capabilit|arch
 function compactSection(section: string, budget: number) {
   if (section.length <= budget) return section;
   const marker = "\n\n[…本节省略部分细节…]\n\n";
+  if (budget <= marker.length) return section.slice(0, Math.max(0, budget));
   const available = Math.max(0, budget - marker.length);
   const headLength = Math.ceil(available * 0.7);
   return `${section.slice(0, headLength).trimEnd()}${marker}${section.slice(-(available - headLength)).trimStart()}`;
@@ -162,4 +163,26 @@ export function prepareReadmeForArticle(readme: string) {
     return compactSection(section.trim(), budget);
   });
   return compacted.join("\n\n").slice(0, ARTICLE_README_LIMIT);
+}
+
+const SUMMARY_README_LIMIT = 6_000;
+
+export function prepareReadmeForSummary(readme: string) {
+  if (readme.length <= SUMMARY_README_LIMIT) return readme;
+
+  const sections = readme.split(/(?=^#{1,3}\s+)/gm).filter(Boolean);
+  const selected: string[] = [];
+  let remaining = SUMMARY_README_LIMIT;
+
+  for (const [index, section] of sections.entries()) {
+    const title = section.split("\n", 1)[0];
+    const important = index === 0 || IMPORTANT_SECTION.test(title);
+    const budget = important ? 900 : 260;
+    const excerpt = compactSection(section.trim(), Math.min(budget, remaining));
+    if (!excerpt || remaining < 80) break;
+    selected.push(excerpt);
+    remaining -= excerpt.length + 2;
+  }
+
+  return selected.join("\n\n").slice(0, SUMMARY_README_LIMIT);
 }

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { readFavorites, writeFavorites } from "../lib/favorites";
+import { readFavorites, saveFavoriteArticle, writeFavorites } from "../lib/favorites";
 import type { RepositoryArticle } from "../lib/types";
 import type { TodayData } from "../lib/types";
 
@@ -48,6 +48,16 @@ export default function HomeFeed({
         ? current.filter((item) => item.slug !== repository.slug)
         : [repository, ...current];
       writeFavorites(next);
+      if (!exists && !repository.article) {
+        void fetch(`/api/article/${encodeURIComponent(repository.slug)}`, { method: "POST" })
+          .then(async (response) => {
+            const body = await response.json() as { article?: string };
+            if (!response.ok || !body.article) return;
+            saveFavoriteArticle(repository.slug, body.article);
+            setFavorites((latest) => latest.map((item) => item.slug === repository.slug ? { ...item, article: body.article } : item));
+          })
+          .catch(() => undefined);
+      }
       return next;
     });
   }
