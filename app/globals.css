@@ -20,7 +20,8 @@ a { color: inherit; }
 .nav-inner { width: min(100% - 48px, 1012px); height: 100%; margin: auto; display: flex; align-items: center; justify-content: space-between; }
 .brand { display: inline-flex; align-items: center; gap: 10px; color: #fff; font-size: 16px; font-weight: 600; text-decoration: none; }
 .brand svg { width: 30px; height: 30px; fill: currentColor; }
-.nav-badge { padding: 3px 8px; border: 1px solid #57606a; border-radius: 20px; color: #c9d1d9; font-size: 12px; }
+.nav-more { display: grid; width: 32px; height: 32px; place-items: center; border: 1px solid #57606a; border-radius: 6px; color: #c9d1d9; }
+.nav-more svg { fill: currentColor; }
 
 .feed { width: min(100% - 48px, 1012px); margin: 0 auto; padding: 40px 0 calc(80px + env(safe-area-inset-bottom)); }
 .feed-header { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 24px; }
@@ -79,17 +80,6 @@ a { color: inherit; }
 @media (max-width: 640px) {
   body {
     padding-top: calc(64px + env(safe-area-inset-top));
-  }
-  body::after {
-    content: "";
-    position: fixed;
-    z-index: 100;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: calc(12px + env(safe-area-inset-bottom));
-    background: #24292f;
-    pointer-events: none;
   }
   .site-nav {
     position: fixed;
