@@ -49,9 +49,9 @@ a { color: inherit; }
 .repo-meta > span, .article-header div > span { display: inline-flex; align-items: center; gap: 5px; }
 .repo-footer { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; }
 .favorite-button { flex: 0 0 auto; width: 30px; height: 30px; padding: 5px; border: 0; border-radius: 6px; background: transparent; cursor: pointer; }
-.favorite-button img { width: 20px; height: 20px; opacity: .9; transition: opacity .15s ease, filter .15s ease; }
+.favorite-button img { width: 20px; height: 20px; filter: invert(55%); opacity: .58; transition: opacity .15s ease, filter .15s ease; }
 .favorite-button:hover { background: #eef1f4; }
-.favorite-button.active img { filter: invert(55%); opacity: .58; }
+.favorite-button.active img { filter: none; opacity: .9; }
 .favorites-empty { margin: 0; padding: 44px 20px; color: #57606a; font-size: 14px; text-align: center; }
 .language-dot { width: 12px; height: 12px; border: 1px solid rgba(31,35,40,.15); border-radius: 50%; background: #3178c6; }
 .github-button { border: 1px solid rgba(31,35,40,.15); border-radius: 6px; background: #f6f8fa; box-shadow: 0 1px 0 rgba(31,35,40,.04); color: #24292f; font-size: 12px; font-weight: 500; text-decoration: none; }
