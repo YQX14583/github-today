@@ -1,6 +1,125 @@
 {
   "version": 1,
   "entries": {
+    "cactus-compute/needle": {
+      "summary": "Needle 2 是一个面向工具调用、设备使用和结构化提取的 45M 参数开源模型，以 14MB 单文件运行，内存占用约 28MB。",
+      "sourceHash": "a08b8860544f0e82222c6b076e06b2486790d45857e80e40a8481b50bc0d683e",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-12T23:54:19.287Z"
+    },
+    "embabel/embabel-agent": {
+      "summary": "Embabel Agent 是一个面向 JVM 的代理框架，用于构建混合 LLM 交互与代码及领域模型的智能体流程，支持目标导向的路径规划，并提供 Java 与 Kotlin 两种使用方式。",
+      "sourceHash": "d0289f6b89d0420ffab6d47cc8fea7eeccba7b74a7aa70cdd0b54d412d9e27cf",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-12T23:54:17.905Z"
+    },
+    "lightricks/ltx-2": {
+      "summary": "LTX-2 是首个基于 DiT 的音频-视频生成基础模型，提供同步音视频生成、高保真输出及多种性能模式，并附带官方 Python 推理与 LoRA 训练工具包。",
+      "sourceHash": "b89c74804be8d59bf47d559f6d2ad25ba712ba77e2289457da4ead24065c4535",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-12T23:54:16.193Z"
+    },
+    "localsend/localsend": {
+      "summary": "LocalSend 是一个开源的跨平台文件传输应用，通过 REST API 和 HTTPS 加密实现设备间安全通信，无需互联网或第三方服务器。",
+      "sourceHash": "ea635baedf55b82fcfa3aeac4ff73f1f33d66c9e030c2c4472c735d5c7daf1f3",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-12T23:54:14.781Z"
+    },
+    "smicallef/spiderfoot": {
+      "summary": "SpiderFoot 是一个开源情报自动化工具，集成超过200个数据源，用于威胁情报收集和攻击面测绘，支持Web界面和命令行操作。",
+      "sourceHash": "447fa122238107ff045e4a7496f3a6999647ea88ae99402105b2bc6a034c1ba5",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-12T23:54:13.335Z"
+    },
+    "zuodaotech/everyone-can-use-english": {
+      "summary": "一个利用AI辅助英语学习的开源项目，提供网页版、浏览器插件及桌面版应用，支持YouTube和Netflix等平台。",
+      "sourceHash": "29ab6ca2d59921d1d2f54633259ece946994320240f25b96d3c702840b58e175",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-12T23:54:12.067Z"
+    },
+    "nvidia-nemo/switchyard": {
+      "summary": "Switchyard 是一个用 Rust 编写的 LLM 流量代理和库，用于在多个模型后端间路由请求，并转换 OpenAI 与 Anthropic 等 API 格式。",
+      "sourceHash": "d71a2aa3016792da54da76d897d75e1421101238f964d3caa24f361d9a395646",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-12T23:54:10.747Z"
+    },
+    "paperclipai/paperclip": {
+      "summary": "Paperclip 是用于协调多个 AI 智能体协同工作的开源编排平台。",
+      "sourceHash": "bba4bbfc50767df631ce45f246f79e80b561c005167889ac22d06304d39233a9",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-12T23:54:09.358Z"
+    },
+    "infiniflow/ragflow": {
+      "summary": "RAGFlow 是一个开源检索增强生成引擎，结合 RAG 与 Agent 能力，为大型语言模型提供上下文层，支持深度文档理解与精准引用。",
+      "sourceHash": "75425f498cb505a0dfa61f909e6a8d86f62a658085d4fab076e262eaf4617e07",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-12T23:54:09.142Z"
+    },
+    "hugohe3/ppt-master": {
+      "summary": "PPT Master 是一个用 Python 编写的 AI 工具，可将文档或主题直接生成带原生形状、动画、图表和音频旁白的 PowerPoint 演示文稿，并支持自定义模板。",
+      "sourceHash": "5765f1f398c3cc4aea836084ccbc5898ff38097dacf10397b557aca2d09efa9e",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-12T23:54:07.933Z"
+    },
+    "nanmicoder/mediacrawler": {
+      "summary": "MediaCrawler 是一个基于 Playwright 的多平台自媒体数据采集工具，支持小红书、抖音、快手、B站、微博、贴吧、知乎等平台的帖子与评论爬取。",
+      "sourceHash": "958caabe72589cd3908e7b1a418651da62e3e5fb7e62124f75ff5fba5b08b055",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-12T23:54:06.380Z"
+    },
+    "shiyu-coder/kronos": {
+      "summary": "Kronos 是一个开源的金融 K 线基础模型，基于自回归 Transformer 架构，用于金融市场的预测和量化任务。",
+      "sourceHash": "3889a00730b9a978017436ae0e058754647e1ea85c6a71387f1e04e95ad4cb50",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-12T23:54:04.758Z"
+    },
+    "msitarzewski/agency-agents": {
+      "summary": "一个提供多种专业AI代理角色配置的集合，可通过脚本或桌面应用安装到Claude Code等AI编程工具中。",
+      "sourceHash": "b406fc53e42ed6d1fe6beb2e97140159fb3ba71340b24c42de79adde1e4e4899",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-12T23:54:03.216Z"
+    },
+    "stablyai/orca": {
+      "summary": "Orca 是一个用于并行运行多个 AI 编码代理的桌面应用，支持在独立工作树中同时运行 Codex、Claude Code 等，并提供移动端配套应用。",
+      "sourceHash": "f785fc66a2838a61fd35f45484f8ffd5190539bea6f7ecdeb8d193805486a166",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-12T23:54:02.984Z"
+    },
+    "semantica-agi/semantica": {
+      "summary": "Semantica 是一个开源 Python 框架，用于构建可查询、可审计的上下文知识图谱，以支持 AI 代理的决策记录与追溯。",
+      "sourceHash": "a62093b8efecdc2e706c2fae23255a9baf3446923f895b5e9b3ddafaff56b45f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-12T23:54:02.579Z"
+    },
+    "macro-inc/macro": {
+      "summary": "Macro 是一个用 Rust 开发的开源一体化团队工作空间，整合邮件、聊天、文档、任务、CRM 与 AI 代理，并通过共享记忆和 @ 链接实现统一协作。",
+      "sourceHash": "1a2ad00648d4bf32b0046955d1b53a9b9952103795cf2ae84485710133ccd13a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-12T23:54:02.274Z"
+    },
+    "cathrynlavery/diagram-design": {
+      "summary": "为Claude Code等AI编程工具提供29种编辑级图表类型的技能包，可生成自包含HTML+SVG图表，并自动适配品牌风格。",
+      "sourceHash": "208075012a72650abcd5b825375f9df5f1f754a23e39e8caa104f97187895a01",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-12T23:54:00.808Z"
+    },
     "primeintellect-ai/prime-agent": {
       "summary": "一个开源的自我改进RLM智能体，面向编码工作流和长时间自主任务。",
       "sourceHash": "510ef26e06b79da018f6b80667a36b359bb75672ef1e9b5ae8d19ee0805a9d25",
@@ -42,20 +161,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-11T23:53:26.909Z"
-    },
-    "paperclipai/paperclip": {
-      "summary": "Paperclip 是用于协调多个 AI 智能体协同工作的开源编排平台。",
-      "sourceHash": "bba4bbfc50767df631ce45f246f79e80b561c005167889ac22d06304d39233a9",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T23:53:26.739Z"
-    },
-    "stablyai/orca": {
-      "summary": "Orca 是一个用于并行运行多个 AI 编码代理的桌面应用，支持在独立工作树中同时运行 Codex、Claude Code 等，并提供移动端配套应用。",
-      "sourceHash": "f785fc66a2838a61fd35f45484f8ffd5190539bea6f7ecdeb8d193805486a166",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T23:53:26.526Z"
     },
     "hkuds/deeptutor": {
       "summary": "DeepTutor 是一个基于代理的终身个性化辅导学习工作区，集聊天、解题、测验、研究、可视化和掌握练习于一体。",
@@ -106,27 +211,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-11T23:53:25.405Z"
     },
-    "semantica-agi/semantica": {
-      "summary": "Semantica 是一个开源 Python 框架，用于构建可查询、可审计的上下文知识图谱，以支持 AI 代理的决策记录与追溯。",
-      "sourceHash": "a62093b8efecdc2e706c2fae23255a9baf3446923f895b5e9b3ddafaff56b45f",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T23:53:25.216Z"
-    },
-    "msitarzewski/agency-agents": {
-      "summary": "一个提供多种专业AI代理角色配置的集合，可通过脚本或桌面应用安装到Claude Code等AI编程工具中。",
-      "sourceHash": "b406fc53e42ed6d1fe6beb2e97140159fb3ba71340b24c42de79adde1e4e4899",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T23:53:24.974Z"
-    },
-    "cathrynlavery/diagram-design": {
-      "summary": "为 Claude Code 设计的 29 种编辑级图表技能，生成自包含 HTML+SVG，可自动匹配品牌风格。",
-      "sourceHash": "5b2887fa8094f421ebe657d7392cbd96ac3134ae91d276d84ca69d634e0cf3a8",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T19:09:43.784Z"
-    },
     "firecrawl/firecrawl": {
       "summary": "Firecrawl 是一个开源 API，用于大规模搜索、抓取网页并将内容转换为 LLM 可用的 Markdown 或结构化数据。",
       "sourceHash": "450e48cdd1b4031706d39e91a7a5394686bd9e72b3537fd80f4f2b22c90ae24a",
@@ -154,13 +238,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-11T09:31:21.337Z"
-    },
-    "nanmicoder/mediacrawler": {
-      "summary": "多平台自媒体数据采集工具，无需逆向即可爬取小红书、抖音、B站等公开信息与评论。",
-      "sourceHash": "64778c78e2e55a61f0befa45bf3210d3995dd965f13b7628a66e47770013f0d8",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T09:31:08.014Z"
     }
   }
 }
