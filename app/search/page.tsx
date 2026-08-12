@@ -1,8 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { FormEvent, useState } from "react";
-import type { SearchResponse } from "../../lib/search";
+import { FormEvent, useEffect, useState } from "react";
+import { readFavorites, saveFavoriteArticle, writeFavorites } from "../../lib/favorites";
+import type { SearchResponse, SearchResult } from "../../lib/search";
+import type { RepositoryArticle } from "../../lib/types";
 
 function formatStars(value: number) {
   return new Intl.NumberFormat("zh-CN", { notation: "compact", maximumFractionDigits: 1 }).format(value);
@@ -17,6 +19,45 @@ export default function SearchPage() {
   const [response, setResponse] = useState<SearchResponse | null>(null);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+  const [favorites, setFavorites] = useState<RepositoryArticle[]>([]);
+
+  useEffect(() => {
+    setFavorites(readFavorites());
+  }, []);
+
+  function toFavorite(repository: SearchResult): RepositoryArticle {
+    return {
+      slug: `${repository.owner}--${repository.name}`,
+      owner: repository.owner,
+      name: repository.name,
+      url: repository.url,
+      description: repository.description,
+      language: repository.language,
+      stars: repository.stars,
+      starsToday: 0,
+      summary: repository.reason
+    };
+  }
+
+  function toggleFavorite(repository: SearchResult) {
+    const favorite = toFavorite(repository);
+    setFavorites((current) => {
+      const exists = current.some((item) => item.slug === favorite.slug);
+      const next = exists ? current.filter((item) => item.slug !== favorite.slug) : [favorite, ...current];
+      writeFavorites(next);
+      if (!exists) {
+        void fetch(`/api/article/${encodeURIComponent(favorite.slug)}`, { method: "POST" })
+          .then(async (result) => {
+            const body = await result.json() as { article?: string };
+            if (!result.ok || !body.article) return;
+            saveFavoriteArticle(favorite.slug, body.article);
+            setFavorites((latest) => latest.map((item) => item.slug === favorite.slug ? { ...item, article: body.article } : item));
+          })
+          .catch(() => undefined);
+      }
+      return next;
+    });
+  }
 
   async function submit(event: FormEvent) {
     event.preventDefault();
@@ -80,12 +121,14 @@ export default function SearchPage() {
               {response.cached && <span>7 天缓存</span>}
             </div>
             {response.results.length === 0 && <div className="search-no-results"><strong>没有找到足够匹配的项目</strong><p>可以补充使用场景、必须功能、编程语言或部署环境后再试。</p></div>}
-            {response.results.map((repository, index) => (
-              <article className="search-result" key={repository.fullName}>
+            {response.results.map((repository, index) => {
+              const slug = `${repository.owner}--${repository.name}`;
+              const favorite = favorites.some((item) => item.slug === slug);
+              return <article className="search-result" key={repository.fullName}>
                 <div className="search-result-top">
                   <div className="repo-rank">{index + 1}</div>
                   <div>
-                    <h3><a href={repository.url} target="_blank" rel="noreferrer"><span>{repository.owner}</span> / {repository.name}</a></h3>
+                    <h3><Link href={`/search/repo/${slug}`}><span>{repository.owner}</span> / {repository.name}</Link></h3>
                     <p>{repository.description}</p>
                   </div>
                 </div>
@@ -94,10 +137,10 @@ export default function SearchPage() {
                   <span><i className="language-dot" />{repository.language || "其他"}</span>
                   <span>☆ {formatStars(repository.stars)}</span>
                   <span>更新于 {formatDate(repository.pushedAt)}</span>
-                  <a href={repository.url} target="_blank" rel="noreferrer">在 GitHub 查看 ↗</a>
+                  <button className={`favorite-button${favorite ? " active" : ""}`} type="button" aria-label={favorite ? `取消收藏 ${repository.name}` : `收藏 ${repository.name}`} aria-pressed={favorite} onClick={() => toggleFavorite(repository)}><img src="/favorite-bookmark.png" alt="" width="20" height="20" /></button>
                 </div>
               </article>
-            ))}
+            } )}
           </section>
         )}
       </main>

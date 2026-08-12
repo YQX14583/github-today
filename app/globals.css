@@ -135,6 +135,7 @@ a { color: inherit; }
 .search-ai-note small { display: block; margin-top: 5px; color: #656d76; line-height: 1.45; }
 .search-result-meta { margin-left: 36px; }
 .search-result-meta a { margin-left: auto; color: #0969da; text-decoration: none; }
+.search-result-meta .favorite-button { margin-left: auto; }
 
 @media (max-width: 640px) {
   .search-form textarea { resize: none; font-size: 16px; }

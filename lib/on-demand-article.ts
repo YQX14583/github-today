@@ -4,6 +4,8 @@ import { ARTICLE_PROMPT_VERSION } from "./content-versions";
 import { readToday } from "./data";
 import { cleanReadme, fetchReadme, prepareReadmeForArticle } from "./github";
 import { getCachedReadme, readReadmeCache, setCachedReadme, writeReadmeCache } from "./readme-cache";
+import { findCachedSearchRepository } from "./search";
+import type { RepositoryArticle } from "./types";
 
 const inFlight = new Map<string, Promise<string>>();
 let writeQueue = Promise.resolve();
@@ -31,8 +33,20 @@ async function persistReadme(fullName: string, sourceHash: string, content: stri
 
 export async function getOrGenerateArticle(slug: string) {
   const today = await readToday();
-  const repository = today.repositories.find((item) => item.slug === slug);
-  if (!repository) throw new Error("NOT_TODAY_REPOSITORY");
+  const todayRepository = today.repositories.find((item) => item.slug === slug);
+  const searchRepository = todayRepository ? null : await findCachedSearchRepository(slug);
+  const repository: RepositoryArticle | null = todayRepository || (searchRepository ? {
+    slug,
+    owner: searchRepository.owner,
+    name: searchRepository.name,
+    url: searchRepository.url,
+    description: searchRepository.description,
+    language: searchRepository.language,
+    stars: searchRepository.stars,
+    starsToday: 0,
+    summary: searchRepository.reason
+  } : null);
+  if (!repository) throw new Error("UNKNOWN_REPOSITORY");
 
   const fullName = `${repository.owner}/${repository.name}`;
   const model = process.env.AI_MODEL?.trim() || "";

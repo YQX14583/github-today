@@ -108,6 +108,17 @@ async function readCache(): Promise<SearchCache> {
   }
 }
 
+export async function findCachedSearchRepository(slug: string) {
+  const cache = await readCache();
+  const now = Date.now();
+  for (const entry of Object.values(cache)) {
+    if (now - new Date(entry.createdAt).getTime() > CACHE_TTL) continue;
+    const repository = entry.results.find((item) => `${item.owner}--${item.name}` === slug);
+    if (repository) return repository;
+  }
+  return null;
+}
+
 async function getCached(query: string): Promise<SearchResponse | null> {
   const item = (await readCache())[normalizeQuery(query)];
   if (!item || Date.now() - new Date(item.createdAt).getTime() > CACHE_TTL) return null;
