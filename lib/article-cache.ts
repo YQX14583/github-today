@@ -35,12 +35,15 @@ export async function readArticleCache(): Promise<ArticleCache> {
 export function getCachedArticle(
   cache: ArticleCache,
   fullName: string,
-  sourceHash: string,
   model: string,
   promptVersion: string
 ): ArticleResult | null {
   const entry = cache.entries[fullName.toLowerCase()];
-  if (!entry || entry.sourceHash !== sourceHash || entry.model !== model || entry.promptVersion !== promptVersion) {
+  // README files often change for reasons that do not materially affect the
+  // article (badges, counters, versions, sponsors, and so on). Keep the first
+  // generated article until the model or article prompt is deliberately
+  // changed instead of paying to regenerate it after every README edit.
+  if (!entry || entry.model !== model || entry.promptVersion !== promptVersion) {
     return null;
   }
   entry.lastUsedAt = new Date().toISOString();

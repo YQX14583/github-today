@@ -51,10 +51,8 @@ export async function getOrGenerateArticle(slug: string) {
   const fullName = `${repository.owner}/${repository.name}`;
   const model = process.env.AI_MODEL?.trim() || "";
   const knownHash = repository.sourceHash;
-  if (knownHash) {
-    const cached = getCachedArticle(await readArticleCache(), fullName, knownHash, model, ARTICLE_PROMPT_VERSION);
-    if (cached) return cached.article;
-  }
+  const cachedArticle = getCachedArticle(await readArticleCache(), fullName, model, ARTICLE_PROMPT_VERSION);
+  if (cachedArticle) return cachedArticle.article;
 
   const taskKey = `${fullName.toLowerCase()}:${knownHash || "unknown"}`;
   const existing = inFlight.get(taskKey);
@@ -74,7 +72,7 @@ export async function getOrGenerateArticle(slug: string) {
 
     if (!sourceHash || !articleReadme) throw new Error("README_CACHE_FAILED");
 
-    const cached = getCachedArticle(await readArticleCache(), fullName, sourceHash, model, ARTICLE_PROMPT_VERSION);
+    const cached = getCachedArticle(await readArticleCache(), fullName, model, ARTICLE_PROMPT_VERSION);
     if (cached) return cached.article;
 
     const generated = await generateArticle(repository, articleReadme);
