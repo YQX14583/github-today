@@ -1,12 +1,124 @@
 {
   "version": 1,
   "entries": {
-    "cactus-compute/needle": {
-      "summary": "Needle 2 是一个面向工具调用、设备使用和结构化提取的 45M 参数开源模型，以 14MB 单文件运行，内存占用约 28MB。",
-      "sourceHash": "a08b8860544f0e82222c6b076e06b2486790d45857e80e40a8481b50bc0d683e",
+    "infiniflow/ragflow": {
+      "summary": "RAGFlow 是一个开源检索增强生成引擎，结合 RAG 与 Agent 能力，为大型语言模型提供上下文层，支持深度文档理解与精准引用。",
+      "sourceHash": "75425f498cb505a0dfa61f909e6a8d86f62a658085d4fab076e262eaf4617e07",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-12T23:54:19.287Z"
+      "lastUsedAt": "2026-08-13T23:53:21.981Z"
+    },
+    "lightningpixel/modly": {
+      "summary": "Modly 是一款本地开源桌面应用，利用 GPU 上的 AI 模型将照片转换为 3D 网格模型。",
+      "sourceHash": "4050ac3c4bd34f3f30015b4ac2bd37db27ddaacca63cf3e4adb8ef9b2d4db7e2",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-13T23:53:21.812Z"
+    },
+    "lightricks/ltx-2": {
+      "summary": "LTX-2 是首个基于 DiT 的音频-视频生成基础模型，提供同步音视频生成、高保真输出及多种性能模式，并附带官方 Python 推理与 LoRA 训练工具包。",
+      "sourceHash": "b89c74804be8d59bf47d559f6d2ad25ba712ba77e2289457da4ead24065c4535",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-13T23:53:20.531Z"
+    },
+    "msitarzewski/agency-agents": {
+      "summary": "一个提供多种专业AI代理角色配置的集合，可通过脚本或桌面应用安装到Claude Code等AI编程工具中。",
+      "sourceHash": "b406fc53e42ed6d1fe6beb2e97140159fb3ba71340b24c42de79adde1e4e4899",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-13T23:53:20.347Z"
+    },
+    "3b1b/manim": {
+      "summary": "Manim 是用于创建精确数学动画的 Python 引擎，由 3Blue1Brown 作者开发，支持编程式动画制作。",
+      "sourceHash": "4155c7a0c599152602788680fd6c8b599198612041c904ac25fe827514148fc9",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-13T23:53:20.094Z"
+    },
+    "kepano/obsidian-skills": {
+      "summary": "为 Obsidian 提供代理技能，让 AI 助手通过 CLI 和开放格式创建、编辑 Markdown、Bases 与 JSON Canvas 文件。",
+      "sourceHash": "8209709f07d902e658d59f9062914d694d03687a2bc38bd8f07f11593f1d875f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-13T23:53:19.913Z"
+    },
+    "holaboss-ai/holaos": {
+      "summary": "holaOS 是一个开源的一体化 AI 智能体工作台，可在统一界面中运行 Claude Code、Codex 等智能体，并集成多种工具、应用、浏览器和文件，支持共享记忆与自带模型。",
+      "sourceHash": "6eeba0b88b3c7791fdc52bd3b2357709725f05d67bc6b67dc0c78706edebecbe",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-13T23:53:18.412Z"
+    },
+    "nvidia-nemo/switchyard": {
+      "summary": "Switchyard 是一个用 Rust 编写的 LLM 流量代理和库，用于在多个模型后端间路由请求，并转换 OpenAI 与 Anthropic 等 API 格式。",
+      "sourceHash": "d71a2aa3016792da54da76d897d75e1421101238f964d3caa24f361d9a395646",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-13T23:53:17.009Z"
+    },
+    "smicallef/spiderfoot": {
+      "summary": "SpiderFoot 是一个开源情报自动化工具，集成超过200个数据源，用于威胁情报收集和攻击面测绘，支持Web界面和命令行操作。",
+      "sourceHash": "447fa122238107ff045e4a7496f3a6999647ea88ae99402105b2bc6a034c1ba5",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-13T23:53:16.830Z"
+    },
+    "megadose/holehe": {
+      "summary": "holehe 是一个 Python 工具，通过检查邮箱在 Twitter、Instagram 等网站是否注册，利用忘记密码功能获取相关信息。",
+      "sourceHash": "4eb9f2f18f2ab3f71034b020535ddfff0653843dfb6c0fa511202d57aaaaf3a9",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-13T23:53:16.607Z"
+    },
+    "macro-inc/macro": {
+      "summary": "Macro 是一个用 Rust 开发的开源一体化团队工作空间，整合邮件、聊天、文档、任务、CRM 与 AI 代理，并通过共享记忆和 @ 链接实现统一协作。",
+      "sourceHash": "1a2ad00648d4bf32b0046955d1b53a9b9952103795cf2ae84485710133ccd13a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-13T23:53:15.266Z"
+    },
+    "unslothai/unsloth": {
+      "summary": "Unsloth 是一个本地运行的桌面应用，用于运行和训练大语言模型及扩散模型，支持多种模型类型，并提供微调、部署等功能。",
+      "sourceHash": "8f603579deb4cb59d877d6afc7f89319c69786a18db016657b57fa8b374390f2",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-13T23:53:15.078Z"
+    },
+    "altic-dev/fluidvoice": {
+      "summary": "FluidVoice 是一款开源的 macOS 语音转文字听写应用，支持设备端 AI 增强、命令模式和写作模式，可离线运行。",
+      "sourceHash": "ff17404e4da052165fd853546ed86183c1e10f76420a306f7748c6590f1505a8",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-13T23:53:13.736Z"
+    },
+    "cactus-compute/needle": {
+      "summary": "Needle 2 是一个面向工具调用、设备使用和结构化提取的 45M 参数开源模型，整体仅 14MB，可在约 28MB 内存中运行完整会话。",
+      "sourceHash": "d56e0efa4e39c5dafed91eb7671a65224798e2636815b36ffb621f9a4169b50c",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-13T23:53:12.178Z"
+    },
+    "anthropics/skills": {
+      "summary": "Anthropic 官方发布的 Claude Agent Skills 示例仓库，包含多种技能模板与文档处理技能。",
+      "sourceHash": "e74288aebc542b4cc8b7f31a93813befa9e1342c683f9540cad9ea266b17a6e0",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-13T23:53:10.460Z"
+    },
+    "semantica-agi/semantica": {
+      "summary": "Semantica 是一个开源 Python 框架，用于构建可查询、可审计的上下文知识图谱，以支持 AI 代理的决策记录与追溯。",
+      "sourceHash": "a62093b8efecdc2e706c2fae23255a9baf3446923f895b5e9b3ddafaff56b45f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-13T23:53:10.207Z"
+    },
+    "cathrynlavery/diagram-design": {
+      "summary": "为Claude Code等AI编程工具提供29种编辑级HTML+SVG图表类型的技能包，可生成无阴影、非Mermaid风格的静态图表。",
+      "sourceHash": "1cb46115d40b30d707052c6450ead40877d5dd54594d4f52649dc0824d5c2ad6",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-13T23:53:09.982Z"
     },
     "embabel/embabel-agent": {
       "summary": "Embabel Agent 是一个面向 JVM 的代理框架，用于构建混合 LLM 交互与代码及领域模型的智能体流程，支持目标导向的路径规划，并提供 Java 与 Kotlin 两种使用方式。",
@@ -15,26 +127,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-12T23:54:17.905Z"
     },
-    "lightricks/ltx-2": {
-      "summary": "LTX-2 是首个基于 DiT 的音频-视频生成基础模型，提供同步音视频生成、高保真输出及多种性能模式，并附带官方 Python 推理与 LoRA 训练工具包。",
-      "sourceHash": "b89c74804be8d59bf47d559f6d2ad25ba712ba77e2289457da4ead24065c4535",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-12T23:54:16.193Z"
-    },
     "localsend/localsend": {
       "summary": "LocalSend 是一个开源的跨平台文件传输应用，通过 REST API 和 HTTPS 加密实现设备间安全通信，无需互联网或第三方服务器。",
       "sourceHash": "ea635baedf55b82fcfa3aeac4ff73f1f33d66c9e030c2c4472c735d5c7daf1f3",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-12T23:54:14.781Z"
-    },
-    "smicallef/spiderfoot": {
-      "summary": "SpiderFoot 是一个开源情报自动化工具，集成超过200个数据源，用于威胁情报收集和攻击面测绘，支持Web界面和命令行操作。",
-      "sourceHash": "447fa122238107ff045e4a7496f3a6999647ea88ae99402105b2bc6a034c1ba5",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-12T23:54:13.335Z"
     },
     "zuodaotech/everyone-can-use-english": {
       "summary": "一个利用AI辅助英语学习的开源项目，提供网页版、浏览器插件及桌面版应用，支持YouTube和Netflix等平台。",
@@ -43,26 +141,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-12T23:54:12.067Z"
     },
-    "nvidia-nemo/switchyard": {
-      "summary": "Switchyard 是一个用 Rust 编写的 LLM 流量代理和库，用于在多个模型后端间路由请求，并转换 OpenAI 与 Anthropic 等 API 格式。",
-      "sourceHash": "d71a2aa3016792da54da76d897d75e1421101238f964d3caa24f361d9a395646",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-12T23:54:10.747Z"
-    },
     "paperclipai/paperclip": {
       "summary": "Paperclip 是用于协调多个 AI 智能体协同工作的开源编排平台。",
       "sourceHash": "bba4bbfc50767df631ce45f246f79e80b561c005167889ac22d06304d39233a9",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-12T23:54:09.358Z"
-    },
-    "infiniflow/ragflow": {
-      "summary": "RAGFlow 是一个开源检索增强生成引擎，结合 RAG 与 Agent 能力，为大型语言模型提供上下文层，支持深度文档理解与精准引用。",
-      "sourceHash": "75425f498cb505a0dfa61f909e6a8d86f62a658085d4fab076e262eaf4617e07",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-12T23:54:09.142Z"
     },
     "hugohe3/ppt-master": {
       "summary": "PPT Master 是一个用 Python 编写的 AI 工具，可将文档或主题直接生成带原生形状、动画、图表和音频旁白的 PowerPoint 演示文稿，并支持自定义模板。",
@@ -85,40 +169,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-12T23:54:04.758Z"
     },
-    "msitarzewski/agency-agents": {
-      "summary": "一个提供多种专业AI代理角色配置的集合，可通过脚本或桌面应用安装到Claude Code等AI编程工具中。",
-      "sourceHash": "b406fc53e42ed6d1fe6beb2e97140159fb3ba71340b24c42de79adde1e4e4899",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-12T23:54:03.216Z"
-    },
     "stablyai/orca": {
       "summary": "Orca 是一个用于并行运行多个 AI 编码代理的桌面应用，支持在独立工作树中同时运行 Codex、Claude Code 等，并提供移动端配套应用。",
       "sourceHash": "f785fc66a2838a61fd35f45484f8ffd5190539bea6f7ecdeb8d193805486a166",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-12T23:54:02.984Z"
-    },
-    "semantica-agi/semantica": {
-      "summary": "Semantica 是一个开源 Python 框架，用于构建可查询、可审计的上下文知识图谱，以支持 AI 代理的决策记录与追溯。",
-      "sourceHash": "a62093b8efecdc2e706c2fae23255a9baf3446923f895b5e9b3ddafaff56b45f",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-12T23:54:02.579Z"
-    },
-    "macro-inc/macro": {
-      "summary": "Macro 是一个用 Rust 开发的开源一体化团队工作空间，整合邮件、聊天、文档、任务、CRM 与 AI 代理，并通过共享记忆和 @ 链接实现统一协作。",
-      "sourceHash": "1a2ad00648d4bf32b0046955d1b53a9b9952103795cf2ae84485710133ccd13a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-12T23:54:02.274Z"
-    },
-    "cathrynlavery/diagram-design": {
-      "summary": "为Claude Code等AI编程工具提供29种编辑级图表类型的技能包，可生成自包含HTML+SVG图表，并自动适配品牌风格。",
-      "sourceHash": "208075012a72650abcd5b825375f9df5f1f754a23e39e8caa104f97187895a01",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-12T23:54:00.808Z"
     },
     "primeintellect-ai/prime-agent": {
       "summary": "一个开源的自我改进RLM智能体，面向编码工作流和长时间自主任务。",
@@ -168,20 +224,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-11T23:53:26.384Z"
-    },
-    "3b1b/manim": {
-      "summary": "Manim 是用于创建精确数学动画的 Python 引擎，由 3Blue1Brown 作者开发，支持编程式动画制作。",
-      "sourceHash": "4155c7a0c599152602788680fd6c8b599198612041c904ac25fe827514148fc9",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T23:53:26.243Z"
-    },
-    "anthropics/skills": {
-      "summary": "Anthropic 官方发布的 Claude Agent Skills 示例仓库，包含多种技能模板与文档处理技能。",
-      "sourceHash": "e74288aebc542b4cc8b7f31a93813befa9e1342c683f9540cad9ea266b17a6e0",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T23:53:26.073Z"
     },
     "vitali87/code-graph-rag": {
       "summary": "Code-Graph-RAG 是一个基于知识图谱的多语言代码库检索增强生成工具，支持自然语言查询、编辑和优化代码。",
