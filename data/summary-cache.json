@@ -1,19 +1,96 @@
 {
   "version": 1,
   "entries": {
+    "citrolabs/ego-lite": {
+      "summary": "ego-lite 是一款专为 AI 代理设计的浏览器，可共享登录状态并高效执行自动化任务。",
+      "sourceHash": "2f28b057f01890850e7229efa39e3caa964ad09610d8ac2cef5512eb12ef2d02",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-15T23:30:40.779Z"
+    },
+    "hkuds/cli-anything": {
+      "summary": "CLI-Anything 是一个为 AI 智能体生成命令行接口的工具，让软件能被智能体直接调用。",
+      "sourceHash": "ac9dfd84d79d1400d7a2b4d9361107de2f004b35cac6c0c86e30cf1e7b128513",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-15T23:30:40.606Z"
+    },
     "tooljet/tooljet": {
       "summary": "ToolJet 是一个开源低代码平台，用于快速构建内部工具、仪表盘、业务应用和工作流，并支持连接多种数据源。",
       "sourceHash": "588203869bb360fb4f4bc32672254b7bfbbfe0daeb548b843cb68ddab21b2844",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-14T23:32:28.670Z"
+      "lastUsedAt": "2026-08-15T23:30:39.543Z"
     },
-    "unslothai/unsloth": {
-      "summary": "Unsloth 是一个本地运行的桌面应用，用于运行和训练大语言模型及扩散模型，支持微调、强化学习等，并可通过桌面端、网页端或代码库使用。",
-      "sourceHash": "8ff258cc4c68b86deaeff457122e06116937647fcf86ae2caa907faf7407e985",
+    "altic-dev/fluidvoice": {
+      "summary": "FluidVoice 是一款开源的 macOS 语音转文字听写应用，支持设备端 AI 增强、命令模式和写作模式，可离线运行。",
+      "sourceHash": "ff17404e4da052165fd853546ed86183c1e10f76420a306f7748c6590f1505a8",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-14T23:32:26.859Z"
+      "lastUsedAt": "2026-08-15T23:30:39.345Z"
+    },
+    "megadose/holehe": {
+      "summary": "holehe 是一个 Python 工具，通过检查邮箱在 Twitter、Instagram 等网站是否注册，利用忘记密码功能获取相关信息。",
+      "sourceHash": "4eb9f2f18f2ab3f71034b020535ddfff0653843dfb6c0fa511202d57aaaaf3a9",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-15T23:30:39.160Z"
+    },
+    "github/spec-kit": {
+      "summary": "Spec Kit 是一个开源工具包，通过规范驱动开发流程，帮助用户在使用任意 AI 编程代理时先定义再构建软件。",
+      "sourceHash": "3dbdac799d8593918bc1e922d54964b3bf82e3daa44a8197820d397d9a84eaed",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-15T23:30:38.900Z"
+    },
+    "makazhanalpamys/soup": {
+      "summary": "Soup 是一个通过 YAML 配置即可微调大语言模型的命令行工具，支持多种训练任务，并能在低显存 GPU 上运行。",
+      "sourceHash": "aede757d96b5df85bc2125bdba4e5e8c62056ff671382746674e34d3cbf418b4",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-15T23:30:38.742Z"
+    },
+    "public-apis/public-apis": {
+      "summary": "这是一个由社区维护的免费公共API集合列表，按类别整理，方便开发者查找和使用。",
+      "sourceHash": "0240ef67ad8e1931396dbbc36ce85077fe389c582672d15d91f083911793fa8c",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-15T23:30:37.549Z"
+    },
+    "unslothai/unsloth": {
+      "summary": "Unsloth 是一个本地桌面应用，用于运行和训练大语言模型及扩散模型，支持微调、强化学习等，并兼容多种硬件平台。",
+      "sourceHash": "e9434d3f9850f1a815a966711caa536418f2bbf7e6466ae61699429284247e27",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-15T23:30:36.375Z"
+    },
+    "cactus-compute/needle": {
+      "summary": "Needle 2 是一个面向工具调用、设备使用和结构化提取的 45M 参数开源模型，整体仅 14MB，可在约 28MB 内存中运行完整会话。",
+      "sourceHash": "f7e2d0b860eb6c3bbf85d275e3cf25f9d1201746bdeb36cc63a046944abe12e4",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-15T23:30:35.006Z"
+    },
+    "cursor/plugins": {
+      "summary": "Cursor 官方插件仓库，收录面向开发者工具、框架和 SaaS 产品的插件，每个插件含独立清单文件。",
+      "sourceHash": "4d5dedd08adc9eced706aa837954ecda40c4df326f6dd24cc7fc8b78dcabce38",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-15T23:30:33.641Z"
+    },
+    "cathrynlavery/diagram-design": {
+      "summary": "为 Claude Code 等 AI 编程工具提供 29 种编辑级 HTML+SVG 图表模板的插件，可生成无阴影、非 Mermaid 风格的自包含图表。",
+      "sourceHash": "9751342d3e765fe1973c46263ec98a33fe013435b527701895c9820e83062c96",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-15T23:30:33.167Z"
+    },
+    "cordiverse/cordis": {
+      "summary": "Cordis 是一个时空组合性的元框架，提供编程范式以支持时空组合，目前处于积极开发阶段。",
+      "sourceHash": "0f1bd4d43f6d98210f8324b4ac8035ea552d3ecc8821918c1310082db050049a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-15T23:30:32.934Z"
     },
     "opencut-app/opencut": {
       "summary": "OpenCut 是一款免费开源的视频编辑器，支持网页、桌面和移动端，目前正在重写以提供插件架构和跨平台支持。",
@@ -43,13 +120,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-14T23:32:21.727Z"
     },
-    "cursor/plugins": {
-      "summary": "Cursor 官方插件仓库，收录面向开发者工具、框架和 SaaS 产品的插件，每个插件含独立清单文件。",
-      "sourceHash": "4d5dedd08adc9eced706aa837954ecda40c4df326f6dd24cc7fc8b78dcabce38",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-14T23:32:20.073Z"
-    },
     "infiniflow/ragflow": {
       "summary": "RAGFlow 是一个开源检索增强生成引擎，结合 RAG 与 Agent 能力，为大型语言模型提供上下文层，支持深度文档理解与精准引用。",
       "sourceHash": "75425f498cb505a0dfa61f909e6a8d86f62a658085d4fab076e262eaf4617e07",
@@ -64,26 +134,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-14T23:32:18.349Z"
     },
-    "github/spec-kit": {
-      "summary": "Spec Kit 是一个开源工具包，通过规范驱动开发流程，帮助用户在使用任意 AI 编程代理时先定义再构建软件。",
-      "sourceHash": "3dbdac799d8593918bc1e922d54964b3bf82e3daa44a8197820d397d9a84eaed",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-14T23:32:18.114Z"
-    },
     "holaboss-ai/holaos": {
       "summary": "holaOS 是一个开源的一体化 AI 智能体工作台，可在统一界面中运行 Claude Code、Codex 等智能体，并集成多种工具、应用、浏览器和文件，支持共享记忆与自带模型。",
       "sourceHash": "6eeba0b88b3c7791fdc52bd3b2357709725f05d67bc6b67dc0c78706edebecbe",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-14T23:32:16.644Z"
-    },
-    "citrolabs/ego-lite": {
-      "summary": "ego-lite 是一款专为 AI 代理设计的浏览器，可共享登录状态并高效执行自动化任务。",
-      "sourceHash": "2f28b057f01890850e7229efa39e3caa964ad09610d8ac2cef5512eb12ef2d02",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-14T23:32:16.453Z"
     },
     "smicallef/spiderfoot": {
       "summary": "SpiderFoot 是一个开源情报自动化工具，集成超过200个数据源，用于威胁情报收集和攻击面测绘，支持Web界面和命令行操作。",
@@ -98,27 +154,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-14T23:32:14.751Z"
-    },
-    "megadose/holehe": {
-      "summary": "holehe 是一个 Python 工具，通过检查邮箱在 Twitter、Instagram 等网站是否注册，利用忘记密码功能获取相关信息。",
-      "sourceHash": "4eb9f2f18f2ab3f71034b020535ddfff0653843dfb6c0fa511202d57aaaaf3a9",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-14T23:32:14.387Z"
-    },
-    "cactus-compute/needle": {
-      "summary": "Needle 2 是一个用于工具调用、设备使用和结构化提取的 45M 参数开源模型，整个模型仅 14MB，可在约 28MB 内存中运行完整会话。",
-      "sourceHash": "35cb22b1896adf95104b27e8deeae72e5d6ddc1bc2ef97cb4f84f77714807fa0",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-14T23:32:14.178Z"
-    },
-    "cathrynlavery/diagram-design": {
-      "summary": "为 Claude Code 等 AI 编程工具提供 29 种编辑级 HTML+SVG 图表模板的插件，可生成无阴影、非 Mermaid 风格的自包含图表。",
-      "sourceHash": "9751342d3e765fe1973c46263ec98a33fe013435b527701895c9820e83062c96",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-14T23:32:12.821Z"
     },
     "lightricks/ltx-2": {
       "summary": "LTX-2 是首个基于 DiT 的音频-视频生成基础模型，提供同步音视频生成、高保真输出及多种性能模式，并附带官方 Python 推理与 LoRA 训练工具包。",
@@ -154,13 +189,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-13T23:53:17.009Z"
-    },
-    "altic-dev/fluidvoice": {
-      "summary": "FluidVoice 是一款开源的 macOS 语音转文字听写应用，支持设备端 AI 增强、命令模式和写作模式，可离线运行。",
-      "sourceHash": "ff17404e4da052165fd853546ed86183c1e10f76420a306f7748c6590f1505a8",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-13T23:53:13.736Z"
     },
     "anthropics/skills": {
       "summary": "Anthropic 官方发布的 Claude Agent Skills 示例仓库，包含多种技能模板与文档处理技能。",
