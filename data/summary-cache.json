@@ -1,6 +1,55 @@
 {
   "version": 1,
   "entries": {
+    "cactus-compute/needle": {
+      "summary": "Needle 2 是一个面向工具调用、设备使用和结构化提取的 45M 参数开源模型，整体仅 14MB，可在约 28MB 内存中运行完整会话。",
+      "sourceHash": "f7e2d0b860eb6c3bbf85d275e3cf25f9d1201746bdeb36cc63a046944abe12e4",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-16T23:30:18.624Z"
+    },
+    "tooljet/tooljet": {
+      "summary": "ToolJet 是一个开源低代码平台，用于快速构建内部工具、仪表盘、业务应用和工作流，并支持连接多种数据源。",
+      "sourceHash": "588203869bb360fb4f4bc32672254b7bfbbfe0daeb548b843cb68ddab21b2844",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-16T23:30:18.372Z"
+    },
+    "public-apis/public-apis": {
+      "summary": "这是一个由社区维护的免费公共API列表，按类别整理，方便开发者查找和使用。",
+      "sourceHash": "38b373149519ed7d4b1e8b270c300d1500f371a50c2feddff8bffcfae12f123c",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-16T23:30:18.142Z"
+    },
+    "opencut-app/opencut": {
+      "summary": "OpenCut 是一款免费开源的视频编辑器，支持网页、桌面和移动端，目前正在重写以提供插件架构和跨平台支持。",
+      "sourceHash": "d6c998d101f931f3c10ca58bbf8dcfed61b226893765c2115cf533e3844e8101",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-16T23:30:16.250Z"
+    },
+    "unslothai/unsloth": {
+      "summary": "Unsloth 是一个本地桌面应用，用于运行和训练大语言模型及扩散模型，支持微调、强化学习等，并兼容多种硬件平台。",
+      "sourceHash": "e9434d3f9850f1a815a966711caa536418f2bbf7e6466ae61699429284247e27",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-16T23:30:15.905Z"
+    },
+    "basecamp/omarchy": {
+      "summary": "Omarchy 是由 DHH 开发的一款美观、现代且高度定制化的 Linux 发行版，提供完整的手册和丰富的工具配置。",
+      "sourceHash": "8703b466ae1dad95c1d2d0e5296a1844f61f982f449580773dee5dae8303bf14",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-16T23:30:15.536Z"
+    },
+    "cordiverse/cordis": {
+      "summary": "Cordis 是一个时空组合性的元框架，提供编程范式以支持时空组合，目前处于积极开发阶段。",
+      "sourceHash": "0f1bd4d43f6d98210f8324b4ac8035ea552d3ecc8821918c1310082db050049a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-16T23:30:07.995Z"
+    },
     "citrolabs/ego-lite": {
       "summary": "ego-lite 是一款专为 AI 代理设计的浏览器，可共享登录状态并高效执行自动化任务。",
       "sourceHash": "2f28b057f01890850e7229efa39e3caa964ad09610d8ac2cef5512eb12ef2d02",
@@ -14,13 +63,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-15T23:30:40.606Z"
-    },
-    "tooljet/tooljet": {
-      "summary": "ToolJet 是一个开源低代码平台，用于快速构建内部工具、仪表盘、业务应用和工作流，并支持连接多种数据源。",
-      "sourceHash": "588203869bb360fb4f4bc32672254b7bfbbfe0daeb548b843cb68ddab21b2844",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-15T23:30:39.543Z"
     },
     "altic-dev/fluidvoice": {
       "summary": "FluidVoice 是一款开源的 macOS 语音转文字听写应用，支持设备端 AI 增强、命令模式和写作模式，可离线运行。",
@@ -50,27 +92,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-15T23:30:38.742Z"
     },
-    "public-apis/public-apis": {
-      "summary": "这是一个由社区维护的免费公共API集合列表，按类别整理，方便开发者查找和使用。",
-      "sourceHash": "0240ef67ad8e1931396dbbc36ce85077fe389c582672d15d91f083911793fa8c",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-15T23:30:37.549Z"
-    },
-    "unslothai/unsloth": {
-      "summary": "Unsloth 是一个本地桌面应用，用于运行和训练大语言模型及扩散模型，支持微调、强化学习等，并兼容多种硬件平台。",
-      "sourceHash": "e9434d3f9850f1a815a966711caa536418f2bbf7e6466ae61699429284247e27",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-15T23:30:36.375Z"
-    },
-    "cactus-compute/needle": {
-      "summary": "Needle 2 是一个面向工具调用、设备使用和结构化提取的 45M 参数开源模型，整体仅 14MB，可在约 28MB 内存中运行完整会话。",
-      "sourceHash": "f7e2d0b860eb6c3bbf85d275e3cf25f9d1201746bdeb36cc63a046944abe12e4",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-15T23:30:35.006Z"
-    },
     "cursor/plugins": {
       "summary": "Cursor 官方插件仓库，收录面向开发者工具、框架和 SaaS 产品的插件，每个插件含独立清单文件。",
       "sourceHash": "4d5dedd08adc9eced706aa837954ecda40c4df326f6dd24cc7fc8b78dcabce38",
@@ -84,20 +105,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-15T23:30:33.167Z"
-    },
-    "cordiverse/cordis": {
-      "summary": "Cordis 是一个时空组合性的元框架，提供编程范式以支持时空组合，目前处于积极开发阶段。",
-      "sourceHash": "0f1bd4d43f6d98210f8324b4ac8035ea552d3ecc8821918c1310082db050049a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-15T23:30:32.934Z"
-    },
-    "opencut-app/opencut": {
-      "summary": "OpenCut 是一款免费开源的视频编辑器，支持网页、桌面和移动端，目前正在重写以提供插件架构和跨平台支持。",
-      "sourceHash": "d6c998d101f931f3c10ca58bbf8dcfed61b226893765c2115cf533e3844e8101",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-14T23:32:24.780Z"
     },
     "rustdesk/rustdesk": {
       "summary": "RustDesk 是一个用 Rust 编写的开源远程桌面应用，支持自托管，可作为 TeamViewer 的替代品。",

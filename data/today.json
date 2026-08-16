@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-16",
-  "updatedAt": "2026-08-15T23:30:40.779Z",
+  "date": "2026-08-17",
+  "updatedAt": "2026-08-16T23:30:18.624Z",
   "repositories": [
     {
       "owner": "cordiverse",
@@ -8,47 +8,23 @@
       "url": "https://github.com/cordiverse/cordis",
       "description": "Meta-Framework of Spatiotemporal Composability",
       "language": "TypeScript",
-      "stars": 4044,
-      "starsToday": 616,
+      "stars": 4696,
+      "starsToday": 719,
       "slug": "cordiverse--cordis",
       "sourceHash": "0f1bd4d43f6d98210f8324b4ac8035ea552d3ecc8821918c1310082db050049a",
       "summary": "Cordis 是一个时空组合性的元框架，提供编程范式以支持时空组合，目前处于积极开发阶段。"
     },
     {
-      "owner": "cathrynlavery",
-      "name": "diagram-design",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
-      "language": "HTML",
-      "stars": 18570,
-      "starsToday": 1619,
-      "slug": "cathrynlavery--diagram-design",
-      "sourceHash": "9751342d3e765fe1973c46263ec98a33fe013435b527701895c9820e83062c96",
-      "summary": "为 Claude Code 等 AI 编程工具提供 29 种编辑级 HTML+SVG 图表模板的插件，可生成无阴影、非 Mermaid 风格的自包含图表。"
-    },
-    {
-      "owner": "cursor",
-      "name": "plugins",
-      "url": "https://github.com/cursor/plugins",
-      "description": "Cursor plugin specification and official plugins",
-      "language": "TypeScript",
-      "stars": 2945,
-      "starsToday": 152,
-      "slug": "cursor--plugins",
-      "sourceHash": "4d5dedd08adc9eced706aa837954ecda40c4df326f6dd24cc7fc8b78dcabce38",
-      "summary": "Cursor 官方插件仓库，收录面向开发者工具、框架和 SaaS 产品的插件，每个插件含独立清单文件。"
-    },
-    {
-      "owner": "cactus-compute",
-      "name": "needle",
-      "url": "https://github.com/cactus-compute/needle",
-      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
-      "language": "Python",
-      "stars": 6053,
-      "starsToday": 551,
-      "slug": "cactus-compute--needle",
-      "sourceHash": "f7e2d0b860eb6c3bbf85d275e3cf25f9d1201746bdeb36cc63a046944abe12e4",
-      "summary": "Needle 2 是一个面向工具调用、设备使用和结构化提取的 45M 参数开源模型，整体仅 14MB，可在约 28MB 内存中运行完整会话。"
+      "owner": "basecamp",
+      "name": "omarchy",
+      "url": "https://github.com/basecamp/omarchy",
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "language": "Shell",
+      "stars": 25352,
+      "starsToday": 225,
+      "slug": "basecamp--omarchy",
+      "sourceHash": "8703b466ae1dad95c1d2d0e5296a1844f61f982f449580773dee5dae8303bf14",
+      "summary": "Omarchy 是由 DHH 开发的一款美观、现代且高度定制化的 Linux 发行版，提供完整的手册和丰富的工具配置。"
     },
     {
       "owner": "unslothai",
@@ -56,11 +32,23 @@
       "url": "https://github.com/unslothai/unsloth",
       "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
       "language": "Python",
-      "stars": 72027,
-      "starsToday": 435,
+      "stars": 72542,
+      "starsToday": 580,
       "slug": "unslothai--unsloth",
       "sourceHash": "e9434d3f9850f1a815a966711caa536418f2bbf7e6466ae61699429284247e27",
       "summary": "Unsloth 是一个本地桌面应用，用于运行和训练大语言模型及扩散模型，支持微调、强化学习等，并兼容多种硬件平台。"
+    },
+    {
+      "owner": "OpenCut-app",
+      "name": "OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative",
+      "language": "TypeScript",
+      "stars": 83858,
+      "starsToday": 134,
+      "slug": "OpenCut-app--OpenCut",
+      "sourceHash": "d6c998d101f931f3c10ca58bbf8dcfed61b226893765c2115cf533e3844e8101",
+      "summary": "OpenCut 是一款免费开源的视频编辑器，支持网页、桌面和移动端，目前正在重写以提供插件架构和跨平台支持。"
     },
     {
       "owner": "public-apis",
@@ -68,59 +56,11 @@
       "url": "https://github.com/public-apis/public-apis",
       "description": "A collective list of free APIs",
       "language": "Python",
-      "stars": 460126,
-      "starsToday": 2476,
+      "stars": 461680,
+      "starsToday": 1583,
       "slug": "public-apis--public-apis",
-      "sourceHash": "0240ef67ad8e1931396dbbc36ce85077fe389c582672d15d91f083911793fa8c",
-      "summary": "这是一个由社区维护的免费公共API集合列表，按类别整理，方便开发者查找和使用。"
-    },
-    {
-      "owner": "MakazhanAlpamys",
-      "name": "Soup",
-      "url": "https://github.com/MakazhanAlpamys/Soup",
-      "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
-      "language": "Python",
-      "stars": 1637,
-      "starsToday": 303,
-      "slug": "MakazhanAlpamys--Soup",
-      "sourceHash": "aede757d96b5df85bc2125bdba4e5e8c62056ff671382746674e34d3cbf418b4",
-      "summary": "Soup 是一个通过 YAML 配置即可微调大语言模型的命令行工具，支持多种训练任务，并能在低显存 GPU 上运行。"
-    },
-    {
-      "owner": "github",
-      "name": "spec-kit",
-      "url": "https://github.com/github/spec-kit",
-      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
-      "language": "Python",
-      "stars": 129174,
-      "starsToday": 901,
-      "slug": "github--spec-kit",
-      "sourceHash": "3dbdac799d8593918bc1e922d54964b3bf82e3daa44a8197820d397d9a84eaed",
-      "summary": "Spec Kit 是一个开源工具包，通过规范驱动开发流程，帮助用户在使用任意 AI 编程代理时先定义再构建软件。"
-    },
-    {
-      "owner": "megadose",
-      "name": "holehe",
-      "url": "https://github.com/megadose/holehe",
-      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
-      "language": "Python",
-      "stars": 13108,
-      "starsToday": 389,
-      "slug": "megadose--holehe",
-      "sourceHash": "4eb9f2f18f2ab3f71034b020535ddfff0653843dfb6c0fa511202d57aaaaf3a9",
-      "summary": "holehe 是一个 Python 工具，通过检查邮箱在 Twitter、Instagram 等网站是否注册，利用忘记密码功能获取相关信息。"
-    },
-    {
-      "owner": "altic-dev",
-      "name": "FluidVoice",
-      "url": "https://github.com/altic-dev/FluidVoice",
-      "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. DM us on X for an easter egg 😉 - https://x.com/fluidvoiceapp",
-      "language": "Swift",
-      "stars": 10311,
-      "starsToday": 165,
-      "slug": "altic-dev--FluidVoice",
-      "sourceHash": "ff17404e4da052165fd853546ed86183c1e10f76420a306f7748c6590f1505a8",
-      "summary": "FluidVoice 是一款开源的 macOS 语音转文字听写应用，支持设备端 AI 增强、命令模式和写作模式，可离线运行。"
+      "sourceHash": "38b373149519ed7d4b1e8b270c300d1500f371a50c2feddff8bffcfae12f123c",
+      "summary": "这是一个由社区维护的免费公共API列表，按类别整理，方便开发者查找和使用。"
     },
     {
       "owner": "ToolJet",
@@ -128,35 +68,23 @@
       "url": "https://github.com/ToolJet/ToolJet",
       "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
       "language": "JavaScript",
-      "stars": 39517,
-      "starsToday": 553,
+      "stars": 40000,
+      "starsToday": 446,
       "slug": "ToolJet--ToolJet",
       "sourceHash": "588203869bb360fb4f4bc32672254b7bfbbfe0daeb548b843cb68ddab21b2844",
       "summary": "ToolJet 是一个开源低代码平台，用于快速构建内部工具、仪表盘、业务应用和工作流，并支持连接多种数据源。"
     },
     {
-      "owner": "HKUDS",
-      "name": "CLI-Anything",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "owner": "cactus-compute",
+      "name": "needle",
+      "url": "https://github.com/cactus-compute/needle",
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
       "language": "Python",
-      "stars": 47333,
-      "starsToday": 100,
-      "slug": "HKUDS--CLI-Anything",
-      "sourceHash": "ac9dfd84d79d1400d7a2b4d9361107de2f004b35cac6c0c86e30cf1e7b128513",
-      "summary": "CLI-Anything 是一个为 AI 智能体生成命令行接口的工具，让软件能被智能体直接调用。"
-    },
-    {
-      "owner": "citrolabs",
-      "name": "ego-lite",
-      "url": "https://github.com/citrolabs/ego-lite",
-      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
-      "language": "JavaScript",
-      "stars": 10942,
-      "starsToday": 546,
-      "slug": "citrolabs--ego-lite",
-      "sourceHash": "2f28b057f01890850e7229efa39e3caa964ad09610d8ac2cef5512eb12ef2d02",
-      "summary": "ego-lite 是一款专为 AI 代理设计的浏览器，可共享登录状态并高效执行自动化任务。"
+      "stars": 6541,
+      "starsToday": 447,
+      "slug": "cactus-compute--needle",
+      "sourceHash": "f7e2d0b860eb6c3bbf85d275e3cf25f9d1201746bdeb36cc63a046944abe12e4",
+      "summary": "Needle 2 是一个面向工具调用、设备使用和结构化提取的 45M 参数开源模型，整体仅 14MB，可在约 28MB 内存中运行完整会话。"
     }
   ]
 }
