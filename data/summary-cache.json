@@ -1,12 +1,96 @@
 {
   "version": 1,
   "entries": {
-    "agalwood/motrix": {
-      "summary": "Motrix 是一款支持 HTTP、FTP、BitTorrent 和磁力链接的现代化桌面下载管理器，提供简洁界面、暗色模式及无头服务器模式，适用于桌面和 NAS 等场景。",
-      "sourceHash": "783fcad9a06fd52bdc1f02d3d4ea77e10f9b2782c85dca4343f4a0bc08a2561c",
+    "opencut-app/opencut": {
+      "summary": "OpenCut 是一款免费开源的视频编辑器，支持网页、桌面和移动端，目前正在重写以提供插件架构和跨平台支持。",
+      "sourceHash": "d6c998d101f931f3c10ca58bbf8dcfed61b226893765c2115cf533e3844e8101",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-17T23:32:40.784Z"
+      "lastUsedAt": "2026-08-18T23:32:42.675Z"
+    },
+    "genlayerlabs/genlayer-project-boilerplate": {
+      "summary": "GenLayer 项目样板代码，包含足球博彩智能合约、测试、前端及部署脚本，用于快速开发与测试 GenLayer 应用。",
+      "sourceHash": "0417de6d6cafb5a9a15c34deeb34ef9bb9261a3a5443efbddc49634fb87b0fc7",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-18T23:32:42.410Z"
+    },
+    "bojieli/ai-agent-book": {
+      "summary": "《深入理解 AI Agent：设计原理与工程实践》一书的开源仓库，包含全书正文、PDF 电子书及按章节配套的 Python 实验代码。",
+      "sourceHash": "df12cc9701f28602b70ca9ee2c05fa9cb9fca2720e3f7ea3f1b717a958bd4eff",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-18T23:32:40.241Z"
+    },
+    "jundot/omlx": {
+      "summary": "oMLX 是一款面向 Apple Silicon 的 LLM 推理服务器，支持连续批处理和分层 KV 缓存，可通过 macOS 菜单栏管理。",
+      "sourceHash": "976892fd83edc2942396850b0883871875096b5c7bf35b4c4cec31b1679dd5b1",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-18T23:32:37.984Z"
+    },
+    "nawfalmotii79/plfm_radar": {
+      "summary": "AERIS-10 是一个开源的 10.5 GHz 相控阵雷达系统，采用线性调频脉冲调制，提供 3 公里和 20 公里两种版本，适用于研究人员、无人机开发者及 SDR 爱好者进行波束成形、脉冲压缩和目标跟踪等实验。",
+      "sourceHash": "4d5edf226cebb0e0c660c366e623b3d37dd99f53cd0fac9c99454848793ad454",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-18T23:32:37.773Z"
+    },
+    "agalwood/motrix": {
+      "summary": "Motrix 是一款支持 HTTP、FTP、BitTorrent 和磁力链接的桌面下载管理器，提供简洁界面、暗色模式及无头服务器模式，并支持插件扩展。",
+      "sourceHash": "cce5839de7c556a36785c0b6e44a77ddf3f44ae36cc6f5d995d57d12e05b57de",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-18T23:32:35.592Z"
+    },
+    "basecamp/omarchy": {
+      "summary": "Omarchy 是由 DHH 开发的一款美观、现代且高度定制化的 Linux 发行版，提供完整的手册和丰富的工具配置。",
+      "sourceHash": "8703b466ae1dad95c1d2d0e5296a1844f61f982f449580773dee5dae8303bf14",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-18T23:32:33.389Z"
+    },
+    "public-apis/public-apis": {
+      "summary": "一个由社区维护的免费API集合列表，按类别整理并提供索引，方便开发者查找和使用。",
+      "sourceHash": "d69c322187b014edaf35ee5c6501dffc597f918a46d1c6805bb7f9476e9642f9",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-18T23:32:33.173Z"
+    },
+    "mukul975/anthropic-cybersecurity-skills": {
+      "summary": "面向AI代理的开源网络安全技能库，含817个结构化技能，覆盖29个安全领域并映射至六个行业框架。",
+      "sourceHash": "05fd9dfb37d0433d922db37c18846bf44e39f17fb146b649c5dbefe55bffc878",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-18T23:32:30.594Z"
+    },
+    "volcengine/openviking": {
+      "summary": "OpenViking 是一个面向 AI 智能体的开源上下文数据库，将记忆、资源和技能统一为虚拟文件系统，用于管理智能体的长期上下文。",
+      "sourceHash": "5643602d77bdf4aa25ca6292dbe184738fe36beb246b814362c79ef616e4ae56",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-18T23:32:30.317Z"
+    },
+    "akitaonrails/ai-memory": {
+      "summary": "为AI编码代理提供长期记忆的Rust工具，可在不同代理CLI间延续任务上下文。",
+      "sourceHash": "b8d8ba5a0b016951f85e3757080a0a00f6d53587312b850721bc9d60e52b3ca8",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-18T23:32:28.204Z"
+    },
+    "chaitanyagiri/munder-difflin": {
+      "summary": "Munder Difflin 是一个桌面应用，将多个终端 AI 代理接入统一界面，通过编排器协调任务并支持语音控制。",
+      "sourceHash": "fbec91e6d4c31b637304b51b5b2574c28c1deb84f4c0b9a7d47abfd61bb64edb",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-18T23:32:26.191Z"
+    },
+    "harry0703/moneyprinterturbo": {
+      "summary": "MoneyPrinterTurbo 是一个基于 AI 大模型和自动化工作流的开源工具，可根据主题或关键词一键生成高清短视频。",
+      "sourceHash": "148180414a0dd729508ba64ce3c4ee11bef8f7e4848c7c34aba908431bdcf600",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-18T23:32:23.875Z"
     },
     "cordiverse/cordis": {
       "summary": "Cordis 是一个时空组合性的元框架，提供编程范式以支持时空组合，目前处于积极开发阶段。",
@@ -22,13 +106,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-17T23:32:38.237Z"
     },
-    "jundot/omlx": {
-      "summary": "oMLX 是一款面向 Apple Silicon 的 LLM 推理服务器，支持连续批处理和分层 KV 缓存，可通过 macOS 菜单栏管理。",
-      "sourceHash": "976892fd83edc2942396850b0883871875096b5c7bf35b4c4cec31b1679dd5b1",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-17T23:32:36.168Z"
-    },
     "santifer/career-ops": {
       "summary": "一个开源AI求职工具，可在本地AI编程命令行中扫描职位、按A-F评分标准评估、定制简历并跟踪申请进度。",
       "sourceHash": "ab1538c3bba684520a200cd8c3b7b3644e4788d684249a1125eea480835e953b",
@@ -42,20 +119,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-17T23:32:31.882Z"
-    },
-    "mukul975/anthropic-cybersecurity-skills": {
-      "summary": "面向AI代理的开源网络安全技能库，含817个结构化技能，覆盖29个安全领域并映射至六个行业框架。",
-      "sourceHash": "05fd9dfb37d0433d922db37c18846bf44e39f17fb146b649c5dbefe55bffc878",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-17T23:32:29.800Z"
-    },
-    "akitaonrails/ai-memory": {
-      "summary": "为AI编码代理提供长期记忆的Rust工具，可在不同代理CLI间延续任务上下文。",
-      "sourceHash": "00ecbbf20bebe83789060ed969885a4787a7f2e934e3bcdb95deca36ec53597c",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-17T23:32:27.752Z"
     },
     "nautechsystems/nautilus_trader": {
       "summary": "NautilusTrader 是一个用 Rust 编写、以 Python 为控制层的开源交易引擎，支持多资产多场所的模拟与实盘交易。",
@@ -71,13 +134,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-17T23:32:23.337Z"
     },
-    "harry0703/moneyprinterturbo": {
-      "summary": "MoneyPrinterTurbo 是一个基于 AI 大模型和自动化工作流的开源工具，输入主题或关键词即可自动生成高清短视频。",
-      "sourceHash": "c9fb987e65652c9446aaddabca7aedb57e506f2f7e0e5818fbb9292d2f5013bf",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-17T23:32:21.245Z"
-    },
     "cactus-compute/needle": {
       "summary": "Needle 2 是一个面向工具调用、设备使用和结构化提取的 45M 参数开源模型，整体仅 14MB，可在约 28MB 内存中运行完整会话。",
       "sourceHash": "f7e2d0b860eb6c3bbf85d275e3cf25f9d1201746bdeb36cc63a046944abe12e4",
@@ -92,33 +148,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-16T23:30:18.372Z"
     },
-    "public-apis/public-apis": {
-      "summary": "这是一个由社区维护的免费公共API列表，按类别整理，方便开发者查找和使用。",
-      "sourceHash": "38b373149519ed7d4b1e8b270c300d1500f371a50c2feddff8bffcfae12f123c",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-16T23:30:18.142Z"
-    },
-    "opencut-app/opencut": {
-      "summary": "OpenCut 是一款免费开源的视频编辑器，支持网页、桌面和移动端，目前正在重写以提供插件架构和跨平台支持。",
-      "sourceHash": "d6c998d101f931f3c10ca58bbf8dcfed61b226893765c2115cf533e3844e8101",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-16T23:30:16.250Z"
-    },
     "unslothai/unsloth": {
       "summary": "Unsloth 是一个本地桌面应用，用于运行和训练大语言模型及扩散模型，支持微调、强化学习等，并兼容多种硬件平台。",
       "sourceHash": "e9434d3f9850f1a815a966711caa536418f2bbf7e6466ae61699429284247e27",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-16T23:30:15.905Z"
-    },
-    "basecamp/omarchy": {
-      "summary": "Omarchy 是由 DHH 开发的一款美观、现代且高度定制化的 Linux 发行版，提供完整的手册和丰富的工具配置。",
-      "sourceHash": "8703b466ae1dad95c1d2d0e5296a1844f61f982f449580773dee5dae8303bf14",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-16T23:30:15.536Z"
     },
     "citrolabs/ego-lite": {
       "summary": "ego-lite 是一款专为 AI 代理设计的浏览器，可共享登录状态并高效执行自动化任务。",
