@@ -1,6 +1,125 @@
 {
   "version": 1,
   "entries": {
+    "microsoft/onnxruntime": {
+      "summary": "ONNX Runtime 是微软开发的跨平台机器学习推理与训练加速器，支持多种框架模型并优化硬件性能。",
+      "sourceHash": "51742fd26f90d3bb3b12f0c5ca3ab9bfb61704930f12ac9b4487b46d36455682",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-21T23:34:28.232Z"
+    },
+    "elder-plinius/obliteratus": {
+      "summary": "OBLITERATUS是一个开源工具包，用于移除大语言模型的安全拒绝行为，以研究对齐机制并评估安全鲁棒性。",
+      "sourceHash": "d1291e32dfee81d928fed30e475aea43cd3682965cbc993bccd8aab7f4f3a390",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-21T23:34:26.400Z"
+    },
+    "protocolbuffers/protobuf": {
+      "summary": "Protocol Buffers 是谷歌开发的与语言和平台无关的结构化数据序列化机制，用于高效编码和交换数据。",
+      "sourceHash": "5aa72de5cc87635edc51d3137b7d1ea6cf03f591525ef39ab359ec6f9b621c2e",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-21T23:34:24.563Z"
+    },
+    "apache/maka": {
+      "summary": "Apache Maka 是一个本地优先的 AI 智能体工作区，以追加式日志记录模型消息、工具调用与权限决策，支持桌面、终端和 CLI 等界面。",
+      "sourceHash": "7ab976724dbfd2ec9305fffaf1e0e9f313f018e62123a843ae065de9ae2c7cff",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-21T23:34:22.943Z"
+    },
+    "ruvnet/ruflo": {
+      "summary": "Ruflo 是一个为 Claude Code 和 Codex 设计的智能体元框架，提供 100 多个专用智能体、群体协作、自适应记忆和 RAG 集成，用于构建和协调自主工作流。",
+      "sourceHash": "b8e9bf79c59b815228d842dd2c00e6ed2279eea761c197e5097171f594f08987",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-21T23:34:21.149Z"
+    },
+    "tryghost/ghost": {
+      "summary": "Ghost 是一个开源的发布平台，用于创建网站、博客、会员订阅和新闻通讯，支持自托管或使用官方托管服务。",
+      "sourceHash": "4ca79676922f1c4ae0c38ba8c7268f83b11f41edfd174325925145dafa24d94c",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-21T23:34:19.489Z"
+    },
+    "affaan-m/ecc": {
+      "summary": "ECC 是一个为 Claude Code、Codex 等 AI 编程代理提供技能、规则和记忆等能力的性能优化系统。",
+      "sourceHash": "ea79f84ef0eee3760b55708fc81fbcb3d66fcc5382304b4e55b9c4684c7822a8",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-21T23:34:17.814Z"
+    },
+    "modular/modular": {
+      "summary": "Modular平台的开源仓库，包含MAX框架与Mojo语言，用于AI开发与部署。",
+      "sourceHash": "90f915974eb19ac2107888494e527c16fa888cb9ee245a62b6b781a0d4a33a0e",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-21T23:34:16.213Z"
+    },
+    "cursor/plugins": {
+      "summary": "Cursor 官方插件仓库，包含面向开发者工具、框架和 SaaS 产品的插件规范与实现，每个插件独立目录并带有清单文件。",
+      "sourceHash": "5fd28fad382f13c5195610af328c3300f3ec6fc789ec3990e253ed6295326d6d",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-21T23:34:16.031Z"
+    },
+    "santifer/career-ops": {
+      "summary": "一个开源AI求职工具，可在本地AI编程命令行中扫描职位、按A-F评分标准评估、定制简历并跟踪申请进度。",
+      "sourceHash": "fdd8a2c42dad089193f5a4b7e6b4f58dce70b4b34c66d4d6dd9f1e3c421763e9",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-21T23:34:15.801Z"
+    },
+    "obra/superpowers": {
+      "summary": "Superpowers 是一套面向编程代理的软件开发方法论，通过可组合技能和初始指令，让代理在编码前自动执行头脑风暴、测试驱动开发等流程。",
+      "sourceHash": "3c1d09d9414cec3604174ca641278475b9191ecf11ea13f42ec8bdd392313c5c",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-21T23:34:13.973Z"
+    },
+    "microsoft/typescript": {
+      "summary": "TypeScript 是 JavaScript 的超集，通过添加可选类型支持大型应用开发，并编译为可读的标准 JavaScript 代码。",
+      "sourceHash": "c9d37344f3806b821752f4279db4ad13322356a54c7d5e9a6619e6b8e947d701",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-21T23:34:13.751Z"
+    },
+    "posthog/posthog": {
+      "summary": "PostHog 是一个开源产品分析平台，提供事件追踪、会话回放、功能开关和实验等工具，帮助团队构建和优化产品。",
+      "sourceHash": "f1b012938626cc67af4df11098e114564ed86b6ef4e11f45e800b6ef488f4d5a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-21T23:34:12.056Z"
+    },
+    "aprilnea/openlogi": {
+      "summary": "OpenLogi 是一个用 Rust 编写的本地优先罗技 Options+ 替代品，支持跨平台鼠标按键重映射、DPI 调整和 SmartShift 等 HID++ 功能。",
+      "sourceHash": "d0adc9214342b773d054fcda7ee70672b4b0f53a16db2fa2c537d88ffdf8096b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-21T23:34:11.691Z"
+    },
+    "harry0703/moneyprinterturbo": {
+      "summary": "MoneyPrinterTurbo 是一个基于 AI 大模型和自动化工作流的短视频生成工具，输入主题或关键词即可自动生成脚本、匹配素材、合成字幕和背景音乐，输出高清短视频。",
+      "sourceHash": "a501ed83a373ab9860ce4879b652f4fbd46f6bedcba2726b3e7d3fa440e69d0d",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-21T23:34:11.476Z"
+    },
+    "mahlernim/google-timeline-visualizer": {
+      "summary": "一个将Google位置历史时间线数据转换为旅行动画视频的Android应用，支持选择日期、预览并生成MP4视频。",
+      "sourceHash": "b9b424d4c3552db5afc25fac9843937ce25019f0f2f9934242e0d50e3ef12d78",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-21T23:34:09.494Z"
+    },
+    "mattpocock/skills": {
+      "summary": "一套面向真实工程实践的AI代理技能集，包含代码开发与效率工具，可通过插件或脚本快速安装使用。",
+      "sourceHash": "253993fc338d90c9b9bad3adb314b05b648e18e0d7c20dbc369d32c60768be7b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-21T23:34:07.023Z"
+    },
     "ryancodrai/turbovec": {
       "summary": "turbovec 是一个基于 TurboQuant 算法的 Rust 向量索引，提供 Python 绑定，支持在线增量添加、混合检索和本地持久化，用于内存高效且快速的向量搜索。",
       "sourceHash": "a52b5aa2b8e2328eded807f8b4aa38920da24188e8b101dfa0e0383d022f582c",
@@ -36,20 +155,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-20T23:35:34.246Z"
     },
-    "mahlernim/google-timeline-visualizer": {
-      "summary": "一个将Google位置历史时间线数据转换为旅行动画视频的Android应用，支持选择日期、预览并生成MP4。",
-      "sourceHash": "b3cea5989e7590edf510b5d42510cc61501b7f2ef1ffb24b1fd7bdbe6b5af499",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-20T23:35:34.031Z"
-    },
-    "posthog/posthog": {
-      "summary": "PostHog 是一个开源产品分析平台，提供事件追踪、会话回放、功能开关和实验等工具，帮助团队构建和优化产品。",
-      "sourceHash": "f1b012938626cc67af4df11098e114564ed86b6ef4e11f45e800b6ef488f4d5a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-20T23:35:32.476Z"
-    },
     "chaitanyagiri/munder-difflin": {
       "summary": "Munder Difflin 是一个本地多智能体桌面应用，将终端 AI 编程工具接入统一界面，通过主管智能体协调多个工作智能体协作。",
       "sourceHash": "fde50cee5d2db195d63ae936ccb5e657f76441532bae4432a825ef0607376ba3",
@@ -64,61 +169,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-20T23:35:30.903Z"
     },
-    "harry0703/moneyprinterturbo": {
-      "summary": "MoneyPrinterTurbo 是一个基于 AI 大模型和自动化工作流的开源工具，输入主题或关键词即可自动生成高清短视频。",
-      "sourceHash": "958b472ef4fcc52c503eb8718466248d4891eda3ec541189af2ef449c546e108",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-20T23:35:29.488Z"
-    },
     "akitaonrails/ai-memory": {
       "summary": "为AI编码代理提供长期记忆的Rust工具，可在不同代理CLI间延续任务上下文。",
       "sourceHash": "42868301bcf99c709df89b7d974c6d765dde785602b6e045dd6763487c0b56b5",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-20T23:35:28.246Z"
-    },
-    "santifer/career-ops": {
-      "summary": "一个开源AI求职工具，可在本地AI编程命令行中扫描职位、按A-F评分标准评估、定制简历并跟踪申请进度。",
-      "sourceHash": "190e76bf295553d8d432e812afc3b4871127324685b8337009ecaa04d7c004d0",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-20T23:35:26.760Z"
-    },
-    "cursor/plugins": {
-      "summary": "Cursor 官方插件仓库，包含面向开发者工具、框架和 SaaS 产品的插件规范与实现，每个插件独立目录并带有清单文件。",
-      "sourceHash": "5fd28fad382f13c5195610af328c3300f3ec6fc789ec3990e253ed6295326d6d",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-20T23:35:25.226Z"
-    },
-    "obra/superpowers": {
-      "summary": "Superpowers 是一套面向编程代理的软件开发方法论，通过可组合技能和初始指令，让代理在编码前自动执行头脑风暴、测试驱动开发等流程。",
-      "sourceHash": "3c1d09d9414cec3604174ca641278475b9191ecf11ea13f42ec8bdd392313c5c",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-20T23:35:23.764Z"
-    },
-    "aprilnea/openlogi": {
-      "summary": "OpenLogi 是一个用 Rust 编写的本地优先罗技 Options+ 替代品，支持跨平台鼠标按键重映射、DPI 调整和 SmartShift 等 HID++ 功能。",
-      "sourceHash": "d0adc9214342b773d054fcda7ee70672b4b0f53a16db2fa2c537d88ffdf8096b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-20T23:35:23.560Z"
-    },
-    "mattpocock/skills": {
-      "summary": "一套面向真实工程实践的AI代理技能集，包含代码开发与效率工具，可通过插件或脚本快速安装使用。",
-      "sourceHash": "253993fc338d90c9b9bad3adb314b05b648e18e0d7c20dbc369d32c60768be7b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-20T23:35:21.943Z"
-    },
-    "modular/modular": {
-      "summary": "Modular平台的开源仓库，包含MAX框架与Mojo语言，用于AI开发与部署。",
-      "sourceHash": "90f915974eb19ac2107888494e527c16fa888cb9ee245a62b6b781a0d4a33a0e",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-20T23:35:21.675Z"
     },
     "genlayerlabs/genlayer-project-boilerplate": {
       "summary": "GenLayer 项目样板代码，包含足球博彩智能合约、测试、前端及部署脚本，用于快速开发与测试 GenLayer 应用。",
