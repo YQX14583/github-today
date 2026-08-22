@@ -1,6 +1,125 @@
 {
   "version": 1,
   "entries": {
+    "tencent/ai-infra-guard": {
+      "summary": "AI-Infra-Guard 是一个全栈 AI 红队平台，用于扫描 AI 智能体、技能、MCP 服务器及基础设施，并评估大语言模型的越狱风险。",
+      "sourceHash": "ccfa6950e9fa6605d67546c11a0d85c401a7dbbf5aec37c9502cd92b282ef270",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-22T23:31:07.238Z"
+    },
+    "posthog/posthog": {
+      "summary": "PostHog 是一个开源产品分析平台，提供事件追踪、会话回放、功能开关和实验等工具，帮助团队构建和优化产品。",
+      "sourceHash": "f1b012938626cc67af4df11098e114564ed86b6ef4e11f45e800b6ef488f4d5a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-22T23:31:05.946Z"
+    },
+    "cursor/plugins": {
+      "summary": "Cursor 官方插件仓库，包含面向开发者工具、框架和 SaaS 产品的插件规范与实现，每个插件独立目录并带有清单文件。",
+      "sourceHash": "5fd28fad382f13c5195610af328c3300f3ec6fc789ec3990e253ed6295326d6d",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-22T23:31:05.745Z"
+    },
+    "microsoft/typescript": {
+      "summary": "TypeScript 是 JavaScript 的超集，通过添加可选类型支持大型应用开发，并编译为可读的标准 JavaScript 代码。",
+      "sourceHash": "c9d37344f3806b821752f4279db4ad13322356a54c7d5e9a6619e6b8e947d701",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-22T23:31:05.539Z"
+    },
+    "ripienaar/free-for-dev": {
+      "summary": "这是一个汇集了提供免费开发者层级的SaaS、PaaS和IaaS服务的列表，方便开发运维人员查找和使用。",
+      "sourceHash": "e003952c106a8303925ee97396a84c079d956cd862943c2d9f29250c28556329",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-22T23:31:05.312Z"
+    },
+    "mahlernim/google-timeline-visualizer": {
+      "summary": "一个将Google位置历史时间线数据转换为旅行动画视频的Android应用，支持选择日期、预览并生成MP4视频。",
+      "sourceHash": "b9b424d4c3552db5afc25fac9843937ce25019f0f2f9934242e0d50e3ef12d78",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-22T23:31:03.862Z"
+    },
+    "multica-ai/andrej-karpathy-skills": {
+      "summary": "一个基于Karpathy观察的CLAUDE.md文件，通过四条原则改善Claude Code的编码行为。",
+      "sourceHash": "175c49a76f239ac51b504013ef0f4d614938975f5acceaa8592e8bfa105a0d69",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-22T23:31:03.641Z"
+    },
+    "modular/modular": {
+      "summary": "Modular平台的开源仓库，包含MAX框架与Mojo语言，用于AI开发与部署。",
+      "sourceHash": "90f915974eb19ac2107888494e527c16fa888cb9ee245a62b6b781a0d4a33a0e",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-22T23:31:02.389Z"
+    },
+    "aprilnea/openlogi": {
+      "summary": "OpenLogi 是一个用 Rust 编写的本地优先罗技 Options+ 替代品，支持跨平台鼠标按键重映射、DPI 调整和 SmartShift 等功能。",
+      "sourceHash": "7a832d2dd1668a5a205e3df2d2b6cd248d82d8595524e668abba89dffc439fd6",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-22T23:31:02.171Z"
+    },
+    "anthropics/claude-code": {
+      "summary": "Claude Code 是一个运行在终端中的智能编码工具，能理解代码库并通过自然语言执行常规任务、解释复杂代码和处理 Git 工作流。",
+      "sourceHash": "d4f3174e2014920dd4bf00b55a1cb8cef25e00d8b1bf60e6e4e3025ed9411f16",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-22T23:31:00.695Z"
+    },
+    "n8n-io/n8n": {
+      "summary": "n8n 是一个支持自托管或云端的公平代码工作流自动化平台，可结合可视化画布与自定义代码，并内置 AI 能力，连接超过 1500 种集成。",
+      "sourceHash": "e32b4919790720b99a2c761dbe7f8f31a5445f2134c5911fb0bbd773f7b32653",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-22T23:30:59.391Z"
+    },
+    "makeplane/plane": {
+      "summary": "Plane 是一个开源项目管理平台，用于跟踪任务、管理冲刺周期和产品路线图，支持自托管与云端部署。",
+      "sourceHash": "2f2a8f0ea85055789eb93891193252102efbd17cfeea4619257fdb6eae21934b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-22T23:30:57.689Z"
+    },
+    "wei-shaw/sub2api": {
+      "summary": "Sub2API 是一个用 Go 编写的 AI API 网关平台，用于分发和管理 AI 产品订阅的 API 配额，支持多账户管理、计费、负载均衡和请求转发。",
+      "sourceHash": "defd60439c634b4b1f39be38f659b15d0bdf030de088c881dfa8fb356337b82c",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-22T23:30:57.457Z"
+    },
+    "obra/superpowers": {
+      "summary": "Superpowers 是一套面向编程代理的软件开发方法论，通过可组合技能和初始指令，让代理在编码前自动执行头脑风暴、测试驱动开发等流程。",
+      "sourceHash": "3c1d09d9414cec3604174ca641278475b9191ecf11ea13f42ec8bdd392313c5c",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-22T23:30:55.892Z"
+    },
+    "affaan-m/ecc": {
+      "summary": "ECC 是一个为 Claude Code、Codex 等 AI 编程代理提供技能、规则和记忆等能力的性能优化系统。",
+      "sourceHash": "ea79f84ef0eee3760b55708fc81fbcb3d66fcc5382304b4e55b9c4684c7822a8",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-22T23:30:55.682Z"
+    },
+    "mattpocock/skills": {
+      "summary": "一套面向真实工程实践的AI代理技能集，包含代码开发与效率工具，可通过插件或脚本快速安装使用。",
+      "sourceHash": "253993fc338d90c9b9bad3adb314b05b648e18e0d7c20dbc369d32c60768be7b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-22T23:30:55.224Z"
+    },
+    "openai/codex": {
+      "summary": "Codex CLI 是 OpenAI 推出的轻量级编程代理，运行在终端中，可协助用户完成编码任务。",
+      "sourceHash": "c6538d3f9db3dc2d1cc851b04cf4a1efbb6c6534ce3a613cd271bd7228c70a18",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-22T23:30:54.980Z"
+    },
     "microsoft/onnxruntime": {
       "summary": "ONNX Runtime 是微软开发的跨平台机器学习推理与训练加速器，支持多种框架模型并优化硬件性能。",
       "sourceHash": "51742fd26f90d3bb3b12f0c5ca3ab9bfb61704930f12ac9b4487b46d36455682",
@@ -43,61 +162,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-21T23:34:19.489Z"
     },
-    "affaan-m/ecc": {
-      "summary": "ECC 是一个为 Claude Code、Codex 等 AI 编程代理提供技能、规则和记忆等能力的性能优化系统。",
-      "sourceHash": "ea79f84ef0eee3760b55708fc81fbcb3d66fcc5382304b4e55b9c4684c7822a8",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-21T23:34:17.814Z"
-    },
-    "modular/modular": {
-      "summary": "Modular平台的开源仓库，包含MAX框架与Mojo语言，用于AI开发与部署。",
-      "sourceHash": "90f915974eb19ac2107888494e527c16fa888cb9ee245a62b6b781a0d4a33a0e",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-21T23:34:16.213Z"
-    },
-    "cursor/plugins": {
-      "summary": "Cursor 官方插件仓库，包含面向开发者工具、框架和 SaaS 产品的插件规范与实现，每个插件独立目录并带有清单文件。",
-      "sourceHash": "5fd28fad382f13c5195610af328c3300f3ec6fc789ec3990e253ed6295326d6d",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-21T23:34:16.031Z"
-    },
     "santifer/career-ops": {
       "summary": "一个开源AI求职工具，可在本地AI编程命令行中扫描职位、按A-F评分标准评估、定制简历并跟踪申请进度。",
       "sourceHash": "fdd8a2c42dad089193f5a4b7e6b4f58dce70b4b34c66d4d6dd9f1e3c421763e9",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-21T23:34:15.801Z"
-    },
-    "obra/superpowers": {
-      "summary": "Superpowers 是一套面向编程代理的软件开发方法论，通过可组合技能和初始指令，让代理在编码前自动执行头脑风暴、测试驱动开发等流程。",
-      "sourceHash": "3c1d09d9414cec3604174ca641278475b9191ecf11ea13f42ec8bdd392313c5c",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-21T23:34:13.973Z"
-    },
-    "microsoft/typescript": {
-      "summary": "TypeScript 是 JavaScript 的超集，通过添加可选类型支持大型应用开发，并编译为可读的标准 JavaScript 代码。",
-      "sourceHash": "c9d37344f3806b821752f4279db4ad13322356a54c7d5e9a6619e6b8e947d701",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-21T23:34:13.751Z"
-    },
-    "posthog/posthog": {
-      "summary": "PostHog 是一个开源产品分析平台，提供事件追踪、会话回放、功能开关和实验等工具，帮助团队构建和优化产品。",
-      "sourceHash": "f1b012938626cc67af4df11098e114564ed86b6ef4e11f45e800b6ef488f4d5a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-21T23:34:12.056Z"
-    },
-    "aprilnea/openlogi": {
-      "summary": "OpenLogi 是一个用 Rust 编写的本地优先罗技 Options+ 替代品，支持跨平台鼠标按键重映射、DPI 调整和 SmartShift 等 HID++ 功能。",
-      "sourceHash": "d0adc9214342b773d054fcda7ee70672b4b0f53a16db2fa2c537d88ffdf8096b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-21T23:34:11.691Z"
     },
     "harry0703/moneyprinterturbo": {
       "summary": "MoneyPrinterTurbo 是一个基于 AI 大模型和自动化工作流的短视频生成工具，输入主题或关键词即可自动生成脚本、匹配素材、合成字幕和背景音乐，输出高清短视频。",
@@ -106,40 +176,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-21T23:34:11.476Z"
     },
-    "mahlernim/google-timeline-visualizer": {
-      "summary": "一个将Google位置历史时间线数据转换为旅行动画视频的Android应用，支持选择日期、预览并生成MP4视频。",
-      "sourceHash": "b9b424d4c3552db5afc25fac9843937ce25019f0f2f9934242e0d50e3ef12d78",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-21T23:34:09.494Z"
-    },
-    "mattpocock/skills": {
-      "summary": "一套面向真实工程实践的AI代理技能集，包含代码开发与效率工具，可通过插件或脚本快速安装使用。",
-      "sourceHash": "253993fc338d90c9b9bad3adb314b05b648e18e0d7c20dbc369d32c60768be7b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-21T23:34:07.023Z"
-    },
     "ryancodrai/turbovec": {
       "summary": "turbovec 是一个基于 TurboQuant 算法的 Rust 向量索引，提供 Python 绑定，支持在线增量添加、混合检索和本地持久化，用于内存高效且快速的向量搜索。",
       "sourceHash": "a52b5aa2b8e2328eded807f8b4aa38920da24188e8b101dfa0e0383d022f582c",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-20T23:35:40.205Z"
-    },
-    "tencent/ai-infra-guard": {
-      "summary": "AI-Infra-Guard 是一个全栈 AI 红队平台，用于扫描 AI 智能体、技能、MCP 服务器及基础设施漏洞，并评估大语言模型的越狱风险。",
-      "sourceHash": "efc623bb5689166f228271b45985149c665d5ecdd1e48bd3443e40d9a7b01295",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-20T23:35:38.816Z"
-    },
-    "makeplane/plane": {
-      "summary": "Plane 是一个开源项目管理平台，用于跟踪任务、管理冲刺周期和产品路线图，支持自托管与云端部署。",
-      "sourceHash": "2f2a8f0ea85055789eb93891193252102efbd17cfeea4619257fdb6eae21934b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-20T23:35:37.180Z"
     },
     "juliusbrussee/caveman": {
       "summary": "Caveman 是一个通过压缩提示词和输出内容来减少 AI 编程助手 token 消耗的开源工具，支持本地代理和技能插件。",
