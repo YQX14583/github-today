@@ -1,6 +1,132 @@
 {
   "version": 1,
   "entries": {
+    "nousresearch/hermes-agent": {
+      "summary": "Hermes Agent 是 Nous Research 开发的自改进 AI 代理，具备内置学习循环，可通过 CLI 或消息网关使用，并支持从 OpenClaw 迁移。",
+      "sourceHash": "7319a84f2094560102e31f4edcb53bf93bf1c7c32f453b309cf31e8b53a4b282",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-23T23:31:27.283Z"
+    },
+    "comfy-org/comfyui": {
+      "summary": "ComfyUI 是一个基于节点图的模块化扩散模型图形界面与后端，支持图像、视频等生成工作流。",
+      "sourceHash": "1a5e99f64be09eeff4aa0d66ccb30375a39db1da6d2e9cc8f676bc220624d0f0",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-23T23:31:25.951Z"
+    },
+    "ripienaar/free-for-dev": {
+      "summary": "这是一个汇集了提供免费开发者层级的SaaS、PaaS和IaaS服务的清单，主要面向DevOps和基础设施开发者。",
+      "sourceHash": "92cdf4acdd0dc6d071fb3b60fc53acfc8231d997415cacbdfd1c0079e2209ed0",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-23T23:31:24.736Z"
+    },
+    "anthropics/claude-plugins-community": {
+      "summary": "社区插件市场镜像，列出经审核的 Claude Cowork 与 Claude Code 插件，供用户安装使用。",
+      "sourceHash": "268dc08df5fbce9a918b529cd79b07601c60707f4b32c11b182400f94622a576",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-23T23:31:23.293Z"
+    },
+    "dani-garcia/vaultwarden": {
+      "summary": "Vaultwarden 是一个用 Rust 编写的非官方 Bitwarden 服务器实现，兼容官方客户端，适合自托管部署。",
+      "sourceHash": "fd42ff881f3fbce0b553fb7af1bc4c692f379c62c18778b8a20110f248eb3900",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-23T23:31:21.867Z"
+    },
+    "virgiliojr94/book-to-skill": {
+      "summary": "将技术书籍PDF转换为Claude Code等智能体可用的技能文件，便于学习、查阅和工作时引用。",
+      "sourceHash": "18746e7c58903e7a7e61b9b4c2e22f8c7179bf0936ed6a70a1b16fa12b299dfa",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-23T23:31:20.870Z"
+    },
+    "voltagent/awesome-agent-skills": {
+      "summary": "精选官方与社区开发的1000多个Agent技能，兼容Claude Code、Codex、Gemini CLI、Cursor等AI编程工具。",
+      "sourceHash": "5c06056b91d3b380dabd70b7313b23724419c8d2b6915e27e2a6e5101c5f5b81",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-23T23:31:19.359Z"
+    },
+    "ruvnet/ruflo": {
+      "summary": "Ruflo 是一个为 Claude Code 和 Codex 设计的智能体元框架，提供 100 多个专用智能体、群体协作、自适应记忆和 RAG 集成，用于构建和协调自主工作流。",
+      "sourceHash": "b8e9bf79c59b815228d842dd2c00e6ed2279eea761c197e5097171f594f08987",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-23T23:31:17.775Z"
+    },
+    "affaan-m/ecc": {
+      "summary": "ECC 是一个为 Claude Code、Codex 等 AI 编程代理提供技能、规则和记忆等能力的性能优化系统。",
+      "sourceHash": "ea79f84ef0eee3760b55708fc81fbcb3d66fcc5382304b4e55b9c4684c7822a8",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-23T23:31:17.577Z"
+    },
+    "tinyhumansai/openhuman": {
+      "summary": "OpenHuman 是一个用 Rust 编写的本地优先 AI 助手平台，具备持久记忆、工作流编排和深度研究能力。",
+      "sourceHash": "6e23efa373c9e3c45a81d6204e10262a3962aded764f56d9ab866748ce871ff4",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-23T23:31:17.389Z"
+    },
+    "alishahryar1/free-claude-code": {
+      "summary": "一个开源工具，通过统一界面接入多家免费或付费模型提供商，让Claude Code等编程代理免费使用大模型。",
+      "sourceHash": "3d55092afda6c9ee0b9385cfb93572a09329a379ec41952256d7ae76b9fae62b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-23T23:31:16.182Z"
+    },
+    "apache/maka": {
+      "summary": "Apache Maka 是一个本地优先的 AI 智能体工作区，在沙箱中运行工具并将模型消息与工具调用记录为可恢复的追加式日志。",
+      "sourceHash": "dd8762064e514de69416a9842460a05b8fbead33c6ea635fc02f90d23966428b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-23T23:31:14.841Z"
+    },
+    "block/buzz": {
+      "summary": "Buzz 是一个可自托管的协作平台，让人类与 AI 代理在共享频道中共同工作。",
+      "sourceHash": "6efec52cb68f9e5ffc5d532faf857c53a1cc65dabb11fc491f83c3529b0949d6",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-23T23:31:13.030Z"
+    },
+    "aprilnea/openlogi": {
+      "summary": "OpenLogi 是一个用 Rust 编写的本地优先 Logitech Options+ 替代品，支持按键重映射、DPI 调整和 SmartShift，跨 macOS、Linux 和 Windows 平台。",
+      "sourceHash": "6a55df8bbb0b51b0d0d5671035e7c65d76a382728e25a269289156630c26864f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-23T23:31:11.867Z"
+    },
+    "basecamp/omarchy": {
+      "summary": "Omarchy 是由 DHH 开发的一款美观、现代且高度定制化的 Linux 发行版，提供完整的手册和丰富的工具配置。",
+      "sourceHash": "8703b466ae1dad95c1d2d0e5296a1844f61f982f449580773dee5dae8303bf14",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-23T23:31:10.382Z"
+    },
+    "mattpocock/skills": {
+      "summary": "一套面向真实工程实践的AI代理技能集，包含代码开发与效率工具，可通过插件或脚本快速安装使用。",
+      "sourceHash": "253993fc338d90c9b9bad3adb314b05b648e18e0d7c20dbc369d32c60768be7b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-23T23:31:10.187Z"
+    },
+    "freestylefly/awesome-gpt-image-2": {
+      "summary": "一个GPT-Image2提示词引擎与模板库，收录500多个逆向工程案例和20多套工业级模板，并提供Agent技能供AI工具调用。",
+      "sourceHash": "a5819eecde6844b9c5d2ddd53c6d3de2059db24c4f38fcba1172f47d935b40fe",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-23T23:31:10.013Z"
+    },
+    "openai/codex": {
+      "summary": "Codex CLI 是 OpenAI 推出的轻量级编程代理，运行在终端中，可协助用户完成编码任务。",
+      "sourceHash": "c6538d3f9db3dc2d1cc851b04cf4a1efbb6c6534ce3a613cd271bd7228c70a18",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-23T23:31:08.686Z"
+    },
     "tencent/ai-infra-guard": {
       "summary": "AI-Infra-Guard 是一个全栈 AI 红队平台，用于扫描 AI 智能体、技能、MCP 服务器及基础设施，并评估大语言模型的越狱风险。",
       "sourceHash": "ccfa6950e9fa6605d67546c11a0d85c401a7dbbf5aec37c9502cd92b282ef270",
@@ -29,13 +155,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-22T23:31:05.539Z"
     },
-    "ripienaar/free-for-dev": {
-      "summary": "这是一个汇集了提供免费开发者层级的SaaS、PaaS和IaaS服务的列表，方便开发运维人员查找和使用。",
-      "sourceHash": "e003952c106a8303925ee97396a84c079d956cd862943c2d9f29250c28556329",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-22T23:31:05.312Z"
-    },
     "mahlernim/google-timeline-visualizer": {
       "summary": "一个将Google位置历史时间线数据转换为旅行动画视频的Android应用，支持选择日期、预览并生成MP4视频。",
       "sourceHash": "b9b424d4c3552db5afc25fac9843937ce25019f0f2f9934242e0d50e3ef12d78",
@@ -56,13 +175,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-22T23:31:02.389Z"
-    },
-    "aprilnea/openlogi": {
-      "summary": "OpenLogi 是一个用 Rust 编写的本地优先罗技 Options+ 替代品，支持跨平台鼠标按键重映射、DPI 调整和 SmartShift 等功能。",
-      "sourceHash": "7a832d2dd1668a5a205e3df2d2b6cd248d82d8595524e668abba89dffc439fd6",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-22T23:31:02.171Z"
     },
     "anthropics/claude-code": {
       "summary": "Claude Code 是一个运行在终端中的智能编码工具，能理解代码库并通过自然语言执行常规任务、解释复杂代码和处理 Git 工作流。",
@@ -99,27 +211,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-22T23:30:55.892Z"
     },
-    "affaan-m/ecc": {
-      "summary": "ECC 是一个为 Claude Code、Codex 等 AI 编程代理提供技能、规则和记忆等能力的性能优化系统。",
-      "sourceHash": "ea79f84ef0eee3760b55708fc81fbcb3d66fcc5382304b4e55b9c4684c7822a8",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-22T23:30:55.682Z"
-    },
-    "mattpocock/skills": {
-      "summary": "一套面向真实工程实践的AI代理技能集，包含代码开发与效率工具，可通过插件或脚本快速安装使用。",
-      "sourceHash": "253993fc338d90c9b9bad3adb314b05b648e18e0d7c20dbc369d32c60768be7b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-22T23:30:55.224Z"
-    },
-    "openai/codex": {
-      "summary": "Codex CLI 是 OpenAI 推出的轻量级编程代理，运行在终端中，可协助用户完成编码任务。",
-      "sourceHash": "c6538d3f9db3dc2d1cc851b04cf4a1efbb6c6534ce3a613cd271bd7228c70a18",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-22T23:30:54.980Z"
-    },
     "microsoft/onnxruntime": {
       "summary": "ONNX Runtime 是微软开发的跨平台机器学习推理与训练加速器，支持多种框架模型并优化硬件性能。",
       "sourceHash": "51742fd26f90d3bb3b12f0c5ca3ab9bfb61704930f12ac9b4487b46d36455682",
@@ -140,20 +231,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-21T23:34:24.563Z"
-    },
-    "apache/maka": {
-      "summary": "Apache Maka 是一个本地优先的 AI 智能体工作区，以追加式日志记录模型消息、工具调用与权限决策，支持桌面、终端和 CLI 等界面。",
-      "sourceHash": "7ab976724dbfd2ec9305fffaf1e0e9f313f018e62123a843ae065de9ae2c7cff",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-21T23:34:22.943Z"
-    },
-    "ruvnet/ruflo": {
-      "summary": "Ruflo 是一个为 Claude Code 和 Codex 设计的智能体元框架，提供 100 多个专用智能体、群体协作、自适应记忆和 RAG 集成，用于构建和协调自主工作流。",
-      "sourceHash": "b8e9bf79c59b815228d842dd2c00e6ed2279eea761c197e5097171f594f08987",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-21T23:34:21.149Z"
     },
     "tryghost/ghost": {
       "summary": "Ghost 是一个开源的发布平台，用于创建网站、博客、会员订阅和新闻通讯，支持自托管或使用官方托管服务。",
@@ -294,13 +371,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-18T23:32:35.592Z"
-    },
-    "basecamp/omarchy": {
-      "summary": "Omarchy 是由 DHH 开发的一款美观、现代且高度定制化的 Linux 发行版，提供完整的手册和丰富的工具配置。",
-      "sourceHash": "8703b466ae1dad95c1d2d0e5296a1844f61f982f449580773dee5dae8303bf14",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-18T23:32:33.389Z"
     },
     "public-apis/public-apis": {
       "summary": "一个由社区维护的免费API集合列表，按类别整理并提供索引，方便开发者查找和使用。",
@@ -630,34 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-11T23:53:25.405Z"
-    },
-    "firecrawl/firecrawl": {
-      "summary": "Firecrawl 是一个开源 API，用于大规模搜索、抓取网页并将内容转换为 LLM 可用的 Markdown 或结构化数据。",
-      "sourceHash": "450e48cdd1b4031706d39e91a7a5394686bd9e72b3537fd80f4f2b22c90ae24a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T09:31:32.057Z"
-    },
-    "danielmiessler/lifeos": {
-      "summary": "LifeOS 是一个通用 AI harness，通过持久记忆与技能帮助你在生活与工作中从当前状态走向理想状态。",
-      "sourceHash": "2d5d23974ace150fb06bf4741b107a6ec3bf788a23a80198592844c2de8d79f2",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T09:31:29.737Z"
-    },
-    "ruvnet/ruview": {
-      "summary": "RuView 是一个利用 WiFi 信号实现无摄像头空间感知与生命体征监测的开源平台。",
-      "sourceHash": "cd1deb362e3b5c6806ca7a74f15c0dc467f5c359c42ea63097b111444c7fbdb3",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T09:31:25.774Z"
-    },
-    "ladybirdbrowser/ladybird": {
-      "summary": "Ladybird 是一个基于新颖引擎、真正独立的网页浏览器，采用多进程架构，目前处于 pre-alpha 阶段，仅供开发者使用。",
-      "sourceHash": "535787084499b009a5aae39a4782e4ad664fe8b7851a624b32d773781f7051d7",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T09:31:21.337Z"
     }
   }
 }
