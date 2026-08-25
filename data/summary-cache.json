@@ -1,12 +1,117 @@
 {
   "version": 1,
   "entries": {
+    "asciimoo/hister": {
+      "summary": "Hister 是一个用 Go 编写的私有搜索引擎，可对用户访问过的网页和本地文件进行全文索引，支持通过 Web、终端或 MCP 客户端检索。",
+      "sourceHash": "95fdc63daf76a40f7097064f4c2483dfaf1a0a12940c1690c739a37dfcd30c04",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-25T23:33:59.115Z"
+    },
+    "anthropics/claude-plugins-official": {
+      "summary": "Anthropic 官方维护的 Claude Code 插件目录，收录并管理高质量插件，支持安装与提交。",
+      "sourceHash": "57c0b9849a1455c479f61734473df34afe467633c1454c474c98e2218bd27a36",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-25T23:33:57.742Z"
+    },
+    "dietrichgebert/ponytail": {
+      "summary": "Ponytail 是一个为 AI 编程代理提供技能和插件的工具，通过引导代理遵循 YAGNI 原则，优先复用现有代码，从而减少代码量、降低成本并提升效率。",
+      "sourceHash": "7ab62507cf625f9c53030e37c3d129e8d9aaccb750d188cc43a5834a27fbebf7",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-25T23:33:55.971Z"
+    },
+    "marin-community/marin": {
+      "summary": "Marin 是一个开源框架，用于基础模型的研究与开发，涵盖数据处理、预训练、后训练和评估等环节。",
+      "sourceHash": "e03a2f1bab4512121648350fac01cd2d0ea7184957a36fda41fad8467226765c",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-25T23:33:54.296Z"
+    },
+    "openai/codex": {
+      "summary": "Codex CLI 是 OpenAI 推出的轻量级编程代理，运行在终端中，可协助用户完成编码任务。",
+      "sourceHash": "c6538d3f9db3dc2d1cc851b04cf4a1efbb6c6534ce3a613cd271bd7228c70a18",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-25T23:33:53.048Z"
+    },
+    "multica-ai/andrej-karpathy-skills": {
+      "summary": "一个基于Karpathy观察的CLAUDE.md文件，通过四条原则改善Claude Code的编码行为。",
+      "sourceHash": "175c49a76f239ac51b504013ef0f4d614938975f5acceaa8592e8bfa105a0d69",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-25T23:33:52.819Z"
+    },
+    "shubhamsaboo/awesome-llm-apps": {
+      "summary": "一个收录100多个开源AI智能体、智能体技能和RAG应用的Python项目，提供可直接克隆运行的示例代码。",
+      "sourceHash": "517023b649dca75a326298af0b3ddb6d3b7f8dd57edc3f2e0f3df22401d00304",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-25T23:33:52.618Z"
+    },
+    "basecamp/omarchy": {
+      "summary": "Omarchy 是一个由 DHH 开发的注重美观与现代性的 Linux 发行版，提供完整的手册和配置指南。",
+      "sourceHash": "115aaa8b16623f6fb209df94f282d09e6153137d3cf707dd49f9fc8d20892f50",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-25T23:33:51.034Z"
+    },
     "tinyhumansai/openhuman": {
       "summary": "OpenHuman 是一个用 Rust 编写的本地优先 AI 助手平台，具备持久记忆、工作流编排和深度研究能力。",
       "sourceHash": "6e23efa373c9e3c45a81d6204e10262a3962aded764f56d9ab866748ce871ff4",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-24T23:31:28.776Z"
+      "lastUsedAt": "2026-08-25T23:33:50.859Z"
+    },
+    "rohitg00/ai-engineering-from-scratch": {
+      "summary": "一个从零开始学习AI工程的开源课程，包含20个阶段、511节课，每课产出可复用工具。",
+      "sourceHash": "a0f17a8e8885423d0a12f047e5695354d4f87fb770cddaeaf55f875576fd15e2",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-25T23:33:50.647Z"
+    },
+    "agricidaniel/claude-obsidian": {
+      "summary": "基于Obsidian和Claude Code的自组织AI第二大脑，将任意来源内容整理为个人拥有的Markdown知识图谱。",
+      "sourceHash": "8a11a6d4ed5b5058a467982cb58d8d3a7f569b6a4793d4cb3dcccf231dd4a810",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-25T23:33:50.427Z"
+    },
+    "tauricresearch/tradingagents": {
+      "summary": "TradingAgents是一个基于多智能体LLM的金融交易框架，模拟真实交易公司流程，通过分析师、研究员、交易员等角色协作，辅助股票交易决策。",
+      "sourceHash": "afc8fc1423a447aa6e3e02d303eb17672073e199d68e808d0a70d43e5c89f89d",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-25T23:33:49.107Z"
+    },
+    "apache/maka": {
+      "summary": "Apache Maka 是一个本地优先的 AI 智能体工作区，在沙箱中运行工具并将模型消息与工具调用记录为可恢复的追加式日志。",
+      "sourceHash": "dd8762064e514de69416a9842460a05b8fbead33c6ea635fc02f90d23966428b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-25T23:33:47.829Z"
+    },
+    "madslorentzen/ai-job-search": {
+      "summary": "基于Claude Code的AI求职申请框架，可评估职位、定制简历、撰写求职信并准备面试。",
+      "sourceHash": "0fb65f0916bc66a526aaf771fe82f70c676e1e4a69b0ec55e35a5efb677f6aea",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-25T23:33:47.618Z"
+    },
+    "anthropics/claude-plugins-community": {
+      "summary": "社区插件市场镜像，列出经审核的 Claude Cowork 与 Claude Code 插件，供用户安装使用。",
+      "sourceHash": "268dc08df5fbce9a918b529cd79b07601c60707f4b32c11b182400f94622a576",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-25T23:33:46.157Z"
+    },
+    "freestylefly/awesome-gpt-image-2": {
+      "summary": "这是一个GPT-Image2提示词引擎与模板库，收录530多个逆向工程案例和20多套工业级模板，并提供Agent技能以辅助生成图像。",
+      "sourceHash": "bfb85abb57a8dd4746c2e02da2a20d4d8ca9d9f83d230e8baf7588c9a95624f6",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-25T23:33:45.951Z"
     },
     "voltagent/awesome-agent-skills": {
       "summary": "精选1000多个来自官方团队和社区的Agent技能，兼容Claude Code、Codex、Gemini CLI、Cursor等AI编程工具。",
@@ -14,13 +119,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-24T23:31:28.544Z"
-    },
-    "freestylefly/awesome-gpt-image-2": {
-      "summary": "一个面向GPT-Image2的提示词引擎与模板库，收录530多个逆向工程案例和20多套工业级模板，并提供Agent技能以辅助风格选择。",
-      "sourceHash": "bd9a02dd4962f75e555cc0b50849758dd4480f9f4a7ac21cec97ee8624913991",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-24T23:31:26.995Z"
     },
     "dani-garcia/vaultwarden": {
       "summary": "Vaultwarden 是一个用 Rust 编写的非官方 Bitwarden 服务器实现，兼容官方客户端，适合自托管部署。",
@@ -36,27 +134,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-24T23:31:24.777Z"
     },
-    "basecamp/omarchy": {
-      "summary": "Omarchy 是一个由 DHH 开发的注重美观与现代性的 Linux 发行版，提供完整的手册和配置指南。",
-      "sourceHash": "115aaa8b16623f6fb209df94f282d09e6153137d3cf707dd49f9fc8d20892f50",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-24T23:31:23.131Z"
-    },
-    "rohitg00/ai-engineering-from-scratch": {
-      "summary": "一个从零开始学习AI工程的开源课程，包含20个阶段、511节课，每课产出可复用工具。",
-      "sourceHash": "a0f17a8e8885423d0a12f047e5695354d4f87fb770cddaeaf55f875576fd15e2",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-24T23:31:22.057Z"
-    },
-    "agricidaniel/claude-obsidian": {
-      "summary": "基于Obsidian和Claude Code的自组织AI第二大脑，将任意来源内容整理为互联的Markdown知识图谱，用于个人知识管理。",
-      "sourceHash": "63bab9225ecec43f9ac98dc872f7213482e9bf522a9d97d8c33d679f7dae7eea",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-24T23:31:20.820Z"
-    },
     "openclaw/openclaw": {
       "summary": "OpenClaw 是一个运行在用户设备上的个人 AI 助手，通过网关连接模型、工具和消息渠道，支持多种操作系统和平台。",
       "sourceHash": "441b407d449c7e01b62cacfdbb293327b906170f5c3c5a94b8ef4ef66b2e567c",
@@ -71,26 +148,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-24T23:31:18.187Z"
     },
-    "apache/maka": {
-      "summary": "Apache Maka 是一个本地优先的 AI 智能体工作区，在沙箱中运行工具并将模型消息与工具调用记录为可恢复的追加式日志。",
-      "sourceHash": "dd8762064e514de69416a9842460a05b8fbead33c6ea635fc02f90d23966428b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-24T23:31:17.956Z"
-    },
     "aprilnea/openlogi": {
       "summary": "OpenLogi 是一个用 Rust 编写的本地优先罗技 Options+ 替代品，支持按键重映射、DPI 调节和 SmartShift，跨 macOS、Linux 和 Windows 平台。",
       "sourceHash": "8a428895e29fda463132d8801992c5c083e58f2db87454a036bed659264e2f11",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-24T23:31:17.741Z"
-    },
-    "anthropics/claude-plugins-community": {
-      "summary": "社区插件市场镜像，列出经审核的 Claude Cowork 与 Claude Code 插件，供用户安装使用。",
-      "sourceHash": "268dc08df5fbce9a918b529cd79b07601c60707f4b32c11b182400f94622a576",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-24T23:31:15.971Z"
     },
     "nousresearch/hermes-agent": {
       "summary": "Hermes Agent 是 Nous Research 开发的自改进 AI 代理，具备内置学习循环，可通过 CLI 或消息网关使用，并支持从 OpenClaw 迁移。",
@@ -105,27 +168,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-24T23:31:15.505Z"
-    },
-    "multica-ai/andrej-karpathy-skills": {
-      "summary": "一个基于Karpathy观察的CLAUDE.md文件，通过四条原则改善Claude Code的编码行为。",
-      "sourceHash": "175c49a76f239ac51b504013ef0f4d614938975f5acceaa8592e8bfa105a0d69",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-24T23:31:15.268Z"
-    },
-    "madslorentzen/ai-job-search": {
-      "summary": "基于Claude Code的AI求职申请框架，可评估职位、定制简历、撰写求职信并准备面试。",
-      "sourceHash": "6fd57f3351bff045061caae78928cea3fa25bec4bcfbf6cae0fce9513e8f212e",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-24T23:31:15.039Z"
-    },
-    "openai/codex": {
-      "summary": "Codex CLI 是 OpenAI 推出的轻量级编程代理，运行在终端中，可协助用户完成编码任务。",
-      "sourceHash": "c6538d3f9db3dc2d1cc851b04cf4a1efbb6c6534ce3a613cd271bd7228c70a18",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-24T23:31:13.734Z"
     },
     "alishahryar1/free-claude-code": {
       "summary": "一个开源工具，通过统一界面免费接入多种模型提供商，让Claude Code等编程代理在终端、应用或手机中使用。",
@@ -658,48 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-12T23:54:02.984Z"
-    },
-    "primeintellect-ai/prime-agent": {
-      "summary": "一个开源的自我改进RLM智能体，面向编码工作流和长时间自主任务。",
-      "sourceHash": "510ef26e06b79da018f6b80667a36b359bb75672ef1e9b5ae8d19ee0805a9d25",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T23:53:27.740Z"
-    },
-    "practical-tutorials/project-based-learning": {
-      "summary": "一个精选的编程教程列表，按编程语言分类，帮助开发者通过构建实际应用来学习编程。",
-      "sourceHash": "d02bd2464062e1a4c0e7c316688aa22e4909de104303ddff9c1fef1425877984",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T23:53:27.591Z"
-    },
-    "calesthio/openmontage": {
-      "summary": "OpenMontage 是一个开源的智能体视频制作系统，提供12条生产流水线、100多个工具和700多个智能体技能文件，可将AI编程助手转变为完整的视频制作工作室。",
-      "sourceHash": "9e47879966ff6d6af9ec37d887798c5334eea00dbbf5dd53c7a9cf5f26d1289a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T23:53:27.402Z"
-    },
-    "jaywcjlove/awesome-mac": {
-      "summary": "一个系统收集并分类整理高质量 macOS 软件的资源列表，方便用户查找和使用。",
-      "sourceHash": "48a332be607df0cf29c0a660d15dd07075097494fea3ce3fce9d96696eaf1992",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T23:53:27.220Z"
-    },
-    "harveyai/harvey-labs": {
-      "summary": "Harvey LAB 是一个开源基准测试，用于评估和提升 LLM 智能体在真实法律工作中的能力。",
-      "sourceHash": "c6c199ab7494a39883f8140196e1daae6f2d789f651c1af54cb10f93292a962c",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T23:53:27.063Z"
-    },
-    "huggingface/transformers": {
-      "summary": "Transformers 是 Hugging Face 推出的模型定义框架，支持文本、视觉、音频等多模态模型的推理与训练，提供统一 API 和大量预训练模型。",
-      "sourceHash": "63781460ffb523e32db9fb08155e0c883d0e7e2a1ae3cffab782c49bb441cb15",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-11T23:53:26.909Z"
     }
   }
 }
