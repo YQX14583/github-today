@@ -1,33 +1,124 @@
 {
   "version": 1,
   "entries": {
-    "asciimoo/hister": {
-      "summary": "Hister 是一个用 Go 编写的私有搜索引擎，可对用户访问过的网页和本地文件进行全文索引，支持通过 Web、终端或 MCP 客户端检索。",
-      "sourceHash": "95fdc63daf76a40f7097064f4c2483dfaf1a0a12940c1690c739a37dfcd30c04",
+    "voltagent/awesome-agent-skills": {
+      "summary": "精选1000多个来自官方团队和社区的Agent技能，兼容Claude Code、Codex、Gemini CLI、Cursor等AI编程工具。",
+      "sourceHash": "49e7e7e13a4658521e9e7d7e956769c81e259366e1fbc37c57689d1f6369d4ca",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-25T23:33:59.115Z"
-    },
-    "anthropics/claude-plugins-official": {
-      "summary": "Anthropic 官方维护的 Claude Code 插件目录，收录并管理高质量插件，支持安装与提交。",
-      "sourceHash": "57c0b9849a1455c479f61734473df34afe467633c1454c474c98e2218bd27a36",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-25T23:33:57.742Z"
-    },
-    "dietrichgebert/ponytail": {
-      "summary": "Ponytail 是一个为 AI 编程代理提供技能和插件的工具，通过引导代理遵循 YAGNI 原则，优先复用现有代码，从而减少代码量、降低成本并提升效率。",
-      "sourceHash": "7ab62507cf625f9c53030e37c3d129e8d9aaccb750d188cc43a5834a27fbebf7",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-25T23:33:55.971Z"
+      "lastUsedAt": "2026-08-27T04:29:32.506Z"
     },
     "marin-community/marin": {
       "summary": "Marin 是一个开源框架，用于基础模型的研究与开发，涵盖数据处理、预训练、后训练和评估等环节。",
       "sourceHash": "e03a2f1bab4512121648350fac01cd2d0ea7184957a36fda41fad8467226765c",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-25T23:33:54.296Z"
+      "lastUsedAt": "2026-08-27T04:29:31.240Z"
+    },
+    "k-dense-ai/scientific-agent-skills": {
+      "summary": "一个为AI智能体提供科学技能的库，包含163个经过验证的技能和100多个科学数据库，覆盖生物、化学、医学和药物发现等领域。",
+      "sourceHash": "b838ad49d4292f2ecfc53e0c43db296fac0d631dcf8c582a3f3ad89a6e5862a7",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-27T04:29:31.022Z"
+    },
+    "browser-use/browser-use": {
+      "summary": "Browser Use 是一个 Python 库，能让 AI 代理像人类一样操作浏览器，自动完成填表、数据提取等网页任务。",
+      "sourceHash": "3199e84309c42c2cc2866d6266fc309fddf6fdb5c7f14e0864045ba78a821db5",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-27T04:29:29.852Z"
+    },
+    "conardli/garden-skills": {
+      "summary": "面向AI编程代理的Agent Skills集合，提供网页设计、知识检索、图像生成等可安装技能。",
+      "sourceHash": "4f9f313eccb92dfeb57321f748b3c4ac2c912cfe2a28bf602ca31c98e295becf",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-27T04:29:28.942Z"
+    },
+    "anthropics/claude-plugins-community": {
+      "summary": "社区插件市场镜像，列出经审核的 Claude Cowork 与 Claude Code 插件，供用户安装使用。",
+      "sourceHash": "268dc08df5fbce9a918b529cd79b07601c60707f4b32c11b182400f94622a576",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-27T04:29:27.933Z"
+    },
+    "dietrichgebert/ponytail": {
+      "summary": "Ponytail 是一个为 AI 编程代理提供技能和插件的工具，通过引导代理遵循 YAGNI 原则，优先复用现有代码，从而减少代码量、降低成本并提升效率。",
+      "sourceHash": "7ab62507cf625f9c53030e37c3d129e8d9aaccb750d188cc43a5834a27fbebf7",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-27T04:29:27.688Z"
+    },
+    "tinyhumansai/openhuman": {
+      "summary": "OpenHuman 是一个用 Rust 编写的本地优先 AI 助手平台，具备持久记忆、工作流编排和深度研究能力。",
+      "sourceHash": "6e23efa373c9e3c45a81d6204e10262a3962aded764f56d9ab866748ce871ff4",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-27T04:29:27.493Z"
+    },
+    "rohitg00/ai-engineering-from-scratch": {
+      "summary": "一个从零开始学习AI工程的开源课程，包含20个阶段、511节课，每课产出可复用工具。",
+      "sourceHash": "a0f17a8e8885423d0a12f047e5695354d4f87fb770cddaeaf55f875576fd15e2",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-27T04:29:27.246Z"
+    },
+    "basecamp/omarchy": {
+      "summary": "Omarchy 是一个由 DHH 开发的注重美观与现代性的 Linux 发行版，提供完整的手册和配置指南。",
+      "sourceHash": "115aaa8b16623f6fb209df94f282d09e6153137d3cf707dd49f9fc8d20892f50",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-27T04:29:26.992Z"
+    },
+    "agricidaniel/claude-obsidian": {
+      "summary": "基于Obsidian和Claude Code的自组织AI第二大脑，将任意来源内容整理为个人拥有的Markdown知识图谱。",
+      "sourceHash": "8a11a6d4ed5b5058a467982cb58d8d3a7f569b6a4793d4cb3dcccf231dd4a810",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-27T04:29:26.783Z"
+    },
+    "madslorentzen/ai-job-search": {
+      "summary": "基于Claude Code的AI求职应用框架，可评估职位、定制简历、撰写求职信并准备面试。",
+      "sourceHash": "11777f629aa0b016d87ff5ebc83ce5ad21678f95e0e8d96862e81c9883f89dea",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-27T04:29:26.581Z"
+    },
+    "alishahryar1/free-claude-code": {
+      "summary": "一个开源工具，通过统一界面免费接入多种模型提供商，让Claude Code等编程代理在终端、应用或手机中使用。",
+      "sourceHash": "2239eb4c98c0b182ce52740392d17721c4a237be35d593819fdf8922ed623ee6",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-27T04:29:25.454Z"
+    },
+    "anthropics/claude-plugins-official": {
+      "summary": "Anthropic 官方维护的 Claude Code 插件目录，收录并管理高质量插件，支持安装与提交。",
+      "sourceHash": "57c0b9849a1455c479f61734473df34afe467633c1454c474c98e2218bd27a36",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-27T04:29:25.193Z"
+    },
+    "freestylefly/awesome-gpt-image-2": {
+      "summary": "面向GPT-Image2的提示词引擎与模板库，收录530多个逆向工程案例和20多套工业级模板，并提供Agent技能以辅助生成。",
+      "sourceHash": "78d0a453aaac15b31ce8c8990c6a7f3aaf3ddb8f40e3e422b5f33aa5818bc88a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-27T04:29:24.955Z"
+    },
+    "tt-a1i/archify": {
+      "summary": "Archify 是一个智能体技能，可将代码库或系统描述转化为带交互和动效的架构图，并支持导出与验证。",
+      "sourceHash": "675a911bca5a5b70da08781d65c25accaabdb639584f7fe87bf65cc31edeae2b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-27T04:29:23.719Z"
+    },
+    "asciimoo/hister": {
+      "summary": "Hister 是一个用 Go 编写的私有搜索引擎，可对用户访问过的网页和本地文件进行全文索引，支持通过 Web、终端或 MCP 客户端检索。",
+      "sourceHash": "95fdc63daf76a40f7097064f4c2483dfaf1a0a12940c1690c739a37dfcd30c04",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-25T23:33:59.115Z"
     },
     "openai/codex": {
       "summary": "Codex CLI 是 OpenAI 推出的轻量级编程代理，运行在终端中，可协助用户完成编码任务。",
@@ -50,34 +141,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-25T23:33:52.618Z"
     },
-    "basecamp/omarchy": {
-      "summary": "Omarchy 是一个由 DHH 开发的注重美观与现代性的 Linux 发行版，提供完整的手册和配置指南。",
-      "sourceHash": "115aaa8b16623f6fb209df94f282d09e6153137d3cf707dd49f9fc8d20892f50",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-25T23:33:51.034Z"
-    },
-    "tinyhumansai/openhuman": {
-      "summary": "OpenHuman 是一个用 Rust 编写的本地优先 AI 助手平台，具备持久记忆、工作流编排和深度研究能力。",
-      "sourceHash": "6e23efa373c9e3c45a81d6204e10262a3962aded764f56d9ab866748ce871ff4",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-25T23:33:50.859Z"
-    },
-    "rohitg00/ai-engineering-from-scratch": {
-      "summary": "一个从零开始学习AI工程的开源课程，包含20个阶段、511节课，每课产出可复用工具。",
-      "sourceHash": "a0f17a8e8885423d0a12f047e5695354d4f87fb770cddaeaf55f875576fd15e2",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-25T23:33:50.647Z"
-    },
-    "agricidaniel/claude-obsidian": {
-      "summary": "基于Obsidian和Claude Code的自组织AI第二大脑，将任意来源内容整理为个人拥有的Markdown知识图谱。",
-      "sourceHash": "8a11a6d4ed5b5058a467982cb58d8d3a7f569b6a4793d4cb3dcccf231dd4a810",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-25T23:33:50.427Z"
-    },
     "tauricresearch/tradingagents": {
       "summary": "TradingAgents是一个基于多智能体LLM的金融交易框架，模拟真实交易公司流程，通过分析师、研究员、交易员等角色协作，辅助股票交易决策。",
       "sourceHash": "afc8fc1423a447aa6e3e02d303eb17672073e199d68e808d0a70d43e5c89f89d",
@@ -91,34 +154,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-25T23:33:47.829Z"
-    },
-    "madslorentzen/ai-job-search": {
-      "summary": "基于Claude Code的AI求职申请框架，可评估职位、定制简历、撰写求职信并准备面试。",
-      "sourceHash": "0fb65f0916bc66a526aaf771fe82f70c676e1e4a69b0ec55e35a5efb677f6aea",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-25T23:33:47.618Z"
-    },
-    "anthropics/claude-plugins-community": {
-      "summary": "社区插件市场镜像，列出经审核的 Claude Cowork 与 Claude Code 插件，供用户安装使用。",
-      "sourceHash": "268dc08df5fbce9a918b529cd79b07601c60707f4b32c11b182400f94622a576",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-25T23:33:46.157Z"
-    },
-    "freestylefly/awesome-gpt-image-2": {
-      "summary": "这是一个GPT-Image2提示词引擎与模板库，收录530多个逆向工程案例和20多套工业级模板，并提供Agent技能以辅助生成图像。",
-      "sourceHash": "bfb85abb57a8dd4746c2e02da2a20d4d8ca9d9f83d230e8baf7588c9a95624f6",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-25T23:33:45.951Z"
-    },
-    "voltagent/awesome-agent-skills": {
-      "summary": "精选1000多个来自官方团队和社区的Agent技能，兼容Claude Code、Codex、Gemini CLI、Cursor等AI编程工具。",
-      "sourceHash": "a361ffdad0ed7dfda24144901ed74fbfbfb52b5bf31e4ee807bf44cbdc0eca76",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-24T23:31:28.544Z"
     },
     "dani-garcia/vaultwarden": {
       "summary": "Vaultwarden 是一个用 Rust 编写的非官方 Bitwarden 服务器实现，兼容官方客户端，适合自托管部署。",
@@ -168,13 +203,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-24T23:31:15.505Z"
-    },
-    "alishahryar1/free-claude-code": {
-      "summary": "一个开源工具，通过统一界面免费接入多种模型提供商，让Claude Code等编程代理在终端、应用或手机中使用。",
-      "sourceHash": "2239eb4c98c0b182ce52740392d17721c4a237be35d593819fdf8922ed623ee6",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-24T23:31:13.496Z"
     },
     "comfy-org/comfyui": {
       "summary": "ComfyUI 是一个基于节点图的模块化扩散模型图形界面与后端，支持图像、视频等生成工作流。",
@@ -672,34 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-12T23:54:09.358Z"
-    },
-    "hugohe3/ppt-master": {
-      "summary": "PPT Master 是一个用 Python 编写的 AI 工具，可将文档或主题直接生成带原生形状、动画、图表和音频旁白的 PowerPoint 演示文稿，并支持自定义模板。",
-      "sourceHash": "5765f1f398c3cc4aea836084ccbc5898ff38097dacf10397b557aca2d09efa9e",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-12T23:54:07.933Z"
-    },
-    "nanmicoder/mediacrawler": {
-      "summary": "MediaCrawler 是一个基于 Playwright 的多平台自媒体数据采集工具，支持小红书、抖音、快手、B站、微博、贴吧、知乎等平台的帖子与评论爬取。",
-      "sourceHash": "958caabe72589cd3908e7b1a418651da62e3e5fb7e62124f75ff5fba5b08b055",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-12T23:54:06.380Z"
-    },
-    "shiyu-coder/kronos": {
-      "summary": "Kronos 是一个开源的金融 K 线基础模型，基于自回归 Transformer 架构，用于金融市场的预测和量化任务。",
-      "sourceHash": "3889a00730b9a978017436ae0e058754647e1ea85c6a71387f1e04e95ad4cb50",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-12T23:54:04.758Z"
-    },
-    "stablyai/orca": {
-      "summary": "Orca 是一个用于并行运行多个 AI 编码代理的桌面应用，支持在独立工作树中同时运行 Codex、Claude Code 等，并提供移动端配套应用。",
-      "sourceHash": "f785fc66a2838a61fd35f45484f8ffd5190539bea6f7ecdeb8d193805486a166",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-12T23:54:02.984Z"
     }
   }
 }
