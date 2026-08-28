@@ -1,26 +1,145 @@
 {
   "version": 1,
   "entries": {
-    "voltagent/awesome-agent-skills": {
-      "summary": "精选1000多个来自官方团队和社区的Agent技能，兼容Claude Code、Codex、Gemini CLI、Cursor等AI编程工具。",
-      "sourceHash": "49e7e7e13a4658521e9e7d7e956769c81e259366e1fbc37c57689d1f6369d4ca",
+    "tauricresearch/tradingagents": {
+      "summary": "TradingAgents是一个基于多智能体LLM的金融交易框架，模拟真实交易公司流程，通过分析师、研究员、交易员等角色协作，辅助股票交易决策。",
+      "sourceHash": "afc8fc1423a447aa6e3e02d303eb17672073e199d68e808d0a70d43e5c89f89d",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-27T04:29:32.506Z"
+      "lastUsedAt": "2026-08-28T06:53:36.185Z"
+    },
+    "opencut-app/opencut": {
+      "summary": "OpenCut 是一款免费开源的视频编辑器，支持网页、桌面和移动端，目前正在重写以提供插件架构和跨平台支持。",
+      "sourceHash": "d6c998d101f931f3c10ca58bbf8dcfed61b226893765c2115cf533e3844e8101",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-28T06:53:36.009Z"
+    },
+    "actions/checkout": {
+      "summary": "一个用于在GitHub Actions工作流中检出仓库代码的官方动作，支持分支、标签、稀疏检出等配置。",
+      "sourceHash": "6411d508d92ad81eb9ad073c436d2e4f5f93a5d0a431aa56fab29f59eb08de46",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-28T06:53:35.829Z"
+    },
+    "composiohq/awesome-claude-skills": {
+      "summary": "一个精选的Claude Skills资源列表，收录了1000多个实用技能和插件，用于定制Claude AI工作流并提升生产力。",
+      "sourceHash": "ff14ac6f6e28997b5a708038126436604066e65ffed78a481595c39d702b7d80",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-28T06:53:34.638Z"
     },
     "marin-community/marin": {
       "summary": "Marin 是一个开源框架，用于基础模型的研究与开发，涵盖数据处理、预训练、后训练和评估等环节。",
       "sourceHash": "e03a2f1bab4512121648350fac01cd2d0ea7184957a36fda41fad8467226765c",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-27T04:29:31.240Z"
+      "lastUsedAt": "2026-08-28T06:53:33.415Z"
+    },
+    "agricidaniel/claude-obsidian": {
+      "summary": "基于Obsidian和Claude Code的自组织AI第二大脑，将任意来源内容整理为个人拥有的Markdown知识图谱。",
+      "sourceHash": "8a11a6d4ed5b5058a467982cb58d8d3a7f569b6a4793d4cb3dcccf231dd4a810",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-28T06:53:33.254Z"
+    },
+    "google/googletest": {
+      "summary": "GoogleTest是Google的C++测试框架，提供丰富的断言、测试发现及参数化测试等功能，用于单元测试和模拟。",
+      "sourceHash": "6661f73629b6ebeee4c42aa38d3cf00c26cdcc82debc867c378574369b0f1c7e",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-28T06:53:33.080Z"
+    },
+    "thedotmack/claude-mem": {
+      "summary": "claude-mem 是一个为 AI 编程助手提供跨会话持久记忆的工具，通过捕获会话数据并压缩注入上下文，支持多种 AI 工具。",
+      "sourceHash": "a90bc0ff52af07d59c68661c8bbf2591fbc31f679e00f5ed2b85b1a9f638c237",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-28T06:53:31.710Z"
+    },
+    "conardli/garden-skills": {
+      "summary": "面向AI编程代理的Agent Skills集合，提供网页设计、知识检索、图像生成等可安装技能。",
+      "sourceHash": "4f9f313eccb92dfeb57321f748b3c4ac2c912cfe2a28bf602ca31c98e295becf",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-28T06:53:30.195Z"
+    },
+    "rohitg00/ai-engineering-from-scratch": {
+      "summary": "一个从零开始学习AI工程的开源课程，包含20个阶段、511节课，每课产出可复用工具。",
+      "sourceHash": "a0f17a8e8885423d0a12f047e5695354d4f87fb770cddaeaf55f875576fd15e2",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-28T06:53:30.053Z"
+    },
+    "calesthio/openmontage": {
+      "summary": "OpenMontage 是一个开源的智能体视频制作系统，提供 12 条生产流水线、100 多个工具和 700 多个技能文件，可将 AI 编程助手转变为完整的视频制作工作室。",
+      "sourceHash": "c826011b1e034dba34fcd4f01d2bdaddff6411b0f8f2a9cf784ec7803c9ad19d",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-28T06:53:29.877Z"
+    },
+    "dietrichgebert/ponytail": {
+      "summary": "Ponytail 是一个为 AI 编程代理提供技能和插件的工具，通过引导代理遵循 YAGNI 原则，优先复用现有代码，从而减少代码量、降低成本并提升效率。",
+      "sourceHash": "7ab62507cf625f9c53030e37c3d129e8d9aaccb750d188cc43a5834a27fbebf7",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-28T06:53:28.359Z"
     },
     "k-dense-ai/scientific-agent-skills": {
       "summary": "一个为AI智能体提供科学技能的库，包含163个经过验证的技能和100多个科学数据库，覆盖生物、化学、医学和药物发现等领域。",
       "sourceHash": "b838ad49d4292f2ecfc53e0c43db296fac0d631dcf8c582a3f3ad89a6e5862a7",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-27T04:29:31.022Z"
+      "lastUsedAt": "2026-08-28T06:53:28.179Z"
+    },
+    "anthropics/claude-plugins-official": {
+      "summary": "Anthropic 官方维护的 Claude Code 插件目录，收录并管理高质量插件，支持安装与提交。",
+      "sourceHash": "57c0b9849a1455c479f61734473df34afe467633c1454c474c98e2218bd27a36",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-28T06:53:27.978Z"
+    },
+    "jetbrains/go-modern-guidelines": {
+      "summary": "为AI编程助手提供现代Go编码规范的指南仓库，覆盖Go 1.0至1.27特性，帮助生成符合当前版本惯用写法的代码。",
+      "sourceHash": "74481219dde95a8e99d9c11f25285835dad3e20aa12945342997c34292dd229a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-28T06:53:27.805Z"
+    },
+    "tt-a1i/archify": {
+      "summary": "Archify 是一个 Node.js 渲染与验证系统，可将代码库或系统描述转化为带交互和动画的精美架构图，并支持导出。",
+      "sourceHash": "d933d0557730161dc631e9d7639389fcf3b940a80a573a8c6eb82fc00d3446cf",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-28T06:53:26.491Z"
+    },
+    "freestylefly/awesome-gpt-image-2": {
+      "summary": "面向GPT-Image2的提示词引擎与模板库，收录530多个逆向工程案例和20多套工业级模板，并提供Agent技能以辅助生成。",
+      "sourceHash": "78d0a453aaac15b31ce8c8990c6a7f3aaf3ddb8f40e3e422b5f33aa5818bc88a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-28T06:53:24.979Z"
+    },
+    "zedeus/nitter": {
+      "summary": "Nitter 是一个注重隐私和性能的免费开源 Twitter 替代前端，无需 JavaScript 或广告，可匿名浏览推文。",
+      "sourceHash": "6266e2de17697bd4769d02aada56b3b910fa60794c2c96106ac5ac43e38385fc",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-28T06:53:24.813Z"
+    },
+    "bilawalsidhu/gods-eye-view": {
+      "summary": "一个在浏览器中运行的间谍卫星模拟器，基于真实公开数据在逼真3D地球上实时展示飞机、船舶和卫星等空间情报。",
+      "sourceHash": "7c949bef0a083b6cff2896c4bfa835d269d0957d43f72ccd886ac62af54ba2a3",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-28T06:53:23.642Z"
+    },
+    "voltagent/awesome-agent-skills": {
+      "summary": "精选1000多个来自官方团队和社区的Agent技能，兼容Claude Code、Codex、Gemini CLI、Cursor等AI编程工具。",
+      "sourceHash": "49e7e7e13a4658521e9e7d7e956769c81e259366e1fbc37c57689d1f6369d4ca",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-27T04:29:32.506Z"
     },
     "browser-use/browser-use": {
       "summary": "Browser Use 是一个 Python 库，能让 AI 代理像人类一样操作浏览器，自动完成填表、数据提取等网页任务。",
@@ -29,26 +148,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-27T04:29:29.852Z"
     },
-    "conardli/garden-skills": {
-      "summary": "面向AI编程代理的Agent Skills集合，提供网页设计、知识检索、图像生成等可安装技能。",
-      "sourceHash": "4f9f313eccb92dfeb57321f748b3c4ac2c912cfe2a28bf602ca31c98e295becf",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-27T04:29:28.942Z"
-    },
     "anthropics/claude-plugins-community": {
       "summary": "社区插件市场镜像，列出经审核的 Claude Cowork 与 Claude Code 插件，供用户安装使用。",
       "sourceHash": "268dc08df5fbce9a918b529cd79b07601c60707f4b32c11b182400f94622a576",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-27T04:29:27.933Z"
-    },
-    "dietrichgebert/ponytail": {
-      "summary": "Ponytail 是一个为 AI 编程代理提供技能和插件的工具，通过引导代理遵循 YAGNI 原则，优先复用现有代码，从而减少代码量、降低成本并提升效率。",
-      "sourceHash": "7ab62507cf625f9c53030e37c3d129e8d9aaccb750d188cc43a5834a27fbebf7",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-27T04:29:27.688Z"
     },
     "tinyhumansai/openhuman": {
       "summary": "OpenHuman 是一个用 Rust 编写的本地优先 AI 助手平台，具备持久记忆、工作流编排和深度研究能力。",
@@ -57,26 +162,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-27T04:29:27.493Z"
     },
-    "rohitg00/ai-engineering-from-scratch": {
-      "summary": "一个从零开始学习AI工程的开源课程，包含20个阶段、511节课，每课产出可复用工具。",
-      "sourceHash": "a0f17a8e8885423d0a12f047e5695354d4f87fb770cddaeaf55f875576fd15e2",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-27T04:29:27.246Z"
-    },
     "basecamp/omarchy": {
       "summary": "Omarchy 是一个由 DHH 开发的注重美观与现代性的 Linux 发行版，提供完整的手册和配置指南。",
       "sourceHash": "115aaa8b16623f6fb209df94f282d09e6153137d3cf707dd49f9fc8d20892f50",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-27T04:29:26.992Z"
-    },
-    "agricidaniel/claude-obsidian": {
-      "summary": "基于Obsidian和Claude Code的自组织AI第二大脑，将任意来源内容整理为个人拥有的Markdown知识图谱。",
-      "sourceHash": "8a11a6d4ed5b5058a467982cb58d8d3a7f569b6a4793d4cb3dcccf231dd4a810",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-27T04:29:26.783Z"
     },
     "madslorentzen/ai-job-search": {
       "summary": "基于Claude Code的AI求职应用框架，可评估职位、定制简历、撰写求职信并准备面试。",
@@ -91,27 +182,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-27T04:29:25.454Z"
-    },
-    "anthropics/claude-plugins-official": {
-      "summary": "Anthropic 官方维护的 Claude Code 插件目录，收录并管理高质量插件，支持安装与提交。",
-      "sourceHash": "57c0b9849a1455c479f61734473df34afe467633c1454c474c98e2218bd27a36",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-27T04:29:25.193Z"
-    },
-    "freestylefly/awesome-gpt-image-2": {
-      "summary": "面向GPT-Image2的提示词引擎与模板库，收录530多个逆向工程案例和20多套工业级模板，并提供Agent技能以辅助生成。",
-      "sourceHash": "78d0a453aaac15b31ce8c8990c6a7f3aaf3ddb8f40e3e422b5f33aa5818bc88a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-27T04:29:24.955Z"
-    },
-    "tt-a1i/archify": {
-      "summary": "Archify 是一个智能体技能，可将代码库或系统描述转化为带交互和动效的架构图，并支持导出与验证。",
-      "sourceHash": "675a911bca5a5b70da08781d65c25accaabdb639584f7fe87bf65cc31edeae2b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-27T04:29:23.719Z"
     },
     "asciimoo/hister": {
       "summary": "Hister 是一个用 Go 编写的私有搜索引擎，可对用户访问过的网页和本地文件进行全文索引，支持通过 Web、终端或 MCP 客户端检索。",
@@ -140,13 +210,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-25T23:33:52.618Z"
-    },
-    "tauricresearch/tradingagents": {
-      "summary": "TradingAgents是一个基于多智能体LLM的金融交易框架，模拟真实交易公司流程，通过分析师、研究员、交易员等角色协作，辅助股票交易决策。",
-      "sourceHash": "afc8fc1423a447aa6e3e02d303eb17672073e199d68e808d0a70d43e5c89f89d",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-25T23:33:49.107Z"
     },
     "apache/maka": {
       "summary": "Apache Maka 是一个本地优先的 AI 智能体工作区，在沙箱中运行工具并将模型消息与工具调用记录为可恢复的追加式日志。",
@@ -449,13 +512,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-19T23:32:44.406Z"
     },
-    "opencut-app/opencut": {
-      "summary": "OpenCut 是一款免费开源的视频编辑器，支持网页、桌面和移动端，目前正在重写以提供插件架构和跨平台支持。",
-      "sourceHash": "d6c998d101f931f3c10ca58bbf8dcfed61b226893765c2115cf533e3844e8101",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-18T23:32:42.675Z"
-    },
     "bojieli/ai-agent-book": {
       "summary": "《深入理解 AI Agent：设计原理与工程实践》一书的开源仓库，包含全书正文、PDF 电子书及按章节配套的 Python 实验代码。",
       "sourceHash": "df12cc9701f28602b70ca9ee2c05fa9cb9fca2720e3f7ea3f1b717a958bd4eff",
@@ -644,62 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-13T23:53:20.347Z"
-    },
-    "3b1b/manim": {
-      "summary": "Manim 是用于创建精确数学动画的 Python 引擎，由 3Blue1Brown 作者开发，支持编程式动画制作。",
-      "sourceHash": "4155c7a0c599152602788680fd6c8b599198612041c904ac25fe827514148fc9",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-13T23:53:20.094Z"
-    },
-    "kepano/obsidian-skills": {
-      "summary": "为 Obsidian 提供代理技能，让 AI 助手通过 CLI 和开放格式创建、编辑 Markdown、Bases 与 JSON Canvas 文件。",
-      "sourceHash": "8209709f07d902e658d59f9062914d694d03687a2bc38bd8f07f11593f1d875f",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-13T23:53:19.913Z"
-    },
-    "nvidia-nemo/switchyard": {
-      "summary": "Switchyard 是一个用 Rust 编写的 LLM 流量代理和库，用于在多个模型后端间路由请求，并转换 OpenAI 与 Anthropic 等 API 格式。",
-      "sourceHash": "d71a2aa3016792da54da76d897d75e1421101238f964d3caa24f361d9a395646",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-13T23:53:17.009Z"
-    },
-    "anthropics/skills": {
-      "summary": "Anthropic 官方发布的 Claude Agent Skills 示例仓库，包含多种技能模板与文档处理技能。",
-      "sourceHash": "e74288aebc542b4cc8b7f31a93813befa9e1342c683f9540cad9ea266b17a6e0",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-13T23:53:10.460Z"
-    },
-    "embabel/embabel-agent": {
-      "summary": "Embabel Agent 是一个面向 JVM 的代理框架，用于构建混合 LLM 交互与代码及领域模型的智能体流程，支持目标导向的路径规划，并提供 Java 与 Kotlin 两种使用方式。",
-      "sourceHash": "d0289f6b89d0420ffab6d47cc8fea7eeccba7b74a7aa70cdd0b54d412d9e27cf",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-12T23:54:17.905Z"
-    },
-    "localsend/localsend": {
-      "summary": "LocalSend 是一个开源的跨平台文件传输应用，通过 REST API 和 HTTPS 加密实现设备间安全通信，无需互联网或第三方服务器。",
-      "sourceHash": "ea635baedf55b82fcfa3aeac4ff73f1f33d66c9e030c2c4472c735d5c7daf1f3",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-12T23:54:14.781Z"
-    },
-    "zuodaotech/everyone-can-use-english": {
-      "summary": "一个利用AI辅助英语学习的开源项目，提供网页版、浏览器插件及桌面版应用，支持YouTube和Netflix等平台。",
-      "sourceHash": "29ab6ca2d59921d1d2f54633259ece946994320240f25b96d3c702840b58e175",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-12T23:54:12.067Z"
-    },
-    "paperclipai/paperclip": {
-      "summary": "Paperclip 是用于协调多个 AI 智能体协同工作的开源编排平台。",
-      "sourceHash": "bba4bbfc50767df631ce45f246f79e80b561c005167889ac22d06304d39233a9",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-12T23:54:09.358Z"
     }
   }
 }
