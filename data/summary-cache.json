@@ -1,19 +1,145 @@
 {
   "version": 1,
   "entries": {
-    "livekit/agents": {
-      "summary": "LiveKit Agents 是一个用于构建实时语音 AI 代理的 Python 框架，支持语音、视觉和对话功能，并集成任务调度与 WebRTC 客户端。",
-      "sourceHash": "9c5f693f44ac0cffc93cf9fb5ab82b51dd00cae2d70d7d91ceb03bf298c52360",
+    "workweave/router": {
+      "summary": "Workweave Router 是一个面向智能体系统的模型路由器，可在 50 毫秒内为每个请求选择最佳模型，仅需更改端点即可降低 40-70% 的成本。",
+      "sourceHash": "268438412c7260eb74d3f9abdb6a9ba68018b87e004eca08b9df78128157b344",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-29T04:07:39.453Z"
+      "lastUsedAt": "2026-08-30T01:12:58.540Z"
+    },
+    "addyosmani/agent-skills": {
+      "summary": "为AI编码智能体提供生产级工程技能的技能包，覆盖从需求定义到部署上线的完整开发生命周期。",
+      "sourceHash": "1cb570c9942d1ebb24dd9f371436e1bdf0e2175612929ed36c7bee570d517b51",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-30T01:12:56.914Z"
+    },
+    "kaifcodec/user-scanner": {
+      "summary": "一个Python编写的OSINT工具，通过455多个扫描向量从单个邮箱或用户名深度提取数字足迹信息，用于安全研究和调查。",
+      "sourceHash": "5b76735eed1eaf28ae7d0775b31a576d68682af8b615eec1481ed3f91473e599",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-30T01:12:55.399Z"
+    },
+    "actions/checkout": {
+      "summary": "一个用于在GitHub Actions工作流中检出仓库代码的官方动作，支持分支、标签、稀疏检出等配置。",
+      "sourceHash": "6411d508d92ad81eb9ad073c436d2e4f5f93a5d0a431aa56fab29f59eb08de46",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-30T01:12:53.743Z"
     },
     "google/googletest": {
       "summary": "GoogleTest是Google的C++测试框架，提供丰富的断言、测试发现及参数化测试等功能，用于单元测试和模拟。",
       "sourceHash": "6661f73629b6ebeee4c42aa38d3cf00c26cdcc82debc867c378574369b0f1c7e",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-29T04:07:37.828Z"
+      "lastUsedAt": "2026-08-30T01:12:53.584Z"
+    },
+    "anthropics/claude-plugins-official": {
+      "summary": "Anthropic 官方维护的 Claude Code 插件目录，收录并管理高质量插件，支持安装与提交。",
+      "sourceHash": "57c0b9849a1455c479f61734473df34afe467633c1454c474c98e2218bd27a36",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-30T01:12:53.413Z"
+    },
+    "abi/screenshot-to-code": {
+      "summary": "该项目利用AI将截图、设计稿或屏幕录制转换为HTML、React、Vue等前端代码。",
+      "sourceHash": "515ca6842cad9ceeb6998981a424c2f2272bd5163faf2b0f62595e0795ecc00b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-30T01:12:53.241Z"
+    },
+    "osmantic/ods": {
+      "summary": "ODS 是一个将个人电脑变为本地 AI 服务器的部署系统，通过一键安装整合模型推理、聊天界面、语音、智能体、RAG 及图像生成等服务。",
+      "sourceHash": "6fff9eecced3b2a22207260ce683ba2f3c5a576bc2e5c0d007229f4b54433809",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-30T01:12:53.078Z"
+    },
+    "every-app/open-seo": {
+      "summary": "OpenSEO 是一个开源的 SEO 工具，提供关键词研究、排名追踪、外链分析等功能，支持自托管和 AI 代理集成。",
+      "sourceHash": "8565ce601481a4a85cc3abb3f27fd8681a98d571b7ebc8561ccb59ef8806f6e7",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-30T01:12:51.823Z"
+    },
+    "calesthio/openmontage": {
+      "summary": "OpenMontage 是一个开源的智能体视频制作系统，提供 12 条生产流水线、100 多个工具和 700 多个技能文件，可将 AI 编程助手转变为完整的视频制作工作室。",
+      "sourceHash": "c826011b1e034dba34fcd4f01d2bdaddff6411b0f8f2a9cf784ec7803c9ad19d",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-30T01:12:50.459Z"
+    },
+    "composiohq/awesome-claude-skills": {
+      "summary": "一个精选的Claude Skills资源列表，收录了1000多个实用技能和插件，用于定制Claude AI工作流并提升生产力。",
+      "sourceHash": "ff14ac6f6e28997b5a708038126436604066e65ffed78a481595c39d702b7d80",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-30T01:12:50.262Z"
+    },
+    "jetbrains/go-modern-guidelines": {
+      "summary": "为AI编码代理提供现代Go语言编写指南的仓库，涵盖Go 1.0至1.27特性，帮助代理生成符合项目Go版本的现代代码。",
+      "sourceHash": "d557366422fc44ae5a5c31e5071a0d9b5f4b77f977a5189ac928f69236a80741",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-30T01:12:50.113Z"
+    },
+    "bigskysoftware/htmx": {
+      "summary": "htmx 是一个轻量级 JavaScript 库，允许直接在 HTML 中使用属性发起 AJAX 请求、CSS 过渡、WebSocket 和服务器发送事件，从而构建现代用户界面。",
+      "sourceHash": "4a6b5ef0170aa784008487e9994d4d35c61dbfb33a0260f83b746c30b9b25022",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-30T01:12:48.980Z"
+    },
+    "p-e-w/heretic": {
+      "summary": "Heretic 是一个自动去除语言模型审查（安全对齐）的工具，通过方向消融和参数优化实现，无需昂贵的后训练。",
+      "sourceHash": "675b736a8c3b537e46ba59fcaf4e0258369ef8a53f258bddf2b4d32666f0a4c0",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-30T01:12:47.681Z"
+    },
+    "thu-maic/openmaic": {
+      "summary": "OpenMAIC 是一个开源的多智能体交互式课堂平台，可将任意主题或文档一键生成包含幻灯片、测验和模拟的互动课程。",
+      "sourceHash": "aca3d07a39ea7b2b788b1e97c1acde95b7b777339b3582be57cc0ca08d44a8a2",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-30T01:12:46.601Z"
+    },
+    "tailscale/tailcat": {
+      "summary": "Tailcat 是一个基于 Tailscale 数据面、无需控制面的 netcat 替代工具，用于在两台机器间直接传输数据或暴露端口。",
+      "sourceHash": "ba22eba914a9b562aa69a61b11918491a81568a2b8fca7484e8d0c09425b42ce",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-30T01:12:45.432Z"
+    },
+    "k-dense-ai/scientific-agent-skills": {
+      "summary": "一个为AI智能体提供科学技能的库，包含163个验证过的技能和100多个科学数据库，支持生物学、化学、医学和药物发现等领域。",
+      "sourceHash": "02d3309fec40abfb8145a92a4ed84b6bbfda2166bde22285380210fa987501ba",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-30T01:12:44.135Z"
+    },
+    "bilawalsidhu/gods-eye-view": {
+      "summary": "一个在浏览器中运行的间谍卫星模拟器，基于真实公开数据在逼真3D地球上实时展示飞机、船舶和卫星等空间情报。",
+      "sourceHash": "7c949bef0a083b6cff2896c4bfa835d269d0957d43f72ccd886ac62af54ba2a3",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-30T01:12:42.709Z"
+    },
+    "tt-a1i/archify": {
+      "summary": "Archify 是一个 Node.js 渲染与验证系统，可将代码库或系统描述转化为带交互和动画的自包含 HTML 架构图。",
+      "sourceHash": "19b5df634c160775c9dbe7f30e61768a1944d5c66bbd4fc5a73ead403909b1b4",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-30T01:12:42.546Z"
+    },
+    "livekit/agents": {
+      "summary": "LiveKit Agents 是一个用于构建实时语音 AI 代理的 Python 框架，支持语音、视觉和对话功能，并集成任务调度与 WebRTC 客户端。",
+      "sourceHash": "9c5f693f44ac0cffc93cf9fb5ab82b51dd00cae2d70d7d91ceb03bf298c52360",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-08-29T04:07:39.453Z"
     },
     "dietrichgebert/ponytail": {
       "summary": "Ponytail 是一个为 AI 编程代理提供技能和插件的工具，通过引导代理遵循 YAGNI 原则，优先复用现有代码，从而减少代码量、降低成本并提升效率。",
@@ -64,13 +190,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-29T04:07:34.175Z"
     },
-    "tailscale/tailcat": {
-      "summary": "Tailcat 是一个基于 Tailscale 数据面、无需控制面的 netcat 替代工具，用于在两台机器间直接传输数据或暴露端口。",
-      "sourceHash": "7dcc01d07256616e4bb7d71ffb7e99fe4c4f7b1240b4c5a10dd5b3a23ba4be86",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-29T04:07:32.698Z"
-    },
     "freestylefly/awesome-gpt-image-2": {
       "summary": "一个面向GPT-Image2的提示词引擎与模板库，收录500多个逆向工程案例和20多套工业级模板，并提供Agent技能以辅助生成。",
       "sourceHash": "93ad5157de9f8db237200d343e6c48dfade682a512b4761ee315a73bfb6e7cf7",
@@ -85,61 +204,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-29T04:07:28.886Z"
     },
-    "abi/screenshot-to-code": {
-      "summary": "该项目利用AI将截图、设计稿或屏幕录制转换为HTML、React、Vue等前端代码。",
-      "sourceHash": "515ca6842cad9ceeb6998981a424c2f2272bd5163faf2b0f62595e0795ecc00b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-29T04:07:27.293Z"
-    },
-    "calesthio/openmontage": {
-      "summary": "OpenMontage 是一个开源的智能体视频制作系统，提供 12 条生产流水线、100 多个工具和 700 多个技能文件，可将 AI 编程助手转变为完整的视频制作工作室。",
-      "sourceHash": "c826011b1e034dba34fcd4f01d2bdaddff6411b0f8f2a9cf784ec7803c9ad19d",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-29T04:07:25.586Z"
-    },
-    "jetbrains/go-modern-guidelines": {
-      "summary": "为AI编程助手提供现代Go编码规范的指南仓库，覆盖Go 1.0至1.27特性，帮助生成符合当前版本惯用写法的代码。",
-      "sourceHash": "74481219dde95a8e99d9c11f25285835dad3e20aa12945342997c34292dd229a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-29T04:07:25.374Z"
-    },
     "abhigyanpatwari/gitnexus": {
       "summary": "GitNexus 是一个在浏览器中运行的零服务器代码智能引擎，可将 Git 仓库或 ZIP 文件构建为交互式知识图谱，并提供内置的 Graph RAG 代理，用于代码探索。",
       "sourceHash": "b97ee701c85881531a7e33dde922895a70dc0a581fb9f25d22088999fe06d58d",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-29T04:07:25.155Z"
-    },
-    "bilawalsidhu/gods-eye-view": {
-      "summary": "一个在浏览器中运行的间谍卫星模拟器，基于真实公开数据在逼真3D地球上实时展示飞机、船舶和卫星等空间情报。",
-      "sourceHash": "7c949bef0a083b6cff2896c4bfa835d269d0957d43f72ccd886ac62af54ba2a3",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-29T04:07:23.387Z"
-    },
-    "anthropics/claude-plugins-official": {
-      "summary": "Anthropic 官方维护的 Claude Code 插件目录，收录并管理高质量插件，支持安装与提交。",
-      "sourceHash": "57c0b9849a1455c479f61734473df34afe467633c1454c474c98e2218bd27a36",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-29T04:07:23.165Z"
-    },
-    "k-dense-ai/scientific-agent-skills": {
-      "summary": "一个为AI智能体提供科学技能的库，包含163个经过验证的技能和100多个科学数据库，覆盖生物、化学、医学和药物发现等领域。",
-      "sourceHash": "6bc4a04c200511d84b8df1263ea81e97039daf2c77515b664a2fff6b23b7340c",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-29T04:07:22.945Z"
-    },
-    "tt-a1i/archify": {
-      "summary": "Archify 是一个 Node.js 渲染与验证系统，可将代码库或系统描述转化为带交互和动画的精美架构图，并支持导出。",
-      "sourceHash": "d933d0557730161dc631e9d7639389fcf3b940a80a573a8c6eb82fc00d3446cf",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-29T04:07:21.024Z"
     },
     "tauricresearch/tradingagents": {
       "summary": "TradingAgents是一个基于多智能体LLM的金融交易框架，模拟真实交易公司流程，通过分析师、研究员、交易员等角色协作，辅助股票交易决策。",
@@ -154,20 +224,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-28T06:53:36.009Z"
-    },
-    "actions/checkout": {
-      "summary": "一个用于在GitHub Actions工作流中检出仓库代码的官方动作，支持分支、标签、稀疏检出等配置。",
-      "sourceHash": "6411d508d92ad81eb9ad073c436d2e4f5f93a5d0a431aa56fab29f59eb08de46",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-28T06:53:35.829Z"
-    },
-    "composiohq/awesome-claude-skills": {
-      "summary": "一个精选的Claude Skills资源列表，收录了1000多个实用技能和插件，用于定制Claude AI工作流并提升生产力。",
-      "sourceHash": "ff14ac6f6e28997b5a708038126436604066e65ffed78a481595c39d702b7d80",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-28T06:53:34.638Z"
     },
     "agricidaniel/claude-obsidian": {
       "summary": "基于Obsidian和Claude Code的自组织AI第二大脑，将任意来源内容整理为个人拥有的Markdown知识图谱。",
@@ -644,62 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-15T23:30:40.606Z"
-    },
-    "altic-dev/fluidvoice": {
-      "summary": "FluidVoice 是一款开源的 macOS 语音转文字听写应用，支持设备端 AI 增强、命令模式和写作模式，可离线运行。",
-      "sourceHash": "ff17404e4da052165fd853546ed86183c1e10f76420a306f7748c6590f1505a8",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-15T23:30:39.345Z"
-    },
-    "megadose/holehe": {
-      "summary": "holehe 是一个 Python 工具，通过检查邮箱在 Twitter、Instagram 等网站是否注册，利用忘记密码功能获取相关信息。",
-      "sourceHash": "4eb9f2f18f2ab3f71034b020535ddfff0653843dfb6c0fa511202d57aaaaf3a9",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-15T23:30:39.160Z"
-    },
-    "github/spec-kit": {
-      "summary": "Spec Kit 是一个开源工具包，通过规范驱动开发流程，帮助用户在使用任意 AI 编程代理时先定义再构建软件。",
-      "sourceHash": "3dbdac799d8593918bc1e922d54964b3bf82e3daa44a8197820d397d9a84eaed",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-15T23:30:38.900Z"
-    },
-    "makazhanalpamys/soup": {
-      "summary": "Soup 是一个通过 YAML 配置即可微调大语言模型的命令行工具，支持多种训练任务，并能在低显存 GPU 上运行。",
-      "sourceHash": "aede757d96b5df85bc2125bdba4e5e8c62056ff671382746674e34d3cbf418b4",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-15T23:30:38.742Z"
-    },
-    "cathrynlavery/diagram-design": {
-      "summary": "为 Claude Code 等 AI 编程工具提供 29 种编辑级 HTML+SVG 图表模板的插件，可生成无阴影、非 Mermaid 风格的自包含图表。",
-      "sourceHash": "9751342d3e765fe1973c46263ec98a33fe013435b527701895c9820e83062c96",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-15T23:30:33.167Z"
-    },
-    "rustdesk/rustdesk": {
-      "summary": "RustDesk 是一个用 Rust 编写的开源远程桌面应用，支持自托管，可作为 TeamViewer 的替代品。",
-      "sourceHash": "e16c3eb45882ebc82e37ef1cdce60cc84b77f93ca15ca0ba82742e995f171bc9",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-14T23:32:23.355Z"
-    },
-    "semantica-agi/semantica": {
-      "summary": "Semantica 是一个开源 Python 框架，用于构建可查询、可审计的上下文知识图谱，以支持 AI 代理的决策记录与追溯。",
-      "sourceHash": "a62093b8efecdc2e706c2fae23255a9baf3446923f895b5e9b3ddafaff56b45f",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-14T23:32:21.975Z"
-    },
-    "deepseek-ai/awesome-deepseek-agent": {
-      "summary": "汇集将DeepSeek模型集成到主流AI代理和编程助手工具的指南列表，涵盖安装、配置与首次运行步骤。",
-      "sourceHash": "62e15d2b1c3ac183ea0f283fb7ce39e51ac917ec0d65b2f87b0f96f00c8120f5",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-14T23:32:21.727Z"
     }
   }
 }
