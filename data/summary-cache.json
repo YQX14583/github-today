@@ -1,26 +1,110 @@
 {
   "version": 1,
   "entries": {
-    "pollen-robotics/microduck_rl": {
-      "summary": "基于MuJoCo的Microduck双足机器人强化学习训练环境，使用PPO算法训练行走策略并导出ONNX部署到实体机器人。",
-      "sourceHash": "474edff6601b9b9d99c20dc84693757e1895ad0132fe03041691875981385608",
+    "unclecode/crawl4ai": {
+      "summary": "Crawl4AI 是一个面向大语言模型的开源网络爬虫与抓取工具，可将网页内容转换为干净的 Markdown 格式，便于 AI 处理。",
+      "sourceHash": "b325bb6a9ee590bb16cbae27246ca27d9c38674b2c4fec33b18bf14d38e986f6",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-01T01:47:43.516Z"
+      "lastUsedAt": "2026-09-02T00:59:45.744Z"
+    },
+    "affaan-m/ecc": {
+      "summary": "ECC 是一个为 Claude Code、Codex 等 AI 编程代理提供技能、规则、记忆与安全配置的性能优化系统，用于增强代理的工程协作能力。",
+      "sourceHash": "e707dc20bdd3b9526d84c5562ec9dbdead712f7f3e5b6ac0be09971e337f9b27",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-02T00:59:44.411Z"
+    },
+    "averygan/reclip": {
+      "summary": "ReClip 是一个自托管的开源视频和音频下载工具，通过简洁的 Web 界面支持从 YouTube、TikTok 等上千个网站下载媒体并转换为 MP4 或 MP3。",
+      "sourceHash": "6ec15eedb83534b062fb61595202bcee11fbb8205a8601eda4b42dc5ff6addc7",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-02T00:59:43.778Z"
+    },
+    "voltagent/awesome-design-md": {
+      "summary": "收集知名网站设计规范生成DESIGN.md文件，供AI编程代理生成风格一致的界面。",
+      "sourceHash": "08a4e8c3432f1e280c7a910cf1d40a8e4e85af76e67998041bc03442a901a367",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-02T00:59:42.362Z"
+    },
+    "handsomestwei/patent-disclosure-skill": {
+      "summary": "一个辅助专利撰写与解读的智能技能，支持专利点挖掘、交底书编写、通俗解读及审查答复。",
+      "sourceHash": "5858bf9dde85fcb6305dcc567eb325821c895c541d317f3ea6c2cb02d70bffca",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-02T00:59:40.981Z"
+    },
+    "k-dense-ai/scientific-agent-skills": {
+      "summary": "一个为AI智能体提供科学技能的库，包含163个经验证的技能和100多个科学数据库，覆盖生物、化学、医学和药物发现等领域，兼容多种AI代理工具。",
+      "sourceHash": "78afe94d5081b12b543349cd86071bdf8b1cb8e27e6aaa50bb4b25c9e4083b2f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-02T00:59:39.640Z"
+    },
+    "browser-use/video-use": {
+      "summary": "video-use 是一个开源工具，让编码代理（如 Claude Code）通过对话方式自动剪辑视频，包括去除语气词、调色、加字幕等。",
+      "sourceHash": "1c883815e0bd52882a8ed059d601d1b6dce7e5cb98b1663dd76fbb1fb52ebbb6",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-02T00:59:39.363Z"
     },
     "firecrawl/pdf-inspector": {
       "summary": "一个用于PDF分类和文本提取的Rust库，能快速识别扫描版或文本版PDF，并转换为Markdown格式。",
       "sourceHash": "bb221e6cd73b0d550a0862be5b35bed5bbb2b8fa6b0c66633ee44e4b8ee5c0ae",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-01T01:47:43.252Z"
+      "lastUsedAt": "2026-09-02T00:59:37.996Z"
     },
-    "handsomestwei/patent-disclosure-skill": {
-      "summary": "一个辅助专利工作的技能，用于挖掘专利点、编写交底书、解读专利、追踪政策动向并辅助审查答复。",
-      "sourceHash": "2ff528a09755f1b4882a2bc0e3196c31e49adaadf4db419efd7dfaa38d2d505a",
+    "3b1b/manim": {
+      "summary": "Manim是用于制作精确程序化动画的引擎，专为创建解释性数学视频而设计。",
+      "sourceHash": "8d3130e5f75f9d80ed60c4c01fec2701a8b2ca5d6702bbc720d4a624b4a5928d",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-01T01:47:41.688Z"
+      "lastUsedAt": "2026-09-02T00:59:37.717Z"
+    },
+    "jingyaogong/minimind": {
+      "summary": "MiniMind 是一个从零训练 64M 参数超小语言模型的开源项目，仅需 2 小时和 3 元成本，覆盖预训练、微调、强化学习等完整流程。",
+      "sourceHash": "1b7be745039cddb304075f0afb36611a742bde6831059a330eafc0978102fac8",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-02T00:59:36.550Z"
+    },
+    "iv-org/invidious": {
+      "summary": "Invidious 是一个开源的 YouTube 替代前端，提供无广告、无追踪的轻量级观看体验，并支持订阅、音频模式等功能。",
+      "sourceHash": "ad984696700ad57d6868e1a0600940bf55f52d3bc6054e91a129538ed9024fd5",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-02T00:59:36.214Z"
+    },
+    "thu-maic/openmaic": {
+      "summary": "OpenMAIC 是一个开源的多智能体交互式课堂平台，可将任意主题或文档一键生成包含幻灯片、测验和模拟的沉浸式课程。",
+      "sourceHash": "376ff6134d0c416646da01b7315851f055df8067f9c0091199a6acc2b26585d9",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-02T00:59:34.922Z"
+    },
+    "imbad0202/academic-research-skills": {
+      "summary": "为Claude Code提供学术研究技能套件，覆盖从研究、写作、评审到修改定稿的完整论文写作流程。",
+      "sourceHash": "343c1249d93acd936d63e398a2f976dce64f46f85279259e3756f3f95dbde2a4",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-02T00:59:33.428Z"
+    },
+    "gitlawb/openclaude": {
+      "summary": "OpenClaude 是一个开源的编码代理命令行工具，支持多种云端 API 和本地模型后端，提供统一的编码工作流。",
+      "sourceHash": "d3523a0900033ea832070a1aef7150bacc288b21b48118317e9bdeb59cf41a29",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-02T00:59:32.065Z"
+    },
+    "pollen-robotics/microduck_rl": {
+      "summary": "基于MuJoCo的Microduck双足机器人强化学习训练环境，使用PPO算法训练行走策略并导出ONNX部署到实体机器人。",
+      "sourceHash": "474edff6601b9b9d99c20dc84693757e1895ad0132fe03041691875981385608",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-01T01:47:43.516Z"
     },
     "p-e-w/heretic": {
       "summary": "Heretic 是一个自动去除语言模型审查（安全对齐）的工具，通过方向消融和参数优化实现，无需昂贵的后训练。",
@@ -43,13 +127,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-01T01:47:40.741Z"
     },
-    "affaan-m/ecc": {
-      "summary": "ECC 是一个为 Claude Code、Codex 等 AI 编程代理提供技能、规则、记忆与安全配置的性能优化系统，用于增强代理的工程协作能力。",
-      "sourceHash": "e707dc20bdd3b9526d84c5562ec9dbdead712f7f3e5b6ac0be09971e337f9b27",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-01T01:47:38.502Z"
-    },
     "zhaoxuya520/reverse-skill": {
       "summary": "一个面向AI编程客户端的逆向工程与渗透测试技能路由包，自动选择方法论并引导工具链执行可重复工作流。",
       "sourceHash": "1366c07c9a575ee69d289ec83544af8a5ace9e94f14ca5fccbf565c4d63d4de2",
@@ -71,13 +148,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-01T01:47:35.739Z"
     },
-    "jingyaogong/minimind": {
-      "summary": "MiniMind 是一个从零训练 64M 参数超小语言模型的开源项目，仅需 2 小时和 3 元成本，覆盖预训练、微调、强化学习等完整流程。",
-      "sourceHash": "1b7be745039cddb304075f0afb36611a742bde6831059a330eafc0978102fac8",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-01T01:47:35.479Z"
-    },
     "majd/ipatool": {
       "summary": "ipatool 是一个命令行工具，用于在 App Store 中搜索并下载 iOS、iPadOS、tvOS 和 visionOS 应用的 ipa 安装包。",
       "sourceHash": "2f3d747ec8dc62bcfd88f16a903167692420a5856af754367e40b89f8d9c9efa",
@@ -92,26 +162,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-01T01:47:33.489Z"
     },
-    "k-dense-ai/scientific-agent-skills": {
-      "summary": "一个为AI智能体提供科学技能的库，包含163个经验证的技能和100多个科学数据库，覆盖生物、化学、医学和药物发现等领域，兼容多种AI代理工具。",
-      "sourceHash": "78afe94d5081b12b543349cd86071bdf8b1cb8e27e6aaa50bb4b25c9e4083b2f",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-01T01:47:32.014Z"
-    },
     "tt-a1i/archify": {
       "summary": "Archify 是一个 Node.js 渲染与验证系统，可将代码库或系统描述转化为带交互和动效的自包含 HTML 架构图。",
       "sourceHash": "d429d23b23f2256d5fa076b2c69977da75f84746f5e1d674512506e928b9c93b",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-01T01:47:30.488Z"
-    },
-    "thu-maic/openmaic": {
-      "summary": "OpenMAIC 是一个开源的多智能体交互式课堂平台，可将任意主题或文档一键生成包含幻灯片、测验和模拟的互动课程。",
-      "sourceHash": "aca3d07a39ea7b2b788b1e97c1acde95b7b777339b3582be57cc0ca08d44a8a2",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-01T01:47:30.027Z"
     },
     "abhigyanpatwari/gitnexus": {
       "summary": "GitNexus 是一个在浏览器中运行的零服务器代码智能引擎，可将 Git 仓库或 ZIP 文件构建为交互式知识图谱，并提供内置的 Graph RAG 代理，用于代码探索与分析。",
@@ -168,13 +224,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-31T01:20:51.833Z"
-    },
-    "unclecode/crawl4ai": {
-      "summary": "Crawl4AI 是一个面向大语言模型的开源网络爬虫与抓取工具，可将网页内容转换为干净的 Markdown 格式，支持异步爬取、深度抓取和 LLM 提取等功能。",
-      "sourceHash": "b7a5fb8410e250054aaaca4e427c2262f017dae6345b1cf84d89cb92e0d5e38a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-31T01:20:50.180Z"
     },
     "lakr233/vphone-cli": {
       "summary": "vphone-cli 是一个基于 Apple Virtualization.framework 的命令行工具，用于在 Apple Silicon Mac 上创建和启动虚拟 iPhone，支持多种固件变体及 SSH、VNC 连接。",
@@ -651,55 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-20T23:35:31.131Z"
-    },
-    "agent-substrate/substrate": {
-      "summary": "Agent Substrate 是一个基于 Kubernetes 的高密度、高性能代理运行时环境，用于大规模部署有状态 AI 代理。",
-      "sourceHash": "c8a4428d718ef2cecf3b22db1473dc4cffd5bfedfd87a2814a63b5bfb45afcdc",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-20T23:35:30.903Z"
-    },
-    "akitaonrails/ai-memory": {
-      "summary": "为AI编码代理提供长期记忆的Rust工具，可在不同代理CLI间延续任务上下文。",
-      "sourceHash": "42868301bcf99c709df89b7d974c6d765dde785602b6e045dd6763487c0b56b5",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-20T23:35:28.246Z"
-    },
-    "genlayerlabs/genlayer-project-boilerplate": {
-      "summary": "GenLayer 项目样板代码，包含足球博彩智能合约、测试、前端及部署脚本，用于快速开发与测试 GenLayer 应用。",
-      "sourceHash": "0417de6d6cafb5a9a15c34deeb34ef9bb9261a3a5443efbddc49634fb87b0fc7",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-19T23:32:56.451Z"
-    },
-    "marceloprates/prettymaps": {
-      "summary": "prettymaps 是一个基于 OpenStreetMap 数据绘制美观自定义地图的 Python 库，利用 osmnx、matplotlib 和 shapely 实现地图可视化。",
-      "sourceHash": "4dbd87d42c043d48ecc3e6fdcb74a40a355ec7caabb93d805b5e1769470e3022",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-19T23:32:56.221Z"
-    },
-    "amadeusprotocol/node": {
-      "summary": "Amadeus 区块链节点程序，支持本地测试网、合约部署与自动更新，可配置为系统服务运行。",
-      "sourceHash": "c40dccd1cd8a2dd1a10a89dd1fd1b071d9a53ea2212adde6b6b8330ac0193080",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-19T23:32:54.064Z"
-    },
-    "immich-app/immich": {
-      "summary": "Immich 是一个高性能的自托管照片和视频管理解决方案，支持自动备份、多用户、人脸识别等功能。",
-      "sourceHash": "44609e584c938d7f5288e3aa8a8892220fb72a3ba67021480f34f6c7d0c2ec71",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-19T23:32:51.882Z"
-    },
-    "jundot/omlx": {
-      "summary": "oMLX 是一款面向 Apple Silicon 的 LLM 推理服务器，支持连续批处理和分层 KV 缓存，可通过 macOS 菜单栏管理。",
-      "sourceHash": "976892fd83edc2942396850b0883871875096b5c7bf35b4c4cec31b1679dd5b1",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-19T23:32:51.278Z"
     }
   }
 }
