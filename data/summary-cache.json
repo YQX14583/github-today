@@ -1,12 +1,117 @@
 {
   "version": 1,
   "entries": {
+    "nvm-sh/nvm": {
+      "summary": "nvm 是一个 POSIX 兼容的 bash 脚本，用于在命令行中快速安装和管理多个 Node.js 版本。",
+      "sourceHash": "a15ea31ffb1cb5bdd2fafb3128508003388b1dff3b20a72e738c794ae7890992",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-06T00:51:11.820Z"
+    },
+    "bikini/exploitarium": {
+      "summary": "一个公开漏洞利用概念验证代码与漏洞研究文章的归档仓库，收录了作者发布的多项漏洞研究成果。",
+      "sourceHash": "dbfdca943e8d6a71ff6397c7479314221d1031117b9f798bdeff6f4281d68a1a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-06T00:51:10.869Z"
+    },
+    "magnitudedev/magnitude": {
+      "summary": "Magnitude 是一个开源推理服务器，能根据硬件配置推荐并运行本地模型，供 AI 代理离线使用。",
+      "sourceHash": "5ec599d0aebd94f7b695067079b2c7a6adbf1f7a98688110085a3b6faaa819ed",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-06T00:51:10.731Z"
+    },
+    "worldflowai/everything-claude-code": {
+      "summary": "一个Claude Code插件合集，提供代理、命令、技能、规则和钩子等配置，用于提升AI辅助开发的效率。",
+      "sourceHash": "679001edca3de6474b2f97109d552652ebd5d2f3366b9ff506811bdc9655c60e",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-06T00:51:10.564Z"
+    },
+    "braveopotato/fcksignups": {
+      "summary": "一个收录无需注册即可在浏览器中使用的开源工具的精选列表网站，基于React和TypeScript构建。",
+      "sourceHash": "f130c8ed08379b57367a624af9f8ea2a4cd7e00e5b2bd52c9826accf07341900",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-06T00:51:09.664Z"
+    },
+    "blader/humanizer": {
+      "summary": "Humanizer 是一个智能体技能，通过识别并改写 35 种 AI 写作模式，将机器生成的文本润色为自然的人类文风，同时保留原意、代码与数据。",
+      "sourceHash": "a4029e6824919043d8b63ffdc42c3c9123758d064687ed00b2682405bbfa994c",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-06T00:51:08.636Z"
+    },
+    "humanlayer/skills": {
+      "summary": "HumanLayer 提供的 Claude Code 技能集合，包含改进 CLAUDE.md、收窄 React 属性类型、构建代理循环等开发辅助工具。",
+      "sourceHash": "0eed4513557127010d8f4a96c16b8f29cd1961ca91cf8fe066817f7017abd62b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-06T00:51:08.474Z"
+    },
+    "ruvnet/ruflo": {
+      "summary": "Ruflo 是一个为 Claude Code 和 Codex 设计的智能体元框架，提供百余种智能体、自适应记忆、RAG 集成及多智能体协作能力，用于构建和协调自主工作流。",
+      "sourceHash": "b8e9bf79c59b815228d842dd2c00e6ed2279eea761c197e5097171f594f08987",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-06T00:51:07.481Z"
+    },
+    "anomalyco/opencode": {
+      "summary": "opencode 是一个开源的 AI 编程代理，支持命令行和桌面应用，可辅助开发与代码探索。",
+      "sourceHash": "f04d1682be9878686b6625f4163cbedf2006d49843ceaaf1aed1518b3427f07b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-06T00:51:06.183Z"
+    },
     "cathrynlavery/diagram-design": {
       "summary": "为Claude Code等AI编程工具提供38种编辑级HTML+SVG图表模板，可生成无阴影、风格统一的静态图表。",
       "sourceHash": "d725f3fc8c2bcf8db42373bb043d285e5412e38302c93c3686c688aadea58d43",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-05T00:52:20.397Z"
+      "lastUsedAt": "2026-09-06T00:51:06.011Z"
+    },
+    "anthropics/skills": {
+      "summary": "Anthropic 官方发布的 Agent Skills 示例仓库，包含各类技能文件夹、规范与模板，用于指导 Claude 完成特定任务。",
+      "sourceHash": "e74288aebc542b4cc8b7f31a93813befa9e1342c683f9540cad9ea266b17a6e0",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-06T00:51:05.840Z"
+    },
+    "fmtlib/fmt": {
+      "summary": "fmtlib/fmt 是一个现代 C++ 格式化库，提供快速安全的字符串格式化功能，可作为 C stdio 和 C++ iostreams 的替代方案。",
+      "sourceHash": "7b320acbe5205d8c789f10793119e3fbdb0fc278d034059d2d6b200d7be13be9",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-06T00:51:05.661Z"
+    },
+    "nousresearch/hermes-agent": {
+      "summary": "Hermes Agent 是 Nous Research 开发的自改进 AI 代理，具备内置学习循环，可通过 CLI 或消息网关使用，并支持从 OpenClaw 迁移。",
+      "sourceHash": "7319a84f2094560102e31f4edcb53bf93bf1c7c32f453b309cf31e8b53a4b282",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-06T00:51:03.774Z"
+    },
+    "dietrichgebert/ponytail": {
+      "summary": "Ponytail 是一个 JavaScript 插件，通过规则和钩子让 AI 编程代理遵循极简编码风格，优先选择最简单方案并避免不必要代码。",
+      "sourceHash": "1ae03e201d306e657774f627878d879161f3d224ba91a31c69ad2673b36e2a0c",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-06T00:51:03.612Z"
+    },
+    "affaan-m/ecc": {
+      "summary": "ECC 是一个为 Claude Code、Codex 等 AI 编程代理提供技能、规则、记忆与安全配置的性能优化系统，用于增强代理的工程协作能力。",
+      "sourceHash": "e707dc20bdd3b9526d84c5562ec9dbdead712f7f3e5b6ac0be09971e337f9b27",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-06T00:51:03.433Z"
+    },
+    "mattpocock/skills": {
+      "summary": "一套面向真实工程实践的AI代理技能集，包含代码开发与效率工具，可通过插件或脚本快速安装使用。",
+      "sourceHash": "253993fc338d90c9b9bad3adb314b05b648e18e0d7c20dbc369d32c60768be7b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-06T00:51:03.224Z"
     },
     "clshortfuse/renodx": {
       "summary": "RenoDX 是一套基于 Reshade 插件系统的 DirectX 游戏修改工具集，支持替换着色器、注入缓冲、添加覆盖层及升级交换链等。",
@@ -14,13 +119,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-05T00:52:19.253Z"
-    },
-    "anomalyco/opencode": {
-      "summary": "opencode 是一个开源的 AI 编程代理，支持命令行和桌面应用，可辅助开发与代码探索。",
-      "sourceHash": "f04d1682be9878686b6625f4163cbedf2006d49843ceaaf1aed1518b3427f07b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-05T00:52:18.243Z"
     },
     "radixark/miles": {
       "summary": "Miles是一个面向企业的强化学习框架，用于大规模语言模型和视觉语言模型的后训练，支持高性能训练与推理。",
@@ -50,75 +148,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-05T00:52:15.194Z"
     },
-    "bikini/exploitarium": {
-      "summary": "一个公开漏洞利用概念验证代码与漏洞研究文章的归档仓库，收录了作者发布的多项漏洞研究成果。",
-      "sourceHash": "dbfdca943e8d6a71ff6397c7479314221d1031117b9f798bdeff6f4281d68a1a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-05T00:52:15.024Z"
-    },
-    "magnitudedev/magnitude": {
-      "summary": "Magnitude 是一个开源推理服务器，能根据硬件配置推荐并运行本地模型，供 AI 代理离线使用。",
-      "sourceHash": "5ec599d0aebd94f7b695067079b2c7a6adbf1f7a98688110085a3b6faaa819ed",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-05T00:52:14.001Z"
-    },
     "juliusbrussee/caveman": {
       "summary": "一个通过让AI代理用简短原始风格回复及本地代理压缩读取内容来减少token消耗的开源工具。",
       "sourceHash": "aa33283877ab437a5e125529f09d9f3b2ec439f2ff2886f1eebb99e1b443d6bf",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-05T00:52:13.834Z"
-    },
-    "nousresearch/hermes-agent": {
-      "summary": "Hermes Agent 是 Nous Research 开发的自改进 AI 代理，具备内置学习循环，可通过 CLI 或消息网关使用，并支持从 OpenClaw 迁移。",
-      "sourceHash": "7319a84f2094560102e31f4edcb53bf93bf1c7c32f453b309cf31e8b53a4b282",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-05T00:52:13.668Z"
-    },
-    "blader/humanizer": {
-      "summary": "Humanizer 是一个智能体技能，通过识别并改写 35 种 AI 写作模式，将机器生成的文本润色为自然的人类文风，同时保留原意、代码与数据。",
-      "sourceHash": "a4029e6824919043d8b63ffdc42c3c9123758d064687ed00b2682405bbfa994c",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-05T00:52:13.482Z"
-    },
-    "anthropics/skills": {
-      "summary": "Anthropic 官方发布的 Agent Skills 示例仓库，包含各类技能文件夹、规范与模板，用于指导 Claude 完成特定任务。",
-      "sourceHash": "e74288aebc542b4cc8b7f31a93813befa9e1342c683f9540cad9ea266b17a6e0",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-05T00:52:12.893Z"
-    },
-    "affaan-m/ecc": {
-      "summary": "ECC 是一个为 Claude Code、Codex 等 AI 编程代理提供技能、规则、记忆与安全配置的性能优化系统，用于增强代理的工程协作能力。",
-      "sourceHash": "e707dc20bdd3b9526d84c5562ec9dbdead712f7f3e5b6ac0be09971e337f9b27",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-05T00:52:12.718Z"
-    },
-    "fmtlib/fmt": {
-      "summary": "fmtlib/fmt 是一个现代 C++ 格式化库，提供快速安全的字符串格式化功能，可作为 C stdio 和 C++ iostreams 的替代方案。",
-      "sourceHash": "bc303cbc46aac0d5f3f5f15bd2ad4f6e9209136cd8506323ea066c3957ea439f",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-05T00:52:12.538Z"
-    },
-    "dietrichgebert/ponytail": {
-      "summary": "Ponytail 是一个 JavaScript 插件，通过规则和钩子让 AI 编程代理遵循极简编码风格，优先选择最简单方案并避免不必要代码。",
-      "sourceHash": "1ae03e201d306e657774f627878d879161f3d224ba91a31c69ad2673b36e2a0c",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-05T00:52:11.273Z"
-    },
-    "mattpocock/skills": {
-      "summary": "一套面向真实工程实践的AI代理技能集，包含代码开发与效率工具，可通过插件或脚本快速安装使用。",
-      "sourceHash": "253993fc338d90c9b9bad3adb314b05b648e18e0d7c20dbc369d32c60768be7b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-05T00:52:10.058Z"
     },
     "obra/superpowers": {
       "summary": "Superpowers 是一套面向编码代理的软件开发方法论，通过可组合技能和初始指令，引导代理在编码前进行头脑风暴、测试驱动开发等系统化流程。",
@@ -665,41 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-24T23:31:25.008Z"
-    },
-    "openclaw/openclaw": {
-      "summary": "OpenClaw 是一个运行在用户设备上的个人 AI 助手，通过网关连接模型、工具和消息渠道，支持多种操作系统和平台。",
-      "sourceHash": "441b407d449c7e01b62cacfdbb293327b906170f5c3c5a94b8ef4ef66b2e567c",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-24T23:31:19.360Z"
-    },
-    "posthog/posthog": {
-      "summary": "PostHog 是一个开源产品分析平台，提供事件追踪、会话回放、功能开关和实验等工具，帮助团队构建和优化产品。",
-      "sourceHash": "f1b012938626cc67af4df11098e114564ed86b6ef4e11f45e800b6ef488f4d5a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-24T23:31:18.187Z"
-    },
-    "aprilnea/openlogi": {
-      "summary": "OpenLogi 是一个用 Rust 编写的本地优先罗技 Options+ 替代品，支持按键重映射、DPI 调节和 SmartShift，跨 macOS、Linux 和 Windows 平台。",
-      "sourceHash": "8a428895e29fda463132d8801992c5c083e58f2db87454a036bed659264e2f11",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-24T23:31:17.741Z"
-    },
-    "makeplane/plane": {
-      "summary": "Plane 是一个开源项目管理平台，用于跟踪任务、管理冲刺周期和产品路线图，支持自托管与云端部署。",
-      "sourceHash": "2f2a8f0ea85055789eb93891193252102efbd17cfeea4619257fdb6eae21934b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-24T23:31:15.505Z"
-    },
-    "comfy-org/comfyui": {
-      "summary": "ComfyUI 是一个基于节点图的模块化扩散模型图形界面与后端，支持图像、视频等生成工作流。",
-      "sourceHash": "1a5e99f64be09eeff4aa0d66ccb30375a39db1da6d2e9cc8f676bc220624d0f0",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-23T23:31:25.951Z"
     }
   }
 }
