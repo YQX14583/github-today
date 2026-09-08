@@ -1,19 +1,110 @@
 {
   "version": 1,
   "entries": {
-    "stremio/stremio-web": {
-      "summary": "Stremio Web 是 Stremio 的官方网页界面，基于 React 和 WebAssembly 引擎，支持插件扩展、跨设备同步及 Chromecast 投屏，用于在线观看影视和频道。",
-      "sourceHash": "d59c9608c59f414e1fc14508f1b4a5d3e92f079502f232badfe969534e61f52e",
+    "ruvnet/ruflo": {
+      "summary": "Ruflo 是一个为 Claude Code 和 Codex 设计的智能体元框架，提供 100 多个专用智能体、自适应记忆、RAG 集成及多智能体协作能力，用于构建和协调自主工作流。",
+      "sourceHash": "15fe466c2db90c0d5b92c9264a5111207da067190ca46689e90cca8137aadf7a",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-07T00:55:18.950Z"
+      "lastUsedAt": "2026-09-08T01:07:55.950Z"
+    },
+    "pascalorg/editor": {
+      "summary": "基于 React Three Fiber 和 WebGPU 的 3D 建筑编辑器，用于创建和分享三维建筑项目。",
+      "sourceHash": "59518ad48168c32c72678f8ddfccc507603771e22fc08413134adac1c80e9fe9",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-08T01:07:53.703Z"
+    },
+    "lightpanda-io/browser": {
+      "summary": "Lightpanda 是一个用 Zig 从头编写的无头浏览器，专为 AI 代理和自动化任务设计，提供 CDP 和 WebDriver 支持，并强调高性能与低资源占用。",
+      "sourceHash": "12808aaa3560c53f6ae8125384c702a5f2eb34a38d5ab7105529fc2aa629ad77",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-08T01:07:52.696Z"
+    },
+    "openai/skills": {
+      "summary": "该项目是Codex的技能目录，收录了可供AI代理发现和使用的指令、脚本与资源，以帮助其完成特定任务。",
+      "sourceHash": "533026f0ac71c08b1ddb1a6085e7b61d002033c86c077e88ec2ec213df8b3b68",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-08T01:07:51.462Z"
+    },
+    "bytedance/deer-flow": {
+      "summary": "DeerFlow 是一个开源的长时程超级智能体框架，通过编排子代理、记忆与沙箱，可完成从研究、编码到内容创作等耗时数分钟至数小时的多步骤任务。",
+      "sourceHash": "fd41da64bbb05681f2b9b0419f30aa56d967bb7b4ddf45f329989dfe765fbc64",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-08T01:07:51.247Z"
+    },
+    "braveopotato/fcksignups": {
+      "summary": "一个收录无需注册即可在浏览器中使用的开源工具的精选列表网站，基于React和TypeScript构建。",
+      "sourceHash": "f130c8ed08379b57367a624af9f8ea2a4cd7e00e5b2bd52c9826accf07341900",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-08T01:07:49.508Z"
     },
     "the-swarm-corporation/autohedge": {
       "summary": "AutoHedge是一个基于多智能体与群体智能的自动化对冲基金系统，可在Solana上自主完成市场分析、风险管理和交易执行。",
       "sourceHash": "7bf598aaa11c8850b7a75bda58407ed7f336aba4e3516fff88d3cd32347e80d6",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-07T00:55:17.720Z"
+      "lastUsedAt": "2026-09-08T01:07:49.336Z"
+    },
+    "coreyhaines31/marketingskills": {
+      "summary": "为AI代理提供营销技能库，涵盖转化优化、文案、SEO、分析和增长工程等任务。",
+      "sourceHash": "e0d2f31ba11b27ef3dd5da4982896323325ed3292526cd8364bd25dfb0624450",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-08T01:07:49.140Z"
+    },
+    "affaan-m/ecc": {
+      "summary": "ECC 是一个为 Claude Code、Codex 等 AI 编程代理提供技能、规则与记忆等能力的性能优化与工程化工具包。",
+      "sourceHash": "d78fc05935669bbbbb438332121572c836584e9b44305848d27ee6895babe219",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-08T01:07:48.971Z"
+    },
+    "moontechlab/lunatv": {
+      "summary": "MoonTV 是一个基于 Next.js 14 和 TypeScript 构建的跨平台影视聚合播放器，支持多源搜索、在线播放、收藏同步和播放记录，需自行配置播放源后通过 Docker 部署使用。",
+      "sourceHash": "512d48372bb5938cbb117241b39d9d3064f581d1c46957ed9421f97453142cab",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-08T01:07:47.361Z"
+    },
+    "jo-inc/camofox-browser": {
+      "summary": "camofox-browser 是一个基于 Camoufox 的隐身浏览器服务，为 AI 代理提供反检测浏览能力，可绕过 Cloudflare 等机器人检测，并可作为 Puppeteer/Playwright 的替代方案。",
+      "sourceHash": "da1bb210f0389dfedc7871bab1903ab54483b117d62da11469b8f5edf336795a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-08T01:07:45.940Z"
+    },
+    "mksglu/context-mode": {
+      "summary": "一个面向AI编程代理的上下文窗口优化工具，通过沙箱化工具输出、持久化会话记忆并在多平台间路由来大幅节省上下文。",
+      "sourceHash": "5064436ad34250f63bc62821dcb2ea96a01d1036e1fdb0f9f35b78a2f8dd4e66",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-08T01:07:44.576Z"
+    },
+    "microsoft/markitdown": {
+      "summary": "MarkItDown 是一个 Python 工具，可将 PDF、Office 文档、图片、音频等多种文件转换为 Markdown 格式，便于大语言模型和文本分析流程使用。",
+      "sourceHash": "6db7ae655caf8c629299de81d1247985b5d6042539568ea48a156340ece85f13",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-08T01:07:42.824Z"
+    },
+    "heygen-com/hyperframes": {
+      "summary": "HyperFrames 是一个开源框架，可将 HTML、CSS 和动画转换为确定性的 MP4 视频，支持本地 CLI 和 AI 代理使用。",
+      "sourceHash": "4bbdec0378b9b8bb1273d4e2bdfab11092f6860f3bdc015dfdcad5bdb4c2aeff",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-08T01:07:41.684Z"
+    },
+    "stremio/stremio-web": {
+      "summary": "Stremio Web 是 Stremio 的官方网页界面，基于 React 和 WebAssembly 引擎，支持插件扩展、跨设备同步及 Chromecast 投屏，用于在线观看影视和频道。",
+      "sourceHash": "d59c9608c59f414e1fc14508f1b4a5d3e92f079502f232badfe969534e61f52e",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-07T00:55:18.950Z"
     },
     "humanlayer/skills": {
       "summary": "HumanLayer 提供的 Claude Code 技能集合，包含改进 CLAUDE.md、收窄 React 属性类型、构建代理循环等开发辅助工具。",
@@ -36,33 +127,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-07T00:55:15.016Z"
     },
-    "coreyhaines31/marketingskills": {
-      "summary": "为AI代理提供营销技能库，涵盖转化优化、文案、SEO、分析和增长工程等任务。",
-      "sourceHash": "e0d2f31ba11b27ef3dd5da4982896323325ed3292526cd8364bd25dfb0624450",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-07T00:55:13.970Z"
-    },
-    "braveopotato/fcksignups": {
-      "summary": "一个收录无需注册即可在浏览器中使用的开源工具的精选列表网站，基于React和TypeScript构建。",
-      "sourceHash": "f130c8ed08379b57367a624af9f8ea2a4cd7e00e5b2bd52c9826accf07341900",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-07T00:55:12.966Z"
-    },
     "magnitudedev/magnitude": {
       "summary": "Magnitude 是一个开源推理服务器，能分析硬件并推荐、下载、调优和运行本地模型，供 Pi、OpenCode 等智能体使用。",
       "sourceHash": "4c20e6198ad9e142930761c68bb91877dde8d8279078b018944180dcfc159cd5",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-07T00:55:12.799Z"
-    },
-    "ruvnet/ruflo": {
-      "summary": "Ruflo 是一个为 Claude Code 和 Codex 设计的智能体元框架，提供百余种智能体、自适应记忆、RAG 集成及多智能体协作能力，用于构建和协调自主工作流。",
-      "sourceHash": "b8e9bf79c59b815228d842dd2c00e6ed2279eea761c197e5097171f594f08987",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-07T00:55:11.230Z"
     },
     "dietrichgebert/ponytail": {
       "summary": "Ponytail 是一个 JavaScript 插件，通过规则和钩子让 AI 编程代理遵循极简编码风格，优先选择最简单方案并避免不必要代码。",
@@ -92,13 +162,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-07T00:55:08.887Z"
     },
-    "openai/skills": {
-      "summary": "该项目是Codex的技能目录，收录了可供AI代理发现和使用的指令、脚本与资源，以帮助其完成特定任务。",
-      "sourceHash": "533026f0ac71c08b1ddb1a6085e7b61d002033c86c077e88ec2ec213df8b3b68",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-07T00:55:08.723Z"
-    },
     "nousresearch/hermes-agent": {
       "summary": "Hermes Agent 是 Nous Research 开发的自改进 AI 代理，具备内置学习循环，可通过 CLI 或消息网关使用，并支持从 OpenClaw 迁移。",
       "sourceHash": "7319a84f2094560102e31f4edcb53bf93bf1c7c32f453b309cf31e8b53a4b282",
@@ -119,13 +182,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-07T00:55:05.787Z"
-    },
-    "affaan-m/ecc": {
-      "summary": "ECC 是一个为 Claude Code、Codex 等 AI 编程代理提供技能、规则、记忆与安全配置的性能优化系统，用于增强代理的工程协作能力。",
-      "sourceHash": "e707dc20bdd3b9526d84c5562ec9dbdead712f7f3e5b6ac0be09971e337f9b27",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-07T00:55:05.583Z"
     },
     "nvm-sh/nvm": {
       "summary": "nvm 是一个 POSIX 兼容的 bash 脚本，用于在命令行中快速安装和管理多个 Node.js 版本。",
@@ -644,62 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-28T06:53:31.710Z"
-    },
-    "conardli/garden-skills": {
-      "summary": "面向AI编程代理的Agent Skills集合，提供网页设计、知识检索、图像生成等可安装技能。",
-      "sourceHash": "4f9f313eccb92dfeb57321f748b3c4ac2c912cfe2a28bf602ca31c98e295becf",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-28T06:53:30.195Z"
-    },
-    "zedeus/nitter": {
-      "summary": "Nitter 是一个注重隐私和性能的免费开源 Twitter 替代前端，无需 JavaScript 或广告，可匿名浏览推文。",
-      "sourceHash": "6266e2de17697bd4769d02aada56b3b910fa60794c2c96106ac5ac43e38385fc",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-28T06:53:24.813Z"
-    },
-    "voltagent/awesome-agent-skills": {
-      "summary": "精选1000多个来自官方团队和社区的Agent技能，兼容Claude Code、Codex、Gemini CLI、Cursor等AI编程工具。",
-      "sourceHash": "49e7e7e13a4658521e9e7d7e956769c81e259366e1fbc37c57689d1f6369d4ca",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-27T04:29:32.506Z"
-    },
-    "browser-use/browser-use": {
-      "summary": "Browser Use 是一个 Python 库，能让 AI 代理像人类一样操作浏览器，自动完成填表、数据提取等网页任务。",
-      "sourceHash": "3199e84309c42c2cc2866d6266fc309fddf6fdb5c7f14e0864045ba78a821db5",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-27T04:29:29.852Z"
-    },
-    "anthropics/claude-plugins-community": {
-      "summary": "社区插件市场镜像，列出经审核的 Claude Cowork 与 Claude Code 插件，供用户安装使用。",
-      "sourceHash": "268dc08df5fbce9a918b529cd79b07601c60707f4b32c11b182400f94622a576",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-27T04:29:27.933Z"
-    },
-    "tinyhumansai/openhuman": {
-      "summary": "OpenHuman 是一个用 Rust 编写的本地优先 AI 助手平台，具备持久记忆、工作流编排和深度研究能力。",
-      "sourceHash": "6e23efa373c9e3c45a81d6204e10262a3962aded764f56d9ab866748ce871ff4",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-27T04:29:27.493Z"
-    },
-    "basecamp/omarchy": {
-      "summary": "Omarchy 是一个由 DHH 开发的注重美观与现代性的 Linux 发行版，提供完整的手册和配置指南。",
-      "sourceHash": "115aaa8b16623f6fb209df94f282d09e6153137d3cf707dd49f9fc8d20892f50",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-27T04:29:26.992Z"
-    },
-    "madslorentzen/ai-job-search": {
-      "summary": "基于Claude Code的AI求职应用框架，可评估职位、定制简历、撰写求职信并准备面试。",
-      "sourceHash": "11777f629aa0b016d87ff5ebc83ce5ad21678f95e0e8d96862e81c9883f89dea",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-27T04:29:26.581Z"
     }
   }
 }
