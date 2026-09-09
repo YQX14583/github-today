@@ -1,6 +1,118 @@
 {
   "version": 1,
   "entries": {
+    "openai/plugins": {
+      "summary": "OpenAI 官方维护的 Codex 插件示例集合，包含 Figma、Notion 等丰富插件，用于扩展 Codex 的功能。",
+      "sourceHash": "c6e9440f590d14157e62071e63ffd87402414a029415dc4331cdd726a11ca59f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-09T01:12:29.566Z"
+    },
+    "viarotel-org/escrcpy": {
+      "summary": "Escrcpy 是一个基于 scrcpy 的图形化工具，用于在电脑上显示并控制 Android 设备，支持多设备管理、键盘映射和自动化操作。",
+      "sourceHash": "fd16d0e8b41afd9712956ce5d3e1a3934d292651f4a65fa36bbcb993eb8d736f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-09T01:12:28.231Z"
+    },
+    "the-swarm-corporation/autohedge": {
+      "summary": "AutoHedge是一个基于多智能体与群体智能的自动化对冲基金系统，可在Solana上自主完成市场分析、风险管理和交易执行。",
+      "sourceHash": "7bf598aaa11c8850b7a75bda58407ed7f336aba4e3516fff88d3cd32347e80d6",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-09T01:12:27.139Z"
+    },
+    "mksglu/context-mode": {
+      "summary": "一个面向AI编程代理的上下文窗口优化工具，通过沙箱化工具输出、持久化会话记忆并在多平台间路由来大幅节省上下文。",
+      "sourceHash": "5064436ad34250f63bc62821dcb2ea96a01d1036e1fdb0f9f35b78a2f8dd4e66",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-09T01:12:26.883Z"
+    },
+    "browser-use/browser-use": {
+      "summary": "Browser Use 是一个 Python 库，让 AI 代理像人类一样操作浏览器，自动完成填表、点击、数据提取等网页任务。",
+      "sourceHash": "a77b5a4dbacaec0922c81374db46681b1cb1dcbb3de95847da51d82ce8d89546",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-09T01:12:26.588Z"
+    },
+    "moontechlab/lunatv": {
+      "summary": "MoonTV 是一个基于 Next.js 14 和 TypeScript 构建的跨平台影视聚合播放器，支持多源搜索、在线播放、收藏同步和播放记录，需自行配置播放源后通过 Docker 部署使用。",
+      "sourceHash": "512d48372bb5938cbb117241b39d9d3064f581d1c46957ed9421f97453142cab",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-09T01:12:25.338Z"
+    },
+    "jo-inc/camofox-browser": {
+      "summary": "camofox-browser 是一个基于 Camoufox 的隐身浏览器服务，为 AI 代理提供反检测浏览能力，可绕过 Cloudflare 等机器人检测，并可作为 Puppeteer/Playwright 的替代方案。",
+      "sourceHash": "da1bb210f0389dfedc7871bab1903ab54483b117d62da11469b8f5edf336795a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-09T01:12:25.080Z"
+    },
+    "microsoft/markitdown": {
+      "summary": "MarkItDown 是一个 Python 工具，可将 PDF、Office 文档、图片、音频等多种文件转换为 Markdown 格式，便于大语言模型和文本分析流程使用。",
+      "sourceHash": "6db7ae655caf8c629299de81d1247985b5d6042539568ea48a156340ece85f13",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-09T01:12:24.878Z"
+    },
+    "multica-ai/andrej-karpathy-skills": {
+      "summary": "一个基于 Andrej Karpathy 对 LLM 编码缺陷观察的 CLAUDE.md 文件，用于改进 Claude Code 行为，提供四条编码原则以减少错误。",
+      "sourceHash": "175c49a76f239ac51b504013ef0f4d614938975f5acceaa8592e8bfa105a0d69",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-09T01:12:24.610Z"
+    },
+    "obra/superpowers": {
+      "summary": "Superpowers 是一套面向编码代理的软件开发方法论，通过可组合技能和初始指令，引导代理在编码前进行头脑风暴、测试驱动开发等系统化流程。",
+      "sourceHash": "3c1d09d9414cec3604174ca641278475b9191ecf11ea13f42ec8bdd392313c5c",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-09T01:12:23.062Z"
+    },
+    "coreyhaines31/marketingskills": {
+      "summary": "为AI代理提供营销技能库，涵盖转化优化、文案、SEO、分析和增长工程等任务。",
+      "sourceHash": "e0d2f31ba11b27ef3dd5da4982896323325ed3292526cd8364bd25dfb0624450",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-09T01:12:22.861Z"
+    },
+    "heygen-com/hyperframes": {
+      "summary": "HyperFrames 是一个开源框架，可将 HTML、CSS 和动画转换为确定性的 MP4 视频，支持本地 CLI 和 AI 代理使用。",
+      "sourceHash": "4bbdec0378b9b8bb1273d4e2bdfab11092f6860f3bdc015dfdcad5bdb4c2aeff",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-09T01:12:22.622Z"
+    },
+    "affaan-m/ecc": {
+      "summary": "ECC 是一个为 Claude Code、Codex 等 AI 编程代理提供技能、规则与记忆等能力的性能优化与工程化工具包。",
+      "sourceHash": "d78fc05935669bbbbb438332121572c836584e9b44305848d27ee6895babe219",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-09T01:12:22.373Z"
+    },
+    "openai/skills": {
+      "summary": "该项目是Codex的技能目录，收录了可供AI代理发现和使用的指令、脚本与资源，以帮助其完成特定任务。",
+      "sourceHash": "533026f0ac71c08b1ddb1a6085e7b61d002033c86c077e88ec2ec213df8b3b68",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-09T01:12:21.881Z"
+    },
+    "cathrynlavery/diagram-design": {
+      "summary": "为Claude Code、Codex和Pi等AI编程工具提供38种编辑级HTML与SVG图表模板，可直接在浏览器中查看，支持品牌定制与无障碍访问。",
+      "sourceHash": "960561ccdd75e71580d6a926f2364a4c1917b8e47a41b1a189681ab8df2e14a0",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-09T01:12:21.644Z"
+    },
+    "ayghri/i-have-adhd": {
+      "summary": "一个让编程助手直接给出答案的技能，采用编号步骤和明确下一步，输出适合ADHD人群的简洁回复。",
+      "sourceHash": "dcd18a99209712221aba5c27596dc92b4cabbbd0efe03b21ab8e955fa408aa9c",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-09T01:12:19.840Z"
+    },
     "ruvnet/ruflo": {
       "summary": "Ruflo 是一个为 Claude Code 和 Codex 设计的智能体元框架，提供 100 多个专用智能体、自适应记忆、RAG 集成及多智能体协作能力，用于构建和协调自主工作流。",
       "sourceHash": "15fe466c2db90c0d5b92c9264a5111207da067190ca46689e90cca8137aadf7a",
@@ -22,13 +134,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-08T01:07:52.696Z"
     },
-    "openai/skills": {
-      "summary": "该项目是Codex的技能目录，收录了可供AI代理发现和使用的指令、脚本与资源，以帮助其完成特定任务。",
-      "sourceHash": "533026f0ac71c08b1ddb1a6085e7b61d002033c86c077e88ec2ec213df8b3b68",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-08T01:07:51.462Z"
-    },
     "bytedance/deer-flow": {
       "summary": "DeerFlow 是一个开源的长时程超级智能体框架，通过编排子代理、记忆与沙箱，可完成从研究、编码到内容创作等耗时数分钟至数小时的多步骤任务。",
       "sourceHash": "fd41da64bbb05681f2b9b0419f30aa56d967bb7b4ddf45f329989dfe765fbc64",
@@ -42,62 +147,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-08T01:07:49.508Z"
-    },
-    "the-swarm-corporation/autohedge": {
-      "summary": "AutoHedge是一个基于多智能体与群体智能的自动化对冲基金系统，可在Solana上自主完成市场分析、风险管理和交易执行。",
-      "sourceHash": "7bf598aaa11c8850b7a75bda58407ed7f336aba4e3516fff88d3cd32347e80d6",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-08T01:07:49.336Z"
-    },
-    "coreyhaines31/marketingskills": {
-      "summary": "为AI代理提供营销技能库，涵盖转化优化、文案、SEO、分析和增长工程等任务。",
-      "sourceHash": "e0d2f31ba11b27ef3dd5da4982896323325ed3292526cd8364bd25dfb0624450",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-08T01:07:49.140Z"
-    },
-    "affaan-m/ecc": {
-      "summary": "ECC 是一个为 Claude Code、Codex 等 AI 编程代理提供技能、规则与记忆等能力的性能优化与工程化工具包。",
-      "sourceHash": "d78fc05935669bbbbb438332121572c836584e9b44305848d27ee6895babe219",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-08T01:07:48.971Z"
-    },
-    "moontechlab/lunatv": {
-      "summary": "MoonTV 是一个基于 Next.js 14 和 TypeScript 构建的跨平台影视聚合播放器，支持多源搜索、在线播放、收藏同步和播放记录，需自行配置播放源后通过 Docker 部署使用。",
-      "sourceHash": "512d48372bb5938cbb117241b39d9d3064f581d1c46957ed9421f97453142cab",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-08T01:07:47.361Z"
-    },
-    "jo-inc/camofox-browser": {
-      "summary": "camofox-browser 是一个基于 Camoufox 的隐身浏览器服务，为 AI 代理提供反检测浏览能力，可绕过 Cloudflare 等机器人检测，并可作为 Puppeteer/Playwright 的替代方案。",
-      "sourceHash": "da1bb210f0389dfedc7871bab1903ab54483b117d62da11469b8f5edf336795a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-08T01:07:45.940Z"
-    },
-    "mksglu/context-mode": {
-      "summary": "一个面向AI编程代理的上下文窗口优化工具，通过沙箱化工具输出、持久化会话记忆并在多平台间路由来大幅节省上下文。",
-      "sourceHash": "5064436ad34250f63bc62821dcb2ea96a01d1036e1fdb0f9f35b78a2f8dd4e66",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-08T01:07:44.576Z"
-    },
-    "microsoft/markitdown": {
-      "summary": "MarkItDown 是一个 Python 工具，可将 PDF、Office 文档、图片、音频等多种文件转换为 Markdown 格式，便于大语言模型和文本分析流程使用。",
-      "sourceHash": "6db7ae655caf8c629299de81d1247985b5d6042539568ea48a156340ece85f13",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-08T01:07:42.824Z"
-    },
-    "heygen-com/hyperframes": {
-      "summary": "HyperFrames 是一个开源框架，可将 HTML、CSS 和动画转换为确定性的 MP4 视频，支持本地 CLI 和 AI 代理使用。",
-      "sourceHash": "4bbdec0378b9b8bb1273d4e2bdfab11092f6860f3bdc015dfdcad5bdb4c2aeff",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-08T01:07:41.684Z"
     },
     "stremio/stremio-web": {
       "summary": "Stremio Web 是 Stremio 的官方网页界面，基于 React 和 WebAssembly 引擎，支持插件扩展、跨设备同步及 Chromecast 投屏，用于在线观看影视和频道。",
@@ -168,13 +217,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-07T00:55:07.629Z"
-    },
-    "cathrynlavery/diagram-design": {
-      "summary": "为Claude Code等AI编程工具提供38种编辑级HTML与SVG图表模板，可生成无阴影、非Mermaid风格的静态图表。",
-      "sourceHash": "0b4cfc484df0fea6514f7e123bd88d7948103721ee263e2e94c2d0d8ca107b83",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-07T00:55:07.378Z"
     },
     "mattpocock/skills": {
       "summary": "一套面向真实工程实践的AI代理技能集，包含代码开发与效率工具，可通过插件或脚本快速安装使用。",
@@ -259,13 +301,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-05T00:52:13.834Z"
-    },
-    "obra/superpowers": {
-      "summary": "Superpowers 是一套面向编码代理的软件开发方法论，通过可组合技能和初始指令，引导代理在编码前进行头脑风暴、测试驱动开发等系统化流程。",
-      "sourceHash": "3c1d09d9414cec3604174ca641278475b9191ecf11ea13f42ec8bdd392313c5c",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-04T00:56:18.175Z"
     },
     "f/prompts.chat": {
       "summary": "prompts.chat 是一个开源 AI 提示词库，支持浏览、分享和收集提示词，并可通过自托管部署实现私有化使用。",
@@ -665,41 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-29T04:07:30.647Z"
-    },
-    "cursor/plugins": {
-      "summary": "Cursor 官方插件仓库，收录面向开发者工具、框架和 SaaS 产品的插件，每个插件含独立清单文件。",
-      "sourceHash": "4e8e7d9bfc0fda61c6ac2ff3750ccfa337d1922b28b247ca7e97916e7768ea7a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-29T04:07:28.886Z"
-    },
-    "tauricresearch/tradingagents": {
-      "summary": "TradingAgents是一个基于多智能体LLM的金融交易框架，模拟真实交易公司流程，通过分析师、研究员、交易员等角色协作，辅助股票交易决策。",
-      "sourceHash": "afc8fc1423a447aa6e3e02d303eb17672073e199d68e808d0a70d43e5c89f89d",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-28T06:53:36.185Z"
-    },
-    "opencut-app/opencut": {
-      "summary": "OpenCut 是一款免费开源的视频编辑器，支持网页、桌面和移动端，目前正在重写以提供插件架构和跨平台支持。",
-      "sourceHash": "d6c998d101f931f3c10ca58bbf8dcfed61b226893765c2115cf533e3844e8101",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-28T06:53:36.009Z"
-    },
-    "agricidaniel/claude-obsidian": {
-      "summary": "基于Obsidian和Claude Code的自组织AI第二大脑，将任意来源内容整理为个人拥有的Markdown知识图谱。",
-      "sourceHash": "8a11a6d4ed5b5058a467982cb58d8d3a7f569b6a4793d4cb3dcccf231dd4a810",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-28T06:53:33.254Z"
-    },
-    "thedotmack/claude-mem": {
-      "summary": "claude-mem 是一个为 AI 编程助手提供跨会话持久记忆的工具，通过捕获会话数据并压缩注入上下文，支持多种 AI 工具。",
-      "sourceHash": "a90bc0ff52af07d59c68661c8bbf2591fbc31f679e00f5ed2b85b1a9f638c237",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-28T06:53:31.710Z"
     }
   }
 }
