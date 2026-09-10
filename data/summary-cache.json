@@ -1,12 +1,96 @@
 {
   "version": 1,
   "entries": {
+    "affaan-m/ecc": {
+      "summary": "ECC 是一个面向 Claude Code、Codex 等 AI 编程代理的性能优化系统，提供技能、记忆、安全与先研究后开发的工程化工具链。",
+      "sourceHash": "f86c4caf9c8506c2a1f2486c3f47a73c31220189d3225898d0e20348566fe561",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-10T01:00:50.641Z"
+    },
+    "vastsa/pi-desktop": {
+      "summary": "PI-Desktop 是一个本地优先的 AI 编程智能体桌面工作区，基于 Electron、Rust 核心与 pi 智能体，支持自选模型、权限审查和可安装插件。",
+      "sourceHash": "6c9f35ddfdf3dd549eb035a445a9b55ccee11791d1cd85d494f451af3e00fc46",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-10T01:00:49.528Z"
+    },
+    "rohitg00/ai-engineering-from-scratch": {
+      "summary": "这是一个从零开始学习 AI 工程的开源课程仓库，用 Python 分二十个阶段讲解数学基础到智能体与生产部署，每课都产出可复用工具。",
+      "sourceHash": "b7c0bbf87aee3b23a8bc85aabc3fb2a2345c4799533111571df7272b952d7cf5",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-10T01:00:48.571Z"
+    },
+    "freestylefly/awesome-gpt-image-2": {
+      "summary": "这是一个面向 GPT-Image2 的工业级提示词引擎与模板库，收录 500 多个逆向工程案例和 20 多套模板，供用户查找和复用图像生成提示词。",
+      "sourceHash": "842bdf4939eff0ca72fc0895216b92e1eb0adb9b603c187e141c194252fe45bb",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-10T01:00:47.654Z"
+    },
     "openai/plugins": {
       "summary": "OpenAI 官方维护的 Codex 插件示例集合，包含 Figma、Notion 等丰富插件，用于扩展 Codex 的功能。",
       "sourceHash": "c6e9440f590d14157e62071e63ffd87402414a029415dc4331cdd726a11ca59f",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-09T01:12:29.566Z"
+      "lastUsedAt": "2026-09-10T01:00:46.699Z"
+    },
+    "liquidslr/system-design-notes": {
+      "summary": "这是《系统设计面试》第一卷和第二卷的学习笔记，按章节整理系统设计案例与相关阅读资料。",
+      "sourceHash": "46c59874d313451c1935693918ff85a840d40cc8895931ac481b225b521b97e5",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-10T01:00:46.506Z"
+    },
+    "tauricresearch/tradingagents": {
+      "summary": "TradingAgents 是一个基于大语言模型的多智能体金融交易框架，模拟真实交易公司分工，由分析师、研究员、交易员和风控等角色协作完成股票分析与交易决策。",
+      "sourceHash": "8a45eefb441a7935a8c3918e2ce1314bd4d60725c51a2760617e6f4061a57cc8",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-10T01:00:45.640Z"
+    },
+    "cathrynlavery/diagram-design": {
+      "summary": "这是一个为 Claude Code 等编程助手提供的图表设计技能，包含 39 种编辑风格图表类型，用自包含 HTML 和 SVG 生成架构图、流程图等可视化内容。",
+      "sourceHash": "6c0a752f502f337f026e23183449ffe989a414df6895f924d5c72bc688135eb1",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-10T01:00:44.741Z"
+    },
+    "earthtojake/text-to-cad": {
+      "summary": "text-to-cad 是一个面向 CAD、CAE 和 CAM 的智能体技能库，用于生成、检查、获取、切片和交付 CAD 与机器人描述文件。",
+      "sourceHash": "f19749fc2b908760d5dd1654cee4cf26f4676eb022b30724f98baff6eec02038",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-10T01:00:43.680Z"
+    },
+    "pascalorg/editor": {
+      "summary": "Pascal Editor 是一个开源本地优先的 3D 建筑编辑器，基于 React Three Fiber 和 WebGPU，可在浏览器或 CLI 中运行，并通过 MCP 连接 AI 智能体。",
+      "sourceHash": "78b88905a4e8f3fbb08df9856c35a43507f8190df711709039d709c9e02384d6",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-10T01:00:42.625Z"
+    },
+    "obra/superpowers": {
+      "summary": "Superpowers 是一套面向编码代理的软件开发方法论，通过可组合技能和初始指令，引导代理在编码前进行头脑风暴、测试驱动开发等系统化流程。",
+      "sourceHash": "3c1d09d9414cec3604174ca641278475b9191ecf11ea13f42ec8bdd392313c5c",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-10T01:00:41.641Z"
+    },
+    "tencent/teamai-cli": {
+      "summary": "TeamAI 是一个 TypeScript 命令行工具，用于在多个 AI 编程代理之间统一管理和分发团队的技能、规则、MCP 与知识。",
+      "sourceHash": "3eeb8982f5d7d546397f28e4253329b38e3e679ac57ca64efc6023f8f9454457",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-10T01:00:41.428Z"
+    },
+    "ayghri/i-have-adhd": {
+      "summary": "这是一个给编码助手用的技能插件，让回答先给行动步骤、编号清晰、结尾给出下一步，避免把答案埋在冗长铺垫里。",
+      "sourceHash": "07abf20454df87cc5aaf6a85097d046a3e07307547dc011efc5f71bdc14a4830",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-10T01:00:40.342Z"
     },
     "viarotel-org/escrcpy": {
       "summary": "Escrcpy 是一个基于 scrcpy 的图形化工具，用于在电脑上显示并控制 Android 设备，支持多设备管理、键盘映射和自动化操作。",
@@ -64,13 +148,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-09T01:12:24.610Z"
     },
-    "obra/superpowers": {
-      "summary": "Superpowers 是一套面向编码代理的软件开发方法论，通过可组合技能和初始指令，引导代理在编码前进行头脑风暴、测试驱动开发等系统化流程。",
-      "sourceHash": "3c1d09d9414cec3604174ca641278475b9191ecf11ea13f42ec8bdd392313c5c",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-09T01:12:23.062Z"
-    },
     "coreyhaines31/marketingskills": {
       "summary": "为AI代理提供营销技能库，涵盖转化优化、文案、SEO、分析和增长工程等任务。",
       "sourceHash": "e0d2f31ba11b27ef3dd5da4982896323325ed3292526cd8364bd25dfb0624450",
@@ -85,13 +162,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-09T01:12:22.622Z"
     },
-    "affaan-m/ecc": {
-      "summary": "ECC 是一个为 Claude Code、Codex 等 AI 编程代理提供技能、规则与记忆等能力的性能优化与工程化工具包。",
-      "sourceHash": "d78fc05935669bbbbb438332121572c836584e9b44305848d27ee6895babe219",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-09T01:12:22.373Z"
-    },
     "openai/skills": {
       "summary": "该项目是Codex的技能目录，收录了可供AI代理发现和使用的指令、脚本与资源，以帮助其完成特定任务。",
       "sourceHash": "533026f0ac71c08b1ddb1a6085e7b61d002033c86c077e88ec2ec213df8b3b68",
@@ -99,33 +169,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-09T01:12:21.881Z"
     },
-    "cathrynlavery/diagram-design": {
-      "summary": "为Claude Code、Codex和Pi等AI编程工具提供38种编辑级HTML与SVG图表模板，可直接在浏览器中查看，支持品牌定制与无障碍访问。",
-      "sourceHash": "960561ccdd75e71580d6a926f2364a4c1917b8e47a41b1a189681ab8df2e14a0",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-09T01:12:21.644Z"
-    },
-    "ayghri/i-have-adhd": {
-      "summary": "一个让编程助手直接给出答案的技能，采用编号步骤和明确下一步，输出适合ADHD人群的简洁回复。",
-      "sourceHash": "dcd18a99209712221aba5c27596dc92b4cabbbd0efe03b21ab8e955fa408aa9c",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-09T01:12:19.840Z"
-    },
     "ruvnet/ruflo": {
       "summary": "Ruflo 是一个为 Claude Code 和 Codex 设计的智能体元框架，提供 100 多个专用智能体、自适应记忆、RAG 集成及多智能体协作能力，用于构建和协调自主工作流。",
       "sourceHash": "15fe466c2db90c0d5b92c9264a5111207da067190ca46689e90cca8137aadf7a",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-08T01:07:55.950Z"
-    },
-    "pascalorg/editor": {
-      "summary": "基于 React Three Fiber 和 WebGPU 的 3D 建筑编辑器，用于创建和分享三维建筑项目。",
-      "sourceHash": "59518ad48168c32c72678f8ddfccc507603771e22fc08413134adac1c80e9fe9",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-08T01:07:53.703Z"
     },
     "lightpanda-io/browser": {
       "summary": "Lightpanda 是一个用 Zig 从头编写的无头浏览器，专为 AI 代理和自动化任务设计，提供 CDP 和 WebDriver 支持，并强调高性能与低资源占用。",
@@ -651,55 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-30T01:12:50.113Z"
-    },
-    "bigskysoftware/htmx": {
-      "summary": "htmx 是一个轻量级 JavaScript 库，允许直接在 HTML 中使用属性发起 AJAX 请求、CSS 过渡、WebSocket 和服务器发送事件，从而构建现代用户界面。",
-      "sourceHash": "4a6b5ef0170aa784008487e9994d4d35c61dbfb33a0260f83b746c30b9b25022",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-30T01:12:48.980Z"
-    },
-    "tailscale/tailcat": {
-      "summary": "Tailcat 是一个基于 Tailscale 数据面、无需控制面的 netcat 替代工具，用于在两台机器间直接传输数据或暴露端口。",
-      "sourceHash": "ba22eba914a9b562aa69a61b11918491a81568a2b8fca7484e8d0c09425b42ce",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-30T01:12:45.432Z"
-    },
-    "bilawalsidhu/gods-eye-view": {
-      "summary": "一个在浏览器中运行的间谍卫星模拟器，基于真实公开数据在逼真3D地球上实时展示飞机、船舶和卫星等空间情报。",
-      "sourceHash": "7c949bef0a083b6cff2896c4bfa835d269d0957d43f72ccd886ac62af54ba2a3",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-30T01:12:42.709Z"
-    },
-    "rohitg00/ai-engineering-from-scratch": {
-      "summary": "一个从零开始学习AI工程的开源课程，包含20个阶段、511节课，每课产出可复用工具。",
-      "sourceHash": "a0f17a8e8885423d0a12f047e5695354d4f87fb770cddaeaf55f875576fd15e2",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-29T04:07:37.393Z"
-    },
-    "marin-community/marin": {
-      "summary": "Marin 是一个开源框架，用于基础模型的研究与开发，涵盖数据处理、预训练、后训练和评估等环节。",
-      "sourceHash": "e03a2f1bab4512121648350fac01cd2d0ea7184957a36fda41fad8467226765c",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-29T04:07:35.750Z"
-    },
-    "swoole/typephp": {
-      "summary": "TypePHP 是一个将 PHP 源码提前编译为原生机器码的 AOT 编译器，可生成可执行文件、PHP 扩展或共享库。",
-      "sourceHash": "3cfdc5f778102773973787eedee094b56af7998fed9f302928d086eb4bbf7a96",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-29T04:07:35.536Z"
-    },
-    "freestylefly/awesome-gpt-image-2": {
-      "summary": "一个面向GPT-Image2的提示词引擎与模板库，收录500多个逆向工程案例和20多套工业级模板，并提供Agent技能以辅助生成。",
-      "sourceHash": "93ad5157de9f8db237200d343e6c48dfade682a512b4761ee315a73bfb6e7cf7",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-29T04:07:30.647Z"
     }
   }
 }
