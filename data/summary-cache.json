@@ -1,19 +1,117 @@
 {
   "version": 1,
   "entries": {
+    "vastsa/pi-desktop": {
+      "summary": "PI-Desktop 是一个本地优先的 AI 编程智能体桌面工作区，基于 Electron、Rust 主机核心和 pi 智能体框架，支持自选模型与可安装插件。",
+      "sourceHash": "5813a86a3322ea7dd09b4e9066291742804afe38acafe904223e89b38e900807",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-11T00:59:51.158Z"
+    },
+    "vercel-labs/skills": {
+      "summary": "这是一个用于开放智能体技能生态的命令行工具，可通过 npx 安装、使用、查找和更新技能，支持 Claude Code、Cursor 等多种编码智能体。",
+      "sourceHash": "29d2b1a125a5dcbcb86a5445f1efbfca93c88d932183ecd4b745e485cc21ef3b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-11T00:59:49.627Z"
+    },
+    "nashsu/llm_wiki": {
+      "summary": "LLM Wiki 是一款跨平台桌面应用，用大模型自动把文档整理成结构化、互相链接的持久化知识库，替代传统 RAG 检索方式。",
+      "sourceHash": "222aca70c621166d9fe3106cc5ddc5a57156198869c1478434f9f06ac2b6ead6",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-11T00:59:47.596Z"
+    },
+    "thu-maic/openmaic": {
+      "summary": "OpenMAIC 是开源 AI 教学平台，可将任意主题或文档一键生成含幻灯片、测验和互动模拟的多智能体互动课堂。",
+      "sourceHash": "20e183582f86bd031c39eda9f826cbbd32baaece856699787a9f12fff19c3314",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-11T00:59:45.831Z"
+    },
+    "justvugg/colibri": {
+      "summary": "Colibrì 是一个纯 C 编写、无依赖的推理引擎，通过将显存、内存和磁盘组成统一层级，让消费级硬件运行 744B 至 2.8T 参数的前沿 MoE 模型。",
+      "sourceHash": "e07983da8ec42a62f6e8bc89c6c4954fb56edd4d18a4eab3b11a683340be346c",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-11T00:59:44.129Z"
+    },
+    "armory3d/armorpaint": {
+      "summary": "ArmorPaint 是一款用于 3D PBR 纹理绘制的软件，此仓库面向开发者提供其源代码。",
+      "sourceHash": "f136321f5b8990228db40118d5c96c37cd8d5ba8cd746cbbded7359ead0586fa",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-11T00:59:42.631Z"
+    },
+    "freestylefly/awesome-gpt-image-2": {
+      "summary": "这是一个面向 GPT-Image2 的工业级提示词引擎与模板库，收录 500 多个逆向工程案例和 20 多套模板，供用户查找和复用图像生成提示词。",
+      "sourceHash": "842bdf4939eff0ca72fc0895216b92e1eb0adb9b603c187e141c194252fe45bb",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-11T00:59:41.281Z"
+    },
+    "cathrynlavery/diagram-design": {
+      "summary": "这是一个为 Claude Code 等编程助手提供的图表设计技能，包含 39 种编辑风格图表类型，用自包含 HTML 和 SVG 生成图表，并可按品牌定制配色与字体。",
+      "sourceHash": "ad063d29dcd18c79cd8eca76df66f143ff27c25288301510a106f434f47ecc90",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-11T00:59:40.920Z"
+    },
+    "liquidslr/system-design-notes": {
+      "summary": "这是《系统设计面试》第一卷和第二卷的学习笔记，按章节整理系统设计案例与相关阅读资料。",
+      "sourceHash": "46c59874d313451c1935693918ff85a840d40cc8895931ac481b225b521b97e5",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-11T00:59:39.324Z"
+    },
+    "alexsjones/llmfit": {
+      "summary": "llmfit 是一个用 Rust 编写的命令行工具，可检测本机 CPU、内存和 GPU 等硬件，评估并推荐能流畅运行的开源大语言模型。",
+      "sourceHash": "f471f2401effd257a7c1d735daacf3eb7ecffe5cab7d9340f7830ba681b7f524",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-11T00:59:39.053Z"
+    },
+    "tencent/teamai-cli": {
+      "summary": "TeamAI 是一个 TypeScript 命令行工具，用于在多个 AI 编程助手之间统一分发团队的技能、规则、MCP 配置与知识，让成员共享同一套 AI 工作环境。",
+      "sourceHash": "6a5707b398818d008937c3b1b39ff2d7f41027107eca17f7404bbf467c610586",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-11T00:59:37.309Z"
+    },
+    "alsk1992/cloddsbot": {
+      "summary": "CloddsBot 是一个基于 Claude 的开源自主 AI 交易代理，可跨预测市场、加密货币、DeFi 和永续合约等平台自动扫描机会、执行交易并管理风险。",
+      "sourceHash": "f1d3c24f2b2c3abccf2324a48d5cee963427917421da4e3697ca6ef9590bc8af",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-11T00:59:36.007Z"
+    },
+    "obra/superpowers": {
+      "summary": "Superpowers 是一套面向编码代理的软件开发方法论，通过可组合技能和初始指令，引导代理在编码前进行头脑风暴、测试驱动开发等系统化流程。",
+      "sourceHash": "3c1d09d9414cec3604174ca641278475b9191ecf11ea13f42ec8bdd392313c5c",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-11T00:59:34.132Z"
+    },
+    "bilawalsidhu/gods-eye-view": {
+      "summary": "一个在浏览器中运行的开源三维地球情报模拟器，可实时追踪飞机、船舶、卫星等公开数据。",
+      "sourceHash": "cdb074728c60dc0e1175522e0d89af18639cc0e38e6913d8e6616ee86774f589",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-11T00:59:33.900Z"
+    },
+    "ayghri/i-have-adhd": {
+      "summary": "这是一个面向编程助手的技能插件，让 AI 输出先给行动、步骤编号、结尾只留一个下一步，避免把答案埋在冗长解释里。",
+      "sourceHash": "68d1f6ee17780962d7cd0d46d3da34850c5eaef40625ccda7f3d2ad94da4eed7",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-11T00:59:32.381Z"
+    },
     "affaan-m/ecc": {
       "summary": "ECC 是一个面向 Claude Code、Codex 等 AI 编程代理的性能优化系统，提供技能、记忆、安全与先研究后开发的工程化工具链。",
       "sourceHash": "f86c4caf9c8506c2a1f2486c3f47a73c31220189d3225898d0e20348566fe561",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-10T01:00:50.641Z"
-    },
-    "vastsa/pi-desktop": {
-      "summary": "PI-Desktop 是一个本地优先的 AI 编程智能体桌面工作区，基于 Electron、Rust 核心与 pi 智能体，支持自选模型、权限审查和可安装插件。",
-      "sourceHash": "6c9f35ddfdf3dd549eb035a445a9b55ccee11791d1cd85d494f451af3e00fc46",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-10T01:00:49.528Z"
     },
     "rohitg00/ai-engineering-from-scratch": {
       "summary": "这是一个从零开始学习 AI 工程的开源课程仓库，用 Python 分二十个阶段讲解数学基础到智能体与生产部署，每课都产出可复用工具。",
@@ -22,13 +120,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-10T01:00:48.571Z"
     },
-    "freestylefly/awesome-gpt-image-2": {
-      "summary": "这是一个面向 GPT-Image2 的工业级提示词引擎与模板库，收录 500 多个逆向工程案例和 20 多套模板，供用户查找和复用图像生成提示词。",
-      "sourceHash": "842bdf4939eff0ca72fc0895216b92e1eb0adb9b603c187e141c194252fe45bb",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-10T01:00:47.654Z"
-    },
     "openai/plugins": {
       "summary": "OpenAI 官方维护的 Codex 插件示例集合，包含 Figma、Notion 等丰富插件，用于扩展 Codex 的功能。",
       "sourceHash": "c6e9440f590d14157e62071e63ffd87402414a029415dc4331cdd726a11ca59f",
@@ -36,26 +127,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-10T01:00:46.699Z"
     },
-    "liquidslr/system-design-notes": {
-      "summary": "这是《系统设计面试》第一卷和第二卷的学习笔记，按章节整理系统设计案例与相关阅读资料。",
-      "sourceHash": "46c59874d313451c1935693918ff85a840d40cc8895931ac481b225b521b97e5",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-10T01:00:46.506Z"
-    },
     "tauricresearch/tradingagents": {
       "summary": "TradingAgents 是一个基于大语言模型的多智能体金融交易框架，模拟真实交易公司分工，由分析师、研究员、交易员和风控等角色协作完成股票分析与交易决策。",
       "sourceHash": "8a45eefb441a7935a8c3918e2ce1314bd4d60725c51a2760617e6f4061a57cc8",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-10T01:00:45.640Z"
-    },
-    "cathrynlavery/diagram-design": {
-      "summary": "这是一个为 Claude Code 等编程助手提供的图表设计技能，包含 39 种编辑风格图表类型，用自包含 HTML 和 SVG 生成架构图、流程图等可视化内容。",
-      "sourceHash": "6c0a752f502f337f026e23183449ffe989a414df6895f924d5c72bc688135eb1",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-10T01:00:44.741Z"
     },
     "earthtojake/text-to-cad": {
       "summary": "text-to-cad 是一个面向 CAD、CAE 和 CAM 的智能体技能库，用于生成、检查、获取、切片和交付 CAD 与机器人描述文件。",
@@ -70,27 +147,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-10T01:00:42.625Z"
-    },
-    "obra/superpowers": {
-      "summary": "Superpowers 是一套面向编码代理的软件开发方法论，通过可组合技能和初始指令，引导代理在编码前进行头脑风暴、测试驱动开发等系统化流程。",
-      "sourceHash": "3c1d09d9414cec3604174ca641278475b9191ecf11ea13f42ec8bdd392313c5c",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-10T01:00:41.641Z"
-    },
-    "tencent/teamai-cli": {
-      "summary": "TeamAI 是一个 TypeScript 命令行工具，用于在多个 AI 编程代理之间统一管理和分发团队的技能、规则、MCP 与知识。",
-      "sourceHash": "3eeb8982f5d7d546397f28e4253329b38e3e679ac57ca64efc6023f8f9454457",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-10T01:00:41.428Z"
-    },
-    "ayghri/i-have-adhd": {
-      "summary": "这是一个给编码助手用的技能插件，让回答先给行动步骤、编号清晰、结尾给出下一步，避免把答案埋在冗长铺垫里。",
-      "sourceHash": "07abf20454df87cc5aaf6a85097d046a3e07307547dc011efc5f71bdc14a4830",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-10T01:00:40.342Z"
     },
     "viarotel-org/escrcpy": {
       "summary": "Escrcpy 是一个基于 scrcpy 的图形化工具，用于在电脑上显示并控制 Android 设备，支持多设备管理、键盘映射和自动化操作。",
@@ -505,13 +561,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-02T00:59:36.214Z"
     },
-    "thu-maic/openmaic": {
-      "summary": "OpenMAIC 是一个开源的多智能体交互式课堂平台，可将任意主题或文档一键生成包含幻灯片、测验和模拟的沉浸式课程。",
-      "sourceHash": "376ff6134d0c416646da01b7315851f055df8067f9c0091199a6acc2b26585d9",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-02T00:59:34.922Z"
-    },
     "pollen-robotics/microduck_rl": {
       "summary": "基于MuJoCo的Microduck双足机器人强化学习训练环境，使用PPO算法训练行走策略并导出ONNX部署到实体机器人。",
       "sourceHash": "474edff6601b9b9d99c20dc84693757e1895ad0132fe03041691875981385608",
@@ -651,55 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-08-30T01:12:58.540Z"
-    },
-    "actions/checkout": {
-      "summary": "一个用于在GitHub Actions工作流中检出仓库代码的官方动作，支持分支、标签、稀疏检出等配置。",
-      "sourceHash": "6411d508d92ad81eb9ad073c436d2e4f5f93a5d0a431aa56fab29f59eb08de46",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-30T01:12:53.743Z"
-    },
-    "google/googletest": {
-      "summary": "GoogleTest是Google的C++测试框架，提供丰富的断言、测试发现及参数化测试等功能，用于单元测试和模拟。",
-      "sourceHash": "6661f73629b6ebeee4c42aa38d3cf00c26cdcc82debc867c378574369b0f1c7e",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-30T01:12:53.584Z"
-    },
-    "anthropics/claude-plugins-official": {
-      "summary": "Anthropic 官方维护的 Claude Code 插件目录，收录并管理高质量插件，支持安装与提交。",
-      "sourceHash": "57c0b9849a1455c479f61734473df34afe467633c1454c474c98e2218bd27a36",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-30T01:12:53.413Z"
-    },
-    "abi/screenshot-to-code": {
-      "summary": "该项目利用AI将截图、设计稿或屏幕录制转换为HTML、React、Vue等前端代码。",
-      "sourceHash": "515ca6842cad9ceeb6998981a424c2f2272bd5163faf2b0f62595e0795ecc00b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-30T01:12:53.241Z"
-    },
-    "calesthio/openmontage": {
-      "summary": "OpenMontage 是一个开源的智能体视频制作系统，提供 12 条生产流水线、100 多个工具和 700 多个技能文件，可将 AI 编程助手转变为完整的视频制作工作室。",
-      "sourceHash": "c826011b1e034dba34fcd4f01d2bdaddff6411b0f8f2a9cf784ec7803c9ad19d",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-30T01:12:50.459Z"
-    },
-    "composiohq/awesome-claude-skills": {
-      "summary": "一个精选的Claude Skills资源列表，收录了1000多个实用技能和插件，用于定制Claude AI工作流并提升生产力。",
-      "sourceHash": "ff14ac6f6e28997b5a708038126436604066e65ffed78a481595c39d702b7d80",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-30T01:12:50.262Z"
-    },
-    "jetbrains/go-modern-guidelines": {
-      "summary": "为AI编码代理提供现代Go语言编写指南的仓库，涵盖Go 1.0至1.27特性，帮助代理生成符合项目Go版本的现代代码。",
-      "sourceHash": "d557366422fc44ae5a5c31e5071a0d9b5f4b77f977a5189ac928f69236a80741",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-30T01:12:50.113Z"
     }
   }
 }
