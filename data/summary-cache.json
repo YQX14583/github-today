@@ -1,6 +1,118 @@
 {
   "version": 1,
   "entries": {
+    "vxcontrol/pentagi": {
+      "summary": "PentAGI 是一个用 Go 编写的全自主 AI 智能体系统，在隔离的 Docker 沙箱中自动执行渗透测试任务，内置多种专业安全工具。",
+      "sourceHash": "593c05b5b035b49a420140a1aeff8e52fb133cecc02765e0ac19ca6a8360950e",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-13T00:54:18.605Z"
+    },
+    "max-sixty/worktrunk": {
+      "summary": "Worktrunk 是一个用 Rust 编写的 Git worktree 管理命令行工具，主要用于并行运行多个 AI 代理工作流。",
+      "sourceHash": "c680910ec762c864cd1b078e3b4060a6b7ec4421304458eba45877bfe5bc3c77",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-13T00:54:17.483Z"
+    },
+    "multimodal-art-projection/yue": {
+      "summary": "YuE2 是 Python 音乐生成项目，统一符号与音频生成，支持歌曲创作、零样本翻唱和智能体音乐编辑。",
+      "sourceHash": "a193b73484ec45b7a2a66dd015f910c06e313ec2d42e2df3d1207f0afab70269",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-13T00:54:16.243Z"
+    },
+    "snailsploit/claude-red": {
+      "summary": "claude-red 是面向 Claude 技能系统的攻防安全技能库，用结构化 SKILL.md 文件为各类攻击面提供专家级方法论。",
+      "sourceHash": "46455f985ef249bc5b545e98fcf1c6e34c0863b36b6afb410507015f3cce7079",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-13T00:54:15.014Z"
+    },
+    "armory3d/armorpaint": {
+      "summary": "ArmorPaint 是一款用于 3D PBR 纹理绘制的软件，此仓库面向开发者提供其源代码。",
+      "sourceHash": "f136321f5b8990228db40118d5c96c37cd8d5ba8cd746cbbded7359ead0586fa",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-13T00:54:13.755Z"
+    },
+    "p1neapplexpress/openflux": {
+      "summary": "OpenFlux 是一个用 Go 编写的网络协议栈研究工具，实现带可插拔传输层的 TCP 隧道，客户端提供 SOCKS5 代理，经出口节点转发流量。",
+      "sourceHash": "5541be7b517701f60ceb3ee296311705ebd5f498881e5445a05012b2da204d98",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-13T00:54:13.530Z"
+    },
+    "shubhamsaboo/awesome-llm-apps": {
+      "summary": "这是一个开源项目，汇集了100多个AI智能体、智能体技能和RAG应用示例，主要用Python编写，供开发者克隆、运行和二次开发。",
+      "sourceHash": "4db612c5461b95f567455fec61038f9a1f4717d7dd3a5a19ea16ca68c80a8584",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-13T00:54:13.356Z"
+    },
+    "yuliskov/smarttube": {
+      "summary": "SmartTube 是面向 Android TV 和电视盒子的开源媒体客户端，可在电视优化界面中浏览和播放各类公开来源的内容。",
+      "sourceHash": "821e84f298233917f04e00ac257090ecbae9926694dcc52f5772060a004148b6",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-13T00:54:11.595Z"
+    },
+    "alsk1992/cloddsbot": {
+      "summary": "CloddsBot 是一个基于 Claude 的开源自主 AI 交易代理，可跨预测市场、加密货币和期货等平台自动扫描机会、执行交易并管理风险。",
+      "sourceHash": "2d09bbb26c36a4119682e890e25de0467d03215728ec05dd965924bb72cbd2bf",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-13T00:54:10.309Z"
+    },
+    "sonarr/sonarr": {
+      "summary": "Sonarr 是一款面向 Usenet 和 BitTorrent 用户的 PVR 工具，可监控剧集更新、自动下载、整理和重命名，并在出现更高画质时自动升级。",
+      "sourceHash": "3d81a74ce910def434ff5de7d53dbe54dfc428f04aa2f1fcac54448d5642b502",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-13T00:54:09.011Z"
+    },
+    "jihe520/mathmodelagent": {
+      "summary": "MathModelAgent 是面向数学建模竞赛的自动化工具，可分析问题、编写代码并生成格式完整的可提交论文。",
+      "sourceHash": "08feb3cf47d9e346067c9af00401f9846d54146ec043dff709625666b725fdbc",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-13T00:54:08.843Z"
+    },
+    "flowseal/zapret-discord-youtube": {
+      "summary": "基于 zapret 的 Windows 批处理脚本，用于绕过 DPI 封锁，恢复 Discord、YouTube 等服务的访问。",
+      "sourceHash": "14a03467ab4b83c6f0ae0f0458dff4ec8027a3689d74a24d58383de5425a34de",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-13T00:54:08.682Z"
+    },
+    "nab138/iloader": {
+      "summary": "iloader 是一款用 TypeScript 开发的用户友好侧载工具，可安装 SideStore 等应用并自动导入配对文件。",
+      "sourceHash": "7f5a35db491eea6ddc351f78175fff0370064058baacc2648021c5c115ffa7af",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-13T00:54:07.668Z"
+    },
+    "asgeirtj/system_prompts_leaks": {
+      "summary": "收集并整理各大 AI 聊天机器人与编程助手泄露的系统提示词，按厂商分类存档，供查阅研究。",
+      "sourceHash": "3680901140d8e629bf3181df89742f8fd5f96baf101fafe52538bb4542161022",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-13T00:54:07.472Z"
+    },
+    "melgarafael/deskcommcrm": {
+      "summary": "DeskcommCRM 是一款开源、可自托管的 AI 销售 CRM，内置 AI 智能体并通过 WhatsApp 接待、筛选和促成销售，面向以聊天成交的企业。",
+      "sourceHash": "755f5dc249c64bea6c5bcd3e5752d71ef4bfcfd0cfd176dd8f30202bbca115a7",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-13T00:54:06.114Z"
+    },
+    "bilawalsidhu/gods-eye-view": {
+      "summary": "一个在浏览器中运行的开源三维地球仪，用公开数据实时追踪飞机、船舶、卫星等目标，可查看地形并支持语音交互。",
+      "sourceHash": "6b84c5487991c3cb3b30ea9307189004f147b1893c447e765f6b607086280f84",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-13T00:54:05.940Z"
+    },
     "pascalorg/editor": {
       "summary": "Pascal Editor 是一个开源本地优先的 3D 建筑编辑器，基于 React Three Fiber 和 WebGPU，可在浏览器或 CLI 中运行，并通过 MCP 连接 AI 智能体。",
       "sourceHash": "9eff94ecbb6dfe2be370c3619019863af7fc147febe06d9941ecd2594f6823d7",
@@ -29,27 +141,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-12T01:03:51.649Z"
     },
-    "p1neapplexpress/openflux": {
-      "summary": "OpenFlux 是一个用 Go 编写的网络协议栈研究工具，实现带可插拔传输层的 TCP 隧道，客户端提供 SOCKS5 代理，经出口节点转发流量。",
-      "sourceHash": "5541be7b517701f60ceb3ee296311705ebd5f498881e5445a05012b2da204d98",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-12T01:03:50.058Z"
-    },
-    "jihe520/mathmodelagent": {
-      "summary": "MathModelAgent 是面向数学建模竞赛的自动化工具，可分析问题、编写代码并生成格式完整的可提交论文。",
-      "sourceHash": "08feb3cf47d9e346067c9af00401f9846d54146ec043dff709625666b725fdbc",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-12T01:03:48.134Z"
-    },
-    "sonarr/sonarr": {
-      "summary": "Sonarr 是一款面向 Usenet 和 BitTorrent 用户的 PVR 工具，可监控剧集更新、自动下载、整理和重命名，并在出现更高画质时自动升级。",
-      "sourceHash": "3d81a74ce910def434ff5de7d53dbe54dfc428f04aa2f1fcac54448d5642b502",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-12T01:03:46.046Z"
-    },
     "obra/superpowers": {
       "summary": "Superpowers 是一套面向编码代理的软件开发方法论，通过可组合技能和初始指令，引导代理在编码前进行头脑风暴、测试驱动开发等系统化流程。",
       "sourceHash": "3c1d09d9414cec3604174ca641278475b9191ecf11ea13f42ec8bdd392313c5c",
@@ -64,47 +155,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-12T01:03:44.403Z"
     },
-    "alsk1992/cloddsbot": {
-      "summary": "CloddsBot 是一个基于 Claude 的开源自主 AI 交易代理，可跨预测市场、加密货币、DeFi 和永续合约等平台自动扫描机会、执行交易并管理风险。",
-      "sourceHash": "f1d3c24f2b2c3abccf2324a48d5cee963427917421da4e3697ca6ef9590bc8af",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-12T01:03:44.188Z"
-    },
-    "armory3d/armorpaint": {
-      "summary": "ArmorPaint 是一款用于 3D PBR 纹理绘制的软件，此仓库面向开发者提供其源代码。",
-      "sourceHash": "f136321f5b8990228db40118d5c96c37cd8d5ba8cd746cbbded7359ead0586fa",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-12T01:03:43.795Z"
-    },
     "vastsa/pi-desktop": {
       "summary": "PI-Desktop 是一个本地优先的 AI 编程智能体桌面工作区，基于 Electron 与 Rust 核心，可接入自有模型并安装插件扩展。",
       "sourceHash": "d57a1b272b3e1b3483ac3e13415e513c7facfe94ecbf4ba7b2892fb8f4c16f10",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-12T01:03:43.561Z"
-    },
-    "melgarafael/deskcommcrm": {
-      "summary": "DeskcommCRM 是一款开源、可自托管的 AI 销售 CRM，内置 AI 智能体并通过 WhatsApp 接待、筛选和促成销售，面向以聊天成交的企业。",
-      "sourceHash": "755f5dc249c64bea6c5bcd3e5752d71ef4bfcfd0cfd176dd8f30202bbca115a7",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-12T01:03:42.073Z"
-    },
-    "nab138/iloader": {
-      "summary": "iloader 是一款用 TypeScript 开发的用户友好侧载工具，可安装 SideStore 等应用并自动导入配对文件。",
-      "sourceHash": "7f5a35db491eea6ddc351f78175fff0370064058baacc2648021c5c115ffa7af",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-12T01:03:40.079Z"
-    },
-    "bilawalsidhu/gods-eye-view": {
-      "summary": "一个在浏览器中运行的开源三维地球情报模拟器，可实时追踪飞机、船舶、卫星等公开数据。",
-      "sourceHash": "cdb074728c60dc0e1175522e0d89af18639cc0e38e6913d8e6616ee86774f589",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-12T01:03:38.642Z"
     },
     "ayghri/i-have-adhd": {
       "summary": "这是一个面向编程助手的技能插件，让 AI 输出先给行动、步骤编号、结尾只留一个下一步，避免把答案埋在冗长解释里。",
@@ -644,62 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-01T01:47:40.741Z"
-    },
-    "zhaoxuya520/reverse-skill": {
-      "summary": "一个面向AI编程客户端的逆向工程与渗透测试技能路由包，自动选择方法论并引导工具链执行可重复工作流。",
-      "sourceHash": "1366c07c9a575ee69d289ec83544af8a5ace9e94f14ca5fccbf565c4d63d4de2",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-01T01:47:37.189Z"
-    },
-    "checkstyle/checkstyle": {
-      "summary": "Checkstyle 是一个帮助 Java 程序员遵循编码标准的开发工具，支持 Google Java 风格指南和 Sun 编码约定，并可通过命令行或 ANT 任务调用。",
-      "sourceHash": "a1c76841e41d27ca357871481c458e6fad1379d70b222fe4c8743e1f9351b752",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-01T01:47:36.012Z"
-    },
-    "osmantic/ods": {
-      "summary": "ODS 是一个将个人电脑变为本地 AI 服务器的部署系统，通过一键安装整合模型推理、聊天界面、语音、智能体、RAG 及图像生成等服务。",
-      "sourceHash": "6fff9eecced3b2a22207260ce683ba2f3c5a576bc2e5c0d007229f4b54433809",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-01T01:47:35.739Z"
-    },
-    "majd/ipatool": {
-      "summary": "ipatool 是一个命令行工具，用于在 App Store 中搜索并下载 iOS、iPadOS、tvOS 和 visionOS 应用的 ipa 安装包。",
-      "sourceHash": "2f3d747ec8dc62bcfd88f16a903167692420a5856af754367e40b89f8d9c9efa",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-01T01:47:33.709Z"
-    },
-    "k1tbyte/wand-enhancer": {
-      "summary": "Wand-Enhancer 是一个开源工具，用于扩展 Wand 应用的本地配置和界面，并支持远程控制等功能。",
-      "sourceHash": "fa1e5be2f65144249291b39739ff1c5d443375497ce2bd676b913373df283bca",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-01T01:47:33.489Z"
-    },
-    "tt-a1i/archify": {
-      "summary": "Archify 是一个 Node.js 渲染与验证系统，可将代码库或系统描述转化为带交互和动效的自包含 HTML 架构图。",
-      "sourceHash": "d429d23b23f2256d5fa076b2c69977da75f84746f5e1d674512506e928b9c93b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-01T01:47:30.488Z"
-    },
-    "abhigyanpatwari/gitnexus": {
-      "summary": "GitNexus 是一个在浏览器中运行的零服务器代码智能引擎，可将 Git 仓库或 ZIP 文件构建为交互式知识图谱，并提供内置的 Graph RAG 代理，用于代码探索与分析。",
-      "sourceHash": "3be78a3f306d9a5856ca9e6bf083d900135762260a74dbd2af5163c102e86bcb",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-31T01:21:02.705Z"
-    },
-    "livekit/agents": {
-      "summary": "LiveKit Agents 是一个用于构建实时语音 AI 代理的 Python 框架，支持语音、视觉和对话功能，并集成任务调度与 WebRTC 客户端。",
-      "sourceHash": "9c5f693f44ac0cffc93cf9fb5ab82b51dd00cae2d70d7d91ceb03bf298c52360",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-08-31T01:21:01.435Z"
     }
   }
 }
