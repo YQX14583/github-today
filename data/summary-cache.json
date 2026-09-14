@@ -1,12 +1,138 @@
 {
   "version": 1,
   "entries": {
+    "huggingface/transformers": {
+      "summary": "Hugging Face Transformers 是一个基于 Python 的模型定义框架，提供文本、视觉、音频和多模态的先进机器学习模型，支持推理与训练。",
+      "sourceHash": "f23132a595369f01973839ddd8e9494d83cb6c87e5f32db737c64a3a81aa440a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-14T00:59:41.557Z"
+    },
+    "swordfish90/cool-retro-term": {
+      "summary": "cool-retro-term 是一款模拟老式阴极射线管屏幕外观的终端模拟器，支持 Linux 和 macOS，可自定义颜色、字体与显示效果。",
+      "sourceHash": "56748a600cbe0b14b1df4803d665840d157f8ca31141b630496f4628e1916b48",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-14T00:59:40.253Z"
+    },
+    "jiji262/douyin-downloader": {
+      "summary": "这是一个用 Python 编写的抖音下载工具，支持单个视频、图集、合集、音乐及博主主页批量下载，具备去水印、进度显示、重试和 SQLite 去重功能。",
+      "sourceHash": "b4a64c37ed442258ecfe681be98ef452534a9fff464ecd3d6c0c8c6dd945029a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-14T00:59:38.873Z"
+    },
+    "tonhowtf/omniget": {
+      "summary": "OmniGet 是一款基于 yt-dlp 的免费开源桌面应用，支持从 Udemy、YouTube 等 1800 多个网站下载课程、视频和音乐，并内置播放器与阅读器。",
+      "sourceHash": "767a89267d9e5e11853f3bbb5c6b5596f0e405be7831b658c0c0d2c6b5f8900b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-14T00:59:37.678Z"
+    },
+    "jihe520/mathmodelagent": {
+      "summary": "MathModelAgent 是面向数学建模竞赛的自动化工具，可分析问题、编写代码并生成格式完整的可提交论文。",
+      "sourceHash": "08feb3cf47d9e346067c9af00401f9846d54146ec043dff709625666b725fdbc",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-14T00:59:36.185Z"
+    },
+    "alibaba/open-code-review": {
+      "summary": "阿里开源的 AI 代码审查命令行工具，用确定性流程与大模型结合，按行给出评论并内置多语言安全规则。",
+      "sourceHash": "a89801aeeab8c25944a2078a65e89e7aa674e1bcc5c3ebe7bd1d2ad5c9792db6",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-14T00:59:36.022Z"
+    },
+    "snailsploit/claude-red": {
+      "summary": "claude-red 是面向 Claude 技能系统的攻防安全技能库，用结构化 SKILL.md 文件为各类攻击面提供专家级方法论。",
+      "sourceHash": "46455f985ef249bc5b545e98fcf1c6e34c0863b36b6afb410507015f3cce7079",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-14T00:59:34.860Z"
+    },
+    "debpalash/voicestudio": {
+      "summary": "VoiceStudio 是一个完全本地运行的开源语音工具，支持语音克隆、配音、听写、转录和有声书制作，覆盖 646 种语言。",
+      "sourceHash": "8be20e5318fd01cbc61723572477abe1084754286ddc2f644d891979e11d09ca",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-14T00:59:34.681Z"
+    },
+    "alphaxiv/openresearch": {
+      "summary": "OpenResearch 是一个本地优先的研究智能体工作区，可让 Claude Code、Codex 等编码智能体并行开展文献调研、假设验证与实验，并管理可复现的实验记录。",
+      "sourceHash": "25fc6941949b37a741dcc622f0c144a432867e59b5842bbf2e0d94f7691f5adf",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-14T00:59:33.348Z"
+    },
+    "yuliskov/smarttube": {
+      "summary": "SmartTube 是面向 Android TV 和电视盒子的开源媒体客户端，可在电视优化界面中浏览和播放各类公开来源的内容。",
+      "sourceHash": "821e84f298233917f04e00ac257090ecbae9926694dcc52f5772060a004148b6",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-14T00:59:31.997Z"
+    },
+    "multimodal-art-projection/yue": {
+      "summary": "YuE2 是 Python 音乐生成项目，统一符号与音频生成，支持歌曲创作、零样本翻唱和智能体音乐编辑。",
+      "sourceHash": "a193b73484ec45b7a2a66dd015f910c06e313ec2d42e2df3d1207f0afab70269",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-14T00:59:31.819Z"
+    },
     "vxcontrol/pentagi": {
       "summary": "PentAGI 是一个用 Go 编写的全自主 AI 智能体系统，在隔离的 Docker 沙箱中自动执行渗透测试任务，内置多种专业安全工具。",
       "sourceHash": "593c05b5b035b49a420140a1aeff8e52fb133cecc02765e0ac19ca6a8360950e",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-13T00:54:18.605Z"
+      "lastUsedAt": "2026-09-14T00:59:31.638Z"
+    },
+    "asgeirtj/system_prompts_leaks": {
+      "summary": "收集并整理各大 AI 聊天机器人与编程助手泄露的系统提示词，按厂商分类存档，供查阅研究。",
+      "sourceHash": "4ef40a03e1ecf60f2bf44f3703abf9681ff13234d36d458df1a8932cf38b05e9",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-14T00:59:31.428Z"
+    },
+    "calesthio/openmontage": {
+      "summary": "OpenMontage 是开源智能体视频制作系统，让 AI 编程助手自动完成脚本、配音、素材与剪辑，生成完整视频。",
+      "sourceHash": "c826011b1e034dba34fcd4f01d2bdaddff6411b0f8f2a9cf784ec7803c9ad19d",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-14T00:59:29.796Z"
+    },
+    "melgarafael/deskcommcrm": {
+      "summary": "DeskcommCRM 是一款开源、可自托管的 AI 销售 CRM，内置 AI 智能体并通过 WhatsApp 接待、筛选和促成销售，面向以聊天成交的企业。",
+      "sourceHash": "755f5dc249c64bea6c5bcd3e5752d71ef4bfcfd0cfd176dd8f30202bbca115a7",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-14T00:59:28.909Z"
+    },
+    "tech-leads-club/agent-skills": {
+      "summary": "这是一个面向 AI 编程代理的技能注册表与命令行工具，用于浏览、安装和管理经过安全验证的技能包，支持 Cursor、Claude Code 等代理。",
+      "sourceHash": "70668c49859fcb6e9229a91d9da52cc37292fc274dcc15f4257cb25253b25169",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-14T00:59:28.708Z"
+    },
+    "bilawalsidhu/gods-eye-view": {
+      "summary": "一个在浏览器中运行的开源三维地球仪，用公开数据实时追踪飞机、船舶、卫星等目标，可查看地形并支持语音交互。",
+      "sourceHash": "6b84c5487991c3cb3b30ea9307189004f147b1893c447e765f6b607086280f84",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-14T00:59:27.549Z"
+    },
+    "ever-co/ever-gauzy": {
+      "summary": "Ever Gauzy 是一个开源企业管理平台，集成 ERP、CRM、HRM、项目与销售等模块，用于协作和按需经济业务。",
+      "sourceHash": "3087776854633c3de8a874e2ca26f8e976fefddb742a665ee50ac72fc771623b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-14T00:59:27.370Z"
+    },
+    "justvugg/colibri": {
+      "summary": "Colibrì 是一个纯 C 编写、无依赖的推理引擎，通过将显存、内存和磁盘统一为分层存储，让普通消费级硬件也能运行 744B 至 2.8T 参数的前沿 MoE 大模型。",
+      "sourceHash": "63ae99bb848cc3c3d2f2c42b2aa7f5d0c07ecdadf30792fcbd8737fa5ba47c2e",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-14T00:59:25.675Z"
     },
     "max-sixty/worktrunk": {
       "summary": "Worktrunk 是一个用 Rust 编写的 Git worktree 管理命令行工具，主要用于并行运行多个 AI 代理工作流。",
@@ -14,20 +140,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-13T00:54:17.483Z"
-    },
-    "multimodal-art-projection/yue": {
-      "summary": "YuE2 是 Python 音乐生成项目，统一符号与音频生成，支持歌曲创作、零样本翻唱和智能体音乐编辑。",
-      "sourceHash": "a193b73484ec45b7a2a66dd015f910c06e313ec2d42e2df3d1207f0afab70269",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-13T00:54:16.243Z"
-    },
-    "snailsploit/claude-red": {
-      "summary": "claude-red 是面向 Claude 技能系统的攻防安全技能库，用结构化 SKILL.md 文件为各类攻击面提供专家级方法论。",
-      "sourceHash": "46455f985ef249bc5b545e98fcf1c6e34c0863b36b6afb410507015f3cce7079",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-13T00:54:15.014Z"
     },
     "armory3d/armorpaint": {
       "summary": "ArmorPaint 是一款用于 3D PBR 纹理绘制的软件，此仓库面向开发者提供其源代码。",
@@ -50,13 +162,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-13T00:54:13.356Z"
     },
-    "yuliskov/smarttube": {
-      "summary": "SmartTube 是面向 Android TV 和电视盒子的开源媒体客户端，可在电视优化界面中浏览和播放各类公开来源的内容。",
-      "sourceHash": "821e84f298233917f04e00ac257090ecbae9926694dcc52f5772060a004148b6",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-13T00:54:11.595Z"
-    },
     "alsk1992/cloddsbot": {
       "summary": "CloddsBot 是一个基于 Claude 的开源自主 AI 交易代理，可跨预测市场、加密货币和期货等平台自动扫描机会、执行交易并管理风险。",
       "sourceHash": "2d09bbb26c36a4119682e890e25de0467d03215728ec05dd965924bb72cbd2bf",
@@ -70,13 +175,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-13T00:54:09.011Z"
-    },
-    "jihe520/mathmodelagent": {
-      "summary": "MathModelAgent 是面向数学建模竞赛的自动化工具，可分析问题、编写代码并生成格式完整的可提交论文。",
-      "sourceHash": "08feb3cf47d9e346067c9af00401f9846d54146ec043dff709625666b725fdbc",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-13T00:54:08.843Z"
     },
     "flowseal/zapret-discord-youtube": {
       "summary": "基于 zapret 的 Windows 批处理脚本，用于绕过 DPI 封锁，恢复 Discord、YouTube 等服务的访问。",
@@ -92,27 +190,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-13T00:54:07.668Z"
     },
-    "asgeirtj/system_prompts_leaks": {
-      "summary": "收集并整理各大 AI 聊天机器人与编程助手泄露的系统提示词，按厂商分类存档，供查阅研究。",
-      "sourceHash": "3680901140d8e629bf3181df89742f8fd5f96baf101fafe52538bb4542161022",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-13T00:54:07.472Z"
-    },
-    "melgarafael/deskcommcrm": {
-      "summary": "DeskcommCRM 是一款开源、可自托管的 AI 销售 CRM，内置 AI 智能体并通过 WhatsApp 接待、筛选和促成销售，面向以聊天成交的企业。",
-      "sourceHash": "755f5dc249c64bea6c5bcd3e5752d71ef4bfcfd0cfd176dd8f30202bbca115a7",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-13T00:54:06.114Z"
-    },
-    "bilawalsidhu/gods-eye-view": {
-      "summary": "一个在浏览器中运行的开源三维地球仪，用公开数据实时追踪飞机、船舶、卫星等目标，可查看地形并支持语音交互。",
-      "sourceHash": "6b84c5487991c3cb3b30ea9307189004f147b1893c447e765f6b607086280f84",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-13T00:54:05.940Z"
-    },
     "pascalorg/editor": {
       "summary": "Pascal Editor 是一个开源本地优先的 3D 建筑编辑器，基于 React Three Fiber 和 WebGPU，可在浏览器或 CLI 中运行，并通过 MCP 连接 AI 智能体。",
       "sourceHash": "9eff94ecbb6dfe2be370c3619019863af7fc147febe06d9941ecd2594f6823d7",
@@ -126,13 +203,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-12T01:03:54.443Z"
-    },
-    "alphaxiv/openresearch": {
-      "summary": "OpenResearch 是一个本地优先的研究智能体工作区，可驱动 Claude Code、Codex 或 OpenCode 并行开展文献调研、假设验证与实验，并记录可复现的实验过程。",
-      "sourceHash": "873311d396789702ddb96fe6fe23e3f04b6a640bc7306249e743480cfeecf14d",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-12T01:03:53.042Z"
     },
     "jordan-gibbs/hyperresearch": {
       "summary": "Hyperresearch 是一个由智能体驱动的深度研究工具，可将 Claude Code 变成研究代理，自动收集、检索并综合网络资料，生成带来源溯源的报告，并存入可持久搜索的知识库。",
@@ -182,13 +252,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-11T00:59:45.831Z"
-    },
-    "justvugg/colibri": {
-      "summary": "Colibrì 是一个纯 C 编写、无依赖的推理引擎，通过将显存、内存和磁盘组成统一层级，让消费级硬件运行 744B 至 2.8T 参数的前沿 MoE 模型。",
-      "sourceHash": "e07983da8ec42a62f6e8bc89c6c4954fb56edd4d18a4eab3b11a683340be346c",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-11T00:59:44.129Z"
     },
     "freestylefly/awesome-gpt-image-2": {
       "summary": "这是一个面向 GPT-Image2 的工业级提示词引擎与模板库，收录 500 多个逆向工程案例和 20 多套模板，供用户查找和复用图像生成提示词。",
@@ -498,13 +561,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-05T00:52:16.264Z"
     },
-    "debpalash/voicestudio": {
-      "summary": "VoiceStudio 是一个开源的本地语音工具，支持声音克隆、视频配音、听写、转录和有声书制作，覆盖多种语言。",
-      "sourceHash": "69175f93e017f849f9d127012e8e89fd759f036904a4f29aa0e3fae3b458921d",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-05T00:52:15.360Z"
-    },
     "bannedbook/fanqiang": {
       "summary": "一个汇集翻墙工具、教程和新闻的仓库，提供多平台科学上网指南及Chrome一键翻墙包。",
       "sourceHash": "2db4acca8aafbecc7b916434c1433e05781de132b87b03a8b7f5e10f0f2e73ea",
@@ -644,62 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-02T00:59:39.640Z"
-    },
-    "browser-use/video-use": {
-      "summary": "video-use 是一个开源工具，让编码代理（如 Claude Code）通过对话方式自动剪辑视频，包括去除语气词、调色、加字幕等。",
-      "sourceHash": "1c883815e0bd52882a8ed059d601d1b6dce7e5cb98b1663dd76fbb1fb52ebbb6",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-02T00:59:39.363Z"
-    },
-    "3b1b/manim": {
-      "summary": "Manim是用于制作精确程序化动画的引擎，专为创建解释性数学视频而设计。",
-      "sourceHash": "8d3130e5f75f9d80ed60c4c01fec2701a8b2ca5d6702bbc720d4a624b4a5928d",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-02T00:59:37.717Z"
-    },
-    "jingyaogong/minimind": {
-      "summary": "MiniMind 是一个从零训练 64M 参数超小语言模型的开源项目，仅需 2 小时和 3 元成本，覆盖预训练、微调、强化学习等完整流程。",
-      "sourceHash": "1b7be745039cddb304075f0afb36611a742bde6831059a330eafc0978102fac8",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-02T00:59:36.550Z"
-    },
-    "iv-org/invidious": {
-      "summary": "Invidious 是一个开源的 YouTube 替代前端，提供无广告、无追踪的轻量级观看体验，并支持订阅、音频模式等功能。",
-      "sourceHash": "ad984696700ad57d6868e1a0600940bf55f52d3bc6054e91a129538ed9024fd5",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-02T00:59:36.214Z"
-    },
-    "pollen-robotics/microduck_rl": {
-      "summary": "基于MuJoCo的Microduck双足机器人强化学习训练环境，使用PPO算法训练行走策略并导出ONNX部署到实体机器人。",
-      "sourceHash": "474edff6601b9b9d99c20dc84693757e1895ad0132fe03041691875981385608",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-01T01:47:43.516Z"
-    },
-    "p-e-w/heretic": {
-      "summary": "Heretic 是一个自动去除语言模型审查（安全对齐）的工具，通过方向消融和参数优化实现，无需昂贵的后训练。",
-      "sourceHash": "675b736a8c3b537e46ba59fcaf4e0258369ef8a53f258bddf2b4d32666f0a4c0",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-01T01:47:41.440Z"
-    },
-    "every-app/open-seo": {
-      "summary": "OpenSEO 是一个开源的 SEO 工具，提供关键词研究、排名追踪、外链分析等功能，支持自托管和 AI 代理集成。",
-      "sourceHash": "8565ce601481a4a85cc3abb3f27fd8681a98d571b7ebc8561ccb59ef8806f6e7",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-01T01:47:41.023Z"
-    },
-    "kaifcodec/user-scanner": {
-      "summary": "一个Python编写的OSINT工具，通过465多个扫描向量从单个邮箱或用户名深度提取数字足迹信息，用于安全研究和调查。",
-      "sourceHash": "051f10d074f2e7b9f8bfa042f8112ab94791a7e0edde935d7c4744fc8ae90715",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-01T01:47:40.741Z"
     }
   }
 }
