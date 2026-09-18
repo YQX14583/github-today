@@ -1,26 +1,145 @@
 {
   "version": 1,
   "entries": {
-    "affaan-m/ecc": {
-      "summary": "ECC 是一个面向 Claude Code、Codex 等 AI 编程代理的性能优化系统，提供技能、记忆、安全与先研究后开发的工程化工作流。",
-      "sourceHash": "ed84c74f85e045effdd7519cb3af429f39f2609336cd74715a22f2d74468eb6b",
+    "n8n-io/n8n": {
+      "summary": "n8n 是一个公平代码的工作流自动化平台，结合可视化画布与自定义代码，支持自托管或云端部署，用于构建和运行 AI 智能体及自动化流程。",
+      "sourceHash": "e32b4919790720b99a2c761dbe7f8f31a5445f2134c5911fb0bbd773f7b32653",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-17T01:19:40.674Z"
+      "lastUsedAt": "2026-09-18T01:14:07.532Z"
+    },
+    "coder/coder": {
+      "summary": "Coder 是一个自托管的云开发环境与 AI 编程代理平台，用 Go 编写，可在自有基础设施上为开发者和 AI 代理提供安全的工作空间。",
+      "sourceHash": "67461f4d65b509949e6942059a3f806396305de0bb13643c15f0385c579f3463",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-18T01:14:06.336Z"
     },
     "cline/cline": {
-      "summary": "Cline 是一个开源编码智能体，可作为 SDK、IDE 扩展或命令行助手，在编辑器、终端和桌面端自主读写代码、执行命令并完成开发任务。",
-      "sourceHash": "171ebacc0637ec25d2995922dc0fd65ea94e0f636918aabe9d911e90e8e1fbce",
+      "summary": "Cline 是一个开源自主编码智能体，提供 SDK、IDE 插件、命令行和桌面应用，可读写代码、执行命令并自动化开发任务。",
+      "sourceHash": "5a186bff95b55b81b2feead56b7cfca6d8e3834639de76d26281f2fad2696d81",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-17T01:19:39.779Z"
+      "lastUsedAt": "2026-09-18T01:14:05.361Z"
+    },
+    "ever-co/ever-gauzy": {
+      "summary": "Ever Gauzy 是一个基于 TypeScript 的开源企业管理平台，集成 ERP、CRM、HRM、ATS 和项目管理等功能，面向协作与按需经济场景。",
+      "sourceHash": "efdb5570ba56087216a5b15397b409ee8def4a32f155d5fa465cf45b408aea83",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-18T01:14:04.070Z"
+    },
+    "tencentcloud/octop": {
+      "summary": "Octop 是腾讯云开源的自托管 AI 助手平台，面向家庭和小团队，支持多用户、多智能体，可通过网页、命令行和多种即时通讯渠道使用。",
+      "sourceHash": "1f454ef261b5e1fcbb96a13e68d00e2810cad248b8f65ffcf4aab2e0f55d6129",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-18T01:14:02.903Z"
+    },
+    "justvugg/colibri": {
+      "summary": "Colibrì 是一个纯 C 编写、无依赖的推理引擎，通过将显存、内存和磁盘统一为分层存储，让普通消费级硬件也能运行 744B 至 2.8T 参数的前沿 MoE 大模型。",
+      "sourceHash": "63ae99bb848cc3c3d2f2c42b2aa7f5d0c07ecdadf30792fcbd8737fa5ba47c2e",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-18T01:14:02.010Z"
+    },
+    "roboflow/supervision": {
+      "summary": "Supervision 是一个 Python 计算机视觉工具库，提供模型无关的检测结果处理、标注绘制和数据集加载等可复用组件。",
+      "sourceHash": "db062a089caaeae2fd913442b141f56efe9e6dfed5e6b7181bb2a87d9276feeb",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-18T01:14:01.735Z"
+    },
+    "affaan-m/ecc": {
+      "summary": "ECC 是一个面向 Claude Code、Codex 等 AI 编程代理的性能优化系统，提供技能、记忆、安全与测试验证等工程化能力。",
+      "sourceHash": "73ac210812a4837dfbe79ff8b1e4fd92550bdb09f46b49d9f28a0356e783c029",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-18T01:14:01.518Z"
+    },
+    "jamiepine/voicebox": {
+      "summary": "Voicebox 是一个本地运行的开源 AI 语音工作室，支持克隆音色、生成语音、全局听写，并为智能体提供语音输出。",
+      "sourceHash": "7edce22b36eee382201a40868db948b79212afc56b3ea77280b54a454255f910",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-18T01:14:00.146Z"
+    },
+    "cilium/cilium": {
+      "summary": "Cilium 是基于 eBPF 的网络、可观测性与安全方案，提供扁平三层网络、跨集群连接和基于身份的三到七层网络策略。",
+      "sourceHash": "c520dfe13508efbcc3cd996f3897fc64a812c960ca3ed27cbe8e09f4bd37e714",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-18T01:13:59.973Z"
+    },
+    "abue-ammar/tinycast": {
+      "summary": "Tinycast 是一款用 Swift 编写的原生 macOS 启动器，提供全局热键、应用启动、剪贴板历史、文件搜索与计算器等功能。",
+      "sourceHash": "df3c8d90f7ecb6b8afc7d0b05645fbbe75b8cb7297bfc2dbcf8fdd1fb8e34c70",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-18T01:13:59.025Z"
+    },
+    "tencent/weknora": {
+      "summary": "WeKnora 是腾讯开源的大模型知识平台，用 Go 编写，可将原始文档转为可检索的 RAG 问答、自主推理智能体与自动维护的 Wiki。",
+      "sourceHash": "892556142735ba30cc78521a6ef800a652d73df1b3091e882d6b5055d01cdcda",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-18T01:13:57.953Z"
+    },
+    "anthropics/knowledge-work-plugins": {
+      "summary": "这是 Anthropic 开源的知识工作插件仓库，为 Claude Cowork 和 Claude Code 提供面向销售、数据等岗位的插件，让 Claude 按团队流程完成专业工作。",
+      "sourceHash": "ef129cfdf82c1174376c99765bf6b39c58014ad9601fe6d59d7bd9846ba08df0",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-18T01:13:57.791Z"
+    },
+    "nationalsecurityagency/ghidra": {
+      "summary": "Ghidra 是由美国国家安全局开发的软件逆向工程框架，提供反汇编、反编译、绘图和脚本等工具，用于分析多平台的已编译代码。",
+      "sourceHash": "ac07ebd3487f052e5defeb71cb8db30b262ed427fd9bcd2ede3520b6f3ee7fb4",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-18T01:13:57.603Z"
+    },
+    "anthropics/claude-code": {
+      "summary": "Claude Code 是运行在终端里的智能编程工具，能理解代码库，通过自然语言命令执行日常任务、解释复杂代码并处理 Git 工作流。",
+      "sourceHash": "d4f3174e2014920dd4bf00b55a1cb8cef25e00d8b1bf60e6e4e3025ed9411f16",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-18T01:13:57.402Z"
+    },
+    "alphaxiv/openresearch": {
+      "summary": "OpenResearch 是一个本地优先的研究工作区，把 Claude Code、Codex 等编码代理变成可查阅文献、提出假设、运行实验并产出研究结果的研究代理。",
+      "sourceHash": "19b089f5a115d189d444afc23d5e626ade50644ce7f4b44747b5bd3514441f5f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-18T01:13:57.183Z"
+    },
+    "tencent/browserskill": {
+      "summary": "BrowserSkill 是腾讯开源的 TypeScript 工具，通过 CLI 和浏览器扩展让 AI 代理复用已登录的真实浏览器，在不打断用户工作的情况下完成网页自动化操作。",
+      "sourceHash": "01e7ef583d6ceddb81c45c0d2b649a5ae7978d90adbb6d64bd98fe29e1e1c728",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-18T01:13:56.973Z"
     },
     "addyosmani/agent-skills": {
       "summary": "这是一套面向 AI 编程代理的工程技能包，用 Markdown 编写，覆盖需求、规划、编码、测试、评审到发布全流程，让代理按资深工程师的规范工作。",
-      "sourceHash": "e848965fe2d408d6a9440589b3a78a1d275e6b54fa33aba09426339edfe02ec5",
+      "sourceHash": "41291efcb1306961c5e7f43a541062d13c4094281b898390cbd67496b73608c7",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-17T01:19:38.303Z"
+      "lastUsedAt": "2026-09-18T01:13:55.992Z"
+    },
+    "cloudflare/security-audit-skill": {
+      "summary": "这是一个让编码智能体执行多阶段安全审计的技能，通过侦察、漏洞搜寻、独立验证和结构化报告，输出可机器读取的审计发现。",
+      "sourceHash": "d49f83911dbb4cc72ae67d1701f23de8ed840a0b4596722c3d99c3a0d82ee68b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-18T01:13:54.605Z"
+    },
+    "alibaba/open-code-review": {
+      "summary": "阿里巴巴开源的 AI 代码审查命令行工具，采用确定性流程与大模型 Agent 混合架构，支持多语言规则检查并输出精确到行的评论。",
+      "sourceHash": "0a626dc2f156cc3e578882f219a61afe9c2113974043311404a2a80dcba8b13f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-18T01:13:54.409Z"
     },
     "multimodal-art-projection/yue": {
       "summary": "YuE2 是一个 Python 音乐生成项目，统一符号与音频生成，支持歌曲创作、零样本翻唱和智能体音乐编辑。",
@@ -36,13 +155,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-17T01:19:36.745Z"
     },
-    "tencent/weknora": {
-      "summary": "WeKnora 是腾讯开源的大模型知识平台，用 Go 编写，可将原始文档转为可检索的 RAG 问答、自主推理智能体与自动维护的 Wiki。",
-      "sourceHash": "892556142735ba30cc78521a6ef800a652d73df1b3091e882d6b5055d01cdcda",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-17T01:19:36.553Z"
-    },
     "rlaope/oh-my-hermes": {
       "summary": "oh-my-hermes 是 Hermes Agent 的一体化插件，提供编码智能、长期记忆系统和模型优化的工作流包。",
       "sourceHash": "a3fb6f0f1209d021caa1e6dfe9bb48010e43a2343e10c00a3971abdca6ebd583",
@@ -57,34 +169,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-17T01:19:33.913Z"
     },
-    "alphaxiv/openresearch": {
-      "summary": "OpenResearch 是一个本地优先的研究工作区，把 Claude Code、Codex 等编码代理变成可查阅文献、提出假设、运行实验并产出研究结果的研究代理。",
-      "sourceHash": "19b089f5a115d189d444afc23d5e626ade50644ce7f4b44747b5bd3514441f5f",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-17T01:19:32.458Z"
-    },
-    "roboflow/supervision": {
-      "summary": "Supervision 是一个 Python 计算机视觉工具库，提供模型无关的检测结果处理、标注绘制和数据集加载等可复用组件。",
-      "sourceHash": "db062a089caaeae2fd913442b141f56efe9e6dfed5e6b7181bb2a87d9276feeb",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-17T01:19:32.234Z"
-    },
-    "anthropics/claude-code": {
-      "summary": "Claude Code 是运行在终端里的智能编程工具，能理解代码库，通过自然语言命令执行日常任务、解释复杂代码并处理 Git 工作流。",
-      "sourceHash": "d4f3174e2014920dd4bf00b55a1cb8cef25e00d8b1bf60e6e4e3025ed9411f16",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-17T01:19:31.018Z"
-    },
-    "nationalsecurityagency/ghidra": {
-      "summary": "Ghidra 是由美国国家安全局开发的软件逆向工程框架，提供反汇编、反编译、绘图和脚本等工具，用于分析多平台的已编译代码。",
-      "sourceHash": "ac07ebd3487f052e5defeb71cb8db30b262ed427fd9bcd2ede3520b6f3ee7fb4",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-17T01:19:29.487Z"
-    },
     "ankitects/anki": {
       "summary": "这是 Anki 电脑版源代码仓库，Anki 是一款基于间隔重复的智能记忆卡片程序，用于帮助用户高效学习和记忆。",
       "sourceHash": "1858f41f1150340f31b237ec77b906d8c04d8817eec36297b4346bbeb94b7914",
@@ -92,61 +176,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-17T01:19:29.288Z"
     },
-    "ever-co/ever-gauzy": {
-      "summary": "Ever Gauzy 是一个开源业务管理平台，集成 ERP、CRM、HRM、ATS 和项目管理等功能，面向协作与按需经济场景。",
-      "sourceHash": "7469b19b6d048f1c8397e6574099cbc1fcccd239249fc5a3544f32fd4f3149c6",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-17T01:19:28.133Z"
-    },
-    "anthropics/knowledge-work-plugins": {
-      "summary": "这是 Anthropic 开源的知识工作插件仓库，为 Claude Cowork 和 Claude Code 提供面向销售、数据等岗位的插件，让 Claude 按团队流程完成专业工作。",
-      "sourceHash": "ef129cfdf82c1174376c99765bf6b39c58014ad9601fe6d59d7bd9846ba08df0",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-17T01:19:26.667Z"
-    },
     "lakr233/vphone-cli": {
       "summary": "vphone-cli 是一个 Swift 命令行工具，借助 Apple 虚拟化框架在 Apple Silicon Mac 上创建并启动虚拟 iPhone，支持固件下载、打补丁、恢复与越狱等完整流程。",
       "sourceHash": "efe638185d6bdc16efe807f4445fd200b01ee6b1d242a78b53c506d043494eb4",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-17T01:19:25.230Z"
-    },
-    "jamiepine/voicebox": {
-      "summary": "Voicebox 是一个本地运行的开源 AI 语音工作室，支持克隆音色、生成语音、全局听写，并为智能体提供语音输出。",
-      "sourceHash": "7edce22b36eee382201a40868db948b79212afc56b3ea77280b54a454255f910",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-17T01:19:24.066Z"
-    },
-    "abue-ammar/tinycast": {
-      "summary": "Tinycast 是一款用 Swift 编写的原生 macOS 启动器，通过全局快捷键提供应用启动、剪贴板历史、文件搜索、计算器和文本处理等功能。",
-      "sourceHash": "977d0a889252861267b592b1fb2ca261f853573075df1e3a0f3d5bff7108fd81",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-17T01:19:23.217Z"
-    },
-    "justvugg/colibri": {
-      "summary": "Colibrì 是一个纯 C 编写、无依赖的推理引擎，通过将显存、内存和磁盘统一为分层存储，让普通消费级硬件也能运行 744B 至 2.8T 参数的前沿 MoE 大模型。",
-      "sourceHash": "63ae99bb848cc3c3d2f2c42b2aa7f5d0c07ecdadf30792fcbd8737fa5ba47c2e",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-17T01:19:22.181Z"
-    },
-    "cloudflare/security-audit-skill": {
-      "summary": "这是一个让编码智能体执行多阶段安全审计的技能，通过侦察、漏洞搜寻、独立验证和结构化报告，输出可机器读取的审计发现。",
-      "sourceHash": "d49f83911dbb4cc72ae67d1701f23de8ed840a0b4596722c3d99c3a0d82ee68b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-17T01:19:21.925Z"
-    },
-    "alibaba/open-code-review": {
-      "summary": "Open Code Review 是阿里巴巴开源的 AI 代码审查命令行工具，采用确定性流程与大模型 Agent 混合架构，可对代码变更做精确行级审查并内置多语言规则集。",
-      "sourceHash": "07187826ae2a3ba3f32ef97a7075a408a55901ebed00e29fbb562af7c62cee64",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-17T01:19:20.454Z"
     },
     "earendil-works/pi": {
       "summary": "Pi 是一个 TypeScript 编写的 AI 智能体工具包，提供统一 LLM API、智能体循环、终端界面和可自我扩展的编码智能体命令行工具。",
@@ -665,41 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-07T00:55:11.042Z"
-    },
-    "llvm/llvm-project": {
-      "summary": "LLVM项目是一套模块化、可复用的编译器及工具链技术集合，用于构建高度优化的编译器、优化器和运行时环境。",
-      "sourceHash": "187b5f0dd100e37497cba0cf57e14e5011c3c26e74aae274956e4bdb4539cf25",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-07T00:55:10.843Z"
-    },
-    "blader/humanizer": {
-      "summary": "Humanizer 是一个智能体技能，用于改写 AI 生成的文本，使其读起来像人写的，同时保持原意不变。",
-      "sourceHash": "97e829e8f451cc7665b038334695a838f92f5f0d7ef62c9d5d6902ead4fb881a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-07T00:55:09.829Z"
-    },
-    "anomalyco/opencode": {
-      "summary": "opencode 是一个开源的 AI 编程代理，支持命令行和桌面应用，可辅助开发与代码探索。",
-      "sourceHash": "f04d1682be9878686b6625f4163cbedf2006d49843ceaaf1aed1518b3427f07b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-07T00:55:08.887Z"
-    },
-    "nousresearch/hermes-agent": {
-      "summary": "Hermes Agent 是 Nous Research 开发的自改进 AI 代理，具备内置学习循环，可通过 CLI 或消息网关使用，并支持从 OpenClaw 迁移。",
-      "sourceHash": "7319a84f2094560102e31f4edcb53bf93bf1c7c32f453b309cf31e8b53a4b282",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-07T00:55:07.629Z"
-    },
-    "mattpocock/skills": {
-      "summary": "一套面向真实工程实践的AI代理技能集，包含代码开发与效率工具，可通过插件或脚本快速安装使用。",
-      "sourceHash": "253993fc338d90c9b9bad3adb314b05b648e18e0d7c20dbc369d32c60768be7b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-07T00:55:05.787Z"
     }
   }
 }
