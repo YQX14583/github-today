@@ -1,12 +1,103 @@
 {
   "version": 1,
   "entries": {
-    "asciimoo/hister": {
-      "summary": "Hister 是一个用 Go 编写的私有搜索引擎，可对访问过的网页和本地文件做全文索引，支持通过网页、终端或 MCP 客户端检索。",
-      "sourceHash": "9c42a9b1beb69484f5c8eb6639f87f1c9247d6ac1d0d12807d28d74b5e433e47",
+    "yynxxxxx/codex-x": {
+      "summary": "Codex-X 是面向 OpenAI Codex 桌面端与 CLI 的跨平台可视化管理工具，用于统一管理提示词注入、Provider 与 API 切换、会话同步、Skills/MCP 及 TOML 配置。",
+      "sourceHash": "a35a495b7109490eea9416eb4e5be8e998fbea1a2f4ff3f2044ea50e2d41750c",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-19T01:08:06.444Z"
+      "lastUsedAt": "2026-09-20T01:00:48.224Z"
+    },
+    "cactus-compute/needle": {
+      "summary": "Needle 是面向手机、可穿戴设备、机器人和单片机的自动化基础模型，体积 8-29 MB，支持工具调用、结构化抽取和嵌入。",
+      "sourceHash": "e470fab7d279f4c31bdb9800b71da34816ac6a15b30b2de7117c4a3682f35e5b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-20T01:00:47.047Z"
+    },
+    "anthropics/knowledge-work-plugins": {
+      "summary": "这是 Anthropic 开源的知识工作插件仓库，为 Claude Cowork 和 Claude Code 提供面向销售、数据等岗位的插件，让 Claude 按团队流程完成专业工作。",
+      "sourceHash": "ef129cfdf82c1174376c99765bf6b39c58014ad9601fe6d59d7bd9846ba08df0",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-20T01:00:45.952Z"
+    },
+    "zuodaotech/everyone-can-use-english": {
+      "summary": "这是一个英语学习项目，提供网页版、浏览器插件和桌面版工具，借助 AI 辅助用户学习外语，并附有相关教程与书籍内容。",
+      "sourceHash": "29ab6ca2d59921d1d2f54633259ece946994320240f25b96d3c702840b58e175",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-20T01:00:45.794Z"
+    },
+    "ruanyf/weekly": {
+      "summary": "这是一个每周五发布的科技爱好者周刊，记录值得分享的科技内容，并接受文章、软件和资源投稿。",
+      "sourceHash": "9ac9011bd8362afa358e4ad16c836a305b63300b4183a151d35596d86f75c4d4",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-20T01:00:44.540Z"
+    },
+    "asciimoo/hister": {
+      "summary": "Hister 是一个用 Go 编写的私有搜索引擎，可对访问过的网页和本地文件做全文索引，并通过网页、终端或 MCP 客户端检索。",
+      "sourceHash": "a9ae99e0445439373a88bcbd50f1761dd4409abd0305d1740bf8314128dcaffe",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-20T01:00:43.373Z"
+    },
+    "cloudflare/quiche": {
+      "summary": "quiche 是 Cloudflare 用 Rust 实现的 QUIC 传输协议与 HTTP/3 库，提供处理 QUIC 数据包和连接状态的底层 API，由应用负责 I/O 与事件循环。",
+      "sourceHash": "261a7a9e21e367a1affd2f351bf587c050206a701c8ab115ea875023ece0dadf",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-20T01:00:42.010Z"
+    },
+    "docling-project/docling": {
+      "summary": "Docling 是一个 Python 文档处理库，可解析 PDF、Office、图片、音视频等多种格式，并导出为 Markdown 等结构化结果，供生成式 AI 使用。",
+      "sourceHash": "941900a695a9ef915c7f712e2bc8a0d0bcf0642fcb4b4f7d8d2123ed92e80a88",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-20T01:00:40.686Z"
+    },
+    "higgsfield-ai/higgsfield": {
+      "summary": "Higgsfield 是开源容错、可扩展的 GPU 编排与机器学习框架，用于训练数十亿至数万亿参数的大模型，如大语言模型。",
+      "sourceHash": "f3c2a808d7bd9ac6d089a07195aa8b8c1d4ec197ae25854708436179ec3aff50",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-20T01:00:39.497Z"
+    },
+    "anthropics/claude-code": {
+      "summary": "Claude Code 是运行在终端里的智能编程工具，能理解代码库，通过自然语言命令执行日常任务、解释复杂代码并处理 Git 工作流。",
+      "sourceHash": "d4f3174e2014920dd4bf00b55a1cb8cef25e00d8b1bf60e6e4e3025ed9411f16",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-20T01:00:37.628Z"
+    },
+    "coder/coder": {
+      "summary": "Coder 是一个自托管的云开发环境与 AI 编程代理平台，用 Go 编写，可在自有基础设施上为开发者和 AI 代理提供安全的工作空间。",
+      "sourceHash": "67461f4d65b509949e6942059a3f806396305de0bb13643c15f0385c579f3463",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-20T01:00:37.437Z"
+    },
+    "addyosmani/agent-skills": {
+      "summary": "这是一套面向 AI 编程代理的工程技能包，用 Markdown 编写，覆盖需求、规划、编码、测试、评审到发布全流程，让代理按资深工程师的规范工作。",
+      "sourceHash": "41291efcb1306961c5e7f43a541062d13c4094281b898390cbd67496b73608c7",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-20T01:00:37.219Z"
+    },
+    "trycua/cua": {
+      "summary": "Cua 是面向计算机使用智能体的开源项目，提供桌面自动化驱动、隔离云桌面、本地 macOS 虚拟机、专用决策模型及评测基准。",
+      "sourceHash": "6b00bbe7019605b5d4555521ca91fff5be1fcb0169d23037ac3132e8dc50f4be",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-20T01:00:37.051Z"
+    },
+    "cloudflare/security-audit-skill": {
+      "summary": "这是一个让编码智能体执行多阶段安全审计的技能，通过侦察、漏洞搜寻、独立验证和结构化报告，输出可机器读取的审计发现。",
+      "sourceHash": "d49f83911dbb4cc72ae67d1701f23de8ed840a0b4596722c3d99c3a0d82ee68b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-20T01:00:35.639Z"
     },
     "ahmedkhaleel2004/gitdiagram": {
       "summary": "GitDiagram 是一个 TypeScript 工具，可将任意 GitHub 仓库快速转换为可交互的架构图，并支持点击组件跳转到对应源码文件。",
@@ -14,13 +105,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-19T01:08:05.439Z"
-    },
-    "coder/coder": {
-      "summary": "Coder 是一个自托管的云开发环境与 AI 编程代理平台，用 Go 编写，可在自有基础设施上为开发者和 AI 代理提供安全的工作空间。",
-      "sourceHash": "67461f4d65b509949e6942059a3f806396305de0bb13643c15f0385c579f3463",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-19T01:08:04.393Z"
     },
     "supabase/supabase": {
       "summary": "Supabase 是一个基于 Postgres 的开源开发平台，提供数据库、认证、自动生成 API、实时订阅、函数、文件存储和 AI 向量工具，用于构建 Web、移动和 AI 应用。",
@@ -50,13 +134,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-19T01:08:01.748Z"
     },
-    "anthropics/knowledge-work-plugins": {
-      "summary": "这是 Anthropic 开源的知识工作插件仓库，为 Claude Cowork 和 Claude Code 提供面向销售、数据等岗位的插件，让 Claude 按团队流程完成专业工作。",
-      "sourceHash": "ef129cfdf82c1174376c99765bf6b39c58014ad9601fe6d59d7bd9846ba08df0",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-19T01:08:00.607Z"
-    },
     "ankitects/anki": {
       "summary": "这是 Anki 电脑版源代码仓库，Anki 是一款基于间隔重复的智能记忆卡片程序，用于帮助用户高效学习和记忆。",
       "sourceHash": "1858f41f1150340f31b237ec77b906d8c04d8817eec36297b4346bbeb94b7914",
@@ -78,13 +155,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-19T01:07:58.843Z"
     },
-    "addyosmani/agent-skills": {
-      "summary": "这是一套面向 AI 编程代理的工程技能包，用 Markdown 编写，覆盖需求、规划、编码、测试、评审到发布全流程，让代理按资深工程师的规范工作。",
-      "sourceHash": "41291efcb1306961c5e7f43a541062d13c4094281b898390cbd67496b73608c7",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-19T01:07:57.724Z"
-    },
     "tencent/browserskill": {
       "summary": "BrowserSkill 是腾讯开源的 TypeScript 工具，通过 CLI 和浏览器扩展让 AI 代理复用已登录的真实浏览器，在不打断用户工作的情况下完成网页自动化操作。",
       "sourceHash": "01e7ef583d6ceddb81c45c0d2b649a5ae7978d90adbb6d64bd98fe29e1e1c728",
@@ -105,20 +175,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-19T01:07:56.936Z"
-    },
-    "anthropics/claude-code": {
-      "summary": "Claude Code 是运行在终端里的智能编程工具，能理解代码库，通过自然语言命令执行日常任务、解释复杂代码并处理 Git 工作流。",
-      "sourceHash": "d4f3174e2014920dd4bf00b55a1cb8cef25e00d8b1bf60e6e4e3025ed9411f16",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-19T01:07:56.666Z"
-    },
-    "cloudflare/security-audit-skill": {
-      "summary": "这是一个让编码智能体执行多阶段安全审计的技能，通过侦察、漏洞搜寻、独立验证和结构化报告，输出可机器读取的审计发现。",
-      "sourceHash": "d49f83911dbb4cc72ae67d1701f23de8ed840a0b4596722c3d99c3a0d82ee68b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-19T01:07:56.389Z"
     },
     "n8n-io/n8n": {
       "summary": "n8n 是一个公平代码的工作流自动化平台，结合可视化画布与自定义代码，支持自托管或云端部署，用于构建和运行 AI 智能体及自动化流程。",
@@ -644,62 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-09T01:12:24.878Z"
-    },
-    "multica-ai/andrej-karpathy-skills": {
-      "summary": "一个基于 Andrej Karpathy 对 LLM 编码缺陷观察的 CLAUDE.md 文件，用于改进 Claude Code 行为，提供四条编码原则以减少错误。",
-      "sourceHash": "175c49a76f239ac51b504013ef0f4d614938975f5acceaa8592e8bfa105a0d69",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-09T01:12:24.610Z"
-    },
-    "coreyhaines31/marketingskills": {
-      "summary": "为AI代理提供营销技能库，涵盖转化优化、文案、SEO、分析和增长工程等任务。",
-      "sourceHash": "e0d2f31ba11b27ef3dd5da4982896323325ed3292526cd8364bd25dfb0624450",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-09T01:12:22.861Z"
-    },
-    "heygen-com/hyperframes": {
-      "summary": "HyperFrames 是一个开源框架，可将 HTML、CSS 和动画转换为确定性的 MP4 视频，支持本地 CLI 和 AI 代理使用。",
-      "sourceHash": "4bbdec0378b9b8bb1273d4e2bdfab11092f6860f3bdc015dfdcad5bdb4c2aeff",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-09T01:12:22.622Z"
-    },
-    "openai/skills": {
-      "summary": "该项目是Codex的技能目录，收录了可供AI代理发现和使用的指令、脚本与资源，以帮助其完成特定任务。",
-      "sourceHash": "533026f0ac71c08b1ddb1a6085e7b61d002033c86c077e88ec2ec213df8b3b68",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-09T01:12:21.881Z"
-    },
-    "ruvnet/ruflo": {
-      "summary": "Ruflo 是一个为 Claude Code 和 Codex 设计的智能体元框架，提供 100 多个专用智能体、自适应记忆、RAG 集成及多智能体协作能力，用于构建和协调自主工作流。",
-      "sourceHash": "15fe466c2db90c0d5b92c9264a5111207da067190ca46689e90cca8137aadf7a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-08T01:07:55.950Z"
-    },
-    "lightpanda-io/browser": {
-      "summary": "Lightpanda 是一个用 Zig 从头编写的无头浏览器，专为 AI 代理和自动化任务设计，提供 CDP 和 WebDriver 支持，并强调高性能与低资源占用。",
-      "sourceHash": "12808aaa3560c53f6ae8125384c702a5f2eb34a38d5ab7105529fc2aa629ad77",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-08T01:07:52.696Z"
-    },
-    "bytedance/deer-flow": {
-      "summary": "DeerFlow 是一个开源的长时程超级智能体框架，通过编排子代理、记忆与沙箱，可完成从研究、编码到内容创作等耗时数分钟至数小时的多步骤任务。",
-      "sourceHash": "fd41da64bbb05681f2b9b0419f30aa56d967bb7b4ddf45f329989dfe765fbc64",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-08T01:07:51.247Z"
-    },
-    "braveopotato/fcksignups": {
-      "summary": "一个收录无需注册即可在浏览器中使用的开源工具的精选列表网站，基于React和TypeScript构建。",
-      "sourceHash": "f130c8ed08379b57367a624af9f8ea2a4cd7e00e5b2bd52c9826accf07341900",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-08T01:07:49.508Z"
     }
   }
 }
