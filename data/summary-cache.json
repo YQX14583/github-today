@@ -1,6 +1,90 @@
 {
   "version": 1,
   "entries": {
+    "addyosmani/agent-skills": {
+      "summary": "这是一套面向 AI 编程代理的工程技能包，用 Markdown 编写，覆盖需求、规划、编码、测试、评审到发布全流程，让代理按资深工程师的规范工作。",
+      "sourceHash": "41291efcb1306961c5e7f43a541062d13c4094281b898390cbd67496b73608c7",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-21T01:01:26.753Z"
+    },
+    "vercel-labs/json-render": {
+      "summary": "json-render 是一个生成式 UI 框架，让 AI 根据自然语言提示生成界面，并限制在开发者预定义的安全组件内，支持 React、Vue、Svelte 等多种渲染目标。",
+      "sourceHash": "f492a410e2042c946bf80222d6b31faa229532bfd23ba582a7ab11ca19cf32d6",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-21T01:01:26.568Z"
+    },
+    "coder/coder": {
+      "summary": "Coder 是一个自托管的云开发环境与 AI 编程代理平台，用 Go 编写，可在自有基础设施上为开发者和 AI 代理提供安全的工作空间。",
+      "sourceHash": "67461f4d65b509949e6942059a3f806396305de0bb13643c15f0385c579f3463",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-21T01:01:25.130Z"
+    },
+    "higgsfield-ai/higgsfield": {
+      "summary": "Higgsfield 是开源容错、可扩展的 GPU 编排与机器学习框架，用于训练数十亿至数万亿参数的大模型，如大语言模型。",
+      "sourceHash": "f3c2a808d7bd9ac6d089a07195aa8b8c1d4ec197ae25854708436179ec3aff50",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-21T01:01:24.434Z"
+    },
+    "mihail911/modern-software-dev-assignments": {
+      "summary": "这是斯坦福大学 CS146S 现代软件开发课程的作业仓库，用 Python 编写，包含课程作业代码与基于 Conda 和 Poetry 的环境配置说明。",
+      "sourceHash": "572a569634919471bb37741a5c3fa6bfb7c412a908b34448b2c51f567bac6666",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-21T01:01:24.220Z"
+    },
+    "anthropics/claude-code": {
+      "summary": "Claude Code 是运行在终端里的智能编程工具，能理解代码库，通过自然语言命令执行日常任务、解释复杂代码并处理 Git 工作流。",
+      "sourceHash": "d4f3174e2014920dd4bf00b55a1cb8cef25e00d8b1bf60e6e4e3025ed9411f16",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-21T01:01:22.876Z"
+    },
+    "paperless-ngx/paperless-ngx": {
+      "summary": "Paperless-ngx 是一个文档管理系统，可将纸质文件扫描、索引并归档为可搜索的在线档案，方便用户管理文档。",
+      "sourceHash": "d55fa273fc629b49b50644753d699c17d6e6892beccf6b98f9f58bca1faa15f1",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-21T01:01:22.647Z"
+    },
+    "anthropics/financial-services": {
+      "summary": "该项目为金融服务工作流提供参考智能体、技能与数据连接器，覆盖投行、股票研究、私募股权和财富管理，可作为插件或通过托管智能体 API 部署。",
+      "sourceHash": "3c79958872f2086ea9402dbcb44845e3f763ee1ea64e648ef0ac933e73d7b482",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-21T01:01:21.603Z"
+    },
+    "trycua/cua": {
+      "summary": "Cua 是面向计算机使用智能体的开源项目，提供桌面自动化驱动、隔离云桌面、本地 macOS 虚拟机、专用决策模型及评测基准。",
+      "sourceHash": "6b00bbe7019605b5d4555521ca91fff5be1fcb0169d23037ac3132e8dc50f4be",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-21T01:01:20.495Z"
+    },
+    "cloudflare/security-audit-skill": {
+      "summary": "这是一个让编码智能体执行多阶段安全审计的技能，通过侦察、漏洞搜寻、独立验证和结构化报告，输出可机器读取的审计发现。",
+      "sourceHash": "d49f83911dbb4cc72ae67d1701f23de8ed840a0b4596722c3d99c3a0d82ee68b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-21T01:01:20.232Z"
+    },
+    "builderio/agent-native": {
+      "summary": "Agent-Native 是一个开源 TypeScript 框架，用于构建带专用界面的智能体应用，让智能体与 UI 共用同一套操作、数据和状态。",
+      "sourceHash": "6e8fdf6894b4a0caa0e48ea557fdc27d29750f44a5c2e4813f3717ec8e814d44",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-21T01:01:20.042Z"
+    },
+    "affaan-m/ecc": {
+      "summary": "ECC 是一个面向 Claude Code、Codex 等 AI 编程代理的性能优化系统，提供技能、记忆、安全与先研究后开发的工程化工作流。",
+      "sourceHash": "eae47c9f21d0a492e482c6f404d24cbbd86144650b273d2fc45e77f7305c9876",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-21T01:01:18.575Z"
+    },
     "yynxxxxx/codex-x": {
       "summary": "Codex-X 是面向 OpenAI Codex 桌面端与 CLI 的跨平台可视化管理工具，用于统一管理提示词注入、Provider 与 API 切换、会话同步、Skills/MCP 及 TOML 配置。",
       "sourceHash": "a35a495b7109490eea9416eb4e5be8e998fbea1a2f4ff3f2044ea50e2d41750c",
@@ -56,48 +140,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-20T01:00:40.686Z"
-    },
-    "higgsfield-ai/higgsfield": {
-      "summary": "Higgsfield 是开源容错、可扩展的 GPU 编排与机器学习框架，用于训练数十亿至数万亿参数的大模型，如大语言模型。",
-      "sourceHash": "f3c2a808d7bd9ac6d089a07195aa8b8c1d4ec197ae25854708436179ec3aff50",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-20T01:00:39.497Z"
-    },
-    "anthropics/claude-code": {
-      "summary": "Claude Code 是运行在终端里的智能编程工具，能理解代码库，通过自然语言命令执行日常任务、解释复杂代码并处理 Git 工作流。",
-      "sourceHash": "d4f3174e2014920dd4bf00b55a1cb8cef25e00d8b1bf60e6e4e3025ed9411f16",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-20T01:00:37.628Z"
-    },
-    "coder/coder": {
-      "summary": "Coder 是一个自托管的云开发环境与 AI 编程代理平台，用 Go 编写，可在自有基础设施上为开发者和 AI 代理提供安全的工作空间。",
-      "sourceHash": "67461f4d65b509949e6942059a3f806396305de0bb13643c15f0385c579f3463",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-20T01:00:37.437Z"
-    },
-    "addyosmani/agent-skills": {
-      "summary": "这是一套面向 AI 编程代理的工程技能包，用 Markdown 编写，覆盖需求、规划、编码、测试、评审到发布全流程，让代理按资深工程师的规范工作。",
-      "sourceHash": "41291efcb1306961c5e7f43a541062d13c4094281b898390cbd67496b73608c7",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-20T01:00:37.219Z"
-    },
-    "trycua/cua": {
-      "summary": "Cua 是面向计算机使用智能体的开源项目，提供桌面自动化驱动、隔离云桌面、本地 macOS 虚拟机、专用决策模型及评测基准。",
-      "sourceHash": "6b00bbe7019605b5d4555521ca91fff5be1fcb0169d23037ac3132e8dc50f4be",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-20T01:00:37.051Z"
-    },
-    "cloudflare/security-audit-skill": {
-      "summary": "这是一个让编码智能体执行多阶段安全审计的技能，通过侦察、漏洞搜寻、独立验证和结构化报告，输出可机器读取的审计发现。",
-      "sourceHash": "d49f83911dbb4cc72ae67d1701f23de8ed840a0b4596722c3d99c3a0d82ee68b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-20T01:00:35.639Z"
     },
     "ahmedkhaleel2004/gitdiagram": {
       "summary": "GitDiagram 是一个 TypeScript 工具，可将任意 GitHub 仓库快速转换为可交互的架构图，并支持点击组件跳转到对应源码文件。",
@@ -161,13 +203,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-19T01:07:57.484Z"
-    },
-    "affaan-m/ecc": {
-      "summary": "ECC 是一个面向 Claude Code、Codex 等 AI 编程代理的性能优化系统，提供技能、记忆、安全与测试验证等工程化能力。",
-      "sourceHash": "73ac210812a4837dfbe79ff8b1e4fd92550bdb09f46b49d9f28a0356e783c029",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-19T01:07:57.198Z"
     },
     "alibaba/open-code-review": {
       "summary": "阿里巴巴开源的 AI 代码审查命令行工具，采用确定性流程与大模型 Agent 混合架构，支持多语言规则检查并输出精确到行的评论。",
@@ -665,41 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-09T01:12:27.139Z"
-    },
-    "mksglu/context-mode": {
-      "summary": "一个面向AI编程代理的上下文窗口优化工具，通过沙箱化工具输出、持久化会话记忆并在多平台间路由来大幅节省上下文。",
-      "sourceHash": "5064436ad34250f63bc62821dcb2ea96a01d1036e1fdb0f9f35b78a2f8dd4e66",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-09T01:12:26.883Z"
-    },
-    "browser-use/browser-use": {
-      "summary": "Browser Use 是一个 Python 库，让 AI 代理像人类一样操作浏览器，自动完成填表、点击、数据提取等网页任务。",
-      "sourceHash": "a77b5a4dbacaec0922c81374db46681b1cb1dcbb3de95847da51d82ce8d89546",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-09T01:12:26.588Z"
-    },
-    "moontechlab/lunatv": {
-      "summary": "MoonTV 是一个基于 Next.js 14 和 TypeScript 构建的跨平台影视聚合播放器，支持多源搜索、在线播放、收藏同步和播放记录，需自行配置播放源后通过 Docker 部署使用。",
-      "sourceHash": "512d48372bb5938cbb117241b39d9d3064f581d1c46957ed9421f97453142cab",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-09T01:12:25.338Z"
-    },
-    "jo-inc/camofox-browser": {
-      "summary": "camofox-browser 是一个基于 Camoufox 的隐身浏览器服务，为 AI 代理提供反检测浏览能力，可绕过 Cloudflare 等机器人检测，并可作为 Puppeteer/Playwright 的替代方案。",
-      "sourceHash": "da1bb210f0389dfedc7871bab1903ab54483b117d62da11469b8f5edf336795a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-09T01:12:25.080Z"
-    },
-    "microsoft/markitdown": {
-      "summary": "MarkItDown 是一个 Python 工具，可将 PDF、Office 文档、图片、音频等多种文件转换为 Markdown 格式，便于大语言模型和文本分析流程使用。",
-      "sourceHash": "6db7ae655caf8c629299de81d1247985b5d6042539568ea48a156340ece85f13",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-09T01:12:24.878Z"
     }
   }
 }
