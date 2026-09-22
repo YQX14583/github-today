@@ -1,6 +1,83 @@
 {
   "version": 1,
   "entries": {
+    "yynxxxxx/codex-x": {
+      "summary": "Codex-X 是面向 OpenAI Codex 桌面端与 CLI 的跨平台可视化管理工具，用于统一管理提示词注入、Provider 与 API 切换、会话同步、Skills/MCP 及 TOML 配置。",
+      "sourceHash": "a35a495b7109490eea9416eb4e5be8e998fbea1a2f4ff3f2044ea50e2d41750c",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-22T01:34:43.362Z"
+    },
+    "crosstalk-solutions/project-nomad": {
+      "summary": "Project NOMAD 是一个离线优先的知识与教育服务器，通过 Docker 在自有硬件上提供维基百科、书籍、课程、地图及可选本地 AI 等资源。",
+      "sourceHash": "da0b7d34c6f6ea07e4a298d783ec9ce298ac43eabf075e6c7b8766cc013f9f71",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-22T01:34:43.139Z"
+    },
+    "ruanyf/weekly": {
+      "summary": "这是一个每周五发布的科技爱好者周刊，记录值得分享的科技内容，并接受文章、软件和资源投稿。",
+      "sourceHash": "9ac9011bd8362afa358e4ad16c836a305b63300b4183a151d35596d86f75c4d4",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-22T01:34:42.808Z"
+    },
+    "zhouxiaoka/autoclip": {
+      "summary": "AutoClip 是一款用 AI 分析字幕、定位高光并自动剪出片段与合集的视频二创工具，支持桌面、Docker 和命令行使用。",
+      "sourceHash": "5dc965896a09bff42ac51f086142af5c1ff2a4481ad1643d2ae5b86a43240340",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-22T01:34:42.590Z"
+    },
+    "mvt-project/mvt": {
+      "summary": "MVT 是用于安卓和 iOS 移动设备取证的开源工具集，可自动收集取证痕迹，帮助识别设备是否被间谍软件等入侵。",
+      "sourceHash": "876b8977a7b1d6eaaa8fb5ea4e6071efe386acb1aa54058964148ab0030d73ea",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-22T01:34:41.176Z"
+    },
+    "cloudflare/quiche": {
+      "summary": "quiche 是 Cloudflare 用 Rust 实现的 QUIC 传输协议与 HTTP/3 库，提供处理 QUIC 数据包和连接状态的底层 API，由应用负责 I/O 与事件循环。",
+      "sourceHash": "261a7a9e21e367a1affd2f351bf587c050206a701c8ab115ea875023ece0dadf",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-22T01:34:39.814Z"
+    },
+    "anthropics/financial-services": {
+      "summary": "该项目为金融服务工作流提供参考智能体、技能与数据连接器，覆盖投行、股票研究、私募股权和财富管理，可作为插件或通过托管智能体 API 部署。",
+      "sourceHash": "3c79958872f2086ea9402dbcb44845e3f763ee1ea64e648ef0ac933e73d7b482",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-22T01:34:39.531Z"
+    },
+    "coder/coder": {
+      "summary": "Coder 是一个自托管的云开发环境与 AI 编程代理平台，用 Go 编写，可在自有基础设施上为开发者和 AI 代理提供安全的工作空间。",
+      "sourceHash": "67461f4d65b509949e6942059a3f806396305de0bb13643c15f0385c579f3463",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-22T01:34:39.276Z"
+    },
+    "akitaonrails/ai-memory": {
+      "summary": "为 AI 编程代理提供长期记忆的 Rust 工具，记录会话并生成交接摘要，让不同厂商的代理在同一项目中无缝接续工作。",
+      "sourceHash": "3bedb1e13c657b5ec5ae49b0b2b193181e54eba47cf7c1f315cc5da4b5c9133e",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-22T01:34:39.050Z"
+    },
+    "trycua/cua": {
+      "summary": "Cua 是面向计算机使用智能体的开源项目，提供桌面自动化驱动、隔离云桌面、本地 macOS 虚拟机、专用决策模型及评测基准。",
+      "sourceHash": "6b00bbe7019605b5d4555521ca91fff5be1fcb0169d23037ac3132e8dc50f4be",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-22T01:34:37.318Z"
+    },
+    "builderio/agent-native": {
+      "summary": "Agent-Native 是一个开源 TypeScript 框架，用于构建带专用界面的智能体应用，让智能体与 UI 共用同一套操作、数据和状态。",
+      "sourceHash": "6e8fdf6894b4a0caa0e48ea557fdc27d29750f44a5c2e4813f3717ec8e814d44",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-22T01:34:36.919Z"
+    },
     "addyosmani/agent-skills": {
       "summary": "这是一套面向 AI 编程代理的工程技能包，用 Markdown 编写，覆盖需求、规划、编码、测试、评审到发布全流程，让代理按资深工程师的规范工作。",
       "sourceHash": "41291efcb1306961c5e7f43a541062d13c4094281b898390cbd67496b73608c7",
@@ -14,13 +91,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-21T01:01:26.568Z"
-    },
-    "coder/coder": {
-      "summary": "Coder 是一个自托管的云开发环境与 AI 编程代理平台，用 Go 编写，可在自有基础设施上为开发者和 AI 代理提供安全的工作空间。",
-      "sourceHash": "67461f4d65b509949e6942059a3f806396305de0bb13643c15f0385c579f3463",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-21T01:01:25.130Z"
     },
     "higgsfield-ai/higgsfield": {
       "summary": "Higgsfield 是开源容错、可扩展的 GPU 编排与机器学习框架，用于训练数十亿至数万亿参数的大模型，如大语言模型。",
@@ -50,20 +120,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-21T01:01:22.647Z"
     },
-    "anthropics/financial-services": {
-      "summary": "该项目为金融服务工作流提供参考智能体、技能与数据连接器，覆盖投行、股票研究、私募股权和财富管理，可作为插件或通过托管智能体 API 部署。",
-      "sourceHash": "3c79958872f2086ea9402dbcb44845e3f763ee1ea64e648ef0ac933e73d7b482",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-21T01:01:21.603Z"
-    },
-    "trycua/cua": {
-      "summary": "Cua 是面向计算机使用智能体的开源项目，提供桌面自动化驱动、隔离云桌面、本地 macOS 虚拟机、专用决策模型及评测基准。",
-      "sourceHash": "6b00bbe7019605b5d4555521ca91fff5be1fcb0169d23037ac3132e8dc50f4be",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-21T01:01:20.495Z"
-    },
     "cloudflare/security-audit-skill": {
       "summary": "这是一个让编码智能体执行多阶段安全审计的技能，通过侦察、漏洞搜寻、独立验证和结构化报告，输出可机器读取的审计发现。",
       "sourceHash": "d49f83911dbb4cc72ae67d1701f23de8ed840a0b4596722c3d99c3a0d82ee68b",
@@ -71,26 +127,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-21T01:01:20.232Z"
     },
-    "builderio/agent-native": {
-      "summary": "Agent-Native 是一个开源 TypeScript 框架，用于构建带专用界面的智能体应用，让智能体与 UI 共用同一套操作、数据和状态。",
-      "sourceHash": "6e8fdf6894b4a0caa0e48ea557fdc27d29750f44a5c2e4813f3717ec8e814d44",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-21T01:01:20.042Z"
-    },
     "affaan-m/ecc": {
       "summary": "ECC 是一个面向 Claude Code、Codex 等 AI 编程代理的性能优化系统，提供技能、记忆、安全与先研究后开发的工程化工作流。",
       "sourceHash": "eae47c9f21d0a492e482c6f404d24cbbd86144650b273d2fc45e77f7305c9876",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-21T01:01:18.575Z"
-    },
-    "yynxxxxx/codex-x": {
-      "summary": "Codex-X 是面向 OpenAI Codex 桌面端与 CLI 的跨平台可视化管理工具，用于统一管理提示词注入、Provider 与 API 切换、会话同步、Skills/MCP 及 TOML 配置。",
-      "sourceHash": "a35a495b7109490eea9416eb4e5be8e998fbea1a2f4ff3f2044ea50e2d41750c",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-20T01:00:48.224Z"
     },
     "cactus-compute/needle": {
       "summary": "Needle 是面向手机、可穿戴设备、机器人和单片机的自动化基础模型，体积 8-29 MB，支持工具调用、结构化抽取和嵌入。",
@@ -113,26 +155,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-20T01:00:45.794Z"
     },
-    "ruanyf/weekly": {
-      "summary": "这是一个每周五发布的科技爱好者周刊，记录值得分享的科技内容，并接受文章、软件和资源投稿。",
-      "sourceHash": "9ac9011bd8362afa358e4ad16c836a305b63300b4183a151d35596d86f75c4d4",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-20T01:00:44.540Z"
-    },
     "asciimoo/hister": {
       "summary": "Hister 是一个用 Go 编写的私有搜索引擎，可对访问过的网页和本地文件做全文索引，并通过网页、终端或 MCP 客户端检索。",
       "sourceHash": "a9ae99e0445439373a88bcbd50f1761dd4409abd0305d1740bf8314128dcaffe",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-20T01:00:43.373Z"
-    },
-    "cloudflare/quiche": {
-      "summary": "quiche 是 Cloudflare 用 Rust 实现的 QUIC 传输协议与 HTTP/3 库，提供处理 QUIC 数据包和连接状态的底层 API，由应用负责 I/O 与事件循环。",
-      "sourceHash": "261a7a9e21e367a1affd2f351bf587c050206a701c8ab115ea875023ece0dadf",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-20T01:00:42.010Z"
     },
     "docling-project/docling": {
       "summary": "Docling 是一个 Python 文档处理库，可解析 PDF、Office、图片、音视频等多种格式，并导出为 Markdown 等结构化结果，供生成式 AI 使用。",
@@ -385,13 +413,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-15T01:23:21.904Z"
-    },
-    "crosstalk-solutions/project-nomad": {
-      "summary": "Project NOMAD 是一个离线优先的知识与教育服务器，通过 Docker 在自有硬件上提供维基百科、书籍、课程、地图及可选本地 AI 等资源。",
-      "sourceHash": "da0b7d34c6f6ea07e4a298d783ec9ce298ac43eabf075e6c7b8766cc013f9f71",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-15T01:23:20.600Z"
     },
     "huggingface/transformers": {
       "summary": "Hugging Face Transformers 是一个基于 Python 的模型定义框架，提供文本、视觉、音频和多模态的先进机器学习模型，支持推理与训练。",
@@ -679,27 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-10T01:00:46.699Z"
-    },
-    "earthtojake/text-to-cad": {
-      "summary": "text-to-cad 是一个面向 CAD、CAE 和 CAM 的智能体技能库，用于生成、检查、获取、切片和交付 CAD 与机器人描述文件。",
-      "sourceHash": "f19749fc2b908760d5dd1654cee4cf26f4676eb022b30724f98baff6eec02038",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-10T01:00:43.680Z"
-    },
-    "viarotel-org/escrcpy": {
-      "summary": "Escrcpy 是一个基于 scrcpy 的图形化工具，用于在电脑上显示并控制 Android 设备，支持多设备管理、键盘映射和自动化操作。",
-      "sourceHash": "fd16d0e8b41afd9712956ce5d3e1a3934d292651f4a65fa36bbcb993eb8d736f",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-09T01:12:28.231Z"
-    },
-    "the-swarm-corporation/autohedge": {
-      "summary": "AutoHedge是一个基于多智能体与群体智能的自动化对冲基金系统，可在Solana上自主完成市场分析、风险管理和交易执行。",
-      "sourceHash": "7bf598aaa11c8850b7a75bda58407ed7f336aba4e3516fff88d3cd32347e80d6",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-09T01:12:27.139Z"
     }
   }
 }
