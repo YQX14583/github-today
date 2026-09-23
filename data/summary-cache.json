@@ -1,6 +1,62 @@
 {
   "version": 1,
   "entries": {
+    "browser-use/video-use": {
+      "summary": "video-use 是一个用编码智能体编辑视频的开源 Python 工具，可自动去除口癖和停顿、调色、加字幕并渲染出 final.mp4。",
+      "sourceHash": "1c883815e0bd52882a8ed059d601d1b6dce7e5cb98b1663dd76fbb1fb52ebbb6",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-23T01:26:36.624Z"
+    },
+    "superdesigndev/treg": {
+      "summary": "Treg 是一个面向 AI 智能体的工具聚合网关，用统一地址和令牌调用 60 多家供应商的 3000 多个接口，按次计费，也可共享团队自有的密钥、CLI 与技能。",
+      "sourceHash": "fe38ebabbd6a59ccd184b55a2f8636a3ea30c82ab520a47aa2b206489b76e5bc",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-23T01:26:35.539Z"
+    },
+    "mvt-project/mvt": {
+      "summary": "MVT 是用于安卓和 iOS 移动设备取证的开源工具集，可自动收集取证痕迹，帮助识别设备是否被间谍软件等入侵。",
+      "sourceHash": "876b8977a7b1d6eaaa8fb5ea4e6071efe386acb1aa54058964148ab0030d73ea",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-23T01:26:34.131Z"
+    },
+    "google/ax": {
+      "summary": "AX 是谷歌开源的智能体编排运行时，用声明式配置在集群中沙箱化、隔离网络并大规模运行自主智能体任务。",
+      "sourceHash": "4b1919aba8ee9317d21510f8383cbd1b188bce3da7b1ed54058f403bd2939165",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-23T01:26:33.983Z"
+    },
+    "davila7/claude-code-templates": {
+      "summary": "这是一个为 Claude Code 提供配置模板的 CLI 工具，可浏览、安装智能体、命令、设置、钩子和 MCP，并监控开发会话。",
+      "sourceHash": "067a40e9f0683940e21561404885476c7b88729fc3b460f6b5fb8919ce177349",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-23T01:26:32.866Z"
+    },
+    "dream-num/univer": {
+      "summary": "Univer 是一个开源 TypeScript 办公套件 SDK，用于在自有产品中嵌入电子表格、文档、演示等应用，支持浏览器与 Node.js。",
+      "sourceHash": "26618b6d2c7c8686caa91c2819bfe9204cc6dbd72aaf20dfc54ef63269425d72",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-23T01:26:31.665Z"
+    },
+    "agent-substrate/substrate": {
+      "summary": "Agent Substrate 是一个用 Go 编写的安全默认智能体执行运行时，可在 Kubernetes 上高密度运行大量沙箱化容器，支持多种智能体框架。",
+      "sourceHash": "91c94152efcc098c017b0bcd9e9801e5a9c14265df490a4e9947e841b4b219d3",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-23T01:26:30.364Z"
+    },
+    "anthropics/financial-services": {
+      "summary": "该项目为金融服务工作流提供参考智能体、技能与数据连接器，覆盖投行、股票研究、私募股权和财富管理，可作为插件或通过托管智能体 API 部署。",
+      "sourceHash": "3c79958872f2086ea9402dbcb44845e3f763ee1ea64e648ef0ac933e73d7b482",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-23T01:26:29.148Z"
+    },
     "yynxxxxx/codex-x": {
       "summary": "Codex-X 是面向 OpenAI Codex 桌面端与 CLI 的跨平台可视化管理工具，用于统一管理提示词注入、Provider 与 API 切换、会话同步、Skills/MCP 及 TOML 配置。",
       "sourceHash": "a35a495b7109490eea9416eb4e5be8e998fbea1a2f4ff3f2044ea50e2d41750c",
@@ -29,26 +85,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-22T01:34:42.590Z"
     },
-    "mvt-project/mvt": {
-      "summary": "MVT 是用于安卓和 iOS 移动设备取证的开源工具集，可自动收集取证痕迹，帮助识别设备是否被间谍软件等入侵。",
-      "sourceHash": "876b8977a7b1d6eaaa8fb5ea4e6071efe386acb1aa54058964148ab0030d73ea",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-22T01:34:41.176Z"
-    },
     "cloudflare/quiche": {
       "summary": "quiche 是 Cloudflare 用 Rust 实现的 QUIC 传输协议与 HTTP/3 库，提供处理 QUIC 数据包和连接状态的底层 API，由应用负责 I/O 与事件循环。",
       "sourceHash": "261a7a9e21e367a1affd2f351bf587c050206a701c8ab115ea875023ece0dadf",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-22T01:34:39.814Z"
-    },
-    "anthropics/financial-services": {
-      "summary": "该项目为金融服务工作流提供参考智能体、技能与数据连接器，覆盖投行、股票研究、私募股权和财富管理，可作为插件或通过托管智能体 API 部署。",
-      "sourceHash": "3c79958872f2086ea9402dbcb44845e3f763ee1ea64e648ef0ac933e73d7b482",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-22T01:34:39.531Z"
     },
     "coder/coder": {
       "summary": "Coder 是一个自托管的云开发环境与 AI 编程代理平台，用 Go 编写，可在自有基础设施上为开发者和 AI 代理提供安全的工作空间。",
@@ -658,48 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-11T00:59:41.281Z"
-    },
-    "cathrynlavery/diagram-design": {
-      "summary": "这是一个为 Claude Code 等编程助手提供的图表设计技能，包含 39 种编辑风格图表类型，用自包含 HTML 和 SVG 生成图表，并可按品牌定制配色与字体。",
-      "sourceHash": "ad063d29dcd18c79cd8eca76df66f143ff27c25288301510a106f434f47ecc90",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-11T00:59:40.920Z"
-    },
-    "liquidslr/system-design-notes": {
-      "summary": "这是《系统设计面试》第一卷和第二卷的学习笔记，按章节整理系统设计案例与相关阅读资料。",
-      "sourceHash": "46c59874d313451c1935693918ff85a840d40cc8895931ac481b225b521b97e5",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-11T00:59:39.324Z"
-    },
-    "alexsjones/llmfit": {
-      "summary": "llmfit 是一个用 Rust 编写的命令行工具，可检测本机 CPU、内存和 GPU 等硬件，评估并推荐能流畅运行的开源大语言模型。",
-      "sourceHash": "f471f2401effd257a7c1d735daacf3eb7ecffe5cab7d9340f7830ba681b7f524",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-11T00:59:39.053Z"
-    },
-    "tencent/teamai-cli": {
-      "summary": "TeamAI 是一个 TypeScript 命令行工具，用于在多个 AI 编程助手之间统一分发团队的技能、规则、MCP 配置与知识，让成员共享同一套 AI 工作环境。",
-      "sourceHash": "6a5707b398818d008937c3b1b39ff2d7f41027107eca17f7404bbf467c610586",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-11T00:59:37.309Z"
-    },
-    "rohitg00/ai-engineering-from-scratch": {
-      "summary": "这是一个从零开始学习 AI 工程的开源课程仓库，用 Python 分二十个阶段讲解数学基础到智能体与生产部署，每课都产出可复用工具。",
-      "sourceHash": "b7c0bbf87aee3b23a8bc85aabc3fb2a2345c4799533111571df7272b952d7cf5",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-10T01:00:48.571Z"
-    },
-    "openai/plugins": {
-      "summary": "OpenAI 官方维护的 Codex 插件示例集合，包含 Figma、Notion 等丰富插件，用于扩展 Codex 的功能。",
-      "sourceHash": "c6e9440f590d14157e62071e63ffd87402414a029415dc4331cdd726a11ca59f",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-10T01:00:46.699Z"
     }
   }
 }
