@@ -1,6 +1,104 @@
 {
   "version": 1,
   "entries": {
+    "leejet/stable-diffusion.cpp": {
+      "summary": "基于 ggml 的纯 C/C++ 扩散模型推理实现，可在本地运行 Stable Diffusion、Flux、Wan 等模型生成图像。",
+      "sourceHash": "c4dedbadb8d99c5bffe4c988a64975147983b65f24260441bc5d6276dd09394d",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-25T01:25:06.980Z"
+    },
+    "superdesigndev/treg": {
+      "summary": "Treg 是一个面向 AI 智能体的工具聚合网关，用统一地址和令牌调用 60 多家供应商的 3000 多个接口，按次计费，无需逐个注册账号。",
+      "sourceHash": "6cf507aacf6084a354d4e3725badfe81c56597c63a9806ecdc163e5101bbade5",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-25T01:25:05.743Z"
+    },
+    "julyx10/lap": {
+      "summary": "Lap 是一款开源离线本地照片管理器，支持 macOS、Windows 和 Linux，用于浏览、搜索和管理大型本地照片库。",
+      "sourceHash": "1b147e5a6d3b0977f772f323ae15591187f939c167ee64d86f1311afeceee732",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-25T01:25:04.518Z"
+    },
+    "strands-agents/harness-sdk": {
+      "summary": "Strands Agents 是用于构建生产级 AI 智能体的开源 SDK，支持 Python 和 TypeScript，可接入任意模型与云平台，并提供端到端的智能体控制能力。",
+      "sourceHash": "03e3ca533ecacf79239dc94b167dc14012e44a1ce913e08a9fe03aa7fca8bae1",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-25T01:25:03.318Z"
+    },
+    "obra/superpowers": {
+      "summary": "Superpowers 是一套面向编码智能体的软件开发方法论，由可组合技能和初始指令构成，引导智能体按流程完成开发任务。",
+      "sourceHash": "ce16699cc583bbe2b362c2866b07bbf7a694a941b9379c43cfe89b2590cfe72b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-25T01:25:03.056Z"
+    },
+    "mvt-project/mvt": {
+      "summary": "MVT 是用于安卓和 iOS 移动设备取证的开源工具集，可自动收集取证痕迹，帮助识别设备是否被间谍软件等入侵。",
+      "sourceHash": "876b8977a7b1d6eaaa8fb5ea4e6071efe386acb1aa54058964148ab0030d73ea",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-25T01:25:02.844Z"
+    },
+    "hkuds/cli-anything": {
+      "summary": "CLI-Anything 是香港大学团队开发的工具，通过 CLI-Hub 包管理器安装现成命令行接口，或为各类软件生成可供 AI 智能体调用的 CLI。",
+      "sourceHash": "8ff7a78f46a12857f1a76fd4c537fe82e644a2ca700ede7171addd1308dbe412",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-25T01:25:02.639Z"
+    },
+    "anthropics/financial-services": {
+      "summary": "该项目为金融服务工作流提供参考智能体、技能与数据连接器，覆盖投行、股票研究、私募股权和财富管理，可作为插件或通过托管智能体 API 部署。",
+      "sourceHash": "3c79958872f2086ea9402dbcb44845e3f763ee1ea64e648ef0ac933e73d7b482",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-25T01:25:02.260Z"
+    },
+    "fxembed/fxembed": {
+      "summary": "FxEmbed 是一个修复 X、Twitter 和 Bluesky 链接嵌入效果的服务，让 Discord、Telegram 等平台能显示多图、视频、投票和翻译等内容。",
+      "sourceHash": "3417cfcea5638aa8cf4c8725c1409f830a5b9fe4bb6edc316de8cf2e05f76864",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-25T01:25:01.996Z"
+    },
+    "nvidia/model-optimizer": {
+      "summary": "NVIDIA Model Optimizer 是一个深度学习模型优化库，提供量化、剪枝、蒸馏、神经架构搜索和推测解码等技术，用于压缩模型以加速推理部署。",
+      "sourceHash": "9819375cdbe3fccf018229821e25f612bd47e341be24c9265bf3828ca1f43f74",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-25T01:25:00.974Z"
+    },
+    "google/ax": {
+      "summary": "AX 是谷歌开源的声明式智能体编排运行时，用 Go 编写，可在集群中沙箱化并大规模运行海量自主智能体任务。",
+      "sourceHash": "daba66c9f97cb46e11bee190b84fa7df8b004973fb301420e1558cafcd1c55c5",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-25T01:24:59.880Z"
+    },
+    "dream-num/univer": {
+      "summary": "Univer 是一个开源 TypeScript Office SDK，用于在自有产品中嵌入电子表格、文档、幻灯片等办公应用，支持浏览器和 Node.js 运行。",
+      "sourceHash": "21c0c75eff0354e127e895cfe136a840a73fbb0aee5f0a70f215601551387b0d",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-25T01:24:58.919Z"
+    },
+    "vectorize-io/hindsight": {
+      "summary": "Hindsight 是一个用 Python 编写的智能体记忆系统，通过保留、检索和反思操作存储与调用记忆，让 AI 智能体随时间学习并提升表现。",
+      "sourceHash": "22373c131481bc4bbc6081fd7b41a72b265ea9d0038a9c205fe5d85c1007360b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-25T01:24:57.749Z"
+    },
+    "rohitg00/ai-engineering-from-scratch": {
+      "summary": "这是一个从零开始学习 AI 工程的开源课程，包含二十个阶段、五百多节课程，涵盖数学基础到智能体与生产部署，每课都产出可复用工具。",
+      "sourceHash": "b7c0bbf87aee3b23a8bc85aabc3fb2a2345c4799533111571df7272b952d7cf5",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-25T01:24:56.379Z"
+    },
     "tnt-likely/panwatch": {
       "summary": "盯盘侠 PanWatch 是自托管的 AI 盯盘助手，可实时监控 A 股、港股、美股行情并管理持仓，结合 TradingAgents 多 Agent 分析生成投资决策，并通过多种渠道推送提醒。",
       "sourceHash": "04cb0cd46086aa4aa36871afc3c7f11a9cccbb888937a0ae1526f280be346973",
@@ -29,13 +127,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-24T01:19:35.946Z"
     },
-    "mvt-project/mvt": {
-      "summary": "MVT 是用于安卓和 iOS 移动设备取证的开源工具集，可自动收集取证痕迹，帮助识别设备是否被间谍软件等入侵。",
-      "sourceHash": "876b8977a7b1d6eaaa8fb5ea4e6071efe386acb1aa54058964148ab0030d73ea",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-24T01:19:34.595Z"
-    },
     "pbakaus/impeccable": {
       "summary": "Impeccable 是面向 AI 编程代理的前端设计指导工具，提供技能、命令和检测规则，帮助生成更规范的界面设计。",
       "sourceHash": "5e8c9bdfd84056cae32209cec75415b8b19208bcf5d4654b23ccdd6cd653ae69",
@@ -43,47 +134,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-24T01:19:34.364Z"
     },
-    "superdesigndev/treg": {
-      "summary": "Treg 是面向智能体工具的统一调用网关，用一个地址和令牌即可搜索并调用 60 多家供应商的 3000 多个接口，按次计费，也可共享团队自有密钥、CLI 与技能。",
-      "sourceHash": "745a18392a4ef8bedb166182a71aa7a73facfebe91d422963100e472a40149ee",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-24T01:19:33.306Z"
-    },
-    "hkuds/cli-anything": {
-      "summary": "CLI-Anything 是香港大学团队开发的工具，通过 CLI-Hub 包管理器安装现成命令行接口，或为各类软件生成可供 AI 智能体调用的 CLI。",
-      "sourceHash": "8ff7a78f46a12857f1a76fd4c537fe82e644a2ca700ede7171addd1308dbe412",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-24T01:19:32.282Z"
-    },
-    "strands-agents/harness-sdk": {
-      "summary": "Strands Agents 是用于构建生产级 AI 智能体的开源 SDK，支持 Python 和 TypeScript，可接入任意模型与云平台，并提供端到端的智能体控制能力。",
-      "sourceHash": "03e3ca533ecacf79239dc94b167dc14012e44a1ce913e08a9fe03aa7fca8bae1",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-24T01:19:31.241Z"
-    },
     "agent-substrate/substrate": {
       "summary": "Agent Substrate 是一个用 Go 编写的安全默认智能体执行运行时，可在 Kubernetes 上高密度运行大量沙箱化容器，支持多种智能体框架。",
       "sourceHash": "91c94152efcc098c017b0bcd9e9801e5a9c14265df490a4e9947e841b4b219d3",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-24T01:19:30.176Z"
-    },
-    "dream-num/univer": {
-      "summary": "Univer 是一个开源 TypeScript 办公套件 SDK，用于在自有产品中嵌入电子表格、文档、演示等应用，支持浏览器与 Node.js。",
-      "sourceHash": "26618b6d2c7c8686caa91c2819bfe9204cc6dbd72aaf20dfc54ef63269425d72",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-24T01:19:29.284Z"
-    },
-    "obra/superpowers": {
-      "summary": "Superpowers 是一套面向编码智能体的软件开发方法论，由可组合技能和初始指令构成，引导智能体按流程完成开发任务。",
-      "sourceHash": "ce16699cc583bbe2b362c2866b07bbf7a694a941b9379c43cfe89b2590cfe72b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-24T01:19:29.069Z"
     },
     "builderio/agent-native": {
       "summary": "Agent-Native 是一个开源 TypeScript 框架，用于构建带专用界面的智能体应用，让智能体与 UI 共用同一套操作、数据和状态。",
@@ -98,20 +154,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-24T01:19:27.756Z"
-    },
-    "google/ax": {
-      "summary": "AX 是谷歌开源的智能体编排运行时，用声明式配置在集群中沙箱化运行大规模自主智能体任务。",
-      "sourceHash": "a9d222c4d1e6d90a02111392797d1bccf9ee15b50bb480c2a235ca8cf5c2f146",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-24T01:19:27.532Z"
-    },
-    "anthropics/financial-services": {
-      "summary": "该项目为金融服务工作流提供参考智能体、技能与数据连接器，覆盖投行、股票研究、私募股权和财富管理，可作为插件或通过托管智能体 API 部署。",
-      "sourceHash": "3c79958872f2086ea9402dbcb44845e3f763ee1ea64e648ef0ac933e73d7b482",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-24T01:19:26.174Z"
     },
     "yynxxxxx/codex-x": {
       "summary": "Codex-X 是面向 OpenAI Codex 桌面端与 CLI 的跨平台可视化管理工具，用于统一管理提示词注入、Provider 与 API 切换、会话同步、Skills/MCP 及 TOML 配置。",
@@ -658,48 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-13T00:54:10.309Z"
-    },
-    "sonarr/sonarr": {
-      "summary": "Sonarr 是一款面向 Usenet 和 BitTorrent 用户的 PVR 工具，可监控剧集更新、自动下载、整理和重命名，并在出现更高画质时自动升级。",
-      "sourceHash": "3d81a74ce910def434ff5de7d53dbe54dfc428f04aa2f1fcac54448d5642b502",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-13T00:54:09.011Z"
-    },
-    "flowseal/zapret-discord-youtube": {
-      "summary": "基于 zapret 的 Windows 批处理脚本，用于绕过 DPI 封锁，恢复 Discord、YouTube 等服务的访问。",
-      "sourceHash": "14a03467ab4b83c6f0ae0f0458dff4ec8027a3689d74a24d58383de5425a34de",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-13T00:54:08.682Z"
-    },
-    "nab138/iloader": {
-      "summary": "iloader 是一款用 TypeScript 开发的用户友好侧载工具，可安装 SideStore 等应用并自动导入配对文件。",
-      "sourceHash": "7f5a35db491eea6ddc351f78175fff0370064058baacc2648021c5c115ffa7af",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-13T00:54:07.668Z"
-    },
-    "pascalorg/editor": {
-      "summary": "Pascal Editor 是一个开源本地优先的 3D 建筑编辑器，基于 React Three Fiber 和 WebGPU，可在浏览器或 CLI 中运行，并通过 MCP 连接 AI 智能体。",
-      "sourceHash": "9eff94ecbb6dfe2be370c3619019863af7fc147febe06d9941ecd2594f6823d7",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-12T01:03:56.106Z"
-    },
-    "github/spec-kit": {
-      "summary": "Spec Kit 是 GitHub 开源的工具包，帮助开发者用任意 AI 编码代理按规范驱动开发流程，先定义需求再实现软件。",
-      "sourceHash": "947d0acd29ad1f959366b5523dcda9eb25a4b250c4bd7604caf3e585d35cd161",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-12T01:03:54.443Z"
-    },
-    "jordan-gibbs/hyperresearch": {
-      "summary": "Hyperresearch 是一个由智能体驱动的深度研究工具，可将 Claude Code 变成研究代理，自动收集、检索并综合网络资料，生成带来源溯源的报告，并存入可持久搜索的知识库。",
-      "sourceHash": "40183b6d93b2df15a6f984a6b6aea4645695568f6e58c5a014c15c43bef137b2",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-12T01:03:51.649Z"
     }
   }
 }
