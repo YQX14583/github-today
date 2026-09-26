@@ -1,6 +1,111 @@
 {
   "version": 1,
   "entries": {
+    "openbao/openbao": {
+      "summary": "OpenBao 是一个用 Go 编写的软件方案，用于管理、存储和分发密钥、证书等敏感数据。",
+      "sourceHash": "717796da6867da4df503d7fa2be1dacb84f15353fa952a593c0b8c35a5aa8fcf",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-26T01:28:34.048Z"
+    },
+    "pbakaus/impeccable": {
+      "summary": "Impeccable 是面向 AI 编程代理的前端设计指导工具，提供技能、命令和检测规则，帮助生成更规范的界面设计。",
+      "sourceHash": "5e8c9bdfd84056cae32209cec75415b8b19208bcf5d4654b23ccdd6cd653ae69",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-26T01:28:32.875Z"
+    },
+    "nvidia/model-optimizer": {
+      "summary": "NVIDIA Model Optimizer 是一个深度学习模型优化库，提供量化、剪枝、蒸馏、神经架构搜索和推测解码等技术，用于压缩模型以加速推理部署。",
+      "sourceHash": "9819375cdbe3fccf018229821e25f612bd47e341be24c9265bf3828ca1f43f74",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-26T01:28:32.504Z"
+    },
+    "google/ax": {
+      "summary": "AX 是谷歌开源的智能体编排运行时，用声明式配置在集群中大规模调度和沙箱化运行自主智能体任务。",
+      "sourceHash": "98adb0407f309aa268a655192f08094662fac0c6c725deec9d48e1cd1418e36f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-26T01:28:32.259Z"
+    },
+    "rohitg00/ai-engineering-from-scratch": {
+      "summary": "这是一个从零开始学习 AI 工程的开源课程仓库，包含二十个阶段、五百多节 Python 实践课，覆盖数学基础到智能体与生产部署。",
+      "sourceHash": "cbf4de5d76f2fd1a1ee2c8be93951a620f9729e3d20910dd463ef90161398a1e",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-26T01:28:30.644Z"
+    },
+    "kelseyhightower/kubernetes-the-hard-way": {
+      "summary": "这是一份手动搭建 Kubernetes 集群的教程，逐步讲解引导控制平面、工作节点和 etcd 等核心组件的完整过程，主要用于学习理解其原理。",
+      "sourceHash": "5584ff2f1bd6df8c43af15d93e862486a53a1d64c61b5b92cb4cb05374ab643b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-26T01:28:29.368Z"
+    },
+    "derv82/wifit3": {
+      "summary": "wifit3 是一个用 Python 编写的独立 USB 无线网络审计工具，可在 Linux、Windows 和 macOS 上运行，用于扫描、抓包和破解 Wi-Fi 网络。",
+      "sourceHash": "079f6696878d909caf00d78067d074a610ba62f57caf8d2d946fa3d184e55c09",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-26T01:28:28.311Z"
+    },
+    "androoagi/starnet": {
+      "summary": "StarNet 是一个本地优先的桌面 AI 智能体运行框架，用户可创建多个智能体并组织成像素风空间站，让它们调用真实模型和工具执行实际任务。",
+      "sourceHash": "5085c36bcc5d979f36b68e29e95bed6af39d1b6ae2e79c382523af03a7554088",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-26T01:28:27.225Z"
+    },
+    "anthropics/skills": {
+      "summary": "这是 Anthropic 公开的 Claude Agent Skills 示例仓库，提供文档处理、创意设计等技能模板与规范，供开发者参考创建自定义技能。",
+      "sourceHash": "e74288aebc542b4cc8b7f31a93813befa9e1342c683f9540cad9ea266b17a6e0",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-26T01:28:26.238Z"
+    },
+    "dream-num/univer": {
+      "summary": "Univer 是一个开源 TypeScript Office SDK，用于在自有产品中嵌入电子表格、文档、幻灯片等办公应用，支持浏览器和 Node.js 运行。",
+      "sourceHash": "21c0c75eff0354e127e895cfe136a840a73fbb0aee5f0a70f215601551387b0d",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-26T01:28:25.128Z"
+    },
+    "mattpocock/skills": {
+      "summary": "这是一套面向真实软件工程开发的 AI 代理技能集合，用于规范编码代理的工作流程，帮助开发者按工程实践完成需求梳理、调试与代码设计。",
+      "sourceHash": "253993fc338d90c9b9bad3adb314b05b648e18e0d7c20dbc369d32c60768be7b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-26T01:28:24.901Z"
+    },
+    "obra/superpowers": {
+      "summary": "Superpowers 是一套面向编码智能体的软件开发方法论，由可组合技能和初始指令构成，引导智能体按流程完成开发任务。",
+      "sourceHash": "ce16699cc583bbe2b362c2866b07bbf7a694a941b9379c43cfe89b2590cfe72b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-26T01:28:23.760Z"
+    },
+    "vectorize-io/hindsight": {
+      "summary": "Hindsight 是一个用 Python 编写的智能体记忆系统，通过保留、检索和反思操作存储与调用记忆，让 AI 智能体随时间学习并提升表现。",
+      "sourceHash": "22373c131481bc4bbc6081fd7b41a72b265ea9d0038a9c205fe5d85c1007360b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-26T01:28:23.376Z"
+    },
+    "anthropics/claude-plugins-official": {
+      "summary": "这是 Anthropic 维护的 Claude Code 插件目录，收录官方与第三方高质量插件，供用户通过插件市场安装使用。",
+      "sourceHash": "57c0b9849a1455c479f61734473df34afe467633c1454c474c98e2218bd27a36",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-26T01:28:23.138Z"
+    },
+    "paperclipai/paperclip": {
+      "summary": "Paperclip 是一个开源应用，用于编排和管理团队中的 AI 智能体，支持多种智能体接入、组织架构、任务分配与成本控制。",
+      "sourceHash": "9046483a64182daf5fdece0c6e7f43e911ea37289dbc042ffedf504c19eaa07f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-26T01:28:22.026Z"
+    },
     "leejet/stable-diffusion.cpp": {
       "summary": "基于 ggml 的纯 C/C++ 扩散模型推理实现，可在本地运行 Stable Diffusion、Flux、Wan 等模型生成图像。",
       "sourceHash": "c4dedbadb8d99c5bffe4c988a64975147983b65f24260441bc5d6276dd09394d",
@@ -28,13 +133,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-25T01:25:03.318Z"
-    },
-    "obra/superpowers": {
-      "summary": "Superpowers 是一套面向编码智能体的软件开发方法论，由可组合技能和初始指令构成，引导智能体按流程完成开发任务。",
-      "sourceHash": "ce16699cc583bbe2b362c2866b07bbf7a694a941b9379c43cfe89b2590cfe72b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-25T01:25:03.056Z"
     },
     "mvt-project/mvt": {
       "summary": "MVT 是用于安卓和 iOS 移动设备取证的开源工具集，可自动收集取证痕迹，帮助识别设备是否被间谍软件等入侵。",
@@ -64,41 +162,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-25T01:25:01.996Z"
     },
-    "nvidia/model-optimizer": {
-      "summary": "NVIDIA Model Optimizer 是一个深度学习模型优化库，提供量化、剪枝、蒸馏、神经架构搜索和推测解码等技术，用于压缩模型以加速推理部署。",
-      "sourceHash": "9819375cdbe3fccf018229821e25f612bd47e341be24c9265bf3828ca1f43f74",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-25T01:25:00.974Z"
-    },
-    "google/ax": {
-      "summary": "AX 是谷歌开源的声明式智能体编排运行时，用 Go 编写，可在集群中沙箱化并大规模运行海量自主智能体任务。",
-      "sourceHash": "daba66c9f97cb46e11bee190b84fa7df8b004973fb301420e1558cafcd1c55c5",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-25T01:24:59.880Z"
-    },
-    "dream-num/univer": {
-      "summary": "Univer 是一个开源 TypeScript Office SDK，用于在自有产品中嵌入电子表格、文档、幻灯片等办公应用，支持浏览器和 Node.js 运行。",
-      "sourceHash": "21c0c75eff0354e127e895cfe136a840a73fbb0aee5f0a70f215601551387b0d",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-25T01:24:58.919Z"
-    },
-    "vectorize-io/hindsight": {
-      "summary": "Hindsight 是一个用 Python 编写的智能体记忆系统，通过保留、检索和反思操作存储与调用记忆，让 AI 智能体随时间学习并提升表现。",
-      "sourceHash": "22373c131481bc4bbc6081fd7b41a72b265ea9d0038a9c205fe5d85c1007360b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-25T01:24:57.749Z"
-    },
-    "rohitg00/ai-engineering-from-scratch": {
-      "summary": "这是一个从零开始学习 AI 工程的开源课程，包含二十个阶段、五百多节课程，涵盖数学基础到智能体与生产部署，每课都产出可复用工具。",
-      "sourceHash": "b7c0bbf87aee3b23a8bc85aabc3fb2a2345c4799533111571df7272b952d7cf5",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-25T01:24:56.379Z"
-    },
     "tnt-likely/panwatch": {
       "summary": "盯盘侠 PanWatch 是自托管的 AI 盯盘助手，可实时监控 A 股、港股、美股行情并管理持仓，结合 TradingAgents 多 Agent 分析生成投资决策，并通过多种渠道推送提醒。",
       "sourceHash": "04cb0cd46086aa4aa36871afc3c7f11a9cccbb888937a0ae1526f280be346973",
@@ -126,13 +189,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-24T01:19:35.946Z"
-    },
-    "pbakaus/impeccable": {
-      "summary": "Impeccable 是面向 AI 编程代理的前端设计指导工具，提供技能、命令和检测规则，帮助生成更规范的界面设计。",
-      "sourceHash": "5e8c9bdfd84056cae32209cec75415b8b19208bcf5d4654b23ccdd6cd653ae69",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-24T01:19:34.364Z"
     },
     "agent-substrate/substrate": {
       "summary": "Agent Substrate 是一个用 Go 编写的安全默认智能体执行运行时，可在 Kubernetes 上高密度运行大量沙箱化容器，支持多种智能体框架。",
@@ -644,62 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-14T00:59:31.997Z"
-    },
-    "vxcontrol/pentagi": {
-      "summary": "PentAGI 是一个用 Go 编写的全自主 AI 智能体系统，在隔离的 Docker 沙箱中自动执行渗透测试任务，内置多种专业安全工具。",
-      "sourceHash": "593c05b5b035b49a420140a1aeff8e52fb133cecc02765e0ac19ca6a8360950e",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-14T00:59:31.638Z"
-    },
-    "calesthio/openmontage": {
-      "summary": "OpenMontage 是开源智能体视频制作系统，让 AI 编程助手自动完成脚本、配音、素材与剪辑，生成完整视频。",
-      "sourceHash": "c826011b1e034dba34fcd4f01d2bdaddff6411b0f8f2a9cf784ec7803c9ad19d",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-14T00:59:29.796Z"
-    },
-    "bilawalsidhu/gods-eye-view": {
-      "summary": "一个在浏览器中运行的开源三维地球仪，用公开数据实时追踪飞机、船舶、卫星等目标，可查看地形并支持语音交互。",
-      "sourceHash": "6b84c5487991c3cb3b30ea9307189004f147b1893c447e765f6b607086280f84",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-14T00:59:27.549Z"
-    },
-    "max-sixty/worktrunk": {
-      "summary": "Worktrunk 是一个用 Rust 编写的 Git worktree 管理命令行工具，主要用于并行运行多个 AI 代理工作流。",
-      "sourceHash": "c680910ec762c864cd1b078e3b4060a6b7ec4421304458eba45877bfe5bc3c77",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-13T00:54:17.483Z"
-    },
-    "armory3d/armorpaint": {
-      "summary": "ArmorPaint 是一款用于 3D PBR 纹理绘制的软件，此仓库面向开发者提供其源代码。",
-      "sourceHash": "f136321f5b8990228db40118d5c96c37cd8d5ba8cd746cbbded7359ead0586fa",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-13T00:54:13.755Z"
-    },
-    "p1neapplexpress/openflux": {
-      "summary": "OpenFlux 是一个用 Go 编写的网络协议栈研究工具，实现带可插拔传输层的 TCP 隧道，客户端提供 SOCKS5 代理，经出口节点转发流量。",
-      "sourceHash": "5541be7b517701f60ceb3ee296311705ebd5f498881e5445a05012b2da204d98",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-13T00:54:13.530Z"
-    },
-    "shubhamsaboo/awesome-llm-apps": {
-      "summary": "这是一个开源项目，汇集了100多个AI智能体、智能体技能和RAG应用示例，主要用Python编写，供开发者克隆、运行和二次开发。",
-      "sourceHash": "4db612c5461b95f567455fec61038f9a1f4717d7dd3a5a19ea16ca68c80a8584",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-13T00:54:13.356Z"
-    },
-    "alsk1992/cloddsbot": {
-      "summary": "CloddsBot 是一个基于 Claude 的开源自主 AI 交易代理，可跨预测市场、加密货币和期货等平台自动扫描机会、执行交易并管理风险。",
-      "sourceHash": "2d09bbb26c36a4119682e890e25de0467d03215728ec05dd965924bb72cbd2bf",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-13T00:54:10.309Z"
     }
   }
 }
