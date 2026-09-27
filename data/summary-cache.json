@@ -1,12 +1,110 @@
 {
   "version": 1,
   "entries": {
+    "vercel/next.js": {
+      "summary": "Next.js 是 Vercel 推出的 React 框架，用于构建全栈 Web 应用，扩展最新 React 特性并集成 Rust 工具链以加快构建。",
+      "sourceHash": "bf633bc60e6cca7b96dab0a1ee35571ffee1a157da30e884ca1fdffa87c0854b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-27T01:21:24.161Z"
+    },
+    "mobile-next/mobile-mcp": {
+      "summary": "这是一个基于 TypeScript 的 MCP 服务器，让 AI 代理通过统一接口自动化操作 iOS 和 Android 应用与设备，支持模拟器和真机。",
+      "sourceHash": "952148a1779f4dab287aa7fcb171382bb878ae7d590395bca51b4d92ce083342",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-27T01:21:23.234Z"
+    },
+    "actions/runner-images": {
+      "summary": "该仓库包含用于构建 GitHub Actions 托管运行器和 Azure Pipelines 代理虚拟机镜像的源代码，并说明镜像版本、软件支持与发布策略。",
+      "sourceHash": "c2c7b8324abfc74e6143d5e8d36560abab6e3ae59c7312c79614e95531f5e6cc",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-27T01:21:21.964Z"
+    },
+    "anthropics/claude-code-action": {
+      "summary": "这是一个用于 GitHub PR 和 issue 的 Claude Code 通用 Action，能回答问题并实现代码修改，支持多种认证方式。",
+      "sourceHash": "15f85c2e3b1f948ebcc4791dc96520fd802eb10faf6ee7ce4137c06b54615333",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-27T01:21:20.840Z"
+    },
+    "llvm/llvm-project": {
+      "summary": "LLVM 项目是模块化可复用的编译器与工具链技术集合，提供构建优化编译器和运行时环境的核心库与工具。",
+      "sourceHash": "187b5f0dd100e37497cba0cf57e14e5011c3c26e74aae274956e4bdb4539cf25",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-27T01:21:19.730Z"
+    },
+    "zhaoxuya520/reverse-skill": {
+      "summary": "面向 AI 编程客户端的逆向与安全技能路由包，为 APK、二进制、前端加密、CTF 和渗透任务自动匹配方法论与工具链。",
+      "sourceHash": "bb6dc48a3a5878d7b9e08d76ea546eab875bcc09fec7fd298cf48c8ae28c977b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-27T01:21:18.687Z"
+    },
+    "microsoft/vscode": {
+      "summary": "微软与社区共同开发 Visual Studio Code 的开源仓库，包含编辑器核心源码及内置扩展。",
+      "sourceHash": "199c544b2d7a3797859fbc770bfe8b9ce63909ad956663b07a800e133ad22473",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-27T01:21:17.624Z"
+    },
+    "block/buzz": {
+      "summary": "Buzz 是一个可自托管的协作工作区，让人类与 AI 智能体在同一频道中共同工作，共享身份、事件日志与审计记录。",
+      "sourceHash": "6efec52cb68f9e5ffc5d532faf857c53a1cc65dabb11fc491f83c3529b0949d6",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-27T01:21:16.802Z"
+    },
     "openbao/openbao": {
       "summary": "OpenBao 是一个用 Go 编写的软件方案，用于管理、存储和分发密钥、证书等敏感数据。",
       "sourceHash": "717796da6867da4df503d7fa2be1dacb84f15353fa952a593c0b8c35a5aa8fcf",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-26T01:28:34.048Z"
+      "lastUsedAt": "2026-09-27T01:21:15.534Z"
+    },
+    "rohitg00/ai-engineering-from-scratch": {
+      "summary": "这是一个从零开始学习 AI 工程的开源课程仓库，包含二十个阶段、五百多节 Python 实践课，覆盖数学基础到智能体与生产部署。",
+      "sourceHash": "cbf4de5d76f2fd1a1ee2c8be93951a620f9729e3d20910dd463ef90161398a1e",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-27T01:21:15.293Z"
+    },
+    "tensorflow/tensorflow": {
+      "summary": "TensorFlow 是端到端开源机器学习平台，提供工具、库和社区资源，供研究者推进机器学习并帮助开发者构建和部署机器学习应用。",
+      "sourceHash": "884b05cb02023d50dbd0df6d4fc3507f606c4b2b618c13cbba7231b5a0f65756",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-27T01:21:14.945Z"
+    },
+    "dream-num/univer": {
+      "summary": "Univer 是一个开源 TypeScript Office SDK，用于在自有产品中嵌入电子表格、文档、幻灯片等办公应用，支持浏览器和 Node.js 运行。",
+      "sourceHash": "21c0c75eff0354e127e895cfe136a840a73fbb0aee5f0a70f215601551387b0d",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-27T01:21:13.548Z"
+    },
+    "nvidia/model-optimizer": {
+      "summary": "NVIDIA Model Optimizer 是一个深度学习模型优化库，提供量化、剪枝、蒸馏、神经架构搜索和推测解码等技术，用于压缩模型以加速推理部署。",
+      "sourceHash": "9819375cdbe3fccf018229821e25f612bd47e341be24c9265bf3828ca1f43f74",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-27T01:21:13.187Z"
+    },
+    "vectorize-io/hindsight": {
+      "summary": "Hindsight 是一个用 Python 编写的智能体记忆系统，通过保留、检索和反思操作存储与调用记忆，让 AI 智能体随时间学习并提升表现。",
+      "sourceHash": "22373c131481bc4bbc6081fd7b41a72b265ea9d0038a9c205fe5d85c1007360b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-27T01:21:12.935Z"
+    },
+    "paperclipai/paperclip": {
+      "summary": "Paperclip 是一个开源应用，用于编排和管理团队中的 AI 智能体，支持多种智能体接入、组织架构、任务分配与成本控制。",
+      "sourceHash": "9046483a64182daf5fdece0c6e7f43e911ea37289dbc042ffedf504c19eaa07f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-27T01:21:12.661Z"
     },
     "pbakaus/impeccable": {
       "summary": "Impeccable 是面向 AI 编程代理的前端设计指导工具，提供技能、命令和检测规则，帮助生成更规范的界面设计。",
@@ -15,26 +113,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-26T01:28:32.875Z"
     },
-    "nvidia/model-optimizer": {
-      "summary": "NVIDIA Model Optimizer 是一个深度学习模型优化库，提供量化、剪枝、蒸馏、神经架构搜索和推测解码等技术，用于压缩模型以加速推理部署。",
-      "sourceHash": "9819375cdbe3fccf018229821e25f612bd47e341be24c9265bf3828ca1f43f74",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-26T01:28:32.504Z"
-    },
     "google/ax": {
       "summary": "AX 是谷歌开源的智能体编排运行时，用声明式配置在集群中大规模调度和沙箱化运行自主智能体任务。",
       "sourceHash": "98adb0407f309aa268a655192f08094662fac0c6c725deec9d48e1cd1418e36f",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-26T01:28:32.259Z"
-    },
-    "rohitg00/ai-engineering-from-scratch": {
-      "summary": "这是一个从零开始学习 AI 工程的开源课程仓库，包含二十个阶段、五百多节 Python 实践课，覆盖数学基础到智能体与生产部署。",
-      "sourceHash": "cbf4de5d76f2fd1a1ee2c8be93951a620f9729e3d20910dd463ef90161398a1e",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-26T01:28:30.644Z"
     },
     "kelseyhightower/kubernetes-the-hard-way": {
       "summary": "这是一份手动搭建 Kubernetes 集群的教程，逐步讲解引导控制平面、工作节点和 etcd 等核心组件的完整过程，主要用于学习理解其原理。",
@@ -64,13 +148,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-26T01:28:26.238Z"
     },
-    "dream-num/univer": {
-      "summary": "Univer 是一个开源 TypeScript Office SDK，用于在自有产品中嵌入电子表格、文档、幻灯片等办公应用，支持浏览器和 Node.js 运行。",
-      "sourceHash": "21c0c75eff0354e127e895cfe136a840a73fbb0aee5f0a70f215601551387b0d",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-26T01:28:25.128Z"
-    },
     "mattpocock/skills": {
       "summary": "这是一套面向真实软件工程开发的 AI 代理技能集合，用于规范编码代理的工作流程，帮助开发者按工程实践完成需求梳理、调试与代码设计。",
       "sourceHash": "253993fc338d90c9b9bad3adb314b05b648e18e0d7c20dbc369d32c60768be7b",
@@ -85,26 +162,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-26T01:28:23.760Z"
     },
-    "vectorize-io/hindsight": {
-      "summary": "Hindsight 是一个用 Python 编写的智能体记忆系统，通过保留、检索和反思操作存储与调用记忆，让 AI 智能体随时间学习并提升表现。",
-      "sourceHash": "22373c131481bc4bbc6081fd7b41a72b265ea9d0038a9c205fe5d85c1007360b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-26T01:28:23.376Z"
-    },
     "anthropics/claude-plugins-official": {
       "summary": "这是 Anthropic 维护的 Claude Code 插件目录，收录官方与第三方高质量插件，供用户通过插件市场安装使用。",
       "sourceHash": "57c0b9849a1455c479f61734473df34afe467633c1454c474c98e2218bd27a36",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-26T01:28:23.138Z"
-    },
-    "paperclipai/paperclip": {
-      "summary": "Paperclip 是一个开源应用，用于编排和管理团队中的 AI 智能体，支持多种智能体接入、组织架构、任务分配与成本控制。",
-      "sourceHash": "9046483a64182daf5fdece0c6e7f43e911ea37289dbc042ffedf504c19eaa07f",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-26T01:28:22.026Z"
     },
     "leejet/stable-diffusion.cpp": {
       "summary": "基于 ggml 的纯 C/C++ 扩散模型推理实现，可在本地运行 Stable Diffusion、Flux、Wan 等模型生成图像。",
@@ -637,69 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-15T01:23:16.238Z"
-    },
-    "dani-garcia/vaultwarden": {
-      "summary": "Vaultwarden 是用 Rust 编写的非官方 Bitwarden 兼容服务器，实现客户端 API，适合资源有限的自托管部署。",
-      "sourceHash": "fd42ff881f3fbce0b553fb7af1bc4c692f379c62c18778b8a20110f248eb3900",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-15T01:23:16.027Z"
-    },
-    "localsend/localsend": {
-      "summary": "LocalSend 是一款开源跨平台文件传输应用，通过本地网络在设备间安全收发文件，无需联网或第三方服务器。",
-      "sourceHash": "b7f7fbf741f1678b61751658c445c772efd2e09b48790f22aac8f47e6a879fbf",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-15T01:23:15.143Z"
-    },
-    "asgeirtj/system_prompts_leaks": {
-      "summary": "收集并整理各大 AI 聊天机器人与编程助手泄露的系统提示词，按厂商分类存档，供查阅研究。",
-      "sourceHash": "4ef40a03e1ecf60f2bf44f3703abf9681ff13234d36d458df1a8932cf38b05e9",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-15T01:23:13.225Z"
-    },
-    "panniantong/agent-reach": {
-      "summary": "Agent Reach 是一个 Python 命令行工具，为 AI Agent 提供读取和搜索网页、Twitter、Reddit、YouTube、GitHub 等平台的能力，免费且无需 API 费用。",
-      "sourceHash": "787ad9a5c5915f528ab960cbeaa1f94f668e6a170ea6ede875bdb6d2dcb87d91",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-15T01:23:13.012Z"
-    },
-    "666ghj/mirofish": {
-      "summary": "MiroFish 是一个基于多智能体技术的通用群体智能预测引擎，可从现实种子信息构建数字世界，模拟智能体交互演化以推演未来走向。",
-      "sourceHash": "c99fe18291066201f0dde676a308e3a6c7d6724890ccd836c51138876359ee7e",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-15T01:23:11.812Z"
-    },
-    "swordfish90/cool-retro-term": {
-      "summary": "cool-retro-term 是一款模拟老式阴极射线管屏幕外观的终端模拟器，支持 Linux 和 macOS，可自定义颜色、字体与显示效果。",
-      "sourceHash": "56748a600cbe0b14b1df4803d665840d157f8ca31141b630496f4628e1916b48",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-14T00:59:40.253Z"
-    },
-    "jiji262/douyin-downloader": {
-      "summary": "这是一个用 Python 编写的抖音下载工具，支持单个视频、图集、合集、音乐及博主主页批量下载，具备去水印、进度显示、重试和 SQLite 去重功能。",
-      "sourceHash": "b4a64c37ed442258ecfe681be98ef452534a9fff464ecd3d6c0c8c6dd945029a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-14T00:59:38.873Z"
-    },
-    "jihe520/mathmodelagent": {
-      "summary": "MathModelAgent 是面向数学建模竞赛的自动化工具，可分析问题、编写代码并生成格式完整的可提交论文。",
-      "sourceHash": "08feb3cf47d9e346067c9af00401f9846d54146ec043dff709625666b725fdbc",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-14T00:59:36.185Z"
-    },
-    "yuliskov/smarttube": {
-      "summary": "SmartTube 是面向 Android TV 和电视盒子的开源媒体客户端，可在电视优化界面中浏览和播放各类公开来源的内容。",
-      "sourceHash": "821e84f298233917f04e00ac257090ecbae9926694dcc52f5772060a004148b6",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-14T00:59:31.997Z"
     }
   }
 }
