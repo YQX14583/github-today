@@ -1,26 +1,68 @@
 {
   "version": 1,
   "entries": {
+    "dream-num/univer": {
+      "summary": "Univer 是一个开源办公 SDK，用 TypeScript 编写，可在浏览器和 Node.js 中构建电子表格、文档、演示文稿等可嵌入的办公应用。",
+      "sourceHash": "32d7d0371912504073fe9e6db4e9e79c10e1cea7e89f23f37daba063868c1fd6",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-29T02:33:26.621Z"
+    },
+    "mvschwarz/openrig": {
+      "summary": "OpenRig 是一个多智能体编排工具，用 YAML 定义智能体团队，把 Claude Code 和 Codex 作为统一系统运行和管理。",
+      "sourceHash": "078c0b6cd865a3b55e74fc786d5f6bb0ede2e4f308fd192964cb069a4d9e9d08",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-29T02:33:25.495Z"
+    },
+    "byoungd/up": {
+      "summary": "这是一份由韩先凯撰写、持续更新的中文书稿，围绕AI时代的终身学习，涵盖英语学习、AI应用、项目实践、人生复盘与低谷恢复等内容。",
+      "sourceHash": "5268480587ef6d2e5ebccf1170f40136d0ca017b9c530fe6d13cd65c4cf2cb8a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-29T02:33:24.591Z"
+    },
+    "cs341-illinois/coursebook": {
+      "summary": "这是伊利诺伊大学 CS 341 系统编程课程使用的开源入门教材，用 TeX 编写，讲解 C 语言与 Linux 系统编程。",
+      "sourceHash": "aa44ce6fa71fd315f1aefb166604db4e2c5dc413a3e1cc5fc58896b3b71e65ee",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-29T02:33:23.438Z"
+    },
+    "nawfalmotii79/plfm_radar": {
+      "summary": "AERIS-10 是一个开源低成本 10.5 GHz 脉冲线性调频相控阵雷达系统，提供 3 公里和 20 公里两种版本，供研究人员和开发者实验波束成形与目标跟踪。",
+      "sourceHash": "4d5edf226cebb0e0c660c366e623b3d37dd99f53cd0fac9c99454848793ad454",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-29T02:33:22.329Z"
+    },
+    "vectorize-io/hindsight": {
+      "summary": "Hindsight 是一个用 Python 编写的智能体记忆系统，通过保留、检索和反思操作存储与调用记忆，让 AI 智能体随时间学习并提升表现。",
+      "sourceHash": "22373c131481bc4bbc6081fd7b41a72b265ea9d0038a9c205fe5d85c1007360b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-29T02:33:21.211Z"
+    },
+    "paperclipai/paperclip": {
+      "summary": "Paperclip 是一个开源应用，用于编排和管理团队中的 AI 智能体，支持多种智能体接入、组织架构、任务分配与成本控制。",
+      "sourceHash": "9046483a64182daf5fdece0c6e7f43e911ea37289dbc042ffedf504c19eaa07f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-29T02:33:20.962Z"
+    },
+    "debpalash/voicestudio": {
+      "summary": "VoiceStudio 是一个开源本地语音工具，支持语音克隆、设计、视频配音、听写、转录和有声书制作，覆盖 646 种语言。",
+      "sourceHash": "2e8651fb3928a51f1e0cd574b9e9dbd926ad4e1bd4d0ab07d80ac8cfb2639877",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-29T02:33:20.694Z"
+    },
     "willfaust/madeira": {
       "summary": "Madeira 是一个在未越狱 iPhone 上运行 Windows x86-64 游戏的实验性项目，结合 Wine、FEX-Emu 与 DXMT 实现指令翻译和图形转换。",
       "sourceHash": "f0eb29b62c0a430aafe287699271a308bb837604bd555de4a5a433ad8813fd96",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-28T01:34:28.025Z"
-    },
-    "dream-num/univer": {
-      "summary": "Univer 是一个开源 TypeScript Office SDK，用于在自有产品中嵌入电子表格、文档、幻灯片等办公应用，支持浏览器和 Node.js 运行。",
-      "sourceHash": "21c0c75eff0354e127e895cfe136a840a73fbb0aee5f0a70f215601551387b0d",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-28T01:34:26.540Z"
-    },
-    "mvschwarz/openrig": {
-      "summary": "OpenRig 是一个多智能体编排工具，用 YAML 定义智能体团队，把 Claude Code 和 Codex 作为统一系统运行和管理。",
-      "sourceHash": "8241f8014d22e7cd935a7513d05417717ca78daf9b332c4293de783bcd53242a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-28T01:34:26.325Z"
     },
     "vercel-labs/scriptc": {
       "summary": "scriptc 是一个实验性编译器，把 TypeScript 和 JavaScript 编译为 C、LLVM IR、原生可执行文件及 WebAssembly 模块。",
@@ -42,27 +84,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-28T01:34:22.895Z"
-    },
-    "debpalash/voicestudio": {
-      "summary": "VoiceStudio 是一个开源本地语音工具，支持语音克隆、设计、视频配音、听写、转录和有声书制作，覆盖 646 种语言。",
-      "sourceHash": "2e8651fb3928a51f1e0cd574b9e9dbd926ad4e1bd4d0ab07d80ac8cfb2639877",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-28T01:34:22.650Z"
-    },
-    "vectorize-io/hindsight": {
-      "summary": "Hindsight 是一个用 Python 编写的智能体记忆系统，通过保留、检索和反思操作存储与调用记忆，让 AI 智能体随时间学习并提升表现。",
-      "sourceHash": "22373c131481bc4bbc6081fd7b41a72b265ea9d0038a9c205fe5d85c1007360b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-28T01:34:21.444Z"
-    },
-    "paperclipai/paperclip": {
-      "summary": "Paperclip 是一个开源应用，用于编排和管理团队中的 AI 智能体，支持多种智能体接入、组织架构、任务分配与成本控制。",
-      "sourceHash": "9046483a64182daf5fdece0c6e7f43e911ea37289dbc042ffedf504c19eaa07f",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-28T01:34:21.116Z"
     },
     "vercel/next.js": {
       "summary": "Next.js 是 Vercel 推出的 React 框架，用于构建全栈 Web 应用，扩展最新 React 特性并集成 Rust 工具链以加快构建。",
@@ -679,27 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-16T01:21:07.864Z"
-    },
-    "peetzweg/opendisplay": {
-      "summary": "OpenDisplay 是免费开源的 Mac 副屏工具，可把 iPhone、iPad 或旧 Mac 变成真正的扩展显示器，通过 USB 或 WiFi 传输低延迟画面并支持触控。",
-      "sourceHash": "5e3ef20275b2544dbd5f6940f793933be7640964c311bcf557f5d3001081af14",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-15T01:23:23.112Z"
-    },
-    "reconurge/flowsint": {
-      "summary": "Flowsint 是一个开源的 OSINT 图谱调查工具，通过可视化图形界面和自动化数据丰富器，帮助网络安全分析师探索实体间关系。",
-      "sourceHash": "32f9e0a11ee4521d1e331a61af4c11c9f9d9a4130ee52984fe552392368bcbdd",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-15T01:23:21.904Z"
-    },
-    "huggingface/transformers": {
-      "summary": "Hugging Face Transformers 是一个基于 Python 的模型定义框架，提供文本、视觉、音频和多模态的先进机器学习模型，支持推理与训练。",
-      "sourceHash": "f23132a595369f01973839ddd8e9494d83cb6c87e5f32db737c64a3a81aa440a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-15T01:23:19.168Z"
     }
   }
 }
