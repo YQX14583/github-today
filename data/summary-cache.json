@@ -1,19 +1,103 @@
 {
   "version": 1,
   "entries": {
+    "rakyll/hey": {
+      "summary": "hey 是一个用 Go 编写的 HTTP 负载生成工具，可向 Web 应用发送指定数量和并发量的请求并输出统计结果，是 ApacheBench 的替代品。",
+      "sourceHash": "7f7f22af5d9454d9aedc79a4345f1a9a18c72f02ab55a6ebe0a70b997372412e",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-30T02:02:08.884Z"
+    },
     "dream-num/univer": {
       "summary": "Univer 是一个开源办公 SDK，用 TypeScript 编写，可在浏览器和 Node.js 中构建电子表格、文档、演示文稿等可嵌入的办公应用。",
       "sourceHash": "32d7d0371912504073fe9e6db4e9e79c10e1cea7e89f23f37daba063868c1fd6",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-29T02:33:26.621Z"
+      "lastUsedAt": "2026-09-30T02:02:07.775Z"
     },
-    "mvschwarz/openrig": {
-      "summary": "OpenRig 是一个多智能体编排工具，用 YAML 定义智能体团队，把 Claude Code 和 Codex 作为统一系统运行和管理。",
-      "sourceHash": "078c0b6cd865a3b55e74fc786d5f6bb0ede2e4f308fd192964cb069a4d9e9d08",
+    "willfaust/madeira": {
+      "summary": "Madeira 是一个在未越狱 iPhone 上运行 Windows x86-64 游戏的实验性项目，结合 Wine、FEX-Emu 与 DXMT 实现指令翻译和图形转换。",
+      "sourceHash": "f0eb29b62c0a430aafe287699271a308bb837604bd555de4a5a433ad8813fd96",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-29T02:33:25.495Z"
+      "lastUsedAt": "2026-09-30T02:02:07.571Z"
+    },
+    "vectifyai/pageindex": {
+      "summary": "PageIndex 是一个基于推理的无向量 RAG 引擎，用树形索引替代向量数据库和分块，面向长篇专业文档的检索与问答。",
+      "sourceHash": "0dda302c5c86ded4ff3189e8b1494b4e1bf1cdf0e32bb6753d80edb10df8117e",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-30T02:02:07.375Z"
+    },
+    "rohitg00/ai-engineering-from-scratch": {
+      "summary": "这是一个从零开始学习 AI 工程的开源课程仓库，包含二十个阶段、五百多节 Python 实践课，覆盖数学基础到智能体与生产部署。",
+      "sourceHash": "cbf4de5d76f2fd1a1ee2c8be93951a620f9729e3d20910dd463ef90161398a1e",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-30T02:02:06.485Z"
+    },
+    "cs341-illinois/coursebook": {
+      "summary": "这是伊利诺伊大学 CS 341 系统编程课程使用的开源入门教材，用 TeX 编写，讲解 C 语言与 Linux 系统编程。",
+      "sourceHash": "aa44ce6fa71fd315f1aefb166604db4e2c5dc413a3e1cc5fc58896b3b71e65ee",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-30T02:02:06.005Z"
+    },
+    "averygan/reclip": {
+      "summary": "ReClip 是一个自托管的开源视频音频下载工具，提供简洁网页界面，可粘贴链接从 YouTube 等上千个网站下载 MP4 或 MP3。",
+      "sourceHash": "6ec15eedb83534b062fb61595202bcee11fbb8205a8601eda4b42dc5ff6addc7",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-30T02:02:05.791Z"
+    },
+    "oblien/openship": {
+      "summary": "Openship 是一个可自托管的开源部署平台，内置 CI/CD，能自动构建、发布、路由并为应用配置 TLS 证书。",
+      "sourceHash": "8d3d36f750de3f7a88954b5287aff2f03f26facaacd96aad0cc0296a50d10b36",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-30T02:02:04.622Z"
+    },
+    "mvschwarz/openrig": {
+      "summary": "OpenRig 是一个多智能体编排工具，用 YAML 定义智能体团队，把 Claude Code 和 Codex 作为统一系统启动和管理。",
+      "sourceHash": "931293c53432a187492ba7638db3a07a96d0469a68e37b152675e0864941bb5d",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-30T02:02:03.380Z"
+    },
+    "t8y2/dbx": {
+      "summary": "DBX 是一款约 25 MB 的轻量级跨平台数据库客户端，支持 100 多种数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP 服务。",
+      "sourceHash": "d8f6768fa0fc23e969b4c5562863527a6e6550fb25dbde58ff3583bc22b809ca",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-30T02:02:02.214Z"
+    },
+    "paperclipai/paperclip": {
+      "summary": "Paperclip 是一个开源应用，用于编排和管理团队中的 AI 智能体，支持多种智能体接入、组织架构、任务分配与成本控制。",
+      "sourceHash": "9046483a64182daf5fdece0c6e7f43e911ea37289dbc042ffedf504c19eaa07f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-30T02:02:01.224Z"
+    },
+    "vectorize-io/hindsight": {
+      "summary": "Hindsight 是一个用 Python 编写的智能体记忆系统，为 AI 智能体提供长期记忆的存储、检索与反思能力，使其能随时间学习。",
+      "sourceHash": "b02dea3d1fbff0f0792e63a988d87966cb17af0c8c9ef06c8622b85545151c39",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-30T02:02:00.977Z"
+    },
+    "nvidia/openshell": {
+      "summary": "OpenShell 是面向自主 AI 智能体的安全私有运行时，通过策略声明限制智能体对文件、系统调用、网络和凭据的访问。",
+      "sourceHash": "103a3807f8d333b9b9fd41c9ac954ed6a4524d9a43c13ad5fd2773ccdc6cdee2",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-30T02:01:59.899Z"
+    },
+    "debpalash/voicestudio": {
+      "summary": "VoiceStudio 是一个开源本地语音工具，支持语音克隆、设计、视频配音、听写、转录和有声书制作，覆盖 646 种语言。",
+      "sourceHash": "2e8651fb3928a51f1e0cd574b9e9dbd926ad4e1bd4d0ab07d80ac8cfb2639877",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-09-30T02:01:58.355Z"
     },
     "byoungd/up": {
       "summary": "这是一份由韩先凯撰写、持续更新的中文书稿，围绕AI时代的终身学习，涵盖英语学习、AI应用、项目实践、人生复盘与低谷恢复等内容。",
@@ -22,47 +106,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-29T02:33:24.591Z"
     },
-    "cs341-illinois/coursebook": {
-      "summary": "这是伊利诺伊大学 CS 341 系统编程课程使用的开源入门教材，用 TeX 编写，讲解 C 语言与 Linux 系统编程。",
-      "sourceHash": "aa44ce6fa71fd315f1aefb166604db4e2c5dc413a3e1cc5fc58896b3b71e65ee",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-29T02:33:23.438Z"
-    },
     "nawfalmotii79/plfm_radar": {
       "summary": "AERIS-10 是一个开源低成本 10.5 GHz 脉冲线性调频相控阵雷达系统，提供 3 公里和 20 公里两种版本，供研究人员和开发者实验波束成形与目标跟踪。",
       "sourceHash": "4d5edf226cebb0e0c660c366e623b3d37dd99f53cd0fac9c99454848793ad454",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-29T02:33:22.329Z"
-    },
-    "vectorize-io/hindsight": {
-      "summary": "Hindsight 是一个用 Python 编写的智能体记忆系统，通过保留、检索和反思操作存储与调用记忆，让 AI 智能体随时间学习并提升表现。",
-      "sourceHash": "22373c131481bc4bbc6081fd7b41a72b265ea9d0038a9c205fe5d85c1007360b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-29T02:33:21.211Z"
-    },
-    "paperclipai/paperclip": {
-      "summary": "Paperclip 是一个开源应用，用于编排和管理团队中的 AI 智能体，支持多种智能体接入、组织架构、任务分配与成本控制。",
-      "sourceHash": "9046483a64182daf5fdece0c6e7f43e911ea37289dbc042ffedf504c19eaa07f",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-29T02:33:20.962Z"
-    },
-    "debpalash/voicestudio": {
-      "summary": "VoiceStudio 是一个开源本地语音工具，支持语音克隆、设计、视频配音、听写、转录和有声书制作，覆盖 646 种语言。",
-      "sourceHash": "2e8651fb3928a51f1e0cd574b9e9dbd926ad4e1bd4d0ab07d80ac8cfb2639877",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-29T02:33:20.694Z"
-    },
-    "willfaust/madeira": {
-      "summary": "Madeira 是一个在未越狱 iPhone 上运行 Windows x86-64 游戏的实验性项目，结合 Wine、FEX-Emu 与 DXMT 实现指令翻译和图形转换。",
-      "sourceHash": "f0eb29b62c0a430aafe287699271a308bb837604bd555de4a5a433ad8813fd96",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-28T01:34:28.025Z"
     },
     "vercel-labs/scriptc": {
       "summary": "scriptc 是一个实验性编译器，把 TypeScript 和 JavaScript 编译为 C、LLVM IR、原生可执行文件及 WebAssembly 模块。",
@@ -77,13 +126,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-28T01:34:23.920Z"
-    },
-    "rohitg00/ai-engineering-from-scratch": {
-      "summary": "这是一个从零开始学习 AI 工程的开源课程仓库，包含二十个阶段、五百多节 Python 实践课，覆盖数学基础到智能体与生产部署。",
-      "sourceHash": "cbf4de5d76f2fd1a1ee2c8be93951a620f9729e3d20910dd463ef90161398a1e",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-28T01:34:22.895Z"
     },
     "vercel/next.js": {
       "summary": "Next.js 是 Vercel 推出的 React 框架，用于构建全栈 Web 应用，扩展最新 React 特性并集成 Rust 工具链以加快构建。",
@@ -658,48 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-16T01:21:18.769Z"
-    },
-    "tonhowtf/omniget": {
-      "summary": "OmniGet 是一款基于 yt-dlp 的免费开源桌面应用，可从 1800 多个网站下载课程、视频和音乐，并内置播放器与阅读器。",
-      "sourceHash": "6f5027348da7941b7d9b37f2889a15d1d9b7993fca43677763c00f4f8bfba1bb",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-16T01:21:17.425Z"
-    },
-    "mg1937/asc": {
-      "summary": "Droid ASC 是一个面向 Android 逆向的快速反编译前端，可直接查询 APK 字节码，按需提取并反编译目标类，支持跨 DEX 引用搜索。",
-      "sourceHash": "227cb4e157e814375104de61c54f80bfc84ab72a6dc47f1343db75715e3fe087",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-16T01:21:14.700Z"
-    },
-    "pacifio/atlas": {
-      "summary": "Atlas 是用 Rust 编写的编码智能体版本控制工具，可同时运行多个编码智能体，集中记录并查询它们的改动与会话历史。",
-      "sourceHash": "961a9527f66fc5411d5ccac9f2cfbc1c4af0ed305f15c2fe88212baacf2fd115",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-16T01:21:13.384Z"
-    },
-    "danny-avila/librechat": {
-      "summary": "LibreChat 是一个开源可自托管的 AI 聊天平台，在统一界面中接入 OpenAI、Anthropic、Google 等多种模型，支持多用户认证与自定义端点。",
-      "sourceHash": "56b7e070f2f9f227aa77b6f1badf787a91f2302c2696a838f83ff07caa66802f",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-16T01:21:12.295Z"
-    },
-    "melgarafael/deskcommcrm": {
-      "summary": "DeskcommCRM 是一款开源、可自托管的 AI 销售 CRM，内置 AI 智能体并通过 WhatsApp 接待、筛选和促成销售，面向以聊天成交的企业。",
-      "sourceHash": "755f5dc249c64bea6c5bcd3e5752d71ef4bfcfd0cfd176dd8f30202bbca115a7",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-16T01:21:08.026Z"
-    },
-    "homebrew/brewui": {
-      "summary": "Homebrew 官方 macOS 图形界面，用 SwiftUI 让不熟悉命令行的用户也能发现、安装、更新和管理软件包，并透明展示底层操作。",
-      "sourceHash": "8d0afa7b6e7d02c8f82748fbd1bbd4b61bf858558b009799284f00f9b588a2ca",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-16T01:21:07.864Z"
     }
   }
 }
