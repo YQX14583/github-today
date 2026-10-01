@@ -1,6 +1,125 @@
 {
   "version": 1,
   "entries": {
+    "vectifyai/pageindex": {
+      "summary": "PageIndex 是一个基于推理的无向量 RAG 引擎，用树形索引替代向量数据库和分块，面向长篇专业文档的检索与问答。",
+      "sourceHash": "0dda302c5c86ded4ff3189e8b1494b4e1bf1cdf0e32bb6753d80edb10df8117e",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-01T02:02:56.860Z"
+    },
+    "nawfalmotii79/plfm_radar": {
+      "summary": "AERIS-10 是一个开源低成本 10.5 GHz 脉冲线性调频相控阵雷达系统，提供 3 公里和 20 公里两种版本，供研究人员和开发者实验波束成形与目标跟踪。",
+      "sourceHash": "4d5edf226cebb0e0c660c366e623b3d37dd99f53cd0fac9c99454848793ad454",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-01T02:02:56.538Z"
+    },
+    "t8y2/dbx": {
+      "summary": "DBX 是一款约 25 MB 的轻量级跨平台数据库客户端，支持 100 多种数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP 服务。",
+      "sourceHash": "d8f6768fa0fc23e969b4c5562863527a6e6550fb25dbde58ff3583bc22b809ca",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-01T02:02:56.264Z"
+    },
+    "colbymchenry/codegraph": {
+      "summary": "CodeGraph 是一个本地预索引的代码知识图谱工具，为多种 AI 编程助手提供语义代码检索，减少 token 与工具调用。",
+      "sourceHash": "05e1482693e0052b7599af98d8bc466138469f1a1c5d0846093c878b3a121e50",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-01T02:02:55.967Z"
+    },
+    "byoungd/up": {
+      "summary": "这是一份由韩先凯撰写、持续更新的中文书稿，围绕AI时代的终身学习，涵盖英语学习、AI应用、项目实践、人生复盘与低谷恢复等内容。",
+      "sourceHash": "5268480587ef6d2e5ebccf1170f40136d0ca017b9c530fe6d13cd65c4cf2cb8a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-01T02:02:54.734Z"
+    },
+    "modelcontextprotocol/servers": {
+      "summary": "该仓库是模型上下文协议（MCP）的参考服务器实现集合，用于演示 MCP 功能与官方 SDK，并收录社区服务器资源。",
+      "sourceHash": "4a86aa4a9ea5f23255118bfebe857f5c2eea993e20ce81583439b387d860490f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-01T02:02:54.507Z"
+    },
+    "firebase/firebase-ios-sdk": {
+      "summary": "这是 Firebase 为苹果平台提供的开源 SDK 源码仓库，包含除 FirebaseAnalytics 外的各 Firebase 库，供开发者在 iOS、macOS 等苹果应用中集成使用。",
+      "sourceHash": "a6c9bbd776e35106438348104f1c937fc8f591e0f36151fc69d76b58b15fa954",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-01T02:02:53.072Z"
+    },
+    "heygen-com/hyperframes": {
+      "summary": "HyperFrames 是一个开源框架，用 HTML、CSS 和可定位动画生成确定性的 MP4 视频，可通过命令行或 AI 编程代理使用。",
+      "sourceHash": "c99128fcfc06dee39a461be16e1b1517a0bb4a927386c13fcf75cfe252816ad0",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-01T02:02:51.794Z"
+    },
+    "mattpocock/skills": {
+      "summary": "这是一套面向真实软件工程开发的 AI 代理技能集合，用于辅助编码、调试、设计与工作流管理，可通过 Claude Code 插件或 skills.sh 安装使用。",
+      "sourceHash": "0926a3f0424a5336c3429a0a3c905551d80c45ef7a91ccedfc5a4135ea145553",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-01T02:02:50.668Z"
+    },
+    "composiohq/awesome-claude-skills": {
+      "summary": "这是一个收录 1000 多个 Claude Skills 与插件的精选列表，用于扩展 Claude 及各类编码代理的工作流能力。",
+      "sourceHash": "ff14ac6f6e28997b5a708038126436604066e65ffed78a481595c39d702b7d80",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-01T02:02:49.438Z"
+    },
+    "openclaw/openclaw": {
+      "summary": "OpenClaw 是一个开源 AI 助手，运行在用户自己的电脑上，可接入 Discord、Slack、Telegram 等聊天渠道，并提供多平台原生应用。",
+      "sourceHash": "105291116b794b35dd3636ce4ac5566612b12f025ed1f3e689871fe4f7042568",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-01T02:02:48.510Z"
+    },
+    "harry0703/moneyprinterturbo": {
+      "summary": "MoneyPrinterTurbo 是一个用 Python 开发的 AI 短视频生成工具，输入主题或关键词即可自动完成脚本、配音、素材、字幕和配乐并合成高清视频。",
+      "sourceHash": "5bbd12b955f9702483bfd351ca4a553491a94183195cbd7ed24c7f48294d90cf",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-01T02:02:47.101Z"
+    },
+    "dietrichgebert/ponytail": {
+      "summary": "Ponytail 是一个让 AI 编程助手遵循极简原则的插件，在写代码前逐级判断是否真有必要，优先复用现有实现，避免过度设计和多余依赖。",
+      "sourceHash": "7d9e4fb8e7b3f2704b628a255f45b2ead1de1d4efa3e73fbd5d1ca0a507abd04",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-01T02:02:45.802Z"
+    },
+    "mksglu/context-mode": {
+      "summary": "Context Mode 是一个面向 AI 编程代理的 MCP 服务器，通过沙箱隔离工具输出、持久化会话记忆和路由规则来优化上下文窗口占用。",
+      "sourceHash": "5064436ad34250f63bc62821dcb2ea96a01d1036e1fdb0f9f35b78a2f8dd4e66",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-01T02:02:44.573Z"
+    },
+    "mvschwarz/openrig": {
+      "summary": "OpenRig 是一个多智能体编排工具，用 YAML 定义智能体团队，把 Claude Code 和 Codex 作为统一系统启动和管理。",
+      "sourceHash": "931293c53432a187492ba7638db3a07a96d0469a68e37b152675e0864941bb5d",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-01T02:02:42.982Z"
+    },
+    "debpalash/voicestudio": {
+      "summary": "VoiceStudio 是一个开源本地语音工具，支持语音克隆、设计、视频配音、听写、转录和有声书制作，覆盖 646 种语言。",
+      "sourceHash": "2e8651fb3928a51f1e0cd574b9e9dbd926ad4e1bd4d0ab07d80ac8cfb2639877",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-01T02:02:42.718Z"
+    },
+    "nvidia/openshell": {
+      "summary": "OpenShell 是面向自主 AI 智能体的安全私有运行时，通过策略声明限制智能体对文件、系统调用、网络和凭据的访问。",
+      "sourceHash": "103a3807f8d333b9b9fd41c9ac954ed6a4524d9a43c13ad5fd2773ccdc6cdee2",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-01T02:02:42.284Z"
+    },
     "rakyll/hey": {
       "summary": "hey 是一个用 Go 编写的 HTTP 负载生成工具，可向 Web 应用发送指定数量和并发量的请求并输出统计结果，是 ApacheBench 的替代品。",
       "sourceHash": "7f7f22af5d9454d9aedc79a4345f1a9a18c72f02ab55a6ebe0a70b997372412e",
@@ -21,13 +140,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-30T02:02:07.571Z"
-    },
-    "vectifyai/pageindex": {
-      "summary": "PageIndex 是一个基于推理的无向量 RAG 引擎，用树形索引替代向量数据库和分块，面向长篇专业文档的检索与问答。",
-      "sourceHash": "0dda302c5c86ded4ff3189e8b1494b4e1bf1cdf0e32bb6753d80edb10df8117e",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-30T02:02:07.375Z"
     },
     "rohitg00/ai-engineering-from-scratch": {
       "summary": "这是一个从零开始学习 AI 工程的开源课程仓库，包含二十个阶段、五百多节 Python 实践课，覆盖数学基础到智能体与生产部署。",
@@ -57,20 +169,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-30T02:02:04.622Z"
     },
-    "mvschwarz/openrig": {
-      "summary": "OpenRig 是一个多智能体编排工具，用 YAML 定义智能体团队，把 Claude Code 和 Codex 作为统一系统启动和管理。",
-      "sourceHash": "931293c53432a187492ba7638db3a07a96d0469a68e37b152675e0864941bb5d",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-30T02:02:03.380Z"
-    },
-    "t8y2/dbx": {
-      "summary": "DBX 是一款约 25 MB 的轻量级跨平台数据库客户端，支持 100 多种数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP 服务。",
-      "sourceHash": "d8f6768fa0fc23e969b4c5562863527a6e6550fb25dbde58ff3583bc22b809ca",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-30T02:02:02.214Z"
-    },
     "paperclipai/paperclip": {
       "summary": "Paperclip 是一个开源应用，用于编排和管理团队中的 AI 智能体，支持多种智能体接入、组织架构、任务分配与成本控制。",
       "sourceHash": "9046483a64182daf5fdece0c6e7f43e911ea37289dbc042ffedf504c19eaa07f",
@@ -84,34 +182,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-30T02:02:00.977Z"
-    },
-    "nvidia/openshell": {
-      "summary": "OpenShell 是面向自主 AI 智能体的安全私有运行时，通过策略声明限制智能体对文件、系统调用、网络和凭据的访问。",
-      "sourceHash": "103a3807f8d333b9b9fd41c9ac954ed6a4524d9a43c13ad5fd2773ccdc6cdee2",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-30T02:01:59.899Z"
-    },
-    "debpalash/voicestudio": {
-      "summary": "VoiceStudio 是一个开源本地语音工具，支持语音克隆、设计、视频配音、听写、转录和有声书制作，覆盖 646 种语言。",
-      "sourceHash": "2e8651fb3928a51f1e0cd574b9e9dbd926ad4e1bd4d0ab07d80ac8cfb2639877",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-30T02:01:58.355Z"
-    },
-    "byoungd/up": {
-      "summary": "这是一份由韩先凯撰写、持续更新的中文书稿，围绕AI时代的终身学习，涵盖英语学习、AI应用、项目实践、人生复盘与低谷恢复等内容。",
-      "sourceHash": "5268480587ef6d2e5ebccf1170f40136d0ca017b9c530fe6d13cd65c4cf2cb8a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-29T02:33:24.591Z"
-    },
-    "nawfalmotii79/plfm_radar": {
-      "summary": "AERIS-10 是一个开源低成本 10.5 GHz 脉冲线性调频相控阵雷达系统，提供 3 公里和 20 公里两种版本，供研究人员和开发者实验波束成形与目标跟踪。",
-      "sourceHash": "4d5edf226cebb0e0c660c366e623b3d37dd99f53cd0fac9c99454848793ad454",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-29T02:33:22.329Z"
     },
     "vercel-labs/scriptc": {
       "summary": "scriptc 是一个实验性编译器，把 TypeScript 和 JavaScript 编译为 C、LLVM IR、原生可执行文件及 WebAssembly 模块。",
@@ -245,13 +315,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-26T01:28:26.238Z"
-    },
-    "mattpocock/skills": {
-      "summary": "这是一套面向真实软件工程开发的 AI 代理技能集合，用于规范编码代理的工作流程，帮助开发者按工程实践完成需求梳理、调试与代码设计。",
-      "sourceHash": "253993fc338d90c9b9bad3adb314b05b648e18e0d7c20dbc369d32c60768be7b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-26T01:28:24.901Z"
     },
     "obra/superpowers": {
       "summary": "Superpowers 是一套面向编码智能体的软件开发方法论，由可组合技能和初始指令构成，引导智能体按流程完成开发任务。",
@@ -637,69 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-18T01:13:59.973Z"
-    },
-    "abue-ammar/tinycast": {
-      "summary": "Tinycast 是一款用 Swift 编写的原生 macOS 启动器，提供全局热键、应用启动、剪贴板历史、文件搜索与计算器等功能。",
-      "sourceHash": "df3c8d90f7ecb6b8afc7d0b05645fbbe75b8cb7297bfc2dbcf8fdd1fb8e34c70",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-18T01:13:59.025Z"
-    },
-    "tencent/weknora": {
-      "summary": "WeKnora 是腾讯开源的大模型知识平台，用 Go 编写，可将原始文档转为可检索的 RAG 问答、自主推理智能体与自动维护的 Wiki。",
-      "sourceHash": "892556142735ba30cc78521a6ef800a652d73df1b3091e882d6b5055d01cdcda",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-18T01:13:57.953Z"
-    },
-    "nationalsecurityagency/ghidra": {
-      "summary": "Ghidra 是由美国国家安全局开发的软件逆向工程框架，提供反汇编、反编译、绘图和脚本等工具，用于分析多平台的已编译代码。",
-      "sourceHash": "ac07ebd3487f052e5defeb71cb8db30b262ed427fd9bcd2ede3520b6f3ee7fb4",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-18T01:13:57.603Z"
-    },
-    "alphaxiv/openresearch": {
-      "summary": "OpenResearch 是一个本地优先的研究工作区，把 Claude Code、Codex 等编码代理变成可查阅文献、提出假设、运行实验并产出研究结果的研究代理。",
-      "sourceHash": "19b089f5a115d189d444afc23d5e626ade50644ce7f4b44747b5bd3514441f5f",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-18T01:13:57.183Z"
-    },
-    "multimodal-art-projection/yue": {
-      "summary": "YuE2 是一个 Python 音乐生成项目，统一符号与音频生成，支持歌曲创作、零样本翻唱和智能体音乐编辑。",
-      "sourceHash": "21dbef16a8013f1f56cb795e25770d22cd4ea18ddfb9f596546c19be3c8c781f",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-17T01:19:38.080Z"
-    },
-    "snailsploit/claude-red": {
-      "summary": "claude-red 是面向 Claude 技能系统的攻防安全技能库，用结构化 SKILL.md 文件为各类攻击面提供专家级方法论。",
-      "sourceHash": "46455f985ef249bc5b545e98fcf1c6e34c0863b36b6afb410507015f3cce7079",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-17T01:19:36.745Z"
-    },
-    "rlaope/oh-my-hermes": {
-      "summary": "oh-my-hermes 是 Hermes Agent 的一体化插件，提供编码智能、长期记忆系统和模型优化的工作流包。",
-      "sourceHash": "a3fb6f0f1209d021caa1e6dfe9bb48010e43a2343e10c00a3971abdca6ebd583",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-17T01:19:35.004Z"
-    },
-    "lakr233/vphone-cli": {
-      "summary": "vphone-cli 是一个 Swift 命令行工具，借助 Apple 虚拟化框架在 Apple Silicon Mac 上创建并启动虚拟 iPhone，支持固件下载、打补丁、恢复与越狱等完整流程。",
-      "sourceHash": "efe638185d6bdc16efe807f4445fd200b01ee6b1d242a78b53c506d043494eb4",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-17T01:19:25.230Z"
-    },
-    "earendil-works/pi": {
-      "summary": "Pi 是一个 TypeScript 编写的 AI 智能体工具包，提供统一 LLM API、智能体循环、终端界面和可自我扩展的编码智能体命令行工具。",
-      "sourceHash": "339b47facc40a45f041346b441fc5be0d1dde9d1d3a4e44f776af792c6879de3",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-16T01:21:18.769Z"
     }
   }
 }
