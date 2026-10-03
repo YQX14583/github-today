@@ -1,6 +1,125 @@
 {
   "version": 1,
   "entries": {
+    "pablostanley/yoinks": {
+      "summary": "yoinks 是一个 TypeScript 编写的终端视频下载工具，可从 YouTube、TikTok 等 1800 多个网站下载视频或提取 mp3 音频。",
+      "sourceHash": "95a27a0c053219a07bc0244b82f821889bb1645f95e22572acdce603de4be01a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-03T01:52:46.064Z"
+    },
+    "effect-ts/effect": {
+      "summary": "Effect 是一个 TypeScript 库，用于构建健壮、可维护、类型安全的生产级应用，处理类型化错误、依赖注入、结构化并发、调度、追踪和统一模式校验。",
+      "sourceHash": "429b8ae5be91454475d74d25490d471738821a3aa4e21bd88bd372cbe91c89dd",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-03T01:52:45.896Z"
+    },
+    "mvschwarz/openrig": {
+      "summary": "OpenRig 是开源多智能体编排工具，用 YAML 定义 Claude Code、Codex 等编码智能体团队，一条命令启动并统一管理其协作与上下文。",
+      "sourceHash": "66ef066359a1d81316c671c2dde03dc7196e9ce3e4d52146a138d4730112749f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-03T01:52:44.832Z"
+    },
+    "cursor/plugins": {
+      "summary": "这是 Cursor 官方插件仓库，收录面向开发工具、框架和 SaaS 产品的插件，每个插件以独立目录和清单文件形式组织。",
+      "sourceHash": "71263bd586ae7db2ea86722d5e0cac8c0d2dc57a0dd0226d2ae040d15d62fdc2",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-03T01:52:43.773Z"
+    },
+    "colbymchenry/codegraph": {
+      "summary": "CodeGraph 是一个本地预索引的代码知识图谱工具，为多种 AI 编程助手提供语义代码检索，减少 token 与工具调用。",
+      "sourceHash": "05e1482693e0052b7599af98d8bc466138469f1a1c5d0846093c878b3a121e50",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-03T01:52:43.577Z"
+    },
+    "getsentry/sentry": {
+      "summary": "Sentry 是一个面向开发者的调试平台，用于检测、追踪和修复代码错误，并提供性能监控功能。",
+      "sourceHash": "69c7f8eacf125d140ace49cbaeb2f4bd8dc8167381ac87b7410771a9789d4758",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-03T01:52:43.375Z"
+    },
+    "google/skills": {
+      "summary": "该仓库提供面向 Google 产品与技术的 Agent Skills，涵盖 Google Cloud 等，可通过 npx 命令选择安装。",
+      "sourceHash": "a74844488c95452ae821a6a1ce9522d46a1df2aa1e54e5abd5b7cec8b1b43d22",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-03T01:52:42.370Z"
+    },
+    "mksglu/context-mode": {
+      "summary": "Context Mode 是一个面向 AI 编程代理的 MCP 服务器，通过沙箱隔离工具输出、持久化会话记忆和路由规则来优化上下文窗口占用。",
+      "sourceHash": "5064436ad34250f63bc62821dcb2ea96a01d1036e1fdb0f9f35b78a2f8dd4e66",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-03T01:52:41.458Z"
+    },
+    "heygen-com/hyperframes": {
+      "summary": "HyperFrames 是一个开源框架，用 HTML、CSS 和可定位动画生成确定性的 MP4 视频，可通过命令行或 AI 编程代理使用。",
+      "sourceHash": "c99128fcfc06dee39a461be16e1b1517a0bb4a927386c13fcf75cfe252816ad0",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-03T01:52:41.193Z"
+    },
+    "coreyhaines31/marketingskills": {
+      "summary": "这是一个面向 AI 编程代理的营销技能库，提供转化优化、文案、SEO、分析和增长工程等 Markdown 技能文件。",
+      "sourceHash": "2a056266e78a298871447a4dd4da30d3dfb4987f59a160891ff73930b8a32f93",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-03T01:52:40.990Z"
+    },
+    "nvidia/openshell": {
+      "summary": "OpenShell 是面向自主 AI 智能体的安全私有运行时，通过策略声明限制智能体对文件、系统调用、网络和凭据的访问。",
+      "sourceHash": "2d5a1b01f09d654588f19e5d56a821eefbe4ee5219b290a7e13cd49ceb399cfe",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-03T01:52:40.065Z"
+    },
+    "mattpocock/skills": {
+      "summary": "这是一套面向真实软件工程开发的 AI 代理技能集合，用于辅助编码、调试、设计与工作流管理，可通过 Claude Code 插件或 skills.sh 安装使用。",
+      "sourceHash": "0926a3f0424a5336c3429a0a3c905551d80c45ef7a91ccedfc5a4135ea145553",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-03T01:52:39.851Z"
+    },
+    "pbakaus/impeccable": {
+      "summary": "Impeccable 是面向 AI 编程代理的前端设计指导工具，提供技能、命令和检测规则，帮助生成更规范的界面设计。",
+      "sourceHash": "5e8c9bdfd84056cae32209cec75415b8b19208bcf5d4654b23ccdd6cd653ae69",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-03T01:52:39.654Z"
+    },
+    "dietrichgebert/ponytail": {
+      "summary": "Ponytail 是一个可接入多种 AI 编程代理的插件，通过分级规则让代理优先复用现有代码、避免过度设计，从而少写代码。",
+      "sourceHash": "0da0182b8643459f8585f022436626e5a353de26c46a96f33a146952585ad3d2",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-03T01:52:39.440Z"
+    },
+    "obra/superpowers": {
+      "summary": "Superpowers 是一套面向编码智能体的软件开发方法论，由可组合技能和初始指令构成，引导智能体按流程完成开发任务。",
+      "sourceHash": "ce16699cc583bbe2b362c2866b07bbf7a694a941b9379c43cfe89b2590cfe72b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-03T01:52:38.116Z"
+    },
+    "juliusbrussee/caveman": {
+      "summary": "Caveman 是一个面向 AI 编程代理的开源工具，通过让代理用原始人式简短语言回答，并代理压缩其读取内容，减少约 65% 的 token 消耗。",
+      "sourceHash": "4de71a7add5a1776434aebe461f32411774f02213cb3d34929d7479b1f081b5d",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-03T01:52:37.934Z"
+    },
+    "panniantong/agent-reach": {
+      "summary": "Agent Reach 是一个 Python 命令行工具，为 AI Agent 提供读取和搜索网页、Twitter、Reddit、YouTube、GitHub 等平台的能力，免费且无需 API 费用。",
+      "sourceHash": "a87ea5e8382d892263def90ba616c4d66be632db53101a9ee517ca75a6a1fb43",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-03T01:52:36.724Z"
+    },
     "friedrich-m/unimate": {
       "summary": "UniMate 是一个统一模型，可根据文本提示为多种骨架实时生成骨骼动画，无需针对每种骨架重新训练。",
       "sourceHash": "4bcd8ee77f0f4eb8b1d69ff52cb0e9c23d19eebda3a4a681d01a826420301dd9",
@@ -8,26 +127,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-02T02:09:23.487Z"
     },
-    "pbakaus/impeccable": {
-      "summary": "Impeccable 是面向 AI 编程代理的前端设计指导工具，提供技能、命令和检测规则，帮助生成更规范的界面设计。",
-      "sourceHash": "5e8c9bdfd84056cae32209cec75415b8b19208bcf5d4654b23ccdd6cd653ae69",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-02T02:09:22.220Z"
-    },
     "hunxbyts/ghosttrack": {
       "summary": "GhostTrack 是一个用 Python 编写的开源情报工具，可追踪 IP 地址、手机号码和社交媒体用户名，用于信息收集。",
       "sourceHash": "f8e3a6afe9178754fef9f1081108fe83d926d3f4386cdd431646bdd04d7d91cc",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-02T02:09:21.978Z"
-    },
-    "pablostanley/yoinks": {
-      "summary": "yoinks 是一个 TypeScript 编写的终端视频下载工具，可从 YouTube、TikTok 等 1800 多个网站下载视频或提取 mp3 音频。",
-      "sourceHash": "95a27a0c053219a07bc0244b82f821889bb1645f95e22572acdce603de4be01a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-02T02:09:20.678Z"
     },
     "tile-ai/tilelang": {
       "summary": "TileLang 是一个基于 TVM 的领域特定语言，用 Python 语法简化高性能 GPU、CPU 和 NPU 算子内核的开发。",
@@ -43,68 +148,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-02T02:09:18.409Z"
     },
-    "heygen-com/hyperframes": {
-      "summary": "HyperFrames 是一个开源框架，用 HTML、CSS 和可定位动画生成确定性的 MP4 视频，可通过命令行或 AI 编程代理使用。",
-      "sourceHash": "c99128fcfc06dee39a461be16e1b1517a0bb4a927386c13fcf75cfe252816ad0",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-02T02:09:17.391Z"
-    },
-    "mksglu/context-mode": {
-      "summary": "Context Mode 是一个面向 AI 编程代理的 MCP 服务器，通过沙箱隔离工具输出、持久化会话记忆和路由规则来优化上下文窗口占用。",
-      "sourceHash": "5064436ad34250f63bc62821dcb2ea96a01d1036e1fdb0f9f35b78a2f8dd4e66",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-02T02:09:17.167Z"
-    },
-    "obra/superpowers": {
-      "summary": "Superpowers 是一套面向编码智能体的软件开发方法论，由可组合技能和初始指令构成，引导智能体按流程完成开发任务。",
-      "sourceHash": "ce16699cc583bbe2b362c2866b07bbf7a694a941b9379c43cfe89b2590cfe72b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-02T02:09:16.937Z"
-    },
-    "cursor/plugins": {
-      "summary": "这是 Cursor 官方插件仓库，收录面向开发工具、框架和 SaaS 产品的插件，每个插件以独立目录和清单文件形式组织。",
-      "sourceHash": "71263bd586ae7db2ea86722d5e0cac8c0d2dc57a0dd0226d2ae040d15d62fdc2",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-02T02:09:16.676Z"
-    },
-    "mvschwarz/openrig": {
-      "summary": "OpenRig 是开源的多智能体编排工具，用 YAML 定义由 Claude Code、Codex 等编码智能体组成的持久团队，并通过命令行统一启动和管理。",
-      "sourceHash": "c23908b5e4167182ea9dacdbcff425bdaabb9c71deef7133bd861a4621db73c0",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-02T02:09:15.595Z"
-    },
     "firebase/firebase-ios-sdk": {
       "summary": "这是 Firebase 为苹果平台提供的开源 SDK 源码仓库，包含除 FirebaseAnalytics 外的各 Firebase 库，供开发者在 iOS、macOS 等苹果应用中集成使用。",
       "sourceHash": "a6c9bbd776e35106438348104f1c937fc8f591e0f36151fc69d76b58b15fa954",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-02T02:09:14.590Z"
-    },
-    "nvidia/openshell": {
-      "summary": "OpenShell 是面向自主 AI 智能体的安全私有运行时，通过策略声明限制智能体对文件、系统调用、网络和凭据的访问。",
-      "sourceHash": "2d5a1b01f09d654588f19e5d56a821eefbe4ee5219b290a7e13cd49ceb399cfe",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-02T02:09:14.361Z"
-    },
-    "mattpocock/skills": {
-      "summary": "这是一套面向真实软件工程开发的 AI 代理技能集合，用于辅助编码、调试、设计与工作流管理，可通过 Claude Code 插件或 skills.sh 安装使用。",
-      "sourceHash": "0926a3f0424a5336c3429a0a3c905551d80c45ef7a91ccedfc5a4135ea145553",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-02T02:09:12.964Z"
-    },
-    "dietrichgebert/ponytail": {
-      "summary": "Ponytail 是一个让 AI 编程助手遵循极简原则的插件，在写代码前逐级判断是否真有必要，优先复用现有实现，避免过度设计和多余依赖。",
-      "sourceHash": "7d9e4fb8e7b3f2704b628a255f45b2ead1de1d4efa3e73fbd5d1ca0a507abd04",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-02T02:09:12.579Z"
     },
     "vectifyai/pageindex": {
       "summary": "PageIndex 是一个基于推理的无向量 RAG 引擎，用树形索引替代向量数据库和分块，面向长篇专业文档的检索与问答。",
@@ -126,13 +175,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-01T02:02:56.264Z"
-    },
-    "colbymchenry/codegraph": {
-      "summary": "CodeGraph 是一个本地预索引的代码知识图谱工具，为多种 AI 编程助手提供语义代码检索，减少 token 与工具调用。",
-      "sourceHash": "05e1482693e0052b7599af98d8bc466138469f1a1c5d0846093c878b3a121e50",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-01T02:02:55.967Z"
     },
     "byoungd/up": {
       "summary": "这是一份由韩先凯撰写、持续更新的中文书稿，围绕AI时代的终身学习，涵盖英语学习、AI应用、项目实践、人生复盘与低谷恢复等内容。",
@@ -658,48 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-19T01:08:01.748Z"
-    },
-    "ankitects/anki": {
-      "summary": "这是 Anki 电脑版源代码仓库，Anki 是一款基于间隔重复的智能记忆卡片程序，用于帮助用户高效学习和记忆。",
-      "sourceHash": "1858f41f1150340f31b237ec77b906d8c04d8817eec36297b4346bbeb94b7914",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-19T01:08:00.349Z"
-    },
-    "fission-ai/openspec": {
-      "summary": "OpenSpec 是一个面向 AI 编程助手的规范驱动开发工具，用轻量规范层让需求先达成一致，再让 AI 写代码。",
-      "sourceHash": "63ac3ec0651231faa72071989808307d873bc309ff3e7cded1260fc0dbe91a06",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-19T01:08:00.084Z"
-    },
-    "tencentcloud/octop": {
-      "summary": "Octop 是腾讯云开源的自托管 AI 助手平台，面向家庭和小团队，支持多用户、多智能体，可通过网页、命令行和多种即时通讯渠道使用。",
-      "sourceHash": "defb734f7eb5b01c2f50c444f456727b02f9cb4fbd66b317049e1ee88bf4d7e5",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-19T01:07:58.843Z"
-    },
-    "tencent/browserskill": {
-      "summary": "BrowserSkill 是腾讯开源的 TypeScript 工具，通过 CLI 和浏览器扩展让 AI 代理复用已登录的真实浏览器，在不打断用户工作的情况下完成网页自动化操作。",
-      "sourceHash": "01e7ef583d6ceddb81c45c0d2b649a5ae7978d90adbb6d64bd98fe29e1e1c728",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-19T01:07:57.484Z"
-    },
-    "alibaba/open-code-review": {
-      "summary": "阿里巴巴开源的 AI 代码审查命令行工具，采用确定性流程与大模型 Agent 混合架构，支持多语言规则检查并输出精确到行的评论。",
-      "sourceHash": "0a626dc2f156cc3e578882f219a61afe9c2113974043311404a2a80dcba8b13f",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-19T01:07:56.936Z"
-    },
-    "n8n-io/n8n": {
-      "summary": "n8n 是一个公平代码的工作流自动化平台，结合可视化画布与自定义代码，支持自托管或云端部署，用于构建和运行 AI 智能体及自动化流程。",
-      "sourceHash": "e32b4919790720b99a2c761dbe7f8f31a5445f2134c5911fb0bbd773f7b32653",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-18T01:14:07.532Z"
     }
   }
 }
