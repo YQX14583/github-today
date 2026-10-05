@@ -1,12 +1,110 @@
 {
   "version": 1,
   "entries": {
+    "antirez/ds4": {
+      "summary": "DwarfStar 是一个用 C 编写的本地大模型推理引擎，专为在消费级硬件上运行 DeepSeek、GLM、Qwen 等少数特定模型而优化。",
+      "sourceHash": "c88ca0fbf76c426a7e108d48d11034be9f86f51f5b1223910f06b3e231c359d3",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-05T01:52:40.478Z"
+    },
     "opencut-app/opencut": {
       "summary": "OpenCut 是一款免费开源的视频编辑器，支持网页、桌面和移动端，目前正基于 Rust 核心重写。",
       "sourceHash": "d6c998d101f931f3c10ca58bbf8dcfed61b226893765c2115cf533e3844e8101",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-04T02:32:10.662Z"
+      "lastUsedAt": "2026-10-05T01:52:39.020Z"
+    },
+    "garrytan/gstack": {
+      "summary": "gstack 是一套面向 Claude Code 的工具集，提供 CEO、设计、工程经理、发布、文档和 QA 等角色化技能，用于规划、评审、测试和发布软件。",
+      "sourceHash": "6759f20e34460c68cf4b93c36e566ffc4c7a8f23e0c429a64884b64922da2620",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-05T01:52:38.804Z"
+    },
+    "addyosmani/agent-skills": {
+      "summary": "这是一套面向 AI 编程代理的工程技能包，把资深工程师的开发流程、质量关卡与最佳实践固化为可安装的技能，覆盖需求、规划、编码、测试、评审到发布各阶段。",
+      "sourceHash": "46dcd29b929ef8fa7e6ab33ed15ad1490f3362b1b7f106d1433e4df0b0499547",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-05T01:52:37.303Z"
+    },
+    "michael-denyer/pstack-claude": {
+      "summary": "pstack 是 Lauren Tan 的 Cursor 技能栈移植版，为 Claude Code、Codex、Pi 等代理工具提供严谨的代理工作流，帮助保持代码简洁并经过验证。",
+      "sourceHash": "b9d5402b20f623717a6c8a1abd7a5b9b6c4f245b3b1433299c366f2f90b18338",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-05T01:52:37.132Z"
+    },
+    "caddyserver/caddy": {
+      "summary": "Caddy 是一个用 Go 编写的可扩展多平台 Web 服务器，默认自动启用 HTTPS，支持 HTTP/1、HTTP/2 和 HTTP/3。",
+      "sourceHash": "710beda71784effff5a9b028ea88c66ec4d00d666bb7355a64335ba9a99cf922",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-05T01:52:35.867Z"
+    },
+    "pingdotgg/t3code": {
+      "summary": "T3 Code 是一个智能体控制面板，可通过手机、网页和桌面应用远程操控本机的 Claude Code、Codex 等编程智能体。",
+      "sourceHash": "6080057328b93f680e6eb5b7b0ea5e723f429d07522fe388aa2b234839f76c89",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-05T01:52:34.629Z"
+    },
+    "calesthio/openmontage": {
+      "summary": "OpenMontage 是开源智能体视频制作系统，可让 AI 编程助手自动完成脚本、配音、素材与剪辑，生成完整视频。",
+      "sourceHash": "c826011b1e034dba34fcd4f01d2bdaddff6411b0f8f2a9cf784ec7803c9ad19d",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-05T01:52:34.440Z"
+    },
+    "getsentry/sentry": {
+      "summary": "Sentry 是一个面向开发者的调试平台，用于检测、追踪和修复代码错误，并提供性能监控功能。",
+      "sourceHash": "69c7f8eacf125d140ace49cbaeb2f4bd8dc8167381ac87b7410771a9789d4758",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-05T01:52:33.387Z"
+    },
+    "panniantong/agent-reach": {
+      "summary": "Agent Reach 是一个 Python 命令行工具，为 AI Agent 提供读取和搜索网页、Twitter、Reddit、YouTube、GitHub 等平台的能力，免费且无需 API 费用。",
+      "sourceHash": "a87ea5e8382d892263def90ba616c4d66be632db53101a9ee517ca75a6a1fb43",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-05T01:52:33.177Z"
+    },
+    "earthtojake/text-to-cad": {
+      "summary": "text-to-cad 是一个面向智能体的技能库，用于从本地项目文件生成、检查、获取、切片和交付 CAD 与机器人描述文件。",
+      "sourceHash": "6e97d30f7b5a315f9b47d9120d30b4b85f0ec111565ec652b8960a902905fc47",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-05T01:52:32.975Z"
+    },
+    "dietrichgebert/ponytail": {
+      "summary": "Ponytail 是一个让 AI 编程助手遵循极简原则的插件，在写代码前逐级判断是否真有必要，优先复用现有实现，避免过度设计和多余依赖。",
+      "sourceHash": "29ac72c3fd055e6cf601fa9d75dbc133c382ca6641e4bc425588a6779455f304",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-05T01:52:31.663Z"
+    },
+    "coreyhaines31/marketingskills": {
+      "summary": "这是一个面向 AI 编程代理的营销技能库，提供转化优化、文案、SEO、分析和增长工程等 Markdown 技能文件。",
+      "sourceHash": "2a056266e78a298871447a4dd4da30d3dfb4987f59a160891ff73930b8a32f93",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-05T01:52:30.409Z"
+    },
+    "pbakaus/impeccable": {
+      "summary": "Impeccable 是面向 AI 编程代理的前端设计指导工具，提供技能、命令和检测规则，帮助生成更规范的界面设计。",
+      "sourceHash": "5e8c9bdfd84056cae32209cec75415b8b19208bcf5d4654b23ccdd6cd653ae69",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-05T01:52:30.118Z"
+    },
+    "tester-army/e2e": {
+      "summary": "e2e 是一个面向 Web 和移动应用的端到端测试框架，可用自然语言描述目标，由智能体驱动应用完成操作，再用定位器和断言校验结果。",
+      "sourceHash": "dfab30c11818196ce972a53bb7faac22588c3ca8d8a03f64bac683c2682569ca",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-05T01:52:29.876Z"
     },
     "meituan-longcat/longcat-video": {
       "summary": "LongCat-Video 是美团开源的 136 亿参数视频生成基础模型，统一支持文生视频、图生视频和视频续写，擅长生成长时间高质量视频。",
@@ -28,13 +126,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-04T02:32:06.681Z"
-    },
-    "getsentry/sentry": {
-      "summary": "Sentry 是一个面向开发者的调试平台，用于检测、追踪和修复代码错误，并提供性能监控功能。",
-      "sourceHash": "69c7f8eacf125d140ace49cbaeb2f4bd8dc8167381ac87b7410771a9789d4758",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-04T02:32:06.464Z"
     },
     "earendil-works/pi": {
       "summary": "Pi 是一个用 TypeScript 编写的极简可扩展 AI 代理工具包，提供统一 LLM API、代理循环、终端界面和编码代理命令行工具。",
@@ -64,33 +155,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-04T02:32:04.189Z"
     },
-    "addyosmani/agent-skills": {
-      "summary": "这是一套面向 AI 编程代理的工程技能包，把资深工程师的开发流程、质量关卡与最佳实践固化为可安装的技能，覆盖需求、规划、编码、测试、评审到发布各阶段。",
-      "sourceHash": "46dcd29b929ef8fa7e6ab33ed15ad1490f3362b1b7f106d1433e4df0b0499547",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-04T02:32:03.938Z"
-    },
     "cloudflare/cloudflare-os": {
       "summary": "Cloudflare OS 是基于 Cloudflare Workers 的 AI 办公环境，让用户用 AI 生成文档和应用，并在沙箱中安全运行。",
       "sourceHash": "9689e2122a934e8ee8beec0777ff3b0a242e4081733287559e7ab9d9401bf386",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-04T02:32:02.734Z"
-    },
-    "pingdotgg/t3code": {
-      "summary": "T3 Code 是一个智能体控制面板，可通过手机、网页和桌面应用远程操控本机的 Claude Code、Codex 等编程智能体。",
-      "sourceHash": "6080057328b93f680e6eb5b7b0ea5e723f429d07522fe388aa2b234839f76c89",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-04T02:32:01.116Z"
-    },
-    "panniantong/agent-reach": {
-      "summary": "Agent Reach 是一个 Python 命令行工具，为 AI Agent 提供读取和搜索网页、Twitter、Reddit、YouTube、GitHub 等平台的能力，免费且无需 API 费用。",
-      "sourceHash": "a87ea5e8382d892263def90ba616c4d66be632db53101a9ee517ca75a6a1fb43",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-04T02:31:59.740Z"
     },
     "juliusbrussee/caveman": {
       "summary": "Caveman 是一个面向 AI 编程代理的开源工具，通过让代理用原始人式简短语言回答，并代理压缩其读取的上下文，减少约 65% 的 token 消耗。",
@@ -112,20 +182,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-04T02:31:56.777Z"
-    },
-    "pbakaus/impeccable": {
-      "summary": "Impeccable 是面向 AI 编程代理的前端设计指导工具，提供技能、命令和检测规则，帮助生成更规范的界面设计。",
-      "sourceHash": "5e8c9bdfd84056cae32209cec75415b8b19208bcf5d4654b23ccdd6cd653ae69",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-04T02:31:55.698Z"
-    },
-    "dietrichgebert/ponytail": {
-      "summary": "Ponytail 是一个给 AI 编程助手用的插件，通过分级规则让代理优先复用现有代码、避免过度设计，从而少写代码。",
-      "sourceHash": "e4127230eb1af9a707ca9886720085f90ad4ad6cd855a93fc294badafb64b15b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-04T02:31:55.506Z"
     },
     "pablostanley/yoinks": {
       "summary": "yoinks 是一个 TypeScript 编写的终端视频下载工具，可从 YouTube、TikTok 等 1800 多个网站下载视频或提取 mp3 音频。",
@@ -168,13 +224,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-03T01:52:41.193Z"
-    },
-    "coreyhaines31/marketingskills": {
-      "summary": "这是一个面向 AI 编程代理的营销技能库，提供转化优化、文案、SEO、分析和增长工程等 Markdown 技能文件。",
-      "sourceHash": "2a056266e78a298871447a4dd4da30d3dfb4987f59a160891ff73930b8a32f93",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-03T01:52:40.990Z"
     },
     "nvidia/openshell": {
       "summary": "OpenShell 是面向自主 AI 智能体的安全私有运行时，通过策略声明限制智能体对文件、系统调用、网络和凭据的访问。",
@@ -651,55 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-21T01:01:24.220Z"
-    },
-    "paperless-ngx/paperless-ngx": {
-      "summary": "Paperless-ngx 是一个文档管理系统，可将纸质文件扫描、索引并归档为可搜索的在线档案，方便用户管理文档。",
-      "sourceHash": "d55fa273fc629b49b50644753d699c17d6e6892beccf6b98f9f58bca1faa15f1",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-21T01:01:22.647Z"
-    },
-    "cloudflare/security-audit-skill": {
-      "summary": "这是一个让编码智能体执行多阶段安全审计的技能，通过侦察、漏洞搜寻、独立验证和结构化报告，输出可机器读取的审计发现。",
-      "sourceHash": "d49f83911dbb4cc72ae67d1701f23de8ed840a0b4596722c3d99c3a0d82ee68b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-21T01:01:20.232Z"
-    },
-    "cactus-compute/needle": {
-      "summary": "Needle 是面向手机、可穿戴设备、机器人和单片机的自动化基础模型，体积 8-29 MB，支持工具调用、结构化抽取和嵌入。",
-      "sourceHash": "e470fab7d279f4c31bdb9800b71da34816ac6a15b30b2de7117c4a3682f35e5b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-20T01:00:47.047Z"
-    },
-    "anthropics/knowledge-work-plugins": {
-      "summary": "这是 Anthropic 开源的知识工作插件仓库，为 Claude Cowork 和 Claude Code 提供面向销售、数据等岗位的插件，让 Claude 按团队流程完成专业工作。",
-      "sourceHash": "ef129cfdf82c1174376c99765bf6b39c58014ad9601fe6d59d7bd9846ba08df0",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-20T01:00:45.952Z"
-    },
-    "zuodaotech/everyone-can-use-english": {
-      "summary": "这是一个英语学习项目，提供网页版、浏览器插件和桌面版工具，借助 AI 辅助用户学习外语，并附有相关教程与书籍内容。",
-      "sourceHash": "29ab6ca2d59921d1d2f54633259ece946994320240f25b96d3c702840b58e175",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-20T01:00:45.794Z"
-    },
-    "asciimoo/hister": {
-      "summary": "Hister 是一个用 Go 编写的私有搜索引擎，可对访问过的网页和本地文件做全文索引，并通过网页、终端或 MCP 客户端检索。",
-      "sourceHash": "a9ae99e0445439373a88bcbd50f1761dd4409abd0305d1740bf8314128dcaffe",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-20T01:00:43.373Z"
-    },
-    "docling-project/docling": {
-      "summary": "Docling 是一个 Python 文档处理库，可解析 PDF、Office、图片、音视频等多种格式，并导出为 Markdown 等结构化结果，供生成式 AI 使用。",
-      "sourceHash": "941900a695a9ef915c7f712e2bc8a0d0bcf0642fcb4b4f7d8d2123ed92e80a88",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-20T01:00:40.686Z"
     }
   }
 }
