@@ -1,6 +1,90 @@
 {
   "version": 1,
   "entries": {
+    "m-abozaid/esp32-c3-adblock": {
+      "summary": "在无 PSRAM 的 ESP32-C3 上运行的 DNS 广告拦截器，将五十多万域名以哈希表存于闪存并二分查找，实现拦截与转发。",
+      "sourceHash": "eeb758caba923d20dc138b9496785da79aea56130a1d3ce2ed27286554af39ce",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-06T02:54:26.125Z"
+    },
+    "msitarzewski/agency-agents": {
+      "summary": "这是一个 AI 智能体角色集合，按工程、设计、营销、销售等职能提供专业提示词，可安装到 Claude Code、Cursor 等工具中使用。",
+      "sourceHash": "024f07e6ec0dcbf12cf039a82e5120d04b07cfcaa64d462e818e61a687ebf119",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-06T02:54:25.163Z"
+    },
+    "stremio/stremio-web": {
+      "summary": "Stremio 官方网页版界面，基于 React 构建，用于在浏览器中观看电影、剧集和频道并同步账号数据。",
+      "sourceHash": "d59c9608c59f414e1fc14508f1b4a5d3e92f079502f232badfe969534e61f52e",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-06T02:54:23.808Z"
+    },
+    "cloudflare/cloudflare-os": {
+      "summary": "Cloudflare OS 是基于 Cloudflare Workers 的 AI 办公环境，让用户用 AI 生成文档和应用，并在沙箱中安全运行。",
+      "sourceHash": "9689e2122a934e8ee8beec0777ff3b0a242e4081733287559e7ab9d9401bf386",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-06T02:54:22.376Z"
+    },
+    "duartesantos8/opengym": {
+      "summary": "openGym 是一个自托管的健身与体重记录工具，用于规划训练计划、记录组数与体重，并查看肌肉训练状态，数据保存在自己的服务器上。",
+      "sourceHash": "92cbd8c7b24a909fbff6577f3ef9b0e084c3b2fd1d7068a14c402d11a267f39d",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-06T02:54:22.117Z"
+    },
+    "caddyserver/caddy": {
+      "summary": "Caddy 是一个用 Go 编写的可扩展多平台 Web 服务器，默认自动启用 HTTPS，支持 HTTP/1、HTTP/2 和 HTTP/3。",
+      "sourceHash": "710beda71784effff5a9b028ea88c66ec4d00d666bb7355a64335ba9a99cf922",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-06T02:54:21.139Z"
+    },
+    "calesthio/openmontage": {
+      "summary": "OpenMontage 是开源智能体视频制作系统，可让 AI 编程助手自动完成脚本、配音、素材与剪辑，生成完整视频。",
+      "sourceHash": "c826011b1e034dba34fcd4f01d2bdaddff6411b0f8f2a9cf784ec7803c9ad19d",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-06T02:54:20.923Z"
+    },
+    "panniantong/agent-reach": {
+      "summary": "Agent Reach 是一个 Python 命令行工具，为 AI Agent 提供读取和搜索网页、Twitter、Reddit、YouTube、GitHub 等平台的能力，免费且无需 API 费用。",
+      "sourceHash": "a87ea5e8382d892263def90ba616c4d66be632db53101a9ee517ca75a6a1fb43",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-06T02:54:20.686Z"
+    },
+    "boykopovar/anyps5": {
+      "summary": "AnyPS5 是一个用 C++ 编写的工具，可将 PS5 可执行文件自动移植到 Linux 和 Windows，通过重链接和系统库实现原生动态链接，而非模拟运行。",
+      "sourceHash": "a91da16131528f79fab529319e7aa7827b699bc3afc01f9879a8f3a16588fb08",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-06T02:54:20.473Z"
+    },
+    "pingdotgg/t3code": {
+      "summary": "T3 Code 是一个智能体控制面板，可通过手机、网页和桌面应用远程操控本机的 Claude Code、Codex 等编程智能体。",
+      "sourceHash": "6080057328b93f680e6eb5b7b0ea5e723f429d07522fe388aa2b234839f76c89",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-06T02:54:19.354Z"
+    },
+    "earthtojake/text-to-cad": {
+      "summary": "text-to-cad 是一个 Python 插件，为 AI 代理提供本地生成 STEP、GLB、STL、3MF 等三维模型文件的工作流，并支持可制造性设计检查。",
+      "sourceHash": "9021b8e4c323e60adeb8928f9ee024b1d9f74e4e8c14c847c3deb1d08682832a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-06T02:54:19.144Z"
+    },
+    "tester-army/e2e": {
+      "summary": "e2e 是一个面向 Web 和移动应用的端到端测试框架，可用自然语言描述目标，由智能体驱动应用完成操作，再用定位器和断言验证结果。",
+      "sourceHash": "a91152d8f0ca762835a6342512980a7486c3e2482f6cfff889207d1b4479f908",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-06T02:54:17.391Z"
+    },
     "antirez/ds4": {
       "summary": "DwarfStar 是一个用 C 编写的本地大模型推理引擎，专为在消费级硬件上运行 DeepSeek、GLM、Qwen 等少数特定模型而优化。",
       "sourceHash": "c88ca0fbf76c426a7e108d48d11034be9f86f51f5b1223910f06b3e231c359d3",
@@ -36,47 +120,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-05T01:52:37.132Z"
     },
-    "caddyserver/caddy": {
-      "summary": "Caddy 是一个用 Go 编写的可扩展多平台 Web 服务器，默认自动启用 HTTPS，支持 HTTP/1、HTTP/2 和 HTTP/3。",
-      "sourceHash": "710beda71784effff5a9b028ea88c66ec4d00d666bb7355a64335ba9a99cf922",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-05T01:52:35.867Z"
-    },
-    "pingdotgg/t3code": {
-      "summary": "T3 Code 是一个智能体控制面板，可通过手机、网页和桌面应用远程操控本机的 Claude Code、Codex 等编程智能体。",
-      "sourceHash": "6080057328b93f680e6eb5b7b0ea5e723f429d07522fe388aa2b234839f76c89",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-05T01:52:34.629Z"
-    },
-    "calesthio/openmontage": {
-      "summary": "OpenMontage 是开源智能体视频制作系统，可让 AI 编程助手自动完成脚本、配音、素材与剪辑，生成完整视频。",
-      "sourceHash": "c826011b1e034dba34fcd4f01d2bdaddff6411b0f8f2a9cf784ec7803c9ad19d",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-05T01:52:34.440Z"
-    },
     "getsentry/sentry": {
       "summary": "Sentry 是一个面向开发者的调试平台，用于检测、追踪和修复代码错误，并提供性能监控功能。",
       "sourceHash": "69c7f8eacf125d140ace49cbaeb2f4bd8dc8167381ac87b7410771a9789d4758",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-05T01:52:33.387Z"
-    },
-    "panniantong/agent-reach": {
-      "summary": "Agent Reach 是一个 Python 命令行工具，为 AI Agent 提供读取和搜索网页、Twitter、Reddit、YouTube、GitHub 等平台的能力，免费且无需 API 费用。",
-      "sourceHash": "a87ea5e8382d892263def90ba616c4d66be632db53101a9ee517ca75a6a1fb43",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-05T01:52:33.177Z"
-    },
-    "earthtojake/text-to-cad": {
-      "summary": "text-to-cad 是一个面向智能体的技能库，用于从本地项目文件生成、检查、获取、切片和交付 CAD 与机器人描述文件。",
-      "sourceHash": "6e97d30f7b5a315f9b47d9120d30b4b85f0ec111565ec652b8960a902905fc47",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-05T01:52:32.975Z"
     },
     "dietrichgebert/ponytail": {
       "summary": "Ponytail 是一个让 AI 编程助手遵循极简原则的插件，在写代码前逐级判断是否真有必要，优先复用现有实现，避免过度设计和多余依赖。",
@@ -98,13 +147,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-05T01:52:30.118Z"
-    },
-    "tester-army/e2e": {
-      "summary": "e2e 是一个面向 Web 和移动应用的端到端测试框架，可用自然语言描述目标，由智能体驱动应用完成操作，再用定位器和断言校验结果。",
-      "sourceHash": "dfab30c11818196ce972a53bb7faac22588c3ca8d8a03f64bac683c2682569ca",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-05T01:52:29.876Z"
     },
     "meituan-longcat/longcat-video": {
       "summary": "LongCat-Video 是美团开源的 136 亿参数视频生成基础模型，统一支持文生视频、图生视频和视频续写，擅长生成长时间高质量视频。",
@@ -154,13 +196,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-04T02:32:04.189Z"
-    },
-    "cloudflare/cloudflare-os": {
-      "summary": "Cloudflare OS 是基于 Cloudflare Workers 的 AI 办公环境，让用户用 AI 生成文档和应用，并在沙箱中安全运行。",
-      "sourceHash": "9689e2122a934e8ee8beec0777ff3b0a242e4081733287559e7ab9d9401bf386",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-04T02:32:02.734Z"
     },
     "juliusbrussee/caveman": {
       "summary": "Caveman 是一个面向 AI 编程代理的开源工具，通过让代理用原始人式简短语言回答，并代理压缩其读取的上下文，减少约 65% 的 token 消耗。",
@@ -665,41 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-22T01:34:39.276Z"
-    },
-    "akitaonrails/ai-memory": {
-      "summary": "为 AI 编程代理提供长期记忆的 Rust 工具，记录会话并生成交接摘要，让不同厂商的代理在同一项目中无缝接续工作。",
-      "sourceHash": "3bedb1e13c657b5ec5ae49b0b2b193181e54eba47cf7c1f315cc5da4b5c9133e",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-22T01:34:39.050Z"
-    },
-    "trycua/cua": {
-      "summary": "Cua 是面向计算机使用智能体的开源项目，提供桌面自动化驱动、隔离云桌面、本地 macOS 虚拟机、专用决策模型及评测基准。",
-      "sourceHash": "6b00bbe7019605b5d4555521ca91fff5be1fcb0169d23037ac3132e8dc50f4be",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-22T01:34:37.318Z"
-    },
-    "vercel-labs/json-render": {
-      "summary": "json-render 是一个生成式 UI 框架，让 AI 根据自然语言提示生成界面，并限制在开发者预定义的安全组件内，支持 React、Vue、Svelte 等多种渲染目标。",
-      "sourceHash": "f492a410e2042c946bf80222d6b31faa229532bfd23ba582a7ab11ca19cf32d6",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-21T01:01:26.568Z"
-    },
-    "higgsfield-ai/higgsfield": {
-      "summary": "Higgsfield 是开源容错、可扩展的 GPU 编排与机器学习框架，用于训练数十亿至数万亿参数的大模型，如大语言模型。",
-      "sourceHash": "f3c2a808d7bd9ac6d089a07195aa8b8c1d4ec197ae25854708436179ec3aff50",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-21T01:01:24.434Z"
-    },
-    "mihail911/modern-software-dev-assignments": {
-      "summary": "这是斯坦福大学 CS146S 现代软件开发课程的作业仓库，用 Python 编写，包含课程作业代码与基于 Conda 和 Poetry 的环境配置说明。",
-      "sourceHash": "572a569634919471bb37741a5c3fa6bfb7c412a908b34448b2c51f567bac6666",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-21T01:01:24.220Z"
     }
   }
 }
