@@ -1,19 +1,89 @@
 {
   "version": 1,
   "entries": {
-    "m-abozaid/esp32-c3-adblock": {
-      "summary": "在无 PSRAM 的 ESP32-C3 上运行的 DNS 广告拦截器，将五十多万域名以哈希表存于闪存并二分查找，实现拦截与转发。",
-      "sourceHash": "eeb758caba923d20dc138b9496785da79aea56130a1d3ce2ed27286554af39ce",
+    "cathrynlavery/diagram-design": {
+      "summary": "为 Claude Code 等 AI 编程工具提供编辑风格图表设计技能，含 42 种图表类型，输出自包含 HTML 与 SVG。",
+      "sourceHash": "778e2540d605df789201d7d0dc92f4d16f8e6597555e3346a83e098f1f2effca",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-06T02:54:26.125Z"
+      "lastUsedAt": "2026-10-07T02:17:04.456Z"
+    },
+    "duartesantos8/opengym": {
+      "summary": "openGym 是一个可自托管的健身与体重记录工具，用于规划训练计划、记录组数与体重，并查看肌肉训练状态。",
+      "sourceHash": "87e22d8f34b4e99d04b9a3b8f8260a19accbb00b45bc781240e60cff6f18cea2",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-07T02:17:03.258Z"
     },
     "msitarzewski/agency-agents": {
       "summary": "这是一个 AI 智能体角色集合，按工程、设计、营销、销售等职能提供专业提示词，可安装到 Claude Code、Cursor 等工具中使用。",
       "sourceHash": "024f07e6ec0dcbf12cf039a82e5120d04b07cfcaa64d462e818e61a687ebf119",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-06T02:54:25.163Z"
+      "lastUsedAt": "2026-10-07T02:17:01.983Z"
+    },
+    "deepseek-ai/deepgemm": {
+      "summary": "DeepGEMM 是面向 NVIDIA GPU 的高性能张量核心算子库，提供 FP8、FP4、BF16 矩阵乘法及融合 MoE 等大模型计算原语。",
+      "sourceHash": "74543d83138dcadae0116741412dbcc56bf9e78a2fe73ba842528b62e62ebdd1",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-07T02:17:01.780Z"
+    },
+    "morluto/rea": {
+      "summary": "REA 是一个面向 AI 代理的逆向工程工具，可分析二进制、应用程序与运行时行为，帮助理解功能实现到二进制层面的细节。",
+      "sourceHash": "f4824cf482431620c1036f50d6f4634b4ad8af49b1deb6d39d6425d6cf7644d5",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-07T02:17:00.736Z"
+    },
+    "ayghri/i-have-adhd": {
+      "summary": "这是一个面向编程助手的技能插件，让 AI 先给答案和操作步骤，避免冗长铺垫，输出更简洁直接。",
+      "sourceHash": "e6303105487ad10107602e11efa6dddd935aa525ea8692d0fa973bd79f850218",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-07T02:16:59.618Z"
+    },
+    "pbakaus/impeccable": {
+      "summary": "Impeccable 是面向 AI 编程代理的前端设计指导工具，提供技能、命令和检测规则，帮助生成更规范的界面设计。",
+      "sourceHash": "75dcaad9e34f79d155aeab4d49c5450cd744e42608e227a7a6675bcf3d31acbf",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-07T02:16:57.616Z"
+    },
+    "boykopovar/anyps5": {
+      "summary": "AnyPS5 是一个用 C++ 编写的工具，可将 PS5 可执行文件自动移植到 Linux 和 Windows，通过重链接和系统库实现原生动态链接，而非模拟运行。",
+      "sourceHash": "a91da16131528f79fab529319e7aa7827b699bc3afc01f9879a8f3a16588fb08",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-07T02:16:56.389Z"
+    },
+    "earthtojake/text-to-cad": {
+      "summary": "text-to-cad 是一个面向 AI 代理的插件，提供本地生成 STEP、GLB、STL、3MF 等三维模型文件的工作流，并支持可制造性设计检查。",
+      "sourceHash": "92e8d343f9ee5fa7f895c3b8c1fda298a309c4b3dd671197cf933ff9198d9531",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-07T02:16:56.232Z"
+    },
+    "mattpocock/skills": {
+      "summary": "这是一套面向真实工程开发的 AI 代理技能集合，用于代码编写、调试与工作流管理，可通过插件或复制文件方式安装到项目中使用。",
+      "sourceHash": "3390a3a0b147a4e0db79fd0e7d347c00c4b43c15ae42c3d57020b70189014841",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-07T02:16:55.158Z"
+    },
+    "tester-army/e2e": {
+      "summary": "e2e 是一个面向 Web 和移动应用的端到端测试框架，可用自然语言描述目标，由智能体驱动应用完成操作，再用定位器和断言验证结果。",
+      "sourceHash": "a91152d8f0ca762835a6342512980a7486c3e2482f6cfff889207d1b4479f908",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-07T02:16:53.953Z"
+    },
+    "m-abozaid/esp32-c3-adblock": {
+      "summary": "在无 PSRAM 的 ESP32-C3 上运行的 DNS 广告拦截器，将五十多万域名以哈希表存于闪存并二分查找，实现拦截与转发。",
+      "sourceHash": "eeb758caba923d20dc138b9496785da79aea56130a1d3ce2ed27286554af39ce",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-06T02:54:26.125Z"
     },
     "stremio/stremio-web": {
       "summary": "Stremio 官方网页版界面，基于 React 构建，用于在浏览器中观看电影、剧集和频道并同步账号数据。",
@@ -28,13 +98,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-06T02:54:22.376Z"
-    },
-    "duartesantos8/opengym": {
-      "summary": "openGym 是一个自托管的健身与体重记录工具，用于规划训练计划、记录组数与体重，并查看肌肉训练状态，数据保存在自己的服务器上。",
-      "sourceHash": "92cbd8c7b24a909fbff6577f3ef9b0e084c3b2fd1d7068a14c402d11a267f39d",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-06T02:54:22.117Z"
     },
     "caddyserver/caddy": {
       "summary": "Caddy 是一个用 Go 编写的可扩展多平台 Web 服务器，默认自动启用 HTTPS，支持 HTTP/1、HTTP/2 和 HTTP/3。",
@@ -57,33 +120,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-06T02:54:20.686Z"
     },
-    "boykopovar/anyps5": {
-      "summary": "AnyPS5 是一个用 C++ 编写的工具，可将 PS5 可执行文件自动移植到 Linux 和 Windows，通过重链接和系统库实现原生动态链接，而非模拟运行。",
-      "sourceHash": "a91da16131528f79fab529319e7aa7827b699bc3afc01f9879a8f3a16588fb08",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-06T02:54:20.473Z"
-    },
     "pingdotgg/t3code": {
       "summary": "T3 Code 是一个智能体控制面板，可通过手机、网页和桌面应用远程操控本机的 Claude Code、Codex 等编程智能体。",
       "sourceHash": "6080057328b93f680e6eb5b7b0ea5e723f429d07522fe388aa2b234839f76c89",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-06T02:54:19.354Z"
-    },
-    "earthtojake/text-to-cad": {
-      "summary": "text-to-cad 是一个 Python 插件，为 AI 代理提供本地生成 STEP、GLB、STL、3MF 等三维模型文件的工作流，并支持可制造性设计检查。",
-      "sourceHash": "9021b8e4c323e60adeb8928f9ee024b1d9f74e4e8c14c847c3deb1d08682832a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-06T02:54:19.144Z"
-    },
-    "tester-army/e2e": {
-      "summary": "e2e 是一个面向 Web 和移动应用的端到端测试框架，可用自然语言描述目标，由智能体驱动应用完成操作，再用定位器和断言验证结果。",
-      "sourceHash": "a91152d8f0ca762835a6342512980a7486c3e2482f6cfff889207d1b4479f908",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-06T02:54:17.391Z"
     },
     "antirez/ds4": {
       "summary": "DwarfStar 是一个用 C 编写的本地大模型推理引擎，专为在消费级硬件上运行 DeepSeek、GLM、Qwen 等少数特定模型而优化。",
@@ -141,13 +183,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-05T01:52:30.409Z"
     },
-    "pbakaus/impeccable": {
-      "summary": "Impeccable 是面向 AI 编程代理的前端设计指导工具，提供技能、命令和检测规则，帮助生成更规范的界面设计。",
-      "sourceHash": "5e8c9bdfd84056cae32209cec75415b8b19208bcf5d4654b23ccdd6cd653ae69",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-05T01:52:30.118Z"
-    },
     "meituan-longcat/longcat-video": {
       "summary": "LongCat-Video 是美团开源的 136 亿参数视频生成基础模型，统一支持文生视频、图生视频和视频续写，擅长生成长时间高质量视频。",
       "sourceHash": "370e7df837756a413c6d95da1b0e69e53f07451fa111eadfb7469b8bd19e46b2",
@@ -182,13 +217,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-04T02:32:04.723Z"
-    },
-    "mattpocock/skills": {
-      "summary": "这是一套面向真实软件工程开发的 AI 代理技能集合，用于辅助编码、调试、设计与工作流管理，可通过 Claude Code 插件或 skills.sh 安装使用。",
-      "sourceHash": "0926a3f0424a5336c3429a0a3c905551d80c45ef7a91ccedfc5a4135ea145553",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-04T02:32:04.498Z"
     },
     "obra/superpowers": {
       "summary": "Superpowers 是一套面向编码智能体的软件开发方法论，由可组合技能和初始指令构成，引导智能体按流程完成开发任务。",
@@ -672,34 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-22T01:34:43.139Z"
-    },
-    "ruanyf/weekly": {
-      "summary": "这是一个每周五发布的科技爱好者周刊，记录值得分享的科技内容，并接受文章、软件和资源投稿。",
-      "sourceHash": "9ac9011bd8362afa358e4ad16c836a305b63300b4183a151d35596d86f75c4d4",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-22T01:34:42.808Z"
-    },
-    "zhouxiaoka/autoclip": {
-      "summary": "AutoClip 是一款用 AI 分析字幕、定位高光并自动剪出片段与合集的视频二创工具，支持桌面、Docker 和命令行使用。",
-      "sourceHash": "5dc965896a09bff42ac51f086142af5c1ff2a4481ad1643d2ae5b86a43240340",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-22T01:34:42.590Z"
-    },
-    "cloudflare/quiche": {
-      "summary": "quiche 是 Cloudflare 用 Rust 实现的 QUIC 传输协议与 HTTP/3 库，提供处理 QUIC 数据包和连接状态的底层 API，由应用负责 I/O 与事件循环。",
-      "sourceHash": "261a7a9e21e367a1affd2f351bf587c050206a701c8ab115ea875023ece0dadf",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-22T01:34:39.814Z"
-    },
-    "coder/coder": {
-      "summary": "Coder 是一个自托管的云开发环境与 AI 编程代理平台，用 Go 编写，可在自有基础设施上为开发者和 AI 代理提供安全的工作空间。",
-      "sourceHash": "67461f4d65b509949e6942059a3f806396305de0bb13643c15f0385c579f3463",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-22T01:34:39.276Z"
     }
   }
 }
