@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-07",
-  "updatedAt": "2026-10-07T02:17:04.456Z",
+  "date": "2026-10-08",
+  "updatedAt": "2026-10-08T02:39:50.687Z",
   "repositories": [
     {
-      "owner": "tester-army",
-      "name": "e2e",
-      "url": "https://github.com/tester-army/e2e",
-      "description": "Next generation e2e testing framework for web and mobile apps.",
+      "owner": "morluto",
+      "name": "rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "stars": 6406,
-      "starsToday": 1725,
-      "slug": "tester-army--e2e",
-      "sourceHash": "a91152d8f0ca762835a6342512980a7486c3e2482f6cfff889207d1b4479f908",
-      "summary": "e2e 是一个面向 Web 和移动应用的端到端测试框架，可用自然语言描述目标，由智能体驱动应用完成操作，再用定位器和断言验证结果。"
+      "stars": 15825,
+      "starsToday": 4655,
+      "slug": "morluto--rea",
+      "sourceHash": "f8b8474a1be60b4564b67b658273bb6895c2334849a6bb58828d26240b1c6e78",
+      "summary": "REA 是一个面向 AI 智能体的逆向工程 MCP 工具，可分析二进制、应用与运行时行为，帮助理解功能实现到二进制层面的原理。"
     },
     {
       "owner": "mattpocock",
@@ -20,23 +20,11 @@
       "url": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "stars": 278208,
-      "starsToday": 889,
+      "stars": 279735,
+      "starsToday": 1403,
       "slug": "mattpocock--skills",
-      "sourceHash": "3390a3a0b147a4e0db79fd0e7d347c00c4b43c15ae42c3d57020b70189014841",
-      "summary": "这是一套面向真实工程开发的 AI 代理技能集合，用于代码编写、调试与工作流管理，可通过插件或复制文件方式安装到项目中使用。"
-    },
-    {
-      "owner": "earthtojake",
-      "name": "text-to-cad",
-      "url": "https://github.com/earthtojake/text-to-cad",
-      "description": "Give your agent CAD superpowers.",
-      "language": "Python",
-      "stars": 18016,
-      "starsToday": 619,
-      "slug": "earthtojake--text-to-cad",
-      "sourceHash": "92e8d343f9ee5fa7f895c3b8c1fda298a309c4b3dd671197cf933ff9198d9531",
-      "summary": "text-to-cad 是一个面向 AI 代理的插件，提供本地生成 STEP、GLB、STL、3MF 等三维模型文件的工作流，并支持可制造性设计检查。"
+      "sourceHash": "ff0126822426c6eaffaeea423e89510dd44b76b8380c8d8b911d41d34b6cde3c",
+      "summary": "这是一套面向真实软件工程的 AI 代理技能集合，用于规范编码代理的工作流程，帮助开发者按工程实践完成需求梳理、调试与代码设计。"
     },
     {
       "owner": "boykopovar",
@@ -44,23 +32,11 @@
       "url": "https://github.com/boykopovar/AnyPS5",
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "language": "C++",
-      "stars": 6666,
-      "starsToday": 949,
+      "stars": 10848,
+      "starsToday": 2716,
       "slug": "boykopovar--AnyPS5",
-      "sourceHash": "a91da16131528f79fab529319e7aa7827b699bc3afc01f9879a8f3a16588fb08",
-      "summary": "AnyPS5 是一个用 C++ 编写的工具，可将 PS5 可执行文件自动移植到 Linux 和 Windows，通过重链接和系统库实现原生动态链接，而非模拟运行。"
-    },
-    {
-      "owner": "pbakaus",
-      "name": "impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "description": "The design language that makes your AI harness better at design.",
-      "language": "JavaScript",
-      "stars": 77731,
-      "starsToday": 616,
-      "slug": "pbakaus--impeccable",
-      "sourceHash": "75dcaad9e34f79d155aeab4d49c5450cd744e42608e227a7a6675bcf3d31acbf",
-      "summary": "Impeccable 是面向 AI 编程代理的前端设计指导工具，提供技能、命令和检测规则，帮助生成更规范的界面设计。"
+      "sourceHash": "224288deaea0af3c4d43132f17c9ba2fc063800d2a3b8ae361457f875711ca15",
+      "summary": "AnyPS5 是一个用 C++ 编写的工具，可将 PS5 可执行文件自动移植到 Linux 和 Windows，通过重链接和系统库实现原生运行，而非模拟。"
     },
     {
       "owner": "ayghri",
@@ -68,59 +44,11 @@
       "url": "https://github.com/ayghri/i-have-adhd",
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "language": "Python",
-      "stars": 54442,
-      "starsToday": 326,
+      "stars": 55196,
+      "starsToday": 619,
       "slug": "ayghri--i-have-adhd",
       "sourceHash": "e6303105487ad10107602e11efa6dddd935aa525ea8692d0fa973bd79f850218",
       "summary": "这是一个面向编程助手的技能插件，让 AI 先给答案和操作步骤，避免冗长铺垫，输出更简洁直接。"
-    },
-    {
-      "owner": "morluto",
-      "name": "rea",
-      "url": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "language": "TypeScript",
-      "stars": 9674,
-      "starsToday": 2956,
-      "slug": "morluto--rea",
-      "sourceHash": "f4824cf482431620c1036f50d6f4634b4ad8af49b1deb6d39d6425d6cf7644d5",
-      "summary": "REA 是一个面向 AI 代理的逆向工程工具，可分析二进制、应用程序与运行时行为，帮助理解功能实现到二进制层面的细节。"
-    },
-    {
-      "owner": "deepseek-ai",
-      "name": "DeepGEMM",
-      "url": "https://github.com/deepseek-ai/DeepGEMM",
-      "description": "DeepGEMM: clean and efficient BLAS kernel library on GPU",
-      "language": "Cuda",
-      "stars": 8728,
-      "starsToday": 199,
-      "slug": "deepseek-ai--DeepGEMM",
-      "sourceHash": "74543d83138dcadae0116741412dbcc56bf9e78a2fe73ba842528b62e62ebdd1",
-      "summary": "DeepGEMM 是面向 NVIDIA GPU 的高性能张量核心算子库，提供 FP8、FP4、BF16 矩阵乘法及融合 MoE 等大模型计算原语。"
-    },
-    {
-      "owner": "msitarzewski",
-      "name": "agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-      "language": "Shell",
-      "stars": 157859,
-      "starsToday": 623,
-      "slug": "msitarzewski--agency-agents",
-      "sourceHash": "024f07e6ec0dcbf12cf039a82e5120d04b07cfcaa64d462e818e61a687ebf119",
-      "summary": "这是一个 AI 智能体角色集合，按工程、设计、营销、销售等职能提供专业提示词，可安装到 Claude Code、Cursor 等工具中使用。"
-    },
-    {
-      "owner": "DuarteSantos8",
-      "name": "openGym",
-      "url": "https://github.com/DuarteSantos8/openGym",
-      "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
-      "language": "JavaScript",
-      "stars": 5764,
-      "starsToday": 1419,
-      "slug": "DuarteSantos8--openGym",
-      "sourceHash": "87e22d8f34b4e99d04b9a3b8f8260a19accbb00b45bc781240e60cff6f18cea2",
-      "summary": "openGym 是一个可自托管的健身与体重记录工具，用于规划训练计划、记录组数与体重，并查看肌肉训练状态。"
     },
     {
       "owner": "cathrynlavery",
@@ -128,11 +56,95 @@
       "url": "https://github.com/cathrynlavery/diagram-design",
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "stars": 44080,
-      "starsToday": 228,
+      "stars": 45072,
+      "starsToday": 825,
       "slug": "cathrynlavery--diagram-design",
       "sourceHash": "778e2540d605df789201d7d0dc92f4d16f8e6597555e3346a83e098f1f2effca",
       "summary": "为 Claude Code 等 AI 编程工具提供编辑风格图表设计技能，含 42 种图表类型，输出自包含 HTML 与 SVG。"
+    },
+    {
+      "owner": "addyosmani",
+      "name": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 102869,
+      "starsToday": 677,
+      "slug": "addyosmani--agent-skills",
+      "sourceHash": "46dcd29b929ef8fa7e6ab33ed15ad1490f3362b1b7f106d1433e4df0b0499547",
+      "summary": "这是一套面向 AI 编程代理的工程技能包，把资深工程师的开发流程、质量关卡与最佳实践固化为可安装的技能，覆盖需求、规划、编码、测试、评审到发布各阶段。"
+    },
+    {
+      "owner": "EpicGames",
+      "name": "raddebugger",
+      "url": "https://github.com/EpicGames/raddebugger",
+      "description": "A native, user-mode, multi-process, graphical debugger.",
+      "language": "C",
+      "stars": 7888,
+      "starsToday": 90,
+      "slug": "EpicGames--raddebugger",
+      "sourceHash": "f24779595ef16014fce973f54e227f4fca27944a0aec96eb070d13a21f963f59",
+      "summary": "RAD Debugger 是 Epic Games 开发的原生用户态多进程图形化调试器，目前支持本地 Windows x64 调试，并配套自研 RDI 调试信息格式与 RAD 链接器。"
+    },
+    {
+      "owner": "manaflow-ai",
+      "name": "cmux",
+      "url": "https://github.com/manaflow-ai/cmux",
+      "description": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
+      "language": "Swift",
+      "stars": 27879,
+      "starsToday": 44,
+      "slug": "manaflow-ai--cmux",
+      "sourceHash": "a18c42c762a4597f47bf0472c85f896d909be2e22580fec31a7da9ef2c7e80bd",
+      "summary": "cmux 是一款基于 Ghostty 的 macOS 开源终端，提供垂直标签和通知功能，方便同时运行多个 AI 编程代理。"
+    },
+    {
+      "owner": "trycua",
+      "name": "cua",
+      "url": "https://github.com/trycua/cua",
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "language": "Rust",
+      "stars": 28790,
+      "starsToday": 228,
+      "slug": "trycua--cua",
+      "sourceHash": "4d474fa5e39ba407a33630a13940c0bf45e95e68a81aef3e60cda5a8eb9939ba",
+      "summary": "Cua 是面向计算机使用智能体的开源项目，提供桌面驱动、本地虚拟机、决策模型与评测基准，用于训练、评估和数据生成。"
+    },
+    {
+      "owner": "cloudflare",
+      "name": "security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 26105,
+      "starsToday": 576,
+      "slug": "cloudflare--security-audit-skill",
+      "sourceHash": "d49f83911dbb4cc72ae67d1701f23de8ed840a0b4596722c3d99c3a0d82ee68b",
+      "summary": "这是一个编码代理技能，让代理按六个阶段执行安全审计，产出可机器读取且经独立验证的漏洞发现。"
+    },
+    {
+      "owner": "tester-army",
+      "name": "e2e",
+      "url": "https://github.com/tester-army/e2e",
+      "description": "Next generation e2e testing framework for web and mobile apps.",
+      "language": "TypeScript",
+      "stars": 7552,
+      "starsToday": 1390,
+      "slug": "tester-army--e2e",
+      "sourceHash": "6ec94d01c8637a05e8727d1e48ec41c54efc6aece7a945aee3d21c162dbb0e8d",
+      "summary": "e2e 是一个面向 Web 和移动应用的端到端测试框架，可用自然语言描述目标，由智能体驱动应用完成操作，再用定位器和断言验证结果。"
+    },
+    {
+      "owner": "DuarteSantos8",
+      "name": "openGym",
+      "url": "https://github.com/DuarteSantos8/openGym",
+      "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
+      "language": "JavaScript",
+      "stars": 7033,
+      "starsToday": 1493,
+      "slug": "DuarteSantos8--openGym",
+      "sourceHash": "462dbf703028742bc91856c5c62cd99bc79ff0716f0744075bfa5b607d59c91d",
+      "summary": "openGym 是一款可自托管的健身与体重记录工具，用于规划训练计划、记录组数与体重，并查看肌肉训练状态。"
     }
   ]
 }

@@ -1,19 +1,89 @@
 {
   "version": 1,
   "entries": {
+    "duartesantos8/opengym": {
+      "summary": "openGym 是一款可自托管的健身与体重记录工具，用于规划训练计划、记录组数与体重，并查看肌肉训练状态。",
+      "sourceHash": "462dbf703028742bc91856c5c62cd99bc79ff0716f0744075bfa5b607d59c91d",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-08T02:39:50.687Z"
+    },
+    "tester-army/e2e": {
+      "summary": "e2e 是一个面向 Web 和移动应用的端到端测试框架，可用自然语言描述目标，由智能体驱动应用完成操作，再用定位器和断言验证结果。",
+      "sourceHash": "6ec94d01c8637a05e8727d1e48ec41c54efc6aece7a945aee3d21c162dbb0e8d",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-08T02:39:49.413Z"
+    },
+    "cloudflare/security-audit-skill": {
+      "summary": "这是一个编码代理技能，让代理按六个阶段执行安全审计，产出可机器读取且经独立验证的漏洞发现。",
+      "sourceHash": "d49f83911dbb4cc72ae67d1701f23de8ed840a0b4596722c3d99c3a0d82ee68b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-08T02:39:48.510Z"
+    },
+    "trycua/cua": {
+      "summary": "Cua 是面向计算机使用智能体的开源项目，提供桌面驱动、本地虚拟机、决策模型与评测基准，用于训练、评估和数据生成。",
+      "sourceHash": "4d474fa5e39ba407a33630a13940c0bf45e95e68a81aef3e60cda5a8eb9939ba",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-08T02:39:47.384Z"
+    },
+    "manaflow-ai/cmux": {
+      "summary": "cmux 是一款基于 Ghostty 的 macOS 开源终端，提供垂直标签和通知功能，方便同时运行多个 AI 编程代理。",
+      "sourceHash": "a18c42c762a4597f47bf0472c85f896d909be2e22580fec31a7da9ef2c7e80bd",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-08T02:39:46.380Z"
+    },
+    "epicgames/raddebugger": {
+      "summary": "RAD Debugger 是 Epic Games 开发的原生用户态多进程图形化调试器，目前支持本地 Windows x64 调试，并配套自研 RDI 调试信息格式与 RAD 链接器。",
+      "sourceHash": "f24779595ef16014fce973f54e227f4fca27944a0aec96eb070d13a21f963f59",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-08T02:39:44.412Z"
+    },
+    "addyosmani/agent-skills": {
+      "summary": "这是一套面向 AI 编程代理的工程技能包，把资深工程师的开发流程、质量关卡与最佳实践固化为可安装的技能，覆盖需求、规划、编码、测试、评审到发布各阶段。",
+      "sourceHash": "46dcd29b929ef8fa7e6ab33ed15ad1490f3362b1b7f106d1433e4df0b0499547",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-08T02:39:43.436Z"
+    },
     "cathrynlavery/diagram-design": {
       "summary": "为 Claude Code 等 AI 编程工具提供编辑风格图表设计技能，含 42 种图表类型，输出自包含 HTML 与 SVG。",
       "sourceHash": "778e2540d605df789201d7d0dc92f4d16f8e6597555e3346a83e098f1f2effca",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-07T02:17:04.456Z"
+      "lastUsedAt": "2026-10-08T02:39:43.203Z"
     },
-    "duartesantos8/opengym": {
-      "summary": "openGym 是一个可自托管的健身与体重记录工具，用于规划训练计划、记录组数与体重，并查看肌肉训练状态。",
-      "sourceHash": "87e22d8f34b4e99d04b9a3b8f8260a19accbb00b45bc781240e60cff6f18cea2",
+    "ayghri/i-have-adhd": {
+      "summary": "这是一个面向编程助手的技能插件，让 AI 先给答案和操作步骤，避免冗长铺垫，输出更简洁直接。",
+      "sourceHash": "e6303105487ad10107602e11efa6dddd935aa525ea8692d0fa973bd79f850218",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-07T02:17:03.258Z"
+      "lastUsedAt": "2026-10-08T02:39:42.768Z"
+    },
+    "boykopovar/anyps5": {
+      "summary": "AnyPS5 是一个用 C++ 编写的工具，可将 PS5 可执行文件自动移植到 Linux 和 Windows，通过重链接和系统库实现原生运行，而非模拟。",
+      "sourceHash": "224288deaea0af3c4d43132f17c9ba2fc063800d2a3b8ae361457f875711ca15",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-08T02:39:42.548Z"
+    },
+    "mattpocock/skills": {
+      "summary": "这是一套面向真实软件工程的 AI 代理技能集合，用于规范编码代理的工作流程，帮助开发者按工程实践完成需求梳理、调试与代码设计。",
+      "sourceHash": "ff0126822426c6eaffaeea423e89510dd44b76b8380c8d8b911d41d34b6cde3c",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-08T02:39:41.526Z"
+    },
+    "morluto/rea": {
+      "summary": "REA 是一个面向 AI 智能体的逆向工程 MCP 工具，可分析二进制、应用与运行时行为，帮助理解功能实现到二进制层面的原理。",
+      "sourceHash": "f8b8474a1be60b4564b67b658273bb6895c2334849a6bb58828d26240b1c6e78",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-08T02:39:40.253Z"
     },
     "msitarzewski/agency-agents": {
       "summary": "这是一个 AI 智能体角色集合，按工程、设计、营销、销售等职能提供专业提示词，可安装到 Claude Code、Cursor 等工具中使用。",
@@ -29,20 +99,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-07T02:17:01.780Z"
     },
-    "morluto/rea": {
-      "summary": "REA 是一个面向 AI 代理的逆向工程工具，可分析二进制、应用程序与运行时行为，帮助理解功能实现到二进制层面的细节。",
-      "sourceHash": "f4824cf482431620c1036f50d6f4634b4ad8af49b1deb6d39d6425d6cf7644d5",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-07T02:17:00.736Z"
-    },
-    "ayghri/i-have-adhd": {
-      "summary": "这是一个面向编程助手的技能插件，让 AI 先给答案和操作步骤，避免冗长铺垫，输出更简洁直接。",
-      "sourceHash": "e6303105487ad10107602e11efa6dddd935aa525ea8692d0fa973bd79f850218",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-07T02:16:59.618Z"
-    },
     "pbakaus/impeccable": {
       "summary": "Impeccable 是面向 AI 编程代理的前端设计指导工具，提供技能、命令和检测规则，帮助生成更规范的界面设计。",
       "sourceHash": "75dcaad9e34f79d155aeab4d49c5450cd744e42608e227a7a6675bcf3d31acbf",
@@ -50,33 +106,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-07T02:16:57.616Z"
     },
-    "boykopovar/anyps5": {
-      "summary": "AnyPS5 是一个用 C++ 编写的工具，可将 PS5 可执行文件自动移植到 Linux 和 Windows，通过重链接和系统库实现原生动态链接，而非模拟运行。",
-      "sourceHash": "a91da16131528f79fab529319e7aa7827b699bc3afc01f9879a8f3a16588fb08",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-07T02:16:56.389Z"
-    },
     "earthtojake/text-to-cad": {
       "summary": "text-to-cad 是一个面向 AI 代理的插件，提供本地生成 STEP、GLB、STL、3MF 等三维模型文件的工作流，并支持可制造性设计检查。",
       "sourceHash": "92e8d343f9ee5fa7f895c3b8c1fda298a309c4b3dd671197cf933ff9198d9531",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-07T02:16:56.232Z"
-    },
-    "mattpocock/skills": {
-      "summary": "这是一套面向真实工程开发的 AI 代理技能集合，用于代码编写、调试与工作流管理，可通过插件或复制文件方式安装到项目中使用。",
-      "sourceHash": "3390a3a0b147a4e0db79fd0e7d347c00c4b43c15ae42c3d57020b70189014841",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-07T02:16:55.158Z"
-    },
-    "tester-army/e2e": {
-      "summary": "e2e 是一个面向 Web 和移动应用的端到端测试框架，可用自然语言描述目标，由智能体驱动应用完成操作，再用定位器和断言验证结果。",
-      "sourceHash": "a91152d8f0ca762835a6342512980a7486c3e2482f6cfff889207d1b4479f908",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-07T02:16:53.953Z"
     },
     "m-abozaid/esp32-c3-adblock": {
       "summary": "在无 PSRAM 的 ESP32-C3 上运行的 DNS 广告拦截器，将五十多万域名以哈希表存于闪存并二分查找，实现拦截与转发。",
@@ -147,13 +182,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-05T01:52:38.804Z"
-    },
-    "addyosmani/agent-skills": {
-      "summary": "这是一套面向 AI 编程代理的工程技能包，把资深工程师的开发流程、质量关卡与最佳实践固化为可安装的技能，覆盖需求、规划、编码、测试、评审到发布各阶段。",
-      "sourceHash": "46dcd29b929ef8fa7e6ab33ed15ad1490f3362b1b7f106d1433e4df0b0499547",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-05T01:52:37.303Z"
     },
     "michael-denyer/pstack-claude": {
       "summary": "pstack 是 Lauren Tan 的 Cursor 技能栈移植版，为 Claude Code、Codex、Pi 等代理工具提供严谨的代理工作流，帮助保持代码简洁并经过验证。",
@@ -672,34 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-24T01:19:30.176Z"
-    },
-    "builderio/agent-native": {
-      "summary": "Agent-Native 是一个开源 TypeScript 框架，用于构建带专用界面的智能体应用，让智能体与 UI 共用同一套操作、数据和状态。",
-      "sourceHash": "6e8fdf6894b4a0caa0e48ea557fdc27d29750f44a5c2e4813f3717ec8e814d44",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-24T01:19:28.043Z"
-    },
-    "davila7/claude-code-templates": {
-      "summary": "这是一个为 Claude Code 提供配置模板的 CLI 工具，可浏览、安装智能体、命令、设置、钩子和 MCP，并监控开发会话。",
-      "sourceHash": "067a40e9f0683940e21561404885476c7b88729fc3b460f6b5fb8919ce177349",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-24T01:19:27.756Z"
-    },
-    "yynxxxxx/codex-x": {
-      "summary": "Codex-X 是面向 OpenAI Codex 桌面端与 CLI 的跨平台可视化管理工具，用于统一管理提示词注入、Provider 与 API 切换、会话同步、Skills/MCP 及 TOML 配置。",
-      "sourceHash": "a35a495b7109490eea9416eb4e5be8e998fbea1a2f4ff3f2044ea50e2d41750c",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-22T01:34:43.362Z"
-    },
-    "crosstalk-solutions/project-nomad": {
-      "summary": "Project NOMAD 是一个离线优先的知识与教育服务器，通过 Docker 在自有硬件上提供维基百科、书籍、课程、地图及可选本地 AI 等资源。",
-      "sourceHash": "da0b7d34c6f6ea07e4a298d783ec9ce298ac43eabf075e6c7b8766cc013f9f71",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-22T01:34:43.139Z"
     }
   }
 }
