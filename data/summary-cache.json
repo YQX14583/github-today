@@ -1,6 +1,62 @@
 {
   "version": 1,
   "entries": {
+    "liquidslr/system-design-notes": {
+      "summary": "这是《系统设计面试》第一卷和第二卷的学习笔记，按章节整理限流器、一致性哈希、键值存储等系统设计案例，并附相关延伸阅读资料。",
+      "sourceHash": "46c59874d313451c1935693918ff85a840d40cc8895931ac481b225b521b97e5",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-09T02:54:45.140Z"
+    },
+    "storytold/artcraft": {
+      "summary": "ArtCraft 是一款面向艺术家、设计师和影视创作者的 AI 图像与视频创作 IDE，支持 2D 构图、3D 场景搭建和多种模型选择。",
+      "sourceHash": "859d98fdb6b0bca31c8130881487cb29a0caace3db71197571182c4faa618e54",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-09T02:54:43.977Z"
+    },
+    "anthropics/knowledge-work-plugins": {
+      "summary": "这是 Anthropic 开源的知识工作插件集合，为 Claude Cowork 和 Claude Code 提供面向销售、数据等岗位的专用技能与命令。",
+      "sourceHash": "ef129cfdf82c1174376c99765bf6b39c58014ad9601fe6d59d7bd9846ba08df0",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-09T02:54:42.794Z"
+    },
+    "epicgames/raddebugger": {
+      "summary": "RAD Debugger 是 Epic Games 开发的原生用户态多进程图形化调试器，目前支持本地 Windows x64 调试，并配套自研 RDI 调试信息格式与 RAD 链接器。",
+      "sourceHash": "f24779595ef16014fce973f54e227f4fca27944a0aec96eb070d13a21f963f59",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-09T02:54:41.313Z"
+    },
+    "mattpocock/skills": {
+      "summary": "这是一套面向真实软件工程的 AI 编码代理技能集合，用于规范开发流程、减少代理啰嗦与错误，帮助开发者按工程实践完成代码修改。",
+      "sourceHash": "f9bc1dd3088da5be6ff38259eda7e11bafe1bcc184cc0ecfb4332354017a9bc4",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-09T02:54:40.571Z"
+    },
+    "morluto/rea": {
+      "summary": "REA 是一个基于 MCP 的逆向工程工具，让 AI 代理分析二进制、应用与运行时行为并给出证据。",
+      "sourceHash": "27de16f4159749498e5027b5a1da62f8f302a8d2ddd4c08b557349494234dd4d",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-09T02:54:39.190Z"
+    },
+    "cathrynlavery/diagram-design": {
+      "summary": "为 Claude Code 等 AI 编程工具提供编辑风格图表设计技能，含 42 种图表类型，输出自包含 HTML 与 SVG。",
+      "sourceHash": "778e2540d605df789201d7d0dc92f4d16f8e6597555e3346a83e098f1f2effca",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-09T02:54:37.904Z"
+    },
+    "boykopovar/anyps5": {
+      "summary": "AnyPS5 是一个用 C++ 编写的工具，可将 PS5 可执行文件自动移植到 Linux 和 Windows，通过重链接和系统库实现原生运行，而非模拟。",
+      "sourceHash": "224288deaea0af3c4d43132f17c9ba2fc063800d2a3b8ae361457f875711ca15",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-09T02:54:37.567Z"
+    },
     "duartesantos8/opengym": {
       "summary": "openGym 是一款可自托管的健身与体重记录工具，用于规划训练计划、记录组数与体重，并查看肌肉训练状态。",
       "sourceHash": "462dbf703028742bc91856c5c62cd99bc79ff0716f0744075bfa5b607d59c91d",
@@ -36,13 +92,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-08T02:39:46.380Z"
     },
-    "epicgames/raddebugger": {
-      "summary": "RAD Debugger 是 Epic Games 开发的原生用户态多进程图形化调试器，目前支持本地 Windows x64 调试，并配套自研 RDI 调试信息格式与 RAD 链接器。",
-      "sourceHash": "f24779595ef16014fce973f54e227f4fca27944a0aec96eb070d13a21f963f59",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-08T02:39:44.412Z"
-    },
     "addyosmani/agent-skills": {
       "summary": "这是一套面向 AI 编程代理的工程技能包，把资深工程师的开发流程、质量关卡与最佳实践固化为可安装的技能，覆盖需求、规划、编码、测试、评审到发布各阶段。",
       "sourceHash": "46dcd29b929ef8fa7e6ab33ed15ad1490f3362b1b7f106d1433e4df0b0499547",
@@ -50,40 +99,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-08T02:39:43.436Z"
     },
-    "cathrynlavery/diagram-design": {
-      "summary": "为 Claude Code 等 AI 编程工具提供编辑风格图表设计技能，含 42 种图表类型，输出自包含 HTML 与 SVG。",
-      "sourceHash": "778e2540d605df789201d7d0dc92f4d16f8e6597555e3346a83e098f1f2effca",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-08T02:39:43.203Z"
-    },
     "ayghri/i-have-adhd": {
       "summary": "这是一个面向编程助手的技能插件，让 AI 先给答案和操作步骤，避免冗长铺垫，输出更简洁直接。",
       "sourceHash": "e6303105487ad10107602e11efa6dddd935aa525ea8692d0fa973bd79f850218",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-08T02:39:42.768Z"
-    },
-    "boykopovar/anyps5": {
-      "summary": "AnyPS5 是一个用 C++ 编写的工具，可将 PS5 可执行文件自动移植到 Linux 和 Windows，通过重链接和系统库实现原生运行，而非模拟。",
-      "sourceHash": "224288deaea0af3c4d43132f17c9ba2fc063800d2a3b8ae361457f875711ca15",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-08T02:39:42.548Z"
-    },
-    "mattpocock/skills": {
-      "summary": "这是一套面向真实软件工程的 AI 代理技能集合，用于规范编码代理的工作流程，帮助开发者按工程实践完成需求梳理、调试与代码设计。",
-      "sourceHash": "ff0126822426c6eaffaeea423e89510dd44b76b8380c8d8b911d41d34b6cde3c",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-08T02:39:41.526Z"
-    },
-    "morluto/rea": {
-      "summary": "REA 是一个面向 AI 智能体的逆向工程 MCP 工具，可分析二进制、应用与运行时行为，帮助理解功能实现到二进制层面的原理。",
-      "sourceHash": "f8b8474a1be60b4564b67b658273bb6895c2334849a6bb58828d26240b1c6e78",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-08T02:39:40.253Z"
     },
     "msitarzewski/agency-agents": {
       "summary": "这是一个 AI 智能体角色集合，按工程、设计、营销、销售等职能提供专业提示词，可安装到 Claude Code、Cursor 等工具中使用。",
@@ -679,27 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-24T01:19:37.056Z"
-    },
-    "harry7557558/spirula-studio": {
-      "summary": "Spirula Studio 是一个跨厂商 3D 高斯泼溅训练器，可将照片或视频训练为高斯模型并生成带纹理网格，支持 Vulkan 与 CUDA。",
-      "sourceHash": "371810b44a1788e7f5237a3a460d01ffaea58762a0fc8e4bb13fca8c55065344",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-24T01:19:36.844Z"
-    },
-    "deusdata/codebase-memory-mcp": {
-      "summary": "这是一个用 C 编写的高性能代码智能 MCP 服务器，将代码库索引为持久化知识图谱，供 AI 编程代理快速查询代码结构与依赖关系。",
-      "sourceHash": "3814f1e7c16ec3ac2607556aa81ee24e0f46818f3a10e40027ae39bf02436892",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-24T01:19:35.946Z"
-    },
-    "agent-substrate/substrate": {
-      "summary": "Agent Substrate 是一个用 Go 编写的安全默认智能体执行运行时，可在 Kubernetes 上高密度运行大量沙箱化容器，支持多种智能体框架。",
-      "sourceHash": "91c94152efcc098c017b0bcd9e9801e5a9c14265df490a4e9947e841b4b219d3",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-24T01:19:30.176Z"
     }
   }
 }
