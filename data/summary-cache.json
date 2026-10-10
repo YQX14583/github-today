@@ -1,6 +1,83 @@
 {
   "version": 1,
   "entries": {
+    "twostraws/swiftui-agent-skill": {
+      "summary": "这是一个面向 Claude Code、Codex 等 AI 编程助手的 SwiftUI 技能包，用于指导其编写更简洁现代的 SwiftUI 代码，涵盖 API 用法、设计、性能与无障碍等方面。",
+      "sourceHash": "de2fe3ab01e134d10f6c69b2f9c675bda23f031821c7a71831c923bd6fcf4fe6",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-10T02:16:16.912Z"
+    },
+    "robbyant/lingbot-map": {
+      "summary": "LingBot-Map 是一个前馈式三维基础模型，用于流式三维重建，可处理长视频序列并生成点云与交互式可视化结果。",
+      "sourceHash": "7cc86d2a31e095dedbdd076122df0d1f09344efe58d1e5b5421dd4efb2cd0b59",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-10T02:16:15.775Z"
+    },
+    "storytold/artcraft": {
+      "summary": "ArtCraft 是一款面向艺术家、设计师和影视创作者的 AI 图像与视频创作 IDE，支持 2D 构图、3D 场景搭建和多种模型选择。",
+      "sourceHash": "859d98fdb6b0bca31c8130881487cb29a0caace3db71197571182c4faa618e54",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-10T02:16:14.688Z"
+    },
+    "addyosmani/agent-skills": {
+      "summary": "这是一套面向 AI 编程代理的工程技能包，把资深工程师的开发流程、质量关卡与最佳实践固化为可安装的技能，覆盖需求、规划、编码、测试、评审到发布各阶段。",
+      "sourceHash": "46dcd29b929ef8fa7e6ab33ed15ad1490f3362b1b7f106d1433e4df0b0499547",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-10T02:16:14.477Z"
+    },
+    "berriai/litellm": {
+      "summary": "LiteLLM 是一个开源 AI 网关，提供统一接口调用 100 多个大模型 API，支持成本追踪、限流、负载均衡和日志记录。",
+      "sourceHash": "831886e0a4c3e862d413e8f943f8a048bdf4b929fcc4bb4bc1cfc409f54d3fe1",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-10T02:16:14.194Z"
+    },
+    "anthropics/knowledge-work-plugins": {
+      "summary": "这是 Anthropic 开源的知识工作插件集合，为 Claude Cowork 和 Claude Code 提供面向销售、数据等岗位的专用技能与命令。",
+      "sourceHash": "ef129cfdf82c1174376c99765bf6b39c58014ad9601fe6d59d7bd9846ba08df0",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-10T02:16:12.988Z"
+    },
+    "alibaba/open-code-review": {
+      "summary": "Open Code Review 是阿里巴巴开源的 AI 代码审查命令行工具，采用确定性流程与大模型 Agent 混合架构，可对代码变更做精确到行的审查并输出多语言规则检查结果。",
+      "sourceHash": "0a626dc2f156cc3e578882f219a61afe9c2113974043311404a2a80dcba8b13f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-10T02:16:12.795Z"
+    },
+    "cathrynlavery/diagram-design": {
+      "summary": "这是一个面向 Claude Code 等 AI 编程助手的技能，用自然语言描述即可生成自包含 HTML+SVG 的编辑风格图表，支持 44 种图表类型并可套用品牌配色。",
+      "sourceHash": "1da00ad8c2ec2ad6892fcfb16872366ff9ea9410d07a40396c266c405eb9cd5b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-10T02:16:11.552Z"
+    },
+    "mattpocock/skills": {
+      "summary": "这是一套面向真实软件工程的 AI 编码代理技能集合，用于规范开发流程、减少代理啰嗦与错误，帮助开发者按工程实践完成代码修改。",
+      "sourceHash": "f9bc1dd3088da5be6ff38259eda7e11bafe1bcc184cc0ecfb4332354017a9bc4",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-10T02:16:10.188Z"
+    },
+    "boykopovar/anyps5": {
+      "summary": "AnyPS5 是一个用 C++ 编写的工具，可将 PS5 可执行文件自动移植到 Linux 和 Windows，通过重链接和系统库实现原生运行，而非模拟。",
+      "sourceHash": "224288deaea0af3c4d43132f17c9ba2fc063800d2a3b8ae361457f875711ca15",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-10T02:16:09.865Z"
+    },
+    "morluto/rea": {
+      "summary": "REA 是一个基于 MCP 的逆向工程工具，让 AI 代理分析二进制、应用与运行时行为，追踪代码并给出证据。",
+      "sourceHash": "90fb4e8f684ab694d260296e4e7773796620be666b1f5aa0328748860b9c8884",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-10T02:16:09.637Z"
+    },
     "liquidslr/system-design-notes": {
       "summary": "这是《系统设计面试》第一卷和第二卷的学习笔记，按章节整理限流器、一致性哈希、键值存储等系统设计案例，并附相关延伸阅读资料。",
       "sourceHash": "46c59874d313451c1935693918ff85a840d40cc8895931ac481b225b521b97e5",
@@ -8,54 +85,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-09T02:54:45.140Z"
     },
-    "storytold/artcraft": {
-      "summary": "ArtCraft 是一款面向艺术家、设计师和影视创作者的 AI 图像与视频创作 IDE，支持 2D 构图、3D 场景搭建和多种模型选择。",
-      "sourceHash": "859d98fdb6b0bca31c8130881487cb29a0caace3db71197571182c4faa618e54",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-09T02:54:43.977Z"
-    },
-    "anthropics/knowledge-work-plugins": {
-      "summary": "这是 Anthropic 开源的知识工作插件集合，为 Claude Cowork 和 Claude Code 提供面向销售、数据等岗位的专用技能与命令。",
-      "sourceHash": "ef129cfdf82c1174376c99765bf6b39c58014ad9601fe6d59d7bd9846ba08df0",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-09T02:54:42.794Z"
-    },
     "epicgames/raddebugger": {
       "summary": "RAD Debugger 是 Epic Games 开发的原生用户态多进程图形化调试器，目前支持本地 Windows x64 调试，并配套自研 RDI 调试信息格式与 RAD 链接器。",
       "sourceHash": "f24779595ef16014fce973f54e227f4fca27944a0aec96eb070d13a21f963f59",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-09T02:54:41.313Z"
-    },
-    "mattpocock/skills": {
-      "summary": "这是一套面向真实软件工程的 AI 编码代理技能集合，用于规范开发流程、减少代理啰嗦与错误，帮助开发者按工程实践完成代码修改。",
-      "sourceHash": "f9bc1dd3088da5be6ff38259eda7e11bafe1bcc184cc0ecfb4332354017a9bc4",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-09T02:54:40.571Z"
-    },
-    "morluto/rea": {
-      "summary": "REA 是一个基于 MCP 的逆向工程工具，让 AI 代理分析二进制、应用与运行时行为并给出证据。",
-      "sourceHash": "27de16f4159749498e5027b5a1da62f8f302a8d2ddd4c08b557349494234dd4d",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-09T02:54:39.190Z"
-    },
-    "cathrynlavery/diagram-design": {
-      "summary": "为 Claude Code 等 AI 编程工具提供编辑风格图表设计技能，含 42 种图表类型，输出自包含 HTML 与 SVG。",
-      "sourceHash": "778e2540d605df789201d7d0dc92f4d16f8e6597555e3346a83e098f1f2effca",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-09T02:54:37.904Z"
-    },
-    "boykopovar/anyps5": {
-      "summary": "AnyPS5 是一个用 C++ 编写的工具，可将 PS5 可执行文件自动移植到 Linux 和 Windows，通过重链接和系统库实现原生运行，而非模拟。",
-      "sourceHash": "224288deaea0af3c4d43132f17c9ba2fc063800d2a3b8ae361457f875711ca15",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-09T02:54:37.567Z"
     },
     "duartesantos8/opengym": {
       "summary": "openGym 是一款可自托管的健身与体重记录工具，用于规划训练计划、记录组数与体重，并查看肌肉训练状态。",
@@ -91,13 +126,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-08T02:39:46.380Z"
-    },
-    "addyosmani/agent-skills": {
-      "summary": "这是一套面向 AI 编程代理的工程技能包，把资深工程师的开发流程、质量关卡与最佳实践固化为可安装的技能，覆盖需求、规划、编码、测试、评审到发布各阶段。",
-      "sourceHash": "46dcd29b929ef8fa7e6ab33ed15ad1490f3362b1b7f106d1433e4df0b0499547",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-08T02:39:43.436Z"
     },
     "ayghri/i-have-adhd": {
       "summary": "这是一个面向编程助手的技能插件，让 AI 先给答案和操作步骤，避免冗长铺垫，输出更简洁直接。",
@@ -672,34 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-25T01:25:02.639Z"
-    },
-    "anthropics/financial-services": {
-      "summary": "该项目为金融服务工作流提供参考智能体、技能与数据连接器，覆盖投行、股票研究、私募股权和财富管理，可作为插件或通过托管智能体 API 部署。",
-      "sourceHash": "3c79958872f2086ea9402dbcb44845e3f763ee1ea64e648ef0ac933e73d7b482",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-25T01:25:02.260Z"
-    },
-    "fxembed/fxembed": {
-      "summary": "FxEmbed 是一个修复 X、Twitter 和 Bluesky 链接嵌入效果的服务，让 Discord、Telegram 等平台能显示多图、视频、投票和翻译等内容。",
-      "sourceHash": "3417cfcea5638aa8cf4c8725c1409f830a5b9fe4bb6edc316de8cf2e05f76864",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-25T01:25:01.996Z"
-    },
-    "tnt-likely/panwatch": {
-      "summary": "盯盘侠 PanWatch 是自托管的 AI 盯盘助手，可实时监控 A 股、港股、美股行情并管理持仓，结合 TradingAgents 多 Agent 分析生成投资决策，并通过多种渠道推送提醒。",
-      "sourceHash": "04cb0cd46086aa4aa36871afc3c7f11a9cccbb888937a0ae1526f280be346973",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-24T01:19:38.255Z"
-    },
-    "browser-use/video-use": {
-      "summary": "video-use 是一个用编码智能体编辑视频的开源 Python 工具，可自动去除口癖和停顿、调色、加字幕并渲染出 final.mp4。",
-      "sourceHash": "1c883815e0bd52882a8ed059d601d1b6dce7e5cb98b1663dd76fbb1fb52ebbb6",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-24T01:19:37.056Z"
     }
   }
 }

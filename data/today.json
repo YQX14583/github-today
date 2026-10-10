@@ -1,42 +1,30 @@
 {
-  "date": "2026-10-09",
-  "updatedAt": "2026-10-09T02:54:45.140Z",
+  "date": "2026-10-10",
+  "updatedAt": "2026-10-10T02:16:16.912Z",
   "repositories": [
-    {
-      "owner": "boykopovar",
-      "name": "AnyPS5",
-      "url": "https://github.com/boykopovar/AnyPS5",
-      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-      "language": "C++",
-      "stars": 16182,
-      "starsToday": 4669,
-      "slug": "boykopovar--AnyPS5",
-      "sourceHash": "224288deaea0af3c4d43132f17c9ba2fc063800d2a3b8ae361457f875711ca15",
-      "summary": "AnyPS5 是一个用 C++ 编写的工具，可将 PS5 可执行文件自动移植到 Linux 和 Windows，通过重链接和系统库实现原生运行，而非模拟。"
-    },
-    {
-      "owner": "cathrynlavery",
-      "name": "diagram-design",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "language": "HTML",
-      "stars": 46536,
-      "starsToday": 1160,
-      "slug": "cathrynlavery--diagram-design",
-      "sourceHash": "778e2540d605df789201d7d0dc92f4d16f8e6597555e3346a83e098f1f2effca",
-      "summary": "为 Claude Code 等 AI 编程工具提供编辑风格图表设计技能，含 42 种图表类型，输出自包含 HTML 与 SVG。"
-    },
     {
       "owner": "morluto",
       "name": "rea",
       "url": "https://github.com/morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "stars": 28208,
-      "starsToday": 7738,
+      "stars": 48014,
+      "starsToday": 14927,
       "slug": "morluto--rea",
-      "sourceHash": "27de16f4159749498e5027b5a1da62f8f302a8d2ddd4c08b557349494234dd4d",
-      "summary": "REA 是一个基于 MCP 的逆向工程工具，让 AI 代理分析二进制、应用与运行时行为并给出证据。"
+      "sourceHash": "90fb4e8f684ab694d260296e4e7773796620be666b1f5aa0328748860b9c8884",
+      "summary": "REA 是一个基于 MCP 的逆向工程工具，让 AI 代理分析二进制、应用与运行时行为，追踪代码并给出证据。"
+    },
+    {
+      "owner": "boykopovar",
+      "name": "AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "language": "C++",
+      "stars": 22600,
+      "starsToday": 5868,
+      "slug": "boykopovar--AnyPS5",
+      "sourceHash": "224288deaea0af3c4d43132f17c9ba2fc063800d2a3b8ae361457f875711ca15",
+      "summary": "AnyPS5 是一个用 C++ 编写的工具，可将 PS5 可执行文件自动移植到 Linux 和 Windows，通过重链接和系统库实现原生运行，而非模拟。"
     },
     {
       "owner": "mattpocock",
@@ -44,23 +32,35 @@
       "url": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "stars": 281241,
-      "starsToday": 1774,
+      "stars": 282818,
+      "starsToday": 1687,
       "slug": "mattpocock--skills",
       "sourceHash": "f9bc1dd3088da5be6ff38259eda7e11bafe1bcc184cc0ecfb4332354017a9bc4",
       "summary": "这是一套面向真实软件工程的 AI 编码代理技能集合，用于规范开发流程、减少代理啰嗦与错误，帮助开发者按工程实践完成代码修改。"
     },
     {
-      "owner": "EpicGames",
-      "name": "raddebugger",
-      "url": "https://github.com/EpicGames/raddebugger",
-      "description": "A native, user-mode, multi-process, graphical debugger.",
-      "language": "C",
-      "stars": 8142,
-      "starsToday": 279,
-      "slug": "EpicGames--raddebugger",
-      "sourceHash": "f24779595ef16014fce973f54e227f4fca27944a0aec96eb070d13a21f963f59",
-      "summary": "RAD Debugger 是 Epic Games 开发的原生用户态多进程图形化调试器，目前支持本地 Windows x64 调试，并配套自研 RDI 调试信息格式与 RAD 链接器。"
+      "owner": "cathrynlavery",
+      "name": "diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "stars": 47953,
+      "starsToday": 1739,
+      "slug": "cathrynlavery--diagram-design",
+      "sourceHash": "1da00ad8c2ec2ad6892fcfb16872366ff9ea9410d07a40396c266c405eb9cd5b",
+      "summary": "这是一个面向 Claude Code 等 AI 编程助手的技能，用自然语言描述即可生成自包含 HTML+SVG 的编辑风格图表，支持 44 种图表类型并可套用品牌配色。"
+    },
+    {
+      "owner": "alibaba",
+      "name": "open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 45294,
+      "starsToday": 326,
+      "slug": "alibaba--open-code-review",
+      "sourceHash": "0a626dc2f156cc3e578882f219a61afe9c2113974043311404a2a80dcba8b13f",
+      "summary": "Open Code Review 是阿里巴巴开源的 AI 代码审查命令行工具，采用确定性流程与大模型 Agent 混合架构，可对代码变更做精确到行的审查并输出多语言规则检查结果。"
     },
     {
       "owner": "anthropics",
@@ -68,11 +68,35 @@
       "url": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "stars": 27680,
-      "starsToday": 392,
+      "stars": 28301,
+      "starsToday": 709,
       "slug": "anthropics--knowledge-work-plugins",
       "sourceHash": "ef129cfdf82c1174376c99765bf6b39c58014ad9601fe6d59d7bd9846ba08df0",
       "summary": "这是 Anthropic 开源的知识工作插件集合，为 Claude Cowork 和 Claude Code 提供面向销售、数据等岗位的专用技能与命令。"
+    },
+    {
+      "owner": "BerriAI",
+      "name": "litellm",
+      "url": "https://github.com/BerriAI/litellm",
+      "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+      "language": "Python",
+      "stars": 60694,
+      "starsToday": 95,
+      "slug": "BerriAI--litellm",
+      "sourceHash": "831886e0a4c3e862d413e8f943f8a048bdf4b929fcc4bb4bc1cfc409f54d3fe1",
+      "summary": "LiteLLM 是一个开源 AI 网关，提供统一接口调用 100 多个大模型 API，支持成本追踪、限流、负载均衡和日志记录。"
+    },
+    {
+      "owner": "addyosmani",
+      "name": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 104028,
+      "starsToday": 436,
+      "slug": "addyosmani--agent-skills",
+      "sourceHash": "46dcd29b929ef8fa7e6ab33ed15ad1490f3362b1b7f106d1433e4df0b0499547",
+      "summary": "这是一套面向 AI 编程代理的工程技能包，把资深工程师的开发流程、质量关卡与最佳实践固化为可安装的技能，覆盖需求、规划、编码、测试、评审到发布各阶段。"
     },
     {
       "owner": "storytold",
@@ -80,23 +104,35 @@
       "url": "https://github.com/storytold/artcraft",
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "language": "Rust",
-      "stars": 8256,
-      "starsToday": 2103,
+      "stars": 11667,
+      "starsToday": 3752,
       "slug": "storytold--artcraft",
       "sourceHash": "859d98fdb6b0bca31c8130881487cb29a0caace3db71197571182c4faa618e54",
       "summary": "ArtCraft 是一款面向艺术家、设计师和影视创作者的 AI 图像与视频创作 IDE，支持 2D 构图、3D 场景搭建和多种模型选择。"
     },
     {
-      "owner": "liquidslr",
-      "name": "system-design-notes",
-      "url": "https://github.com/liquidslr/system-design-notes",
-      "description": "Notes of the book System Desgin Interview - An Insider's Guide",
+      "owner": "Robbyant",
+      "name": "lingbot-map",
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "description": "[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
+      "language": "Python",
+      "stars": 17732,
+      "starsToday": 110,
+      "slug": "Robbyant--lingbot-map",
+      "sourceHash": "7cc86d2a31e095dedbdd076122df0d1f09344efe58d1e5b5421dd4efb2cd0b59",
+      "summary": "LingBot-Map 是一个前馈式三维基础模型，用于流式三维重建，可处理长视频序列并生成点云与交互式可视化结果。"
+    },
+    {
+      "owner": "twostraws",
+      "name": "SwiftUI-Agent-Skill",
+      "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+      "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
       "language": null,
-      "stars": 24731,
-      "starsToday": 393,
-      "slug": "liquidslr--system-design-notes",
-      "sourceHash": "46c59874d313451c1935693918ff85a840d40cc8895931ac481b225b521b97e5",
-      "summary": "这是《系统设计面试》第一卷和第二卷的学习笔记，按章节整理限流器、一致性哈希、键值存储等系统设计案例，并附相关延伸阅读资料。"
+      "stars": 5473,
+      "starsToday": 65,
+      "slug": "twostraws--SwiftUI-Agent-Skill",
+      "sourceHash": "de2fe3ab01e134d10f6c69b2f9c675bda23f031821c7a71831c923bd6fcf4fe6",
+      "summary": "这是一个面向 Claude Code、Codex 等 AI 编程助手的 SwiftUI 技能包，用于指导其编写更简洁现代的 SwiftUI 代码，涵盖 API 用法、设计、性能与无障碍等方面。"
     }
   ]
 }
