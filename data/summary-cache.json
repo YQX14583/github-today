@@ -1,6 +1,97 @@
 {
   "version": 1,
   "entries": {
+    "multica-ai/andrej-karpathy-skills": {
+      "summary": "这是一个 CLAUDE.md 配置文件，用于约束 Claude Code 的编码行为，依据 Andrej Karpathy 对 LLM 编码缺陷的观察，提出四条原则以减少错误假设和过度改动。",
+      "sourceHash": "175c49a76f239ac51b504013ef0f4d614938975f5acceaa8592e8bfa105a0d69",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-11T01:48:42.504Z"
+    },
+    "anthropics/knowledge-work-plugins": {
+      "summary": "这是 Anthropic 开源的知识工作插件集合，为 Claude Cowork 和 Claude Code 提供面向销售、数据等岗位的专用技能与命令。",
+      "sourceHash": "ef129cfdf82c1174376c99765bf6b39c58014ad9601fe6d59d7bd9846ba08df0",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-11T01:48:41.552Z"
+    },
+    "huggingface/transformers": {
+      "summary": "Hugging Face Transformers 是一个基于 Python 的模型定义框架，提供文本、视觉、音频和多模态的先进机器学习模型，支持推理与训练。",
+      "sourceHash": "6c1bd8109287be5abed88273ac6d091e2f3209898f8a5b1efff92ad48983d4b4",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-11T01:48:41.349Z"
+    },
+    "pytorch/pytorch": {
+      "summary": "PyTorch 是一个 Python 深度学习框架，提供支持 GPU 加速的张量计算和基于磁带式自动微分的动态神经网络。",
+      "sourceHash": "6881fb3e6ad1b738d1f491f0a0c0392dbcd0859fc5c07f06ebea260d06db457f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-11T01:48:40.324Z"
+    },
+    "hugohe3/ppt-master": {
+      "summary": "PPT Master 是一个 Python 工具，让 AI 根据文档或主题生成原生 PowerPoint 演示文稿，支持原生形状、动画、图表表格、语音旁白和自定义模板。",
+      "sourceHash": "8b346e3810b493a2ba1d972e06ddc10c1c52cb81eea3b63704c6add38ba8148a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-11T01:48:39.198Z"
+    },
+    "tensorflow/tensorflow": {
+      "summary": "TensorFlow 是端到端开源机器学习平台，提供工具、库与社区资源，供研究者推进机器学习前沿，也便于开发者构建和部署机器学习应用。",
+      "sourceHash": "aa8ae061497aaa181e3a182f8e7b002e203f5342da3977f74cecd60e711db899",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-11T01:48:38.202Z"
+    },
+    "flutter/flutter": {
+      "summary": "Flutter 是谷歌推出的开源 SDK，用单一 Dart 代码库为移动、Web 和桌面构建高性能、界面精美的应用。",
+      "sourceHash": "05c89d8c1744a8ac3b149d6524699169830ecc60ca00bee49ccf6c1afd394063",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-11T01:48:36.869Z"
+    },
+    "mattpocock/skills": {
+      "summary": "这是一套面向真实软件工程的 AI 编码代理技能集合，用于规范开发流程、减少代理啰嗦与错误，帮助开发者按工程实践完成代码修改。",
+      "sourceHash": "f9bc1dd3088da5be6ff38259eda7e11bafe1bcc184cc0ecfb4332354017a9bc4",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-11T01:48:35.821Z"
+    },
+    "mksglu/context-mode": {
+      "summary": "Context Mode 是一个面向 AI 编程代理的 MCP 服务器，通过沙箱隔离工具输出、持久化会话记忆和路由规则来优化上下文窗口占用。",
+      "sourceHash": "5064436ad34250f63bc62821dcb2ea96a01d1036e1fdb0f9f35b78a2f8dd4e66",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-11T01:48:35.636Z"
+    },
+    "cathrynlavery/diagram-design": {
+      "summary": "这是一个面向多种 AI 编程助手的技能，用自然语言描述即可生成自包含 HTML 与 SVG 的编辑风格图表，内置 44 种图表类型，并可按品牌配色和字体定制。",
+      "sourceHash": "fec06111e2608807ed177c638c0bb16b90c516cf5aa06019bcd7a7669782e4ce",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-11T01:48:35.451Z"
+    },
+    "storytold/artcraft": {
+      "summary": "ArtCraft 是一个用 Rust 开发的交互式 AI 图像与视频创作 IDE，支持 2D 构图、3D 场景搭建和模型选择，帮助艺术家精确控制生成结果。",
+      "sourceHash": "2cf1290dee922f69133f8d77296d7cbec6764b08685d87679384dc41d97c0457",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-11T01:48:34.265Z"
+    },
+    "boykopovar/anyps5": {
+      "summary": "AnyPS5 是一个用 C++ 编写的工具，可将 PS5 可执行文件自动移植到 Linux 和 Windows，通过重链接和系统库实现原生运行，而非模拟。",
+      "sourceHash": "224288deaea0af3c4d43132f17c9ba2fc063800d2a3b8ae361457f875711ca15",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-11T01:48:32.973Z"
+    },
+    "morluto/rea": {
+      "summary": "REA 是一个基于 MCP 的逆向工程工具，让 AI 代理分析二进制、应用与运行时行为，并给出带证据的代码追踪结果。",
+      "sourceHash": "6b990f05ef40867e977b50608962a1ebfc93f6b829dd3903498fd4e004e7443b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-11T01:48:32.773Z"
+    },
     "twostraws/swiftui-agent-skill": {
       "summary": "这是一个面向 Claude Code、Codex 等 AI 编程助手的 SwiftUI 技能包，用于指导其编写更简洁现代的 SwiftUI 代码，涵盖 API 用法、设计、性能与无障碍等方面。",
       "sourceHash": "de2fe3ab01e134d10f6c69b2f9c675bda23f031821c7a71831c923bd6fcf4fe6",
@@ -14,13 +105,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-10T02:16:15.775Z"
-    },
-    "storytold/artcraft": {
-      "summary": "ArtCraft 是一款面向艺术家、设计师和影视创作者的 AI 图像与视频创作 IDE，支持 2D 构图、3D 场景搭建和多种模型选择。",
-      "sourceHash": "859d98fdb6b0bca31c8130881487cb29a0caace3db71197571182c4faa618e54",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-10T02:16:14.688Z"
     },
     "addyosmani/agent-skills": {
       "summary": "这是一套面向 AI 编程代理的工程技能包，把资深工程师的开发流程、质量关卡与最佳实践固化为可安装的技能，覆盖需求、规划、编码、测试、评审到发布各阶段。",
@@ -36,47 +120,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-10T02:16:14.194Z"
     },
-    "anthropics/knowledge-work-plugins": {
-      "summary": "这是 Anthropic 开源的知识工作插件集合，为 Claude Cowork 和 Claude Code 提供面向销售、数据等岗位的专用技能与命令。",
-      "sourceHash": "ef129cfdf82c1174376c99765bf6b39c58014ad9601fe6d59d7bd9846ba08df0",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-10T02:16:12.988Z"
-    },
     "alibaba/open-code-review": {
       "summary": "Open Code Review 是阿里巴巴开源的 AI 代码审查命令行工具，采用确定性流程与大模型 Agent 混合架构，可对代码变更做精确到行的审查并输出多语言规则检查结果。",
       "sourceHash": "0a626dc2f156cc3e578882f219a61afe9c2113974043311404a2a80dcba8b13f",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-10T02:16:12.795Z"
-    },
-    "cathrynlavery/diagram-design": {
-      "summary": "这是一个面向 Claude Code 等 AI 编程助手的技能，用自然语言描述即可生成自包含 HTML+SVG 的编辑风格图表，支持 44 种图表类型并可套用品牌配色。",
-      "sourceHash": "1da00ad8c2ec2ad6892fcfb16872366ff9ea9410d07a40396c266c405eb9cd5b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-10T02:16:11.552Z"
-    },
-    "mattpocock/skills": {
-      "summary": "这是一套面向真实软件工程的 AI 编码代理技能集合，用于规范开发流程、减少代理啰嗦与错误，帮助开发者按工程实践完成代码修改。",
-      "sourceHash": "f9bc1dd3088da5be6ff38259eda7e11bafe1bcc184cc0ecfb4332354017a9bc4",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-10T02:16:10.188Z"
-    },
-    "boykopovar/anyps5": {
-      "summary": "AnyPS5 是一个用 C++ 编写的工具，可将 PS5 可执行文件自动移植到 Linux 和 Windows，通过重链接和系统库实现原生运行，而非模拟。",
-      "sourceHash": "224288deaea0af3c4d43132f17c9ba2fc063800d2a3b8ae361457f875711ca15",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-10T02:16:09.865Z"
-    },
-    "morluto/rea": {
-      "summary": "REA 是一个基于 MCP 的逆向工程工具，让 AI 代理分析二进制、应用与运行时行为，追踪代码并给出证据。",
-      "sourceHash": "90fb4e8f684ab694d260296e4e7773796620be666b1f5aa0328748860b9c8884",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-10T02:16:09.637Z"
     },
     "liquidslr/system-design-notes": {
       "summary": "这是《系统设计面试》第一卷和第二卷的学习笔记，按章节整理限流器、一致性哈希、键值存储等系统设计案例，并附相关延伸阅读资料。",
@@ -287,13 +336,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-04T02:32:06.260Z"
-    },
-    "mksglu/context-mode": {
-      "summary": "Context Mode 是一个面向 AI 编程代理的 MCP 服务器，通过沙箱隔离工具输出、持久化会话记忆和路由规则来优化上下文窗口占用。",
-      "sourceHash": "5064436ad34250f63bc62821dcb2ea96a01d1036e1fdb0f9f35b78a2f8dd4e66",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-04T02:32:04.723Z"
     },
     "obra/superpowers": {
       "summary": "Superpowers 是一套面向编码智能体的软件开发方法论，由可组合技能和初始指令构成，引导智能体按流程完成开发任务。",
@@ -603,13 +645,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-27T01:21:15.534Z"
     },
-    "tensorflow/tensorflow": {
-      "summary": "TensorFlow 是端到端开源机器学习平台，提供工具、库和社区资源，供研究者推进机器学习并帮助开发者构建和部署机器学习应用。",
-      "sourceHash": "884b05cb02023d50dbd0df6d4fc3507f606c4b2b618c13cbba7231b5a0f65756",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-27T01:21:14.945Z"
-    },
     "nvidia/model-optimizer": {
       "summary": "NVIDIA Model Optimizer 是一个深度学习模型优化库，提供量化、剪枝、蒸馏、神经架构搜索和推测解码等技术，用于压缩模型以加速推理部署。",
       "sourceHash": "9819375cdbe3fccf018229821e25f612bd47e341be24c9265bf3828ca1f43f74",
@@ -665,41 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-25T01:25:06.980Z"
-    },
-    "superdesigndev/treg": {
-      "summary": "Treg 是一个面向 AI 智能体的工具聚合网关，用统一地址和令牌调用 60 多家供应商的 3000 多个接口，按次计费，无需逐个注册账号。",
-      "sourceHash": "6cf507aacf6084a354d4e3725badfe81c56597c63a9806ecdc163e5101bbade5",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-25T01:25:05.743Z"
-    },
-    "julyx10/lap": {
-      "summary": "Lap 是一款开源离线本地照片管理器，支持 macOS、Windows 和 Linux，用于浏览、搜索和管理大型本地照片库。",
-      "sourceHash": "1b147e5a6d3b0977f772f323ae15591187f939c167ee64d86f1311afeceee732",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-25T01:25:04.518Z"
-    },
-    "strands-agents/harness-sdk": {
-      "summary": "Strands Agents 是用于构建生产级 AI 智能体的开源 SDK，支持 Python 和 TypeScript，可接入任意模型与云平台，并提供端到端的智能体控制能力。",
-      "sourceHash": "03e3ca533ecacf79239dc94b167dc14012e44a1ce913e08a9fe03aa7fca8bae1",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-25T01:25:03.318Z"
-    },
-    "mvt-project/mvt": {
-      "summary": "MVT 是用于安卓和 iOS 移动设备取证的开源工具集，可自动收集取证痕迹，帮助识别设备是否被间谍软件等入侵。",
-      "sourceHash": "876b8977a7b1d6eaaa8fb5ea4e6071efe386acb1aa54058964148ab0030d73ea",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-25T01:25:02.844Z"
-    },
-    "hkuds/cli-anything": {
-      "summary": "CLI-Anything 是香港大学团队开发的工具，通过 CLI-Hub 包管理器安装现成命令行接口，或为各类软件生成可供 AI 智能体调用的 CLI。",
-      "sourceHash": "8ff7a78f46a12857f1a76fd4c537fe82e644a2ca700ede7171addd1308dbe412",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-25T01:25:02.639Z"
     }
   }
 }
