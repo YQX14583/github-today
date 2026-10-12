@@ -1,6 +1,62 @@
 {
   "version": 1,
   "entries": {
+    "chrislgarry/apollo-11": {
+      "summary": "阿波罗11号指令舱与登月舱制导计算机的原始汇编源代码，由Virtual AGC和MIT博物馆数字化保存。",
+      "sourceHash": "2768966e306f393989fa5c36b88c5c71b2e3114ea3e90453c03301d1f34295d1",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-12T02:18:03.385Z"
+    },
+    "lyogavin/airllm": {
+      "summary": "AirLLM 是一个开源推理库，通过逐层加载权重，让 70B 等大语言模型在单张 4GB 显卡上运行，并支持小显存微调。",
+      "sourceHash": "2f9843c79b8c115fdf4e5ef07371990c9c4d420c2f507825a4277fd148337fb9",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-12T02:18:02.148Z"
+    },
+    "pytorch/pytorch": {
+      "summary": "PyTorch 是一个 Python 深度学习框架，提供支持 GPU 加速的张量计算和基于磁带式自动微分的动态神经网络。",
+      "sourceHash": "6881fb3e6ad1b738d1f491f0a0c0392dbcd0859fc5c07f06ebea260d06db457f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-12T02:18:00.522Z"
+    },
+    "bilawalsidhu/gods-eye-view": {
+      "summary": "这是一个浏览器中的间谍卫星模拟器，用逼真三维地球展示航班、船舶、卫星等公开实时数据，供用户追踪和探索全球动态。",
+      "sourceHash": "cebf234e7fccaa679a427e39bb4a9f2ae069607e5d26355d1151ca7367b12892",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-12T02:18:00.284Z"
+    },
+    "cathrynlavery/diagram-design": {
+      "summary": "这是一个面向多种 AI 编程助手的技能，用自然语言描述即可生成自包含 HTML 与 SVG 的编辑风格图表，内置 44 种图表类型，并可按品牌配色和字体定制。",
+      "sourceHash": "fec06111e2608807ed177c638c0bb16b90c516cf5aa06019bcd7a7669782e4ce",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-12T02:17:59.004Z"
+    },
+    "storytold/artcraft": {
+      "summary": "ArtCraft 是一个用 Rust 开发的交互式 AI 图像与视频创作 IDE，支持 2D 构图、3D 场景搭建和模型选择，帮助艺术家精确控制生成结果。",
+      "sourceHash": "2cf1290dee922f69133f8d77296d7cbec6764b08685d87679384dc41d97c0457",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-12T02:17:58.750Z"
+    },
+    "boykopovar/anyps5": {
+      "summary": "AnyPS5 是一个用 C++ 编写的工具，可将 PS5 可执行文件自动移植到 Linux 和 Windows，通过重链接和系统库实现原生运行，而非模拟。",
+      "sourceHash": "224288deaea0af3c4d43132f17c9ba2fc063800d2a3b8ae361457f875711ca15",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-12T02:17:58.388Z"
+    },
+    "morluto/rea": {
+      "summary": "REA 是一个基于 MCP 的逆向工程工具，让 AI 代理分析二进制、应用与运行时行为，追踪代码并给出证据。",
+      "sourceHash": "c1a92d7d99d769cf15f15d08b4eee39883a32e288f1c38d816b849fa2e85f92c",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-12T02:17:58.150Z"
+    },
     "multica-ai/andrej-karpathy-skills": {
       "summary": "这是一个 CLAUDE.md 配置文件，用于约束 Claude Code 的编码行为，依据 Andrej Karpathy 对 LLM 编码缺陷的观察，提出四条原则以减少错误假设和过度改动。",
       "sourceHash": "175c49a76f239ac51b504013ef0f4d614938975f5acceaa8592e8bfa105a0d69",
@@ -21,13 +77,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-11T01:48:41.349Z"
-    },
-    "pytorch/pytorch": {
-      "summary": "PyTorch 是一个 Python 深度学习框架，提供支持 GPU 加速的张量计算和基于磁带式自动微分的动态神经网络。",
-      "sourceHash": "6881fb3e6ad1b738d1f491f0a0c0392dbcd0859fc5c07f06ebea260d06db457f",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-11T01:48:40.324Z"
     },
     "hugohe3/ppt-master": {
       "summary": "PPT Master 是一个 Python 工具，让 AI 根据文档或主题生成原生 PowerPoint 演示文稿，支持原生形状、动画、图表表格、语音旁白和自定义模板。",
@@ -63,34 +112,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-11T01:48:35.636Z"
-    },
-    "cathrynlavery/diagram-design": {
-      "summary": "这是一个面向多种 AI 编程助手的技能，用自然语言描述即可生成自包含 HTML 与 SVG 的编辑风格图表，内置 44 种图表类型，并可按品牌配色和字体定制。",
-      "sourceHash": "fec06111e2608807ed177c638c0bb16b90c516cf5aa06019bcd7a7669782e4ce",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-11T01:48:35.451Z"
-    },
-    "storytold/artcraft": {
-      "summary": "ArtCraft 是一个用 Rust 开发的交互式 AI 图像与视频创作 IDE，支持 2D 构图、3D 场景搭建和模型选择，帮助艺术家精确控制生成结果。",
-      "sourceHash": "2cf1290dee922f69133f8d77296d7cbec6764b08685d87679384dc41d97c0457",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-11T01:48:34.265Z"
-    },
-    "boykopovar/anyps5": {
-      "summary": "AnyPS5 是一个用 C++ 编写的工具，可将 PS5 可执行文件自动移植到 Linux 和 Windows，通过重链接和系统库实现原生运行，而非模拟。",
-      "sourceHash": "224288deaea0af3c4d43132f17c9ba2fc063800d2a3b8ae361457f875711ca15",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-11T01:48:32.973Z"
-    },
-    "morluto/rea": {
-      "summary": "REA 是一个基于 MCP 的逆向工程工具，让 AI 代理分析二进制、应用与运行时行为，并给出带证据的代码追踪结果。",
-      "sourceHash": "6b990f05ef40867e977b50608962a1ebfc93f6b829dd3903498fd4e004e7443b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-11T01:48:32.773Z"
     },
     "twostraws/swiftui-agent-skill": {
       "summary": "这是一个面向 Claude Code、Codex 等 AI 编程助手的 SwiftUI 技能包，用于指导其编写更简洁现代的 SwiftUI 代码，涵盖 API 用法、设计、性能与无障碍等方面。",
@@ -679,27 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-26T01:28:27.225Z"
-    },
-    "anthropics/skills": {
-      "summary": "这是 Anthropic 公开的 Claude Agent Skills 示例仓库，提供文档处理、创意设计等技能模板与规范，供开发者参考创建自定义技能。",
-      "sourceHash": "e74288aebc542b4cc8b7f31a93813befa9e1342c683f9540cad9ea266b17a6e0",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-26T01:28:26.238Z"
-    },
-    "anthropics/claude-plugins-official": {
-      "summary": "这是 Anthropic 维护的 Claude Code 插件目录，收录官方与第三方高质量插件，供用户通过插件市场安装使用。",
-      "sourceHash": "57c0b9849a1455c479f61734473df34afe467633c1454c474c98e2218bd27a36",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-26T01:28:23.138Z"
-    },
-    "leejet/stable-diffusion.cpp": {
-      "summary": "基于 ggml 的纯 C/C++ 扩散模型推理实现，可在本地运行 Stable Diffusion、Flux、Wan 等模型生成图像。",
-      "sourceHash": "c4dedbadb8d99c5bffe4c988a64975147983b65f24260441bc5d6276dd09394d",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-25T01:25:06.980Z"
     }
   }
 }
