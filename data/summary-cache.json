@@ -1,19 +1,75 @@
 {
   "version": 1,
   "entries": {
-    "chrislgarry/apollo-11": {
-      "summary": "阿波罗11号指令舱与登月舱制导计算机的原始汇编源代码，由Virtual AGC和MIT博物馆数字化保存。",
-      "sourceHash": "2768966e306f393989fa5c36b88c5c71b2e3114ea3e90453c03301d1f34295d1",
+    "alishahryar1/free-claude-code": {
+      "summary": "这是一个开源工具，让用户在终端、应用、IDE或浏览器中免费使用 Claude Code、Codex 等多种编程代理，并接入 61 家服务商提供的免费模型。",
+      "sourceHash": "e820f4bc55c97b4722575d7c324e7add3d4453a87defc5712ed3c3c6e15e05e4",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-12T02:18:03.385Z"
+      "lastUsedAt": "2026-10-13T03:30:12.398Z"
+    },
+    "microsoft/bitnet": {
+      "summary": "bitnet.cpp 是微软推出的 1 位大语言模型官方推理框架，提供优化内核，支持在 CPU 和 GPU 上快速无损地运行 BitNet b1.58 等 1.58 位模型。",
+      "sourceHash": "ba105eaf1ea57d02560fe3ed730efcdaa1fb83b6b817391704ec4cd701d548de",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-13T03:30:11.125Z"
     },
     "lyogavin/airllm": {
       "summary": "AirLLM 是一个开源推理库，通过逐层加载权重，让 70B 等大语言模型在单张 4GB 显卡上运行，并支持小显存微调。",
       "sourceHash": "2f9843c79b8c115fdf4e5ef07371990c9c4d420c2f507825a4277fd148337fb9",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-12T02:18:02.148Z"
+      "lastUsedAt": "2026-10-13T03:30:10.041Z"
+    },
+    "cathrynlavery/diagram-design": {
+      "summary": "这是一个面向 AI 编程助手的技能，用自然语言描述即可生成自包含 HTML 与 SVG 的编辑风格图表，支持 45 种图表类型并可按品牌配色定制。",
+      "sourceHash": "ccf6b3bfebf033a8679ed84e3e2f049121fbbc2e1478f76c774dcb1f468aa21d",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-13T03:30:09.816Z"
+    },
+    "open-webui/open-webui": {
+      "summary": "Open WebUI 是一个可自托管、完全离线运行的 AI 交互界面，支持 Ollama 和 OpenAI 兼容 API，用于统一管理本地与云端模型。",
+      "sourceHash": "eaf15dc4f70cdfa01088294b5e09fe9daa0a8664e046d87b5f38ada915795571",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-13T03:30:08.502Z"
+    },
+    "storytold/artcraft": {
+      "summary": "ArtCraft 是一个用 Rust 开发的交互式 AI 图像与视频创作 IDE，支持 2D 构图、3D 场景搭建和模型选择，帮助艺术家精确控制生成结果。",
+      "sourceHash": "2cf1290dee922f69133f8d77296d7cbec6764b08685d87679384dc41d97c0457",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-13T03:30:06.891Z"
+    },
+    "mksglu/context-mode": {
+      "summary": "Context Mode 是一个面向 AI 编程代理的 MCP 服务器，通过沙箱隔离工具输出、持久化会话记忆和路由规则来优化上下文窗口占用。",
+      "sourceHash": "5064436ad34250f63bc62821dcb2ea96a01d1036e1fdb0f9f35b78a2f8dd4e66",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-13T03:30:06.648Z"
+    },
+    "bilawalsidhu/gods-eye-view": {
+      "summary": "这是一个浏览器中的间谍卫星模拟器，用逼真三维地球展示航班、船舶、卫星等公开实时数据，供用户追踪和探索全球动态。",
+      "sourceHash": "cebf234e7fccaa679a427e39bb4a9f2ae069607e5d26355d1151ca7367b12892",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-13T03:30:06.183Z"
+    },
+    "morluto/rea": {
+      "summary": "REA 是一个基于 MCP 的逆向工程工具，让 AI 代理分析二进制、应用与运行时行为，并给出带证据的结论。",
+      "sourceHash": "9c79155a5e5e2c2f0eab09b0a5f7af9ace578b6bcd70f12310870d8bc86eb5b8",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-13T03:30:05.889Z"
+    },
+    "chrislgarry/apollo-11": {
+      "summary": "阿波罗11号指令舱与登月舱制导计算机的原始汇编源代码，由Virtual AGC和MIT博物馆数字化保存。",
+      "sourceHash": "2768966e306f393989fa5c36b88c5c71b2e3114ea3e90453c03301d1f34295d1",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-12T02:18:03.385Z"
     },
     "pytorch/pytorch": {
       "summary": "PyTorch 是一个 Python 深度学习框架，提供支持 GPU 加速的张量计算和基于磁带式自动微分的动态神经网络。",
@@ -22,40 +78,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-12T02:18:00.522Z"
     },
-    "bilawalsidhu/gods-eye-view": {
-      "summary": "这是一个浏览器中的间谍卫星模拟器，用逼真三维地球展示航班、船舶、卫星等公开实时数据，供用户追踪和探索全球动态。",
-      "sourceHash": "cebf234e7fccaa679a427e39bb4a9f2ae069607e5d26355d1151ca7367b12892",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-12T02:18:00.284Z"
-    },
-    "cathrynlavery/diagram-design": {
-      "summary": "这是一个面向多种 AI 编程助手的技能，用自然语言描述即可生成自包含 HTML 与 SVG 的编辑风格图表，内置 44 种图表类型，并可按品牌配色和字体定制。",
-      "sourceHash": "fec06111e2608807ed177c638c0bb16b90c516cf5aa06019bcd7a7669782e4ce",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-12T02:17:59.004Z"
-    },
-    "storytold/artcraft": {
-      "summary": "ArtCraft 是一个用 Rust 开发的交互式 AI 图像与视频创作 IDE，支持 2D 构图、3D 场景搭建和模型选择，帮助艺术家精确控制生成结果。",
-      "sourceHash": "2cf1290dee922f69133f8d77296d7cbec6764b08685d87679384dc41d97c0457",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-12T02:17:58.750Z"
-    },
     "boykopovar/anyps5": {
       "summary": "AnyPS5 是一个用 C++ 编写的工具，可将 PS5 可执行文件自动移植到 Linux 和 Windows，通过重链接和系统库实现原生运行，而非模拟。",
       "sourceHash": "224288deaea0af3c4d43132f17c9ba2fc063800d2a3b8ae361457f875711ca15",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-12T02:17:58.388Z"
-    },
-    "morluto/rea": {
-      "summary": "REA 是一个基于 MCP 的逆向工程工具，让 AI 代理分析二进制、应用与运行时行为，追踪代码并给出证据。",
-      "sourceHash": "c1a92d7d99d769cf15f15d08b4eee39883a32e288f1c38d816b849fa2e85f92c",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-12T02:17:58.150Z"
     },
     "multica-ai/andrej-karpathy-skills": {
       "summary": "这是一个 CLAUDE.md 配置文件，用于约束 Claude Code 的编码行为，依据 Andrej Karpathy 对 LLM 编码缺陷的观察，提出四条原则以减少错误假设和过度改动。",
@@ -105,13 +133,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-11T01:48:35.821Z"
-    },
-    "mksglu/context-mode": {
-      "summary": "Context Mode 是一个面向 AI 编程代理的 MCP 服务器，通过沙箱隔离工具输出、持久化会话记忆和路由规则来优化上下文窗口占用。",
-      "sourceHash": "5064436ad34250f63bc62821dcb2ea96a01d1036e1fdb0f9f35b78a2f8dd4e66",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-11T01:48:35.636Z"
     },
     "twostraws/swiftui-agent-skill": {
       "summary": "这是一个面向 Claude Code、Codex 等 AI 编程助手的 SwiftUI 技能包，用于指导其编写更简洁现代的 SwiftUI 代码，涵盖 API 用法、设计、性能与无障碍等方面。",
@@ -679,27 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-26T01:28:32.259Z"
-    },
-    "kelseyhightower/kubernetes-the-hard-way": {
-      "summary": "这是一份手动搭建 Kubernetes 集群的教程，逐步讲解引导控制平面、工作节点和 etcd 等核心组件的完整过程，主要用于学习理解其原理。",
-      "sourceHash": "5584ff2f1bd6df8c43af15d93e862486a53a1d64c61b5b92cb4cb05374ab643b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-26T01:28:29.368Z"
-    },
-    "derv82/wifit3": {
-      "summary": "wifit3 是一个用 Python 编写的独立 USB 无线网络审计工具，可在 Linux、Windows 和 macOS 上运行，用于扫描、抓包和破解 Wi-Fi 网络。",
-      "sourceHash": "079f6696878d909caf00d78067d074a610ba62f57caf8d2d946fa3d184e55c09",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-26T01:28:28.311Z"
-    },
-    "androoagi/starnet": {
-      "summary": "StarNet 是一个本地优先的桌面 AI 智能体运行框架，用户可创建多个智能体并组织成像素风空间站，让它们调用真实模型和工具执行实际任务。",
-      "sourceHash": "5085c36bcc5d979f36b68e29e95bed6af39d1b6ae2e79c382523af03a7554088",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-26T01:28:27.225Z"
     }
   }
 }
