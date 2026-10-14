@@ -1,6 +1,69 @@
 {
   "version": 1,
   "entries": {
+    "xtool-org/xtool": {
+      "summary": "xtool 是跨平台 Xcode 替代工具，可在 Linux、Windows 和 macOS 上用 SwiftPM 构建、签名并部署 iOS 应用。",
+      "sourceHash": "9a4447fcd5a01d46d068d534067f8bccce534f503c5f2a8919554208a7807e44",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-14T01:49:17.958Z"
+    },
+    "storytold/artcraft": {
+      "summary": "ArtCraft 是一个用 Rust 开发的交互式 AI 图像与视频创作 IDE，支持 2D 构图、3D 场景搭建和模型选择，帮助艺术家精确控制生成结果。",
+      "sourceHash": "2cf1290dee922f69133f8d77296d7cbec6764b08685d87679384dc41d97c0457",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-14T01:49:16.573Z"
+    },
+    "lyogavin/airllm": {
+      "summary": "AirLLM 是一个开源推理库，通过逐层加载权重，让 70B 等大语言模型在单张 4GB 显卡上运行，并支持小显存微调。",
+      "sourceHash": "2f9843c79b8c115fdf4e5ef07371990c9c4d420c2f507825a4277fd148337fb9",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-14T01:49:16.278Z"
+    },
+    "vercel-labs/skills": {
+      "summary": "这是一个 TypeScript 编写的命令行工具，用于在 OpenCode、Claude Code、Cursor 等编码代理中安装、使用、查找和更新开放的 agent skills。",
+      "sourceHash": "2d9199523c9cc88043535dcb2cd5e2bca953c8c0c87862cdafb938b4cb1bdecd",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-14T01:49:16.014Z"
+    },
+    "cathrynlavery/diagram-design": {
+      "summary": "这是一个为多种 AI 编程助手提供的技能，用自然语言描述即可生成自包含 HTML 与 SVG 的编辑风格图表，支持 45 种图表类型并可按品牌配色定制。",
+      "sourceHash": "cf47c0b7217f2d4e8cb4457216bb25f6d9c51808ee841e15f017c20342b9da34",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-14T01:49:14.824Z"
+    },
+    "mksglu/context-mode": {
+      "summary": "Context Mode 是一个面向 AI 编程代理的 MCP 服务器，通过沙箱隔离工具输出、持久化会话记忆和路由规则来优化上下文窗口占用。",
+      "sourceHash": "5064436ad34250f63bc62821dcb2ea96a01d1036e1fdb0f9f35b78a2f8dd4e66",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-14T01:49:13.132Z"
+    },
+    "debpalash/voicestudio": {
+      "summary": "VoiceStudio 是一个完全本地运行的开源语音工具，支持语音克隆、语音设计、视频配音、听写、转录和有声书制作，覆盖 646 种语言。",
+      "sourceHash": "f9e389913747b7e4a6dd47c0cfa9f5d25960a5846d76847c8df71d774c96bfd5",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-14T01:49:12.866Z"
+    },
+    "bilawalsidhu/gods-eye-view": {
+      "summary": "一个浏览器中的间谍卫星模拟器，用公开数据在逼真三维地球上实时追踪飞机、船只、卫星等目标。",
+      "sourceHash": "456bd6679dc515ffa0bb7c5e48a4aa701f3b97f984361322daf188fc119c1799",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-14T01:49:11.499Z"
+    },
+    "morluto/rea": {
+      "summary": "REA 是一个基于 MCP 的逆向工程工具，让 AI 代理分析二进制、应用与运行时行为，追踪代码并给出证据。",
+      "sourceHash": "1b1d1188af4faea6e136ce66c30ee0e7112037ebe7d56020016ce2847b904c9f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-14T01:49:10.110Z"
+    },
     "alishahryar1/free-claude-code": {
       "summary": "这是一个开源工具，让用户在终端、应用、IDE或浏览器中免费使用 Claude Code、Codex 等多种编程代理，并接入 61 家服务商提供的免费模型。",
       "sourceHash": "e820f4bc55c97b4722575d7c324e7add3d4453a87defc5712ed3c3c6e15e05e4",
@@ -15,54 +78,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-13T03:30:11.125Z"
     },
-    "lyogavin/airllm": {
-      "summary": "AirLLM 是一个开源推理库，通过逐层加载权重，让 70B 等大语言模型在单张 4GB 显卡上运行，并支持小显存微调。",
-      "sourceHash": "2f9843c79b8c115fdf4e5ef07371990c9c4d420c2f507825a4277fd148337fb9",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-13T03:30:10.041Z"
-    },
-    "cathrynlavery/diagram-design": {
-      "summary": "这是一个面向 AI 编程助手的技能，用自然语言描述即可生成自包含 HTML 与 SVG 的编辑风格图表，支持 45 种图表类型并可按品牌配色定制。",
-      "sourceHash": "ccf6b3bfebf033a8679ed84e3e2f049121fbbc2e1478f76c774dcb1f468aa21d",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-13T03:30:09.816Z"
-    },
     "open-webui/open-webui": {
       "summary": "Open WebUI 是一个可自托管、完全离线运行的 AI 交互界面，支持 Ollama 和 OpenAI 兼容 API，用于统一管理本地与云端模型。",
       "sourceHash": "eaf15dc4f70cdfa01088294b5e09fe9daa0a8664e046d87b5f38ada915795571",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-13T03:30:08.502Z"
-    },
-    "storytold/artcraft": {
-      "summary": "ArtCraft 是一个用 Rust 开发的交互式 AI 图像与视频创作 IDE，支持 2D 构图、3D 场景搭建和模型选择，帮助艺术家精确控制生成结果。",
-      "sourceHash": "2cf1290dee922f69133f8d77296d7cbec6764b08685d87679384dc41d97c0457",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-13T03:30:06.891Z"
-    },
-    "mksglu/context-mode": {
-      "summary": "Context Mode 是一个面向 AI 编程代理的 MCP 服务器，通过沙箱隔离工具输出、持久化会话记忆和路由规则来优化上下文窗口占用。",
-      "sourceHash": "5064436ad34250f63bc62821dcb2ea96a01d1036e1fdb0f9f35b78a2f8dd4e66",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-13T03:30:06.648Z"
-    },
-    "bilawalsidhu/gods-eye-view": {
-      "summary": "这是一个浏览器中的间谍卫星模拟器，用逼真三维地球展示航班、船舶、卫星等公开实时数据，供用户追踪和探索全球动态。",
-      "sourceHash": "cebf234e7fccaa679a427e39bb4a9f2ae069607e5d26355d1151ca7367b12892",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-13T03:30:06.183Z"
-    },
-    "morluto/rea": {
-      "summary": "REA 是一个基于 MCP 的逆向工程工具，让 AI 代理分析二进制、应用与运行时行为，并给出带证据的结论。",
-      "sourceHash": "9c79155a5e5e2c2f0eab09b0a5f7af9ace578b6bcd70f12310870d8bc86eb5b8",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-13T03:30:05.889Z"
     },
     "chrislgarry/apollo-11": {
       "summary": "阿波罗11号指令舱与登月舱制导计算机的原始汇编源代码，由Virtual AGC和MIT博物馆数字化保存。",
@@ -540,13 +561,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-01T02:02:47.101Z"
     },
-    "debpalash/voicestudio": {
-      "summary": "VoiceStudio 是一个开源本地语音工具，支持语音克隆、设计、视频配音、听写、转录和有声书制作，覆盖 646 种语言。",
-      "sourceHash": "2e8651fb3928a51f1e0cd574b9e9dbd926ad4e1bd4d0ab07d80ac8cfb2639877",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-01T02:02:42.718Z"
-    },
     "rakyll/hey": {
       "summary": "hey 是一个用 Go 编写的 HTTP 负载生成工具，可向 Web 应用发送指定数量和并发量的请求并输出统计结果，是 ApacheBench 的替代品。",
       "sourceHash": "7f7f22af5d9454d9aedc79a4345f1a9a18c72f02ab55a6ebe0a70b997372412e",
@@ -686,20 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-27T01:21:15.534Z"
-    },
-    "nvidia/model-optimizer": {
-      "summary": "NVIDIA Model Optimizer 是一个深度学习模型优化库，提供量化、剪枝、蒸馏、神经架构搜索和推测解码等技术，用于压缩模型以加速推理部署。",
-      "sourceHash": "9819375cdbe3fccf018229821e25f612bd47e341be24c9265bf3828ca1f43f74",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-27T01:21:13.187Z"
-    },
-    "google/ax": {
-      "summary": "AX 是谷歌开源的智能体编排运行时，用声明式配置在集群中大规模调度和沙箱化运行自主智能体任务。",
-      "sourceHash": "98adb0407f309aa268a655192f08094662fac0c6c725deec9d48e1cd1418e36f",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-26T01:28:32.259Z"
     }
   }
 }

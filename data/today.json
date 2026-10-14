@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-13",
-  "updatedAt": "2026-10-13T03:30:12.398Z",
+  "date": "2026-10-14",
+  "updatedAt": "2026-10-14T01:49:17.958Z",
   "repositories": [
     {
       "owner": "morluto",
@@ -8,11 +8,11 @@
       "url": "https://github.com/morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "stars": 165325,
-      "starsToday": 45327,
+      "stars": 209253,
+      "starsToday": 54679,
       "slug": "morluto--rea",
-      "sourceHash": "9c79155a5e5e2c2f0eab09b0a5f7af9ace578b6bcd70f12310870d8bc86eb5b8",
-      "summary": "REA 是一个基于 MCP 的逆向工程工具，让 AI 代理分析二进制、应用与运行时行为，并给出带证据的结论。"
+      "sourceHash": "1b1d1188af4faea6e136ce66c30ee0e7112037ebe7d56020016ce2847b904c9f",
+      "summary": "REA 是一个基于 MCP 的逆向工程工具，让 AI 代理分析二进制、应用与运行时行为，追踪代码并给出证据。"
     },
     {
       "owner": "bilawalsidhu",
@@ -20,11 +20,23 @@
       "url": "https://github.com/bilawalsidhu/gods-eye-view",
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "language": "JavaScript",
-      "stars": 53888,
-      "starsToday": 1895,
+      "stars": 55472,
+      "starsToday": 1961,
       "slug": "bilawalsidhu--gods-eye-view",
-      "sourceHash": "cebf234e7fccaa679a427e39bb4a9f2ae069607e5d26355d1151ca7367b12892",
-      "summary": "这是一个浏览器中的间谍卫星模拟器，用逼真三维地球展示航班、船舶、卫星等公开实时数据，供用户追踪和探索全球动态。"
+      "sourceHash": "456bd6679dc515ffa0bb7c5e48a4aa701f3b97f984361322daf188fc119c1799",
+      "summary": "一个浏览器中的间谍卫星模拟器，用公开数据在逼真三维地球上实时追踪飞机、船只、卫星等目标。"
+    },
+    {
+      "owner": "debpalash",
+      "name": "VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "stars": 63437,
+      "starsToday": 1748,
+      "slug": "debpalash--VoiceStudio",
+      "sourceHash": "f9e389913747b7e4a6dd47c0cfa9f5d25960a5846d76847c8df71d774c96bfd5",
+      "summary": "VoiceStudio 是一个完全本地运行的开源语音工具，支持语音克隆、语音设计、视频配音、听写、转录和有声书制作，覆盖 646 种语言。"
     },
     {
       "owner": "mksglu",
@@ -32,35 +44,11 @@
       "url": "https://github.com/mksglu/context-mode",
       "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
       "language": "TypeScript",
-      "stars": 27409,
-      "starsToday": 246,
+      "stars": 28277,
+      "starsToday": 969,
       "slug": "mksglu--context-mode",
       "sourceHash": "5064436ad34250f63bc62821dcb2ea96a01d1036e1fdb0f9f35b78a2f8dd4e66",
       "summary": "Context Mode 是一个面向 AI 编程代理的 MCP 服务器，通过沙箱隔离工具输出、持久化会话记忆和路由规则来优化上下文窗口占用。"
-    },
-    {
-      "owner": "storytold",
-      "name": "artcraft",
-      "url": "https://github.com/storytold/artcraft",
-      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
-      "language": "Rust",
-      "stars": 22517,
-      "starsToday": 4095,
-      "slug": "storytold--artcraft",
-      "sourceHash": "2cf1290dee922f69133f8d77296d7cbec6764b08685d87679384dc41d97c0457",
-      "summary": "ArtCraft 是一个用 Rust 开发的交互式 AI 图像与视频创作 IDE，支持 2D 构图、3D 场景搭建和模型选择，帮助艺术家精确控制生成结果。"
-    },
-    {
-      "owner": "open-webui",
-      "name": "open-webui",
-      "url": "https://github.com/open-webui/open-webui",
-      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-      "language": "Python",
-      "stars": 155158,
-      "starsToday": 157,
-      "slug": "open-webui--open-webui",
-      "sourceHash": "eaf15dc4f70cdfa01088294b5e09fe9daa0a8664e046d87b5f38ada915795571",
-      "summary": "Open WebUI 是一个可自托管、完全离线运行的 AI 交互界面，支持 Ollama 和 OpenAI 兼容 API，用于统一管理本地与云端模型。"
     },
     {
       "owner": "cathrynlavery",
@@ -68,11 +56,23 @@
       "url": "https://github.com/cathrynlavery/diagram-design",
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "stars": 52843,
-      "starsToday": 2081,
+      "stars": 54201,
+      "starsToday": 1815,
       "slug": "cathrynlavery--diagram-design",
-      "sourceHash": "ccf6b3bfebf033a8679ed84e3e2f049121fbbc2e1478f76c774dcb1f468aa21d",
-      "summary": "这是一个面向 AI 编程助手的技能，用自然语言描述即可生成自包含 HTML 与 SVG 的编辑风格图表，支持 45 种图表类型并可按品牌配色定制。"
+      "sourceHash": "cf47c0b7217f2d4e8cb4457216bb25f6d9c51808ee841e15f017c20342b9da34",
+      "summary": "这是一个为多种 AI 编程助手提供的技能，用自然语言描述即可生成自包含 HTML 与 SVG 的编辑风格图表，支持 45 种图表类型并可按品牌配色定制。"
+    },
+    {
+      "owner": "vercel-labs",
+      "name": "skills",
+      "url": "https://github.com/vercel-labs/skills",
+      "description": "The open agent skills tool - npx skills",
+      "language": "TypeScript",
+      "stars": 34543,
+      "starsToday": 190,
+      "slug": "vercel-labs--skills",
+      "sourceHash": "2d9199523c9cc88043535dcb2cd5e2bca953c8c0c87862cdafb938b4cb1bdecd",
+      "summary": "这是一个 TypeScript 编写的命令行工具，用于在 OpenCode、Claude Code、Cursor 等编码代理中安装、使用、查找和更新开放的 agent skills。"
     },
     {
       "owner": "lyogavin",
@@ -80,35 +80,35 @@
       "url": "https://github.com/lyogavin/airllm",
       "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
       "language": "Jupyter Notebook",
-      "stars": 37639,
-      "starsToday": 879,
+      "stars": 38358,
+      "starsToday": 1001,
       "slug": "lyogavin--airllm",
       "sourceHash": "2f9843c79b8c115fdf4e5ef07371990c9c4d420c2f507825a4277fd148337fb9",
       "summary": "AirLLM 是一个开源推理库，通过逐层加载权重，让 70B 等大语言模型在单张 4GB 显卡上运行，并支持小显存微调。"
     },
     {
-      "owner": "microsoft",
-      "name": "BitNet",
-      "url": "https://github.com/microsoft/BitNet",
-      "description": "Official inference framework for 1-bit LLMs",
-      "language": "C++",
-      "stars": 40955,
-      "starsToday": 97,
-      "slug": "microsoft--BitNet",
-      "sourceHash": "ba105eaf1ea57d02560fe3ed730efcdaa1fb83b6b817391704ec4cd701d548de",
-      "summary": "bitnet.cpp 是微软推出的 1 位大语言模型官方推理框架，提供优化内核，支持在 CPU 和 GPU 上快速无损地运行 BitNet b1.58 等 1.58 位模型。"
+      "owner": "storytold",
+      "name": "artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "language": "Rust",
+      "stars": 25787,
+      "starsToday": 4081,
+      "slug": "storytold--artcraft",
+      "sourceHash": "2cf1290dee922f69133f8d77296d7cbec6764b08685d87679384dc41d97c0457",
+      "summary": "ArtCraft 是一个用 Rust 开发的交互式 AI 图像与视频创作 IDE，支持 2D 构图、3D 场景搭建和模型选择，帮助艺术家精确控制生成结果。"
     },
     {
-      "owner": "Alishahryar1",
-      "name": "free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
-      "language": "Python",
-      "stars": 59298,
-      "starsToday": 626,
-      "slug": "Alishahryar1--free-claude-code",
-      "sourceHash": "e820f4bc55c97b4722575d7c324e7add3d4453a87defc5712ed3c3c6e15e05e4",
-      "summary": "这是一个开源工具，让用户在终端、应用、IDE或浏览器中免费使用 Claude Code、Codex 等多种编程代理，并接入 61 家服务商提供的免费模型。"
+      "owner": "xtool-org",
+      "name": "xtool",
+      "url": "https://github.com/xtool-org/xtool",
+      "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+      "language": "Swift",
+      "stars": 9450,
+      "starsToday": 1198,
+      "slug": "xtool-org--xtool",
+      "sourceHash": "9a4447fcd5a01d46d068d534067f8bccce534f503c5f2a8919554208a7807e44",
+      "summary": "xtool 是跨平台 Xcode 替代工具，可在 Linux、Windows 和 macOS 上用 SwiftPM 构建、签名并部署 iOS 应用。"
     }
   ]
 }
