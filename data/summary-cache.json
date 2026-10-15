@@ -6,7 +6,21 @@
       "sourceHash": "9a4447fcd5a01d46d068d534067f8bccce534f503c5f2a8919554208a7807e44",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-14T01:49:17.958Z"
+      "lastUsedAt": "2026-10-15T01:29:30.202Z"
+    },
+    "mksglu/context-mode": {
+      "summary": "Context Mode 是一个面向 AI 编程代理的 MCP 服务器，通过沙箱隔离工具输出、持久化会话记忆和路由规则来优化上下文窗口占用。",
+      "sourceHash": "5064436ad34250f63bc62821dcb2ea96a01d1036e1fdb0f9f35b78a2f8dd4e66",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-15T01:25:26.673Z"
+    },
+    "debpalash/voicestudio": {
+      "summary": "VoiceStudio 是一个完全本地运行的开源语音工具，支持语音克隆、语音设计、视频配音、听写、转录和有声书制作，覆盖 646 种语言。",
+      "sourceHash": "f9e389913747b7e4a6dd47c0cfa9f5d25960a5846d76847c8df71d774c96bfd5",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-15T01:25:26.188Z"
     },
     "storytold/artcraft": {
       "summary": "ArtCraft 是一个用 Rust 开发的交互式 AI 图像与视频创作 IDE，支持 2D 构图、3D 场景搭建和模型选择，帮助艺术家精确控制生成结果。",
@@ -35,20 +49,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-14T01:49:14.824Z"
-    },
-    "mksglu/context-mode": {
-      "summary": "Context Mode 是一个面向 AI 编程代理的 MCP 服务器，通过沙箱隔离工具输出、持久化会话记忆和路由规则来优化上下文窗口占用。",
-      "sourceHash": "5064436ad34250f63bc62821dcb2ea96a01d1036e1fdb0f9f35b78a2f8dd4e66",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-14T01:49:13.132Z"
-    },
-    "debpalash/voicestudio": {
-      "summary": "VoiceStudio 是一个完全本地运行的开源语音工具，支持语音克隆、语音设计、视频配音、听写、转录和有声书制作，覆盖 646 种语言。",
-      "sourceHash": "f9e389913747b7e4a6dd47c0cfa9f5d25960a5846d76847c8df71d774c96bfd5",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-14T01:49:12.866Z"
     },
     "bilawalsidhu/gods-eye-view": {
       "summary": "一个浏览器中的间谍卫星模拟器，用公开数据在逼真三维地球上实时追踪飞机、船只、卫星等目标。",
