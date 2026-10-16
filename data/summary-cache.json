@@ -1,26 +1,96 @@
 {
   "version": 1,
   "entries": {
-    "xtool-org/xtool": {
-      "summary": "xtool 是跨平台 Xcode 替代工具，可在 Linux、Windows 和 macOS 上用 SwiftPM 构建、签名并部署 iOS 应用。",
-      "sourceHash": "9a4447fcd5a01d46d068d534067f8bccce534f503c5f2a8919554208a7807e44",
+    "xerj-org/xerj": {
+      "summary": "XERJ 是一个用 Rust 编写的本地 AI 搜索工具，可自动索引代码、文档、日志和 PDF，供智能体检索使用，并兼容 Elasticsearch API。",
+      "sourceHash": "6ce938f464bb0619e400d2a573bf1065ce01aed7ee5a226b260e8a9461bf4d27",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-15T01:29:30.202Z"
+      "lastUsedAt": "2026-10-16T01:13:32.703Z"
+    },
+    "lightseekorg/tokenspeed": {
+      "summary": "TokenSpeed 是一个面向智能体工作负载的高性能大语言模型推理引擎，用 Python 编写，兼顾 TensorRT-LLM 级性能与 vLLM 级易用性。",
+      "sourceHash": "9d36ff652bd0bb6a8fd2c3b07a22f0f82d791c90c256ac408cc803ad92aa94f5",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-16T01:13:31.401Z"
+    },
+    "affaan-m/ecc": {
+      "summary": "ECC 是一个面向 Claude Code、Codex 等 AI 编程代理的性能优化系统，提供技能、记忆、安全与先研究后开发的工程化工具链。",
+      "sourceHash": "d17af3c7deed8b577d8b3c0bcc07a16f4f35be020a044e99a5d05dc58588ea59",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-16T01:13:30.241Z"
+    },
+    "nationalsecurityagency/ghidra": {
+      "summary": "Ghidra 是由美国国家安全局开发的软件逆向工程框架，提供反汇编、反编译、绘图和脚本等工具，用于分析多平台的编译代码。",
+      "sourceHash": "d97ceb7e6d3901c9efc3a0fd46f4604ae3d31553083c4e4ee286d703970d77c8",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-16T01:13:28.877Z"
     },
     "mksglu/context-mode": {
       "summary": "Context Mode 是一个面向 AI 编程代理的 MCP 服务器，通过沙箱隔离工具输出、持久化会话记忆和路由规则来优化上下文窗口占用。",
       "sourceHash": "5064436ad34250f63bc62821dcb2ea96a01d1036e1fdb0f9f35b78a2f8dd4e66",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-15T01:25:26.673Z"
+      "lastUsedAt": "2026-10-16T01:13:27.445Z"
+    },
+    "ruvnet/ruflo": {
+      "summary": "Ruflo 是面向 Claude Code 和 Codex 的智能体元框架，用于部署多智能体集群、协调自动化工作流并构建对话式 AI 系统。",
+      "sourceHash": "c95a2999b26a1abf7002bb6dcb7b1eadeae04486a09caf9e54eb4f2deaae1602",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-16T01:13:27.223Z"
+    },
+    "obra/superpowers": {
+      "summary": "Superpowers 是一套面向编码智能体的软件开发方法论，由可组合技能和初始指令构成，让智能体按流程完成开发任务。",
+      "sourceHash": "7b144782a5d8509092aa14237a86afcb6c95cee13e287eed4fd533ce11b63883",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-16T01:13:25.836Z"
     },
     "debpalash/voicestudio": {
       "summary": "VoiceStudio 是一个完全本地运行的开源语音工具，支持语音克隆、语音设计、视频配音、听写、转录和有声书制作，覆盖 646 种语言。",
       "sourceHash": "f9e389913747b7e4a6dd47c0cfa9f5d25960a5846d76847c8df71d774c96bfd5",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-15T01:25:26.188Z"
+      "lastUsedAt": "2026-10-16T01:13:24.346Z"
+    },
+    "juliusbrussee/caveman": {
+      "summary": "Caveman 是一个用 Go 编写的编码代理代理与技能工具，通过压缩输入输出和自动选模型，减少 AI 编程代理的 token 消耗与费用。",
+      "sourceHash": "0bd27725a3da28ad25326b2abfe23f1263b1e98f0bd7fe2fa1bb96db803e183d",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-16T01:13:24.093Z"
+    },
+    "k-dense-ai/scientific-agent-skills": {
+      "summary": "这是一个面向科研的 AI 智能体技能库，提供 177 个经校验的科学技能和 100 多个生物、化学、医学与药物发现数据库，让 AI 编程助手能执行科研任务。",
+      "sourceHash": "d2cb446a84fea4831abb9ea9d44b664eaae0b8a8fec4168c69dee3f8c737b535",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-16T01:13:22.934Z"
+    },
+    "anthropics/claude-plugins-official": {
+      "summary": "这是 Anthropic 维护的 Claude Code 插件目录，收录官方与第三方高质量插件，供用户浏览和安装。",
+      "sourceHash": "57c0b9849a1455c479f61734473df34afe467633c1454c474c98e2218bd27a36",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-16T01:13:21.725Z"
+    },
+    "morluto/rea": {
+      "summary": "REA 是一个基于 MCP 的逆向工程工具，让 AI 代理分析二进制、应用与运行时行为，并给出带证据的结论。",
+      "sourceHash": "a48b09ccefad36243ca1faebd3526d89d018b9be53b7b635239f4f53a00556ac",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-16T01:13:20.375Z"
+    },
+    "xtool-org/xtool": {
+      "summary": "xtool 是跨平台 Xcode 替代工具，可在 Linux、Windows 和 macOS 上用 SwiftPM 构建、签名并部署 iOS 应用。",
+      "sourceHash": "9a4447fcd5a01d46d068d534067f8bccce534f503c5f2a8919554208a7807e44",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-15T01:29:30.202Z"
     },
     "storytold/artcraft": {
       "summary": "ArtCraft 是一个用 Rust 开发的交互式 AI 图像与视频创作 IDE，支持 2D 构图、3D 场景搭建和模型选择，帮助艺术家精确控制生成结果。",
@@ -56,13 +126,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-14T01:49:11.499Z"
-    },
-    "morluto/rea": {
-      "summary": "REA 是一个基于 MCP 的逆向工程工具，让 AI 代理分析二进制、应用与运行时行为，追踪代码并给出证据。",
-      "sourceHash": "1b1d1188af4faea6e136ce66c30ee0e7112037ebe7d56020016ce2847b904c9f",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-14T01:49:10.110Z"
     },
     "alishahryar1/free-claude-code": {
       "summary": "这是一个开源工具，让用户在终端、应用、IDE或浏览器中免费使用 Claude Code、Codex 等多种编程代理，并接入 61 家服务商提供的免费模型。",
@@ -400,33 +463,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-04T02:32:06.260Z"
     },
-    "obra/superpowers": {
-      "summary": "Superpowers 是一套面向编码智能体的软件开发方法论，由可组合技能和初始指令构成，引导智能体按流程完成开发任务。",
-      "sourceHash": "ce16699cc583bbe2b362c2866b07bbf7a694a941b9379c43cfe89b2590cfe72b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-04T02:32:04.189Z"
-    },
-    "juliusbrussee/caveman": {
-      "summary": "Caveman 是一个面向 AI 编程代理的开源工具，通过让代理用原始人式简短语言回答，并代理压缩其读取的上下文，减少约 65% 的 token 消耗。",
-      "sourceHash": "361e16ec5fe8523864bac416a78388760f2ed6629acfa37294b583ff18cb90a3",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-04T02:31:59.537Z"
-    },
     "effect-ts/effect": {
       "summary": "Effect 是一个 TypeScript 库，用于构建健壮、可维护、类型安全的生产级应用，处理类型化错误、依赖注入、结构化并发、调度、追踪和统一模式校验。",
       "sourceHash": "8c42924f2d9fba6f30a63ce9cc8ee369b83dd7f3515d9d7c2a1600898c2d1f0a",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-04T02:31:57.946Z"
-    },
-    "affaan-m/ecc": {
-      "summary": "ECC 是一个面向 Claude Code、Codex 等 AI 编程代理的性能优化系统，提供技能、记忆、安全与先研究后开发的工程化工作流。",
-      "sourceHash": "f76f6b072744afe560fe0ce1e992bd47cfe90086f85c430663d5c42d43663680",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-04T02:31:56.777Z"
     },
     "pablostanley/yoinks": {
       "summary": "yoinks 是一个 TypeScript 编写的终端视频下载工具，可从 YouTube、TikTok 等 1800 多个网站下载视频或提取 mp3 音频。",
@@ -658,48 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-27T01:21:21.964Z"
-    },
-    "anthropics/claude-code-action": {
-      "summary": "这是一个用于 GitHub PR 和 issue 的 Claude Code 通用 Action，能回答问题并实现代码修改，支持多种认证方式。",
-      "sourceHash": "15f85c2e3b1f948ebcc4791dc96520fd802eb10faf6ee7ce4137c06b54615333",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-27T01:21:20.840Z"
-    },
-    "llvm/llvm-project": {
-      "summary": "LLVM 项目是模块化可复用的编译器与工具链技术集合，提供构建优化编译器和运行时环境的核心库与工具。",
-      "sourceHash": "187b5f0dd100e37497cba0cf57e14e5011c3c26e74aae274956e4bdb4539cf25",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-27T01:21:19.730Z"
-    },
-    "zhaoxuya520/reverse-skill": {
-      "summary": "面向 AI 编程客户端的逆向与安全技能路由包，为 APK、二进制、前端加密、CTF 和渗透任务自动匹配方法论与工具链。",
-      "sourceHash": "bb6dc48a3a5878d7b9e08d76ea546eab875bcc09fec7fd298cf48c8ae28c977b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-27T01:21:18.687Z"
-    },
-    "microsoft/vscode": {
-      "summary": "微软与社区共同开发 Visual Studio Code 的开源仓库，包含编辑器核心源码及内置扩展。",
-      "sourceHash": "199c544b2d7a3797859fbc770bfe8b9ce63909ad956663b07a800e133ad22473",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-27T01:21:17.624Z"
-    },
-    "block/buzz": {
-      "summary": "Buzz 是一个可自托管的协作工作区，让人类与 AI 智能体在同一频道中共同工作，共享身份、事件日志与审计记录。",
-      "sourceHash": "6efec52cb68f9e5ffc5d532faf857c53a1cc65dabb11fc491f83c3529b0949d6",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-27T01:21:16.802Z"
-    },
-    "openbao/openbao": {
-      "summary": "OpenBao 是一个用 Go 编写的软件方案，用于管理、存储和分发密钥、证书等敏感数据。",
-      "sourceHash": "717796da6867da4df503d7fa2be1dacb84f15353fa952a593c0b8c35a5aa8fcf",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-27T01:21:15.534Z"
     }
   }
 }
