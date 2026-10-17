@@ -6,7 +6,91 @@
       "sourceHash": "6ce938f464bb0619e400d2a573bf1065ce01aed7ee5a226b260e8a9461bf4d27",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-16T01:13:32.703Z"
+      "lastUsedAt": "2026-10-17T01:15:52.367Z"
+    },
+    "hmjz100/linkswift": {
+      "summary": "LinkSwift 是一个基于 JavaScript 的网盘直链下载地址获取工具，支持百度、阿里、夸克等九大网盘，可获取文件下载链接并美化界面。",
+      "sourceHash": "20f4e9c46bc9ae40926eaecf55a4a9b7e8b2df1bbb11d81cbe63b2912e28fc4b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-17T01:15:52.147Z"
+    },
+    "madslorentzen/ai-job-search": {
+      "summary": "这是一个基于 Claude Code 的求职申请框架，可在本机运行，用于评估职位、定制简历、撰写求职信和准备面试。",
+      "sourceHash": "08957a8d6a8de6be36199c7f0d285db0cef7a2654512bfe3b1d5953a838ff5f2",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-17T01:15:50.818Z"
+    },
+    "debpalash/voicestudio": {
+      "summary": "VoiceStudio 是一个完全本地运行的开源语音工具，支持声音克隆、语音设计、视频配音、听写、转录和有声书制作，覆盖 646 种语言。",
+      "sourceHash": "232c9f810e99b8f465e9ec39e034572f945cb40113e106723d7aa3594e7e9705",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-17T01:15:49.901Z"
+    },
+    "cursor/plugins": {
+      "summary": "这是 Cursor 官方插件仓库，收录面向开发工具、框架和 SaaS 产品的插件，每个插件以独立目录和清单文件形式组织。",
+      "sourceHash": "682c23e417eed2626320f93294be78913efe861931d7a029f164d20a9673cbe4",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-17T01:15:48.777Z"
+    },
+    "obra/superpowers": {
+      "summary": "Superpowers 是一套面向编码智能体的软件开发方法论，由可组合技能和初始指令构成，让智能体按流程完成开发任务。",
+      "sourceHash": "7b144782a5d8509092aa14237a86afcb6c95cee13e287eed4fd533ce11b63883",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-17T01:15:47.307Z"
+    },
+    "android/skills": {
+      "summary": "该仓库提供面向 AI 代理的模块化 Android 开发技能说明文件，帮助模型按官方最佳实践完成特定开发任务。",
+      "sourceHash": "c85d0d6d30a782de74c3932d5247d34c9b54439edba5ee0078a32331d8ec4510",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-17T01:15:47.130Z"
+    },
+    "ruvnet/ruflo": {
+      "summary": "Ruflo 是面向 Claude Code 和 Codex 的智能体元框架，用于部署多智能体集群、协调自动化工作流并构建对话式 AI 系统。",
+      "sourceHash": "c95a2999b26a1abf7002bb6dcb7b1eadeae04486a09caf9e54eb4f2deaae1602",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-17T01:15:45.717Z"
+    },
+    "mksglu/context-mode": {
+      "summary": "Context Mode 是一个面向 AI 编程代理的 MCP 服务器，通过沙箱隔离工具输出、持久化会话记忆和路由规则来优化上下文窗口占用。",
+      "sourceHash": "5064436ad34250f63bc62821dcb2ea96a01d1036e1fdb0f9f35b78a2f8dd4e66",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-17T01:15:45.522Z"
+    },
+    "hkuds/cli-anything": {
+      "summary": "CLI-Anything 是让各类软件具备智能体原生接口的工具，通过 CLI-Hub 安装现成命令行工具，或用七阶段生成器为软件自动构建 CLI。",
+      "sourceHash": "8ff7a78f46a12857f1a76fd4c537fe82e644a2ca700ede7171addd1308dbe412",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-17T01:15:45.244Z"
+    },
+    "affaan-m/ecc": {
+      "summary": "ECC 是一个面向 Claude Code、Codex 等 AI 编程代理的性能优化系统，提供技能、记忆、安全与先研究后开发的工程化工具链。",
+      "sourceHash": "d17af3c7deed8b577d8b3c0bcc07a16f4f35be020a044e99a5d05dc58588ea59",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-17T01:15:43.704Z"
+    },
+    "k-dense-ai/scientific-agent-skills": {
+      "summary": "这是一个面向科研的 AI 智能体技能库，提供 177 个经校验的科学技能和 100 多个生物、化学、医学与药物发现数据库，让 AI 编程助手能执行科研任务。",
+      "sourceHash": "d2cb446a84fea4831abb9ea9d44b664eaae0b8a8fec4168c69dee3f8c737b535",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-17T01:15:43.319Z"
+    },
+    "anthropics/claude-plugins-official": {
+      "summary": "这是 Anthropic 维护的 Claude Code 插件目录，收录官方与第三方高质量插件，供用户浏览和安装。",
+      "sourceHash": "57c0b9849a1455c479f61734473df34afe467633c1454c474c98e2218bd27a36",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-17T01:15:42.835Z"
     },
     "lightseekorg/tokenspeed": {
       "summary": "TokenSpeed 是一个面向智能体工作负载的高性能大语言模型推理引擎，用 Python 编写，兼顾 TensorRT-LLM 级性能与 vLLM 级易用性。",
@@ -15,13 +99,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-16T01:13:31.401Z"
     },
-    "affaan-m/ecc": {
-      "summary": "ECC 是一个面向 Claude Code、Codex 等 AI 编程代理的性能优化系统，提供技能、记忆、安全与先研究后开发的工程化工具链。",
-      "sourceHash": "d17af3c7deed8b577d8b3c0bcc07a16f4f35be020a044e99a5d05dc58588ea59",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-16T01:13:30.241Z"
-    },
     "nationalsecurityagency/ghidra": {
       "summary": "Ghidra 是由美国国家安全局开发的软件逆向工程框架，提供反汇编、反编译、绘图和脚本等工具，用于分析多平台的编译代码。",
       "sourceHash": "d97ceb7e6d3901c9efc3a0fd46f4604ae3d31553083c4e4ee286d703970d77c8",
@@ -29,54 +106,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-16T01:13:28.877Z"
     },
-    "mksglu/context-mode": {
-      "summary": "Context Mode 是一个面向 AI 编程代理的 MCP 服务器，通过沙箱隔离工具输出、持久化会话记忆和路由规则来优化上下文窗口占用。",
-      "sourceHash": "5064436ad34250f63bc62821dcb2ea96a01d1036e1fdb0f9f35b78a2f8dd4e66",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-16T01:13:27.445Z"
-    },
-    "ruvnet/ruflo": {
-      "summary": "Ruflo 是面向 Claude Code 和 Codex 的智能体元框架，用于部署多智能体集群、协调自动化工作流并构建对话式 AI 系统。",
-      "sourceHash": "c95a2999b26a1abf7002bb6dcb7b1eadeae04486a09caf9e54eb4f2deaae1602",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-16T01:13:27.223Z"
-    },
-    "obra/superpowers": {
-      "summary": "Superpowers 是一套面向编码智能体的软件开发方法论，由可组合技能和初始指令构成，让智能体按流程完成开发任务。",
-      "sourceHash": "7b144782a5d8509092aa14237a86afcb6c95cee13e287eed4fd533ce11b63883",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-16T01:13:25.836Z"
-    },
-    "debpalash/voicestudio": {
-      "summary": "VoiceStudio 是一个完全本地运行的开源语音工具，支持语音克隆、语音设计、视频配音、听写、转录和有声书制作，覆盖 646 种语言。",
-      "sourceHash": "f9e389913747b7e4a6dd47c0cfa9f5d25960a5846d76847c8df71d774c96bfd5",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-16T01:13:24.346Z"
-    },
     "juliusbrussee/caveman": {
       "summary": "Caveman 是一个用 Go 编写的编码代理代理与技能工具，通过压缩输入输出和自动选模型，减少 AI 编程代理的 token 消耗与费用。",
       "sourceHash": "0bd27725a3da28ad25326b2abfe23f1263b1e98f0bd7fe2fa1bb96db803e183d",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-16T01:13:24.093Z"
-    },
-    "k-dense-ai/scientific-agent-skills": {
-      "summary": "这是一个面向科研的 AI 智能体技能库，提供 177 个经校验的科学技能和 100 多个生物、化学、医学与药物发现数据库，让 AI 编程助手能执行科研任务。",
-      "sourceHash": "d2cb446a84fea4831abb9ea9d44b664eaae0b8a8fec4168c69dee3f8c737b535",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-16T01:13:22.934Z"
-    },
-    "anthropics/claude-plugins-official": {
-      "summary": "这是 Anthropic 维护的 Claude Code 插件目录，收录官方与第三方高质量插件，供用户浏览和安装。",
-      "sourceHash": "57c0b9849a1455c479f61734473df34afe467633c1454c474c98e2218bd27a36",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-16T01:13:21.725Z"
     },
     "morluto/rea": {
       "summary": "REA 是一个基于 MCP 的逆向工程工具，让 AI 代理分析二进制、应用与运行时行为，并给出带证据的结论。",
@@ -484,13 +519,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-03T01:52:44.832Z"
     },
-    "cursor/plugins": {
-      "summary": "这是 Cursor 官方插件仓库，收录面向开发工具、框架和 SaaS 产品的插件，每个插件以独立目录和清单文件形式组织。",
-      "sourceHash": "71263bd586ae7db2ea86722d5e0cac8c0d2dc57a0dd0226d2ae040d15d62fdc2",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-03T01:52:43.773Z"
-    },
     "colbymchenry/codegraph": {
       "summary": "CodeGraph 是一个本地预索引的代码知识图谱工具，为多种 AI 编程助手提供语义代码检索，减少 token 与工具调用。",
       "sourceHash": "05e1482693e0052b7599af98d8bc466138469f1a1c5d0846093c878b3a121e50",
@@ -672,34 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-28T01:34:25.290Z"
-    },
-    "infinityloop1308/pipepipe": {
-      "summary": "PipePipe 是一款基于 NewPipe 分支开发的开源安卓应用，用于自由浏览 YouTube 等视频服务，并增强播放、过滤与下载功能。",
-      "sourceHash": "fb95d1d1ddddc07c0deb82e734eb90767316c956eea9fece45a5a8f57a14c873",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-28T01:34:23.920Z"
-    },
-    "vercel/next.js": {
-      "summary": "Next.js 是 Vercel 推出的 React 框架，用于构建全栈 Web 应用，扩展最新 React 特性并集成 Rust 工具链以加快构建。",
-      "sourceHash": "bf633bc60e6cca7b96dab0a1ee35571ffee1a157da30e884ca1fdffa87c0854b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-27T01:21:24.161Z"
-    },
-    "mobile-next/mobile-mcp": {
-      "summary": "这是一个基于 TypeScript 的 MCP 服务器，让 AI 代理通过统一接口自动化操作 iOS 和 Android 应用与设备，支持模拟器和真机。",
-      "sourceHash": "952148a1779f4dab287aa7fcb171382bb878ae7d590395bca51b4d92ce083342",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-27T01:21:23.234Z"
-    },
-    "actions/runner-images": {
-      "summary": "该仓库包含用于构建 GitHub Actions 托管运行器和 Azure Pipelines 代理虚拟机镜像的源代码，并说明镜像版本、软件支持与发布策略。",
-      "sourceHash": "c2c7b8324abfc74e6143d5e8d36560abab6e3ae59c7312c79614e95531f5e6cc",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-27T01:21:21.964Z"
     }
   }
 }
