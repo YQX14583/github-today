@@ -2,11 +2,95 @@
   "version": 1,
   "entries": {
     "xerj-org/xerj": {
-      "summary": "XERJ 是一个用 Rust 编写的本地 AI 搜索工具，可自动索引代码、文档、日志和 PDF，供智能体检索使用，并兼容 Elasticsearch API。",
-      "sourceHash": "6ce938f464bb0619e400d2a573bf1065ce01aed7ee5a226b260e8a9461bf4d27",
+      "summary": "XERJ 是 Rust 编写的本地 AI 搜索工具，可自动索引文件夹中的代码、文档和日志，供编码代理检索，减少 token 消耗。",
+      "sourceHash": "c55cf242d1d1f22e70097f66566dba5c972558c03e5b26ed6878a53688d1e385",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-17T01:15:52.367Z"
+      "lastUsedAt": "2026-10-18T00:55:07.222Z"
+    },
+    "ruvnet/ruflo": {
+      "summary": "Ruflo 是面向 Claude Code 和 Codex 的智能体元框架，用于部署多智能体集群、协调自动化工作流并构建对话式 AI 系统。",
+      "sourceHash": "83da460626016de931b3e22a289bdb41aaae3062af7a4982f9a237eeb8024cb6",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-18T00:55:05.969Z"
+    },
+    "anomalyco/opencode": {
+      "summary": "OpenCode 是一个用 TypeScript 开发的开源 AI 编程代理，提供命令行和桌面应用，内置 build 与 plan 两种代理，用于辅助开发、代码分析与探索。",
+      "sourceHash": "b794acf3cb5e88daf844a7119e086038651544a8766763d684f41be19b7c2ae6",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-18T00:55:04.698Z"
+    },
+    "debpalash/voicestudio": {
+      "summary": "VoiceStudio 是一个完全本地运行的开源语音工具，支持声音克隆、语音设计、视频配音、听写、转写和有声书制作，覆盖 646 种语言。",
+      "sourceHash": "b3280ff60abe90c4ab7806cab3b52afdc4ed909a1a25d0b9099978f4102b86a7",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-18T00:55:03.641Z"
+    },
+    "anthropics/claude-code": {
+      "summary": "Claude Code 是运行在终端里的智能编程工具，能理解代码库，通过自然语言命令执行日常任务、解释复杂代码并处理 Git 工作流。",
+      "sourceHash": "d4f3174e2014920dd4bf00b55a1cb8cef25e00d8b1bf60e6e4e3025ed9411f16",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-18T00:55:02.745Z"
+    },
+    "stablyai/orca": {
+      "summary": "Orca 是一个用 TypeScript 开发的 AI 编码代理编排工具，可在桌面、移动端和远程运行环境中并行运行多个 CLI 编码代理，并统一跟踪管理。",
+      "sourceHash": "1cd44117d8dd59acf363f68a70de20ffef0aaad56b3e04bbdfeaf8779707bd79",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-18T00:55:02.559Z"
+    },
+    "android/skills": {
+      "summary": "该仓库提供面向 AI 代理的模块化 Android 开发技能说明文件，帮助模型按官方最佳实践完成特定开发任务。",
+      "sourceHash": "c85d0d6d30a782de74c3932d5247d34c9b54439edba5ee0078a32331d8ec4510",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-18T00:55:01.165Z"
+    },
+    "akitaonrails/ai-memory": {
+      "summary": "ai-memory 是面向 AI 编程代理的长期记忆工具，用于跨会话保存上下文，并在不同代理之间交接任务。",
+      "sourceHash": "265e6073d8f5d333f71be23c1bc5ace430be3b585d972307e622bf8bd83a7762",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-18T00:55:00.998Z"
+    },
+    "k-dense-ai/scientific-agent-skills": {
+      "summary": "这是一个面向科研的 AI 智能体技能库，提供 177 个经校验的科学技能和 100 多个生物、化学、医学与药物发现数据库，让 AI 编程助手能执行科研任务。",
+      "sourceHash": "d2cb446a84fea4831abb9ea9d44b664eaae0b8a8fec4168c69dee3f8c737b535",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-18T00:54:59.438Z"
+    },
+    "hkuds/cli-anything": {
+      "summary": "CLI-Anything 是让各类软件具备智能体原生接口的工具，通过 CLI-Hub 安装现成命令行工具，或用七阶段生成器为软件自动构建 CLI。",
+      "sourceHash": "8ff7a78f46a12857f1a76fd4c537fe82e644a2ca700ede7171addd1308dbe412",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-18T00:54:59.255Z"
+    },
+    "affaan-m/ecc": {
+      "summary": "ECC 是一个面向 Claude Code、Codex 等 AI 编程代理的性能优化系统，提供技能、记忆、安全与先研究后开发的工程化工具链。",
+      "sourceHash": "d17af3c7deed8b577d8b3c0bcc07a16f4f35be020a044e99a5d05dc58588ea59",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-18T00:54:58.998Z"
+    },
+    "madslorentzen/ai-job-search": {
+      "summary": "这是一个基于 Claude Code 的求职申请框架，可在本机运行，用于评估职位、定制简历、撰写求职信和准备面试。",
+      "sourceHash": "08957a8d6a8de6be36199c7f0d285db0cef7a2654512bfe3b1d5953a838ff5f2",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-18T00:54:58.816Z"
+    },
+    "anthropics/claude-plugins-official": {
+      "summary": "这是 Anthropic 维护的 Claude Code 插件目录，收录官方与第三方高质量插件，供用户浏览和安装。",
+      "sourceHash": "57c0b9849a1455c479f61734473df34afe467633c1454c474c98e2218bd27a36",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-18T00:54:58.607Z"
     },
     "hmjz100/linkswift": {
       "summary": "LinkSwift 是一个基于 JavaScript 的网盘直链下载地址获取工具，支持百度、阿里、夸克等九大网盘，可获取文件下载链接并美化界面。",
@@ -14,20 +98,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-17T01:15:52.147Z"
-    },
-    "madslorentzen/ai-job-search": {
-      "summary": "这是一个基于 Claude Code 的求职申请框架，可在本机运行，用于评估职位、定制简历、撰写求职信和准备面试。",
-      "sourceHash": "08957a8d6a8de6be36199c7f0d285db0cef7a2654512bfe3b1d5953a838ff5f2",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-17T01:15:50.818Z"
-    },
-    "debpalash/voicestudio": {
-      "summary": "VoiceStudio 是一个完全本地运行的开源语音工具，支持声音克隆、语音设计、视频配音、听写、转录和有声书制作，覆盖 646 种语言。",
-      "sourceHash": "232c9f810e99b8f465e9ec39e034572f945cb40113e106723d7aa3594e7e9705",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-17T01:15:49.901Z"
     },
     "cursor/plugins": {
       "summary": "这是 Cursor 官方插件仓库，收录面向开发工具、框架和 SaaS 产品的插件，每个插件以独立目录和清单文件形式组织。",
@@ -43,54 +113,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-17T01:15:47.307Z"
     },
-    "android/skills": {
-      "summary": "该仓库提供面向 AI 代理的模块化 Android 开发技能说明文件，帮助模型按官方最佳实践完成特定开发任务。",
-      "sourceHash": "c85d0d6d30a782de74c3932d5247d34c9b54439edba5ee0078a32331d8ec4510",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-17T01:15:47.130Z"
-    },
-    "ruvnet/ruflo": {
-      "summary": "Ruflo 是面向 Claude Code 和 Codex 的智能体元框架，用于部署多智能体集群、协调自动化工作流并构建对话式 AI 系统。",
-      "sourceHash": "c95a2999b26a1abf7002bb6dcb7b1eadeae04486a09caf9e54eb4f2deaae1602",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-17T01:15:45.717Z"
-    },
     "mksglu/context-mode": {
       "summary": "Context Mode 是一个面向 AI 编程代理的 MCP 服务器，通过沙箱隔离工具输出、持久化会话记忆和路由规则来优化上下文窗口占用。",
       "sourceHash": "5064436ad34250f63bc62821dcb2ea96a01d1036e1fdb0f9f35b78a2f8dd4e66",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-17T01:15:45.522Z"
-    },
-    "hkuds/cli-anything": {
-      "summary": "CLI-Anything 是让各类软件具备智能体原生接口的工具，通过 CLI-Hub 安装现成命令行工具，或用七阶段生成器为软件自动构建 CLI。",
-      "sourceHash": "8ff7a78f46a12857f1a76fd4c537fe82e644a2ca700ede7171addd1308dbe412",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-17T01:15:45.244Z"
-    },
-    "affaan-m/ecc": {
-      "summary": "ECC 是一个面向 Claude Code、Codex 等 AI 编程代理的性能优化系统，提供技能、记忆、安全与先研究后开发的工程化工具链。",
-      "sourceHash": "d17af3c7deed8b577d8b3c0bcc07a16f4f35be020a044e99a5d05dc58588ea59",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-17T01:15:43.704Z"
-    },
-    "k-dense-ai/scientific-agent-skills": {
-      "summary": "这是一个面向科研的 AI 智能体技能库，提供 177 个经校验的科学技能和 100 多个生物、化学、医学与药物发现数据库，让 AI 编程助手能执行科研任务。",
-      "sourceHash": "d2cb446a84fea4831abb9ea9d44b664eaae0b8a8fec4168c69dee3f8c737b535",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-17T01:15:43.319Z"
-    },
-    "anthropics/claude-plugins-official": {
-      "summary": "这是 Anthropic 维护的 Claude Code 插件目录，收录官方与第三方高质量插件，供用户浏览和安装。",
-      "sourceHash": "57c0b9849a1455c479f61734473df34afe467633c1454c474c98e2218bd27a36",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-17T01:15:42.835Z"
     },
     "lightseekorg/tokenspeed": {
       "summary": "TokenSpeed 是一个面向智能体工作负载的高性能大语言模型推理引擎，用 Python 编写，兼顾 TensorRT-LLM 级性能与 vLLM 级易用性。",
@@ -484,13 +512,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-04T02:32:08.023Z"
     },
-    "anthropics/claude-code": {
-      "summary": "Claude Code 是运行在终端里的智能编程工具，能理解代码库，通过自然语言命令执行日常任务、解释复杂代码并处理 Git 工作流。",
-      "sourceHash": "d4f3174e2014920dd4bf00b55a1cb8cef25e00d8b1bf60e6e4e3025ed9411f16",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-04T02:32:06.681Z"
-    },
     "earendil-works/pi": {
       "summary": "Pi 是一个用 TypeScript 编写的极简可扩展 AI 代理工具包，提供统一 LLM API、代理循环、终端界面和编码代理命令行工具。",
       "sourceHash": "9efa1b53de5f2b0f082fe7dc26a6573eaa93b02c16324abe47310f1e42a78eed",
@@ -679,27 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-30T02:02:04.622Z"
-    },
-    "paperclipai/paperclip": {
-      "summary": "Paperclip 是一个开源应用，用于编排和管理团队中的 AI 智能体，支持多种智能体接入、组织架构、任务分配与成本控制。",
-      "sourceHash": "9046483a64182daf5fdece0c6e7f43e911ea37289dbc042ffedf504c19eaa07f",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-30T02:02:01.224Z"
-    },
-    "vectorize-io/hindsight": {
-      "summary": "Hindsight 是一个用 Python 编写的智能体记忆系统，为 AI 智能体提供长期记忆的存储、检索与反思能力，使其能随时间学习。",
-      "sourceHash": "b02dea3d1fbff0f0792e63a988d87966cb17af0c8c9ef06c8622b85545151c39",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-30T02:02:00.977Z"
-    },
-    "vercel-labs/scriptc": {
-      "summary": "scriptc 是一个实验性编译器，把 TypeScript 和 JavaScript 编译为 C、LLVM IR、原生可执行文件及 WebAssembly 模块。",
-      "sourceHash": "b6a94df1d559b0b8d164c052fcaceb14ae9534a0a1f4bdec8b364e281e7fed21",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-28T01:34:25.290Z"
     }
   }
 }
