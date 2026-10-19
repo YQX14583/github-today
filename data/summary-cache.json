@@ -1,33 +1,103 @@
 {
   "version": 1,
   "entries": {
-    "xerj-org/xerj": {
-      "summary": "XERJ 是 Rust 编写的本地 AI 搜索工具，可自动索引文件夹中的代码、文档和日志，供编码代理检索，减少 token 消耗。",
-      "sourceHash": "c55cf242d1d1f22e70097f66566dba5c972558c03e5b26ed6878a53688d1e385",
+    "comfy-org/comfyui": {
+      "summary": "ComfyUI 是一个基于节点图界面的模块化扩散模型引擎，用于在本地搭建和运行图像、视频、音频等 AI 生成工作流。",
+      "sourceHash": "d4d2d1bd2c2cbc956aee910f1afa54e06bcabe527781aed2b651ddc1e7507baf",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-18T00:55:07.222Z"
+      "lastUsedAt": "2026-10-19T01:07:43.493Z"
     },
-    "ruvnet/ruflo": {
-      "summary": "Ruflo 是面向 Claude Code 和 Codex 的智能体元框架，用于部署多智能体集群、协调自动化工作流并构建对话式 AI 系统。",
-      "sourceHash": "83da460626016de931b3e22a289bdb41aaae3062af7a4982f9a237eeb8024cb6",
+    "kruk2/jasna": {
+      "summary": "Jasna 是一款基于 GPU 的视频与图像马赛克修复工具，提供图形界面和命令行，可自动检测并还原画面中的马赛克区域。",
+      "sourceHash": "23def4c47aa5aa3463067c26795ab78b9b8b69535378602beea714c36868a19c",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-18T00:55:05.969Z"
+      "lastUsedAt": "2026-10-19T01:07:42.178Z"
     },
-    "anomalyco/opencode": {
-      "summary": "OpenCode 是一个用 TypeScript 开发的开源 AI 编程代理，提供命令行和桌面应用，内置 build 与 plan 两种代理，用于辅助开发、代码分析与探索。",
-      "sourceHash": "b794acf3cb5e88daf844a7119e086038651544a8766763d684f41be19b7c2ae6",
+    "mlabonne/llm-course": {
+      "summary": "这是一个免费的大语言模型学习课程，分基础、科学家和工程师三部分，配有路线图和Colab笔记本，讲解构建与部署LLM应用。",
+      "sourceHash": "08add1c583aca87fc87297b9347ca9f0228ecf72a0eaa858fbb93feb83857413",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-18T00:55:04.698Z"
+      "lastUsedAt": "2026-10-19T01:07:41.349Z"
+    },
+    "android/skills": {
+      "summary": "该仓库提供面向 AI 代理的模块化 Android 开发技能说明文件，帮助模型按官方最佳实践完成特定开发任务。",
+      "sourceHash": "c85d0d6d30a782de74c3932d5247d34c9b54439edba5ee0078a32331d8ec4510",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-19T01:07:40.215Z"
     },
     "debpalash/voicestudio": {
       "summary": "VoiceStudio 是一个完全本地运行的开源语音工具，支持声音克隆、语音设计、视频配音、听写、转写和有声书制作，覆盖 646 种语言。",
       "sourceHash": "b3280ff60abe90c4ab7806cab3b52afdc4ed909a1a25d0b9099978f4102b86a7",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-18T00:55:03.641Z"
+      "lastUsedAt": "2026-10-19T01:07:39.982Z"
+    },
+    "hkuds/cli-anything": {
+      "summary": "CLI-Anything 是让各类软件具备智能体原生接口的工具，通过 CLI-Hub 安装现成命令行工具，或用七阶段生成器为软件自动构建 CLI。",
+      "sourceHash": "8ff7a78f46a12857f1a76fd4c537fe82e644a2ca700ede7171addd1308dbe412",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-19T01:07:39.744Z"
+    },
+    "stablyai/orca": {
+      "summary": "Orca 是一个用 TypeScript 开发的 AI 编码代理编排工具，可在桌面、移动端和远程运行环境中并行运行多个 CLI 编码代理，并统一跟踪管理。",
+      "sourceHash": "1cd44117d8dd59acf363f68a70de20ffef0aaad56b3e04bbdfeaf8779707bd79",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-19T01:07:39.448Z"
+    },
+    "akitaonrails/ai-memory": {
+      "summary": "ai-memory 是面向 AI 编程代理的长期记忆工具，用于跨会话保存上下文，并在不同代理之间交接任务。",
+      "sourceHash": "265e6073d8f5d333f71be23c1bc5ace430be3b585d972307e622bf8bd83a7762",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-19T01:07:39.204Z"
+    },
+    "ruvnet/ruflo": {
+      "summary": "Ruflo 是面向 Claude Code 和 Codex 的智能体元框架，用于部署多智能体集群、协调自动化工作流并构建对话式 AI 系统。",
+      "sourceHash": "83da460626016de931b3e22a289bdb41aaae3062af7a4982f9a237eeb8024cb6",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-19T01:07:38.873Z"
+    },
+    "cursor/plugins": {
+      "summary": "Cursor 官方插件仓库，收录面向主流开发工具、框架和 SaaS 产品的插件，每个插件以独立目录和清单文件组织。",
+      "sourceHash": "dc7225502690dbdb0e31a8b7053a9770f07bf40e65c537cd521171a0c111f6f4",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-19T01:07:38.648Z"
+    },
+    "anomalyco/opencode": {
+      "summary": "OpenCode 是一个开源 AI 编程代理，提供命令行和桌面应用，内置 build 与 plan 两种代理，用于开发编码和代码分析探索。",
+      "sourceHash": "8f22a8fa3410a55d4fcd2c87711b06ecceb028e601ee0b466cb9b7232484d4f7",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-19T01:07:37.379Z"
+    },
+    "anthropics/claude-plugins-official": {
+      "summary": "这是 Anthropic 维护的 Claude Code 插件目录，收录官方与第三方高质量插件，供用户浏览和安装。",
+      "sourceHash": "57c0b9849a1455c479f61734473df34afe467633c1454c474c98e2218bd27a36",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-19T01:07:36.089Z"
+    },
+    "madslorentzen/ai-job-search": {
+      "summary": "这是一个基于 Claude Code 的求职申请框架，可在本地评估职位、定制简历、撰写求职信并准备面试。",
+      "sourceHash": "f10688ce6f6c765f4463363875467667de7ca36983c176086461dac3066688ed",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-19T01:07:35.793Z"
+    },
+    "xerj-org/xerj": {
+      "summary": "XERJ 是 Rust 编写的本地 AI 搜索工具，可自动索引文件夹中的代码、文档和日志，供编码代理检索，减少 token 消耗。",
+      "sourceHash": "c55cf242d1d1f22e70097f66566dba5c972558c03e5b26ed6878a53688d1e385",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-18T00:55:07.222Z"
     },
     "anthropics/claude-code": {
       "summary": "Claude Code 是运行在终端里的智能编程工具，能理解代码库，通过自然语言命令执行日常任务、解释复杂代码并处理 Git 工作流。",
@@ -36,40 +106,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-18T00:55:02.745Z"
     },
-    "stablyai/orca": {
-      "summary": "Orca 是一个用 TypeScript 开发的 AI 编码代理编排工具，可在桌面、移动端和远程运行环境中并行运行多个 CLI 编码代理，并统一跟踪管理。",
-      "sourceHash": "1cd44117d8dd59acf363f68a70de20ffef0aaad56b3e04bbdfeaf8779707bd79",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-18T00:55:02.559Z"
-    },
-    "android/skills": {
-      "summary": "该仓库提供面向 AI 代理的模块化 Android 开发技能说明文件，帮助模型按官方最佳实践完成特定开发任务。",
-      "sourceHash": "c85d0d6d30a782de74c3932d5247d34c9b54439edba5ee0078a32331d8ec4510",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-18T00:55:01.165Z"
-    },
-    "akitaonrails/ai-memory": {
-      "summary": "ai-memory 是面向 AI 编程代理的长期记忆工具，用于跨会话保存上下文，并在不同代理之间交接任务。",
-      "sourceHash": "265e6073d8f5d333f71be23c1bc5ace430be3b585d972307e622bf8bd83a7762",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-18T00:55:00.998Z"
-    },
     "k-dense-ai/scientific-agent-skills": {
       "summary": "这是一个面向科研的 AI 智能体技能库，提供 177 个经校验的科学技能和 100 多个生物、化学、医学与药物发现数据库，让 AI 编程助手能执行科研任务。",
       "sourceHash": "d2cb446a84fea4831abb9ea9d44b664eaae0b8a8fec4168c69dee3f8c737b535",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-18T00:54:59.438Z"
-    },
-    "hkuds/cli-anything": {
-      "summary": "CLI-Anything 是让各类软件具备智能体原生接口的工具，通过 CLI-Hub 安装现成命令行工具，或用七阶段生成器为软件自动构建 CLI。",
-      "sourceHash": "8ff7a78f46a12857f1a76fd4c537fe82e644a2ca700ede7171addd1308dbe412",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-18T00:54:59.255Z"
     },
     "affaan-m/ecc": {
       "summary": "ECC 是一个面向 Claude Code、Codex 等 AI 编程代理的性能优化系统，提供技能、记忆、安全与先研究后开发的工程化工具链。",
@@ -78,33 +120,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-18T00:54:58.998Z"
     },
-    "madslorentzen/ai-job-search": {
-      "summary": "这是一个基于 Claude Code 的求职申请框架，可在本机运行，用于评估职位、定制简历、撰写求职信和准备面试。",
-      "sourceHash": "08957a8d6a8de6be36199c7f0d285db0cef7a2654512bfe3b1d5953a838ff5f2",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-18T00:54:58.816Z"
-    },
-    "anthropics/claude-plugins-official": {
-      "summary": "这是 Anthropic 维护的 Claude Code 插件目录，收录官方与第三方高质量插件，供用户浏览和安装。",
-      "sourceHash": "57c0b9849a1455c479f61734473df34afe467633c1454c474c98e2218bd27a36",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-18T00:54:58.607Z"
-    },
     "hmjz100/linkswift": {
       "summary": "LinkSwift 是一个基于 JavaScript 的网盘直链下载地址获取工具，支持百度、阿里、夸克等九大网盘，可获取文件下载链接并美化界面。",
       "sourceHash": "20f4e9c46bc9ae40926eaecf55a4a9b7e8b2df1bbb11d81cbe63b2912e28fc4b",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-17T01:15:52.147Z"
-    },
-    "cursor/plugins": {
-      "summary": "这是 Cursor 官方插件仓库，收录面向开发工具、框架和 SaaS 产品的插件，每个插件以独立目录和清单文件形式组织。",
-      "sourceHash": "682c23e417eed2626320f93294be78913efe861931d7a029f164d20a9673cbe4",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-17T01:15:48.777Z"
     },
     "obra/superpowers": {
       "summary": "Superpowers 是一套面向编码智能体的软件开发方法论，由可组合技能和初始指令构成，让智能体按流程完成开发任务。",
@@ -679,27 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-30T02:02:06.485Z"
-    },
-    "cs341-illinois/coursebook": {
-      "summary": "这是伊利诺伊大学 CS 341 系统编程课程使用的开源入门教材，用 TeX 编写，讲解 C 语言与 Linux 系统编程。",
-      "sourceHash": "aa44ce6fa71fd315f1aefb166604db4e2c5dc413a3e1cc5fc58896b3b71e65ee",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-30T02:02:06.005Z"
-    },
-    "averygan/reclip": {
-      "summary": "ReClip 是一个自托管的开源视频音频下载工具，提供简洁网页界面，可粘贴链接从 YouTube 等上千个网站下载 MP4 或 MP3。",
-      "sourceHash": "6ec15eedb83534b062fb61595202bcee11fbb8205a8601eda4b42dc5ff6addc7",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-30T02:02:05.791Z"
-    },
-    "oblien/openship": {
-      "summary": "Openship 是一个可自托管的开源部署平台，内置 CI/CD，能自动构建、发布、路由并为应用配置 TLS 证书。",
-      "sourceHash": "8d3d36f750de3f7a88954b5287aff2f03f26facaacd96aad0cc0296a50d10b36",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-30T02:02:04.622Z"
     }
   }
 }
