@@ -1,19 +1,89 @@
 {
   "version": 1,
   "entries": {
-    "comfy-org/comfyui": {
-      "summary": "ComfyUI 是一个基于节点图界面的模块化扩散模型引擎，用于在本地搭建和运行图像、视频、音频等 AI 生成工作流。",
-      "sourceHash": "d4d2d1bd2c2cbc956aee910f1afa54e06bcabe527781aed2b651ddc1e7507baf",
+    "shiyu-coder/kronos": {
+      "summary": "Kronos 是面向金融市场 K 线序列的开源基础模型，可对 OHLCV 数据进行量化预测，并支持微调。",
+      "sourceHash": "3889a00730b9a978017436ae0e058754647e1ea85c6a71387f1e04e95ad4cb50",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-19T01:07:43.493Z"
+      "lastUsedAt": "2026-10-20T01:43:51.547Z"
+    },
+    "anthropics/claude-code": {
+      "summary": "Claude Code 是运行在终端里的智能编程工具，能理解代码库，通过自然语言命令执行日常任务、解释复杂代码并处理 Git 工作流。",
+      "sourceHash": "d4f3174e2014920dd4bf00b55a1cb8cef25e00d8b1bf60e6e4e3025ed9411f16",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-20T01:43:50.229Z"
+    },
+    "hkuds/cli-anything": {
+      "summary": "CLI-Anything 是让各类软件具备智能体原生接口的工具，通过 CLI-Hub 安装现成命令行工具，或用七阶段生成器为软件自动构建 CLI。",
+      "sourceHash": "8ff7a78f46a12857f1a76fd4c537fe82e644a2ca700ede7171addd1308dbe412",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-20T01:43:49.996Z"
     },
     "kruk2/jasna": {
       "summary": "Jasna 是一款基于 GPU 的视频与图像马赛克修复工具，提供图形界面和命令行，可自动检测并还原画面中的马赛克区域。",
       "sourceHash": "23def4c47aa5aa3463067c26795ab78b9b8b69535378602beea714c36868a19c",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-19T01:07:42.178Z"
+      "lastUsedAt": "2026-10-20T01:43:49.724Z"
+    },
+    "withmarbleapp/os-taxonomy": {
+      "summary": "Marble 技能分类法是一个开放的小学学习内容分类数据集，将知识点拆成微主题并构建先修关系图，对齐国家课程标准。",
+      "sourceHash": "f2ffa135ab7774104e0ec5f2953b256fff19d4586a8a4f9aecdb0d0d2c06c31d",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-20T01:43:49.527Z"
+    },
+    "headroomlabs-ai/headroom": {
+      "summary": "Headroom 是一个在内容送入大模型前压缩工具输出、日志、文件和 RAG 片段的 Python 库，可减少 token 消耗，并提供代理和 MCP 服务器。",
+      "sourceHash": "b25f4c0e024861a309c57ade5817067aed56def1c3d146b0bd62d2b44eff3747",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-20T01:43:48.623Z"
+    },
+    "stablyai/orca": {
+      "summary": "Orca 是一个用 TypeScript 开发的 AI 编码代理编排工具，可在桌面、移动端和远程运行环境中并行运行多个 CLI 编码代理，并统一跟踪管理。",
+      "sourceHash": "1cd44117d8dd59acf363f68a70de20ffef0aaad56b3e04bbdfeaf8779707bd79",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-20T01:43:47.543Z"
+    },
+    "ruvnet/ruflo": {
+      "summary": "Ruflo 是面向 Claude Code 和 Codex 的智能体元框架，用于部署多智能体集群、协调自动化工作流并构建对话式 AI 系统。",
+      "sourceHash": "83da460626016de931b3e22a289bdb41aaae3062af7a4982f9a237eeb8024cb6",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-20T01:43:47.340Z"
+    },
+    "comfy-org/comfyui": {
+      "summary": "ComfyUI 是一个基于节点图界面的模块化扩散模型引擎，用于在本地搭建和运行图像、视频、音频等 AI 生成工作流。",
+      "sourceHash": "d4d2d1bd2c2cbc956aee910f1afa54e06bcabe527781aed2b651ddc1e7507baf",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-20T01:43:47.146Z"
+    },
+    "akitaonrails/ai-memory": {
+      "summary": "ai-memory 是面向 AI 编程代理的长期记忆工具，用于跨会话保存上下文，并在不同代理之间交接任务。",
+      "sourceHash": "265e6073d8f5d333f71be23c1bc5ace430be3b585d972307e622bf8bd83a7762",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-20T01:43:46.982Z"
+    },
+    "anomalyco/opencode": {
+      "summary": "OpenCode 是一个开源 AI 编程代理，提供命令行和桌面应用，内置 build 与 plan 两种代理，用于开发编码和代码分析探索。",
+      "sourceHash": "8f22a8fa3410a55d4fcd2c87711b06ecceb028e601ee0b466cb9b7232484d4f7",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-20T01:43:46.684Z"
+    },
+    "madslorentzen/ai-job-search": {
+      "summary": "这是一个基于 Claude Code 的求职申请框架，可评估职位、定制简历、撰写求职信并准备面试。",
+      "sourceHash": "889e47ac9b8b6f0835b7c594004759d0b6a820819fd1119b4cebed668ec5e6f3",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-20T01:43:46.479Z"
     },
     "mlabonne/llm-course": {
       "summary": "这是一个免费的大语言模型学习课程，分基础、科学家和工程师三部分，配有路线图和Colab笔记本，讲解构建与部署LLM应用。",
@@ -36,47 +106,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-19T01:07:39.982Z"
     },
-    "hkuds/cli-anything": {
-      "summary": "CLI-Anything 是让各类软件具备智能体原生接口的工具，通过 CLI-Hub 安装现成命令行工具，或用七阶段生成器为软件自动构建 CLI。",
-      "sourceHash": "8ff7a78f46a12857f1a76fd4c537fe82e644a2ca700ede7171addd1308dbe412",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-19T01:07:39.744Z"
-    },
-    "stablyai/orca": {
-      "summary": "Orca 是一个用 TypeScript 开发的 AI 编码代理编排工具，可在桌面、移动端和远程运行环境中并行运行多个 CLI 编码代理，并统一跟踪管理。",
-      "sourceHash": "1cd44117d8dd59acf363f68a70de20ffef0aaad56b3e04bbdfeaf8779707bd79",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-19T01:07:39.448Z"
-    },
-    "akitaonrails/ai-memory": {
-      "summary": "ai-memory 是面向 AI 编程代理的长期记忆工具，用于跨会话保存上下文，并在不同代理之间交接任务。",
-      "sourceHash": "265e6073d8f5d333f71be23c1bc5ace430be3b585d972307e622bf8bd83a7762",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-19T01:07:39.204Z"
-    },
-    "ruvnet/ruflo": {
-      "summary": "Ruflo 是面向 Claude Code 和 Codex 的智能体元框架，用于部署多智能体集群、协调自动化工作流并构建对话式 AI 系统。",
-      "sourceHash": "83da460626016de931b3e22a289bdb41aaae3062af7a4982f9a237eeb8024cb6",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-19T01:07:38.873Z"
-    },
     "cursor/plugins": {
       "summary": "Cursor 官方插件仓库，收录面向主流开发工具、框架和 SaaS 产品的插件，每个插件以独立目录和清单文件组织。",
       "sourceHash": "dc7225502690dbdb0e31a8b7053a9770f07bf40e65c537cd521171a0c111f6f4",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-19T01:07:38.648Z"
-    },
-    "anomalyco/opencode": {
-      "summary": "OpenCode 是一个开源 AI 编程代理，提供命令行和桌面应用，内置 build 与 plan 两种代理，用于开发编码和代码分析探索。",
-      "sourceHash": "8f22a8fa3410a55d4fcd2c87711b06ecceb028e601ee0b466cb9b7232484d4f7",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-19T01:07:37.379Z"
     },
     "anthropics/claude-plugins-official": {
       "summary": "这是 Anthropic 维护的 Claude Code 插件目录，收录官方与第三方高质量插件，供用户浏览和安装。",
@@ -85,26 +120,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-19T01:07:36.089Z"
     },
-    "madslorentzen/ai-job-search": {
-      "summary": "这是一个基于 Claude Code 的求职申请框架，可在本地评估职位、定制简历、撰写求职信并准备面试。",
-      "sourceHash": "f10688ce6f6c765f4463363875467667de7ca36983c176086461dac3066688ed",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-19T01:07:35.793Z"
-    },
     "xerj-org/xerj": {
       "summary": "XERJ 是 Rust 编写的本地 AI 搜索工具，可自动索引文件夹中的代码、文档和日志，供编码代理检索，减少 token 消耗。",
       "sourceHash": "c55cf242d1d1f22e70097f66566dba5c972558c03e5b26ed6878a53688d1e385",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-18T00:55:07.222Z"
-    },
-    "anthropics/claude-code": {
-      "summary": "Claude Code 是运行在终端里的智能编程工具，能理解代码库，通过自然语言命令执行日常任务、解释复杂代码并处理 Git 工作流。",
-      "sourceHash": "d4f3174e2014920dd4bf00b55a1cb8cef25e00d8b1bf60e6e4e3025ed9411f16",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-18T00:55:02.745Z"
     },
     "k-dense-ai/scientific-agent-skills": {
       "summary": "这是一个面向科研的 AI 智能体技能库，提供 177 个经校验的科学技能和 100 多个生物、化学、医学与药物发现数据库，让 AI 编程助手能执行科研任务。",
@@ -679,27 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-09-30T02:02:08.884Z"
-    },
-    "dream-num/univer": {
-      "summary": "Univer 是一个开源办公 SDK，用 TypeScript 编写，可在浏览器和 Node.js 中构建电子表格、文档、演示文稿等可嵌入的办公应用。",
-      "sourceHash": "32d7d0371912504073fe9e6db4e9e79c10e1cea7e89f23f37daba063868c1fd6",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-30T02:02:07.775Z"
-    },
-    "willfaust/madeira": {
-      "summary": "Madeira 是一个在未越狱 iPhone 上运行 Windows x86-64 游戏的实验性项目，结合 Wine、FEX-Emu 与 DXMT 实现指令翻译和图形转换。",
-      "sourceHash": "f0eb29b62c0a430aafe287699271a308bb837604bd555de4a5a433ad8813fd96",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-30T02:02:07.571Z"
-    },
-    "rohitg00/ai-engineering-from-scratch": {
-      "summary": "这是一个从零开始学习 AI 工程的开源课程仓库，包含二十个阶段、五百多节 Python 实践课，覆盖数学基础到智能体与生产部署。",
-      "sourceHash": "cbf4de5d76f2fd1a1ee2c8be93951a620f9729e3d20910dd463ef90161398a1e",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-30T02:02:06.485Z"
     }
   }
 }
