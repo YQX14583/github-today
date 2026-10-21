@@ -1,12 +1,110 @@
 {
   "version": 1,
   "entries": {
+    "vllm-project/vllm": {
+      "summary": "vLLM 是一个高吞吐、显存高效的大语言模型推理与服务引擎，用于快速部署和运行各类 LLM。",
+      "sourceHash": "b85579e6dc805e8d38bd55f789f1f4c7dbb6852459f488ceb4d8de3178464ecc",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-21T01:29:40.743Z"
+    },
     "shiyu-coder/kronos": {
       "summary": "Kronos 是面向金融市场 K 线序列的开源基础模型，可对 OHLCV 数据进行量化预测，并支持微调。",
       "sourceHash": "3889a00730b9a978017436ae0e058754647e1ea85c6a71387f1e04e95ad4cb50",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-20T01:43:51.547Z"
+      "lastUsedAt": "2026-10-21T01:29:39.646Z"
+    },
+    "sickn33/agentic-awesome-skills": {
+      "summary": "AAS Core 是面向 AI 代理的本地控制平面，用于检索 2700 多个 SKILL.md 技能、记录代理选择并预览安装计划。",
+      "sourceHash": "db54591e72953fb7d3e3e75eed0be7255a3d8216290e4b329dc5cb50ec7e3acf",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-21T01:29:39.398Z"
+    },
+    "wshobson/agents": {
+      "summary": "这是一个面向多种 AI 编程工具的统一插件市场，提供可跨工具复用的插件、智能体、技能和命令，用于 Python、JavaScript 开发、代码审查、测试、基础设施和安全等工作。",
+      "sourceHash": "54cf46661d754b78e112698cdf5e78a83d53e543fd49a1dc6a51fa3886662b11",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-21T01:29:37.668Z"
+    },
+    "anthropics/knowledge-work-plugins": {
+      "summary": "这是 Anthropic 开源的知识工作插件集合，为 Claude Cowork 和 Claude Code 提供面向销售、数据等岗位的专用技能与命令。",
+      "sourceHash": "ef129cfdf82c1174376c99765bf6b39c58014ad9601fe6d59d7bd9846ba08df0",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-21T01:29:36.528Z"
+    },
+    "headroomlabs-ai/headroom": {
+      "summary": "Headroom 是一个在内容送入大模型前压缩工具输出、日志、文件和 RAG 片段的 Python 库，可减少 token 消耗，并提供代理和 MCP 服务器。",
+      "sourceHash": "b25f4c0e024861a309c57ade5817067aed56def1c3d146b0bd62d2b44eff3747",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-21T01:29:36.318Z"
+    },
+    "msitarzewski/agency-agents": {
+      "summary": "这是一个按工程、设计、营销等职能分类的 AI 智能体角色集合，每个角色都包含人格设定、工作流程和交付物，可安装到 Claude Code、Cursor 等工具中使用。",
+      "sourceHash": "c93e2157575e1eb25fc6a5fba946197212e117436963d897f72a3e75172b9b4b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-21T01:29:36.108Z"
+    },
+    "anomalyco/opencode": {
+      "summary": "OpenCode 是一个开源 AI 编程代理，提供命令行和桌面应用，内置 build 与 plan 两种代理，用于开发编码和代码分析探索。",
+      "sourceHash": "8f22a8fa3410a55d4fcd2c87711b06ecceb028e601ee0b466cb9b7232484d4f7",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-21T01:29:34.697Z"
+    },
+    "graphify-labs/graphify": {
+      "summary": "Graphify 是一个 Python 工具，可将代码库及其文档、SQL 模式、配置和 PDF 解析为可查询的知识图谱，供 Claude Code 等 AI 助手使用。",
+      "sourceHash": "00e3c065f8096cf9463e78b877d890eaa7a28f0dddf8feb7880b3b2f59b284a2",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-21T01:29:34.489Z"
+    },
+    "ruvnet/ruflo": {
+      "summary": "Ruflo 是面向 Claude Code 和 Codex 的智能体元框架，用于部署多智能体集群、协调自动化工作流并构建对话式 AI 系统。",
+      "sourceHash": "8ae14b0a8a84685fbe9a655968724bff9cdd63f6b9455a593353ef9a696d0548",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-21T01:29:33.488Z"
+    },
+    "comfy-org/comfyui": {
+      "summary": "ComfyUI 是一个基于节点图界面的模块化扩散模型引擎，用于在本地构建和运行图像、视频、音频等 AI 生成工作流。",
+      "sourceHash": "595508a3e6f28c9be4b533deeb718544898b126fb9fe60a76b1324842cf61bcb",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-21T01:29:32.155Z"
+    },
+    "dietrichgebert/ponytail": {
+      "summary": "Ponytail 是一个提示词工具，可装入 AI 编程代理，让它像资深开发者一样用最少代码完成任务。",
+      "sourceHash": "05c5df6687301fd45bedf477ff160e504e2bab64bcbf8d249d4a7517929e3260",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-21T01:29:31.030Z"
+    },
+    "stablyai/orca": {
+      "summary": "Orca 是一个用 TypeScript 开发的 AI 编码代理编排工具，可在桌面、移动端和远程环境并行运行多个 CLI 代理，并在同一处统一跟踪管理。",
+      "sourceHash": "2fba5eeeecaf8860748e316a512302cdfb478bbbaff0c0b4d956c259a38c92c0",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-21T01:29:29.880Z"
+    },
+    "cloudflare/security-audit-skill": {
+      "summary": "这是一个编码代理技能，让代理按六个阶段执行安全审计，产出可机器读取且经独立验证的漏洞发现。",
+      "sourceHash": "d49f83911dbb4cc72ae67d1701f23de8ed840a0b4596722c3d99c3a0d82ee68b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-21T01:29:28.617Z"
+    },
+    "madslorentzen/ai-job-search": {
+      "summary": "这是一个基于 Claude Code 的求职申请框架，可评估职位、定制简历、撰写求职信并准备面试。",
+      "sourceHash": "889e47ac9b8b6f0835b7c594004759d0b6a820819fd1119b4cebed668ec5e6f3",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-21T01:29:28.338Z"
     },
     "anthropics/claude-code": {
       "summary": "Claude Code 是运行在终端里的智能编程工具，能理解代码库，通过自然语言命令执行日常任务、解释复杂代码并处理 Git 工作流。",
@@ -36,54 +134,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-20T01:43:49.527Z"
     },
-    "headroomlabs-ai/headroom": {
-      "summary": "Headroom 是一个在内容送入大模型前压缩工具输出、日志、文件和 RAG 片段的 Python 库，可减少 token 消耗，并提供代理和 MCP 服务器。",
-      "sourceHash": "b25f4c0e024861a309c57ade5817067aed56def1c3d146b0bd62d2b44eff3747",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-20T01:43:48.623Z"
-    },
-    "stablyai/orca": {
-      "summary": "Orca 是一个用 TypeScript 开发的 AI 编码代理编排工具，可在桌面、移动端和远程运行环境中并行运行多个 CLI 编码代理，并统一跟踪管理。",
-      "sourceHash": "1cd44117d8dd59acf363f68a70de20ffef0aaad56b3e04bbdfeaf8779707bd79",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-20T01:43:47.543Z"
-    },
-    "ruvnet/ruflo": {
-      "summary": "Ruflo 是面向 Claude Code 和 Codex 的智能体元框架，用于部署多智能体集群、协调自动化工作流并构建对话式 AI 系统。",
-      "sourceHash": "83da460626016de931b3e22a289bdb41aaae3062af7a4982f9a237eeb8024cb6",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-20T01:43:47.340Z"
-    },
-    "comfy-org/comfyui": {
-      "summary": "ComfyUI 是一个基于节点图界面的模块化扩散模型引擎，用于在本地搭建和运行图像、视频、音频等 AI 生成工作流。",
-      "sourceHash": "d4d2d1bd2c2cbc956aee910f1afa54e06bcabe527781aed2b651ddc1e7507baf",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-20T01:43:47.146Z"
-    },
     "akitaonrails/ai-memory": {
       "summary": "ai-memory 是面向 AI 编程代理的长期记忆工具，用于跨会话保存上下文，并在不同代理之间交接任务。",
       "sourceHash": "265e6073d8f5d333f71be23c1bc5ace430be3b585d972307e622bf8bd83a7762",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-20T01:43:46.982Z"
-    },
-    "anomalyco/opencode": {
-      "summary": "OpenCode 是一个开源 AI 编程代理，提供命令行和桌面应用，内置 build 与 plan 两种代理，用于开发编码和代码分析探索。",
-      "sourceHash": "8f22a8fa3410a55d4fcd2c87711b06ecceb028e601ee0b466cb9b7232484d4f7",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-20T01:43:46.684Z"
-    },
-    "madslorentzen/ai-job-search": {
-      "summary": "这是一个基于 Claude Code 的求职申请框架，可评估职位、定制简历、撰写求职信并准备面试。",
-      "sourceHash": "889e47ac9b8b6f0835b7c594004759d0b6a820819fd1119b4cebed668ec5e6f3",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-20T01:43:46.479Z"
     },
     "mlabonne/llm-course": {
       "summary": "这是一个免费的大语言模型学习课程，分基础、科学家和工程师三部分，配有路线图和Colab笔记本，讲解构建与部署LLM应用。",
@@ -281,13 +337,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-11T01:48:42.504Z"
     },
-    "anthropics/knowledge-work-plugins": {
-      "summary": "这是 Anthropic 开源的知识工作插件集合，为 Claude Cowork 和 Claude Code 提供面向销售、数据等岗位的专用技能与命令。",
-      "sourceHash": "ef129cfdf82c1174376c99765bf6b39c58014ad9601fe6d59d7bd9846ba08df0",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-11T01:48:41.552Z"
-    },
     "huggingface/transformers": {
       "summary": "Hugging Face Transformers 是一个基于 Python 的模型定义框架，提供文本、视觉、音频和多模态的先进机器学习模型，支持推理与训练。",
       "sourceHash": "6c1bd8109287be5abed88273ac6d091e2f3209898f8a5b1efff92ad48983d4b4",
@@ -386,13 +435,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-08T02:39:49.413Z"
     },
-    "cloudflare/security-audit-skill": {
-      "summary": "这是一个编码代理技能，让代理按六个阶段执行安全审计，产出可机器读取且经独立验证的漏洞发现。",
-      "sourceHash": "d49f83911dbb4cc72ae67d1701f23de8ed840a0b4596722c3d99c3a0d82ee68b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-08T02:39:48.510Z"
-    },
     "trycua/cua": {
       "summary": "Cua 是面向计算机使用智能体的开源项目，提供桌面驱动、本地虚拟机、决策模型与评测基准，用于训练、评估和数据生成。",
       "sourceHash": "4d474fa5e39ba407a33630a13940c0bf45e95e68a81aef3e60cda5a8eb9939ba",
@@ -413,13 +455,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-08T02:39:42.768Z"
-    },
-    "msitarzewski/agency-agents": {
-      "summary": "这是一个 AI 智能体角色集合，按工程、设计、营销、销售等职能提供专业提示词，可安装到 Claude Code、Cursor 等工具中使用。",
-      "sourceHash": "024f07e6ec0dcbf12cf039a82e5120d04b07cfcaa64d462e818e61a687ebf119",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-07T02:17:01.983Z"
     },
     "deepseek-ai/deepgemm": {
       "summary": "DeepGEMM 是面向 NVIDIA GPU 的高性能张量核心算子库，提供 FP8、FP4、BF16 矩阵乘法及融合 MoE 等大模型计算原语。",
@@ -525,13 +560,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-05T01:52:33.387Z"
-    },
-    "dietrichgebert/ponytail": {
-      "summary": "Ponytail 是一个让 AI 编程助手遵循极简原则的插件，在写代码前逐级判断是否真有必要，优先复用现有实现，避免过度设计和多余依赖。",
-      "sourceHash": "29ac72c3fd055e6cf601fa9d75dbc133c382ca6641e4bc425588a6779455f304",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-05T01:52:31.663Z"
     },
     "coreyhaines31/marketingskills": {
       "summary": "这是一个面向 AI 编程代理的营销技能库，提供转化优化、文案、SEO、分析和增长工程等 Markdown 技能文件。",
@@ -672,34 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-01T02:02:54.507Z"
-    },
-    "composiohq/awesome-claude-skills": {
-      "summary": "这是一个收录 1000 多个 Claude Skills 与插件的精选列表，用于扩展 Claude 及各类编码代理的工作流能力。",
-      "sourceHash": "ff14ac6f6e28997b5a708038126436604066e65ffed78a481595c39d702b7d80",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-01T02:02:49.438Z"
-    },
-    "openclaw/openclaw": {
-      "summary": "OpenClaw 是一个开源 AI 助手，运行在用户自己的电脑上，可接入 Discord、Slack、Telegram 等聊天渠道，并提供多平台原生应用。",
-      "sourceHash": "105291116b794b35dd3636ce4ac5566612b12f025ed1f3e689871fe4f7042568",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-01T02:02:48.510Z"
-    },
-    "harry0703/moneyprinterturbo": {
-      "summary": "MoneyPrinterTurbo 是一个用 Python 开发的 AI 短视频生成工具，输入主题或关键词即可自动完成脚本、配音、素材、字幕和配乐并合成高清视频。",
-      "sourceHash": "5bbd12b955f9702483bfd351ca4a553491a94183195cbd7ed24c7f48294d90cf",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-01T02:02:47.101Z"
-    },
-    "rakyll/hey": {
-      "summary": "hey 是一个用 Go 编写的 HTTP 负载生成工具，可向 Web 应用发送指定数量和并发量的请求并输出统计结果，是 ApacheBench 的替代品。",
-      "sourceHash": "7f7f22af5d9454d9aedc79a4345f1a9a18c72f02ab55a6ebe0a70b997372412e",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-09-30T02:02:08.884Z"
     }
   }
 }
