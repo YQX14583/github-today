@@ -1,19 +1,89 @@
 {
   "version": 1,
   "entries": {
-    "vllm-project/vllm": {
-      "summary": "vLLM 是一个高吞吐、显存高效的大语言模型推理与服务引擎，用于快速部署和运行各类 LLM。",
-      "sourceHash": "b85579e6dc805e8d38bd55f789f1f4c7dbb6852459f488ceb4d8de3178464ecc",
+    "graphify-labs/graphify": {
+      "summary": "Graphify 是一个 Python 工具，可将代码库及其文档、SQL 模式、配置和 PDF 解析为可查询的知识图谱，供 Claude Code 等 AI 助手使用。",
+      "sourceHash": "5b4ed6e306b9e84ff34fce84720048a17bcff611df1b8ab1b4fe93d2afbbb800",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-21T01:29:40.743Z"
+      "lastUsedAt": "2026-10-22T01:26:37.200Z"
+    },
+    "akitaonrails/ai-memory": {
+      "summary": "ai-memory 是面向 AI 编程代理的长期记忆工具，可在不同代理间交接任务，避免重复说明架构与失败尝试。",
+      "sourceHash": "01abbee5314e43ab95b16b7e72827669e333f397005ab51e3ae3157c2ba3e998",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-22T01:26:36.067Z"
+    },
+    "strelov1/freehire": {
+      "summary": "freehire 是一个用 Go 开发的开源 IT 职位搜索引擎，直接从公司招聘页面抓取职位，供求职者搜索。",
+      "sourceHash": "e29a7ce94480b64c620fe72b5174587cadce08af1ff3c7a041da107796993e58",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-22T01:26:34.643Z"
     },
     "shiyu-coder/kronos": {
       "summary": "Kronos 是面向金融市场 K 线序列的开源基础模型，可对 OHLCV 数据进行量化预测，并支持微调。",
       "sourceHash": "3889a00730b9a978017436ae0e058754647e1ea85c6a71387f1e04e95ad4cb50",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-21T01:29:39.646Z"
+      "lastUsedAt": "2026-10-22T01:26:33.646Z"
+    },
+    "twentyhq/twenty": {
+      "summary": "Twenty 是一个开源 CRM 系统，面向技术团队，支持用代码定义对象、字段和视图，构建并版本化管理可定制的客户关系管理应用。",
+      "sourceHash": "413c2557f8cbf2d1dbb6cb3316f9f5cc087250a78fc6fb1218b2c08f4a3ffe6e",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-22T01:26:33.406Z"
+    },
+    "supabase/supabase": {
+      "summary": "Supabase 是基于 Postgres 的开源开发平台，提供数据库、认证、自动生成 API、实时订阅、存储和 AI 工具，用于构建 Web、移动和 AI 应用。",
+      "sourceHash": "e00f57e19e12526f9bae3c2933de1c82e615f22d9f4ef0ebe1c55d8b045aed8c",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-22T01:26:32.202Z"
+    },
+    "comfy-org/comfyui": {
+      "summary": "ComfyUI 是一个基于节点图界面的模块化扩散模型引擎，用于在本地构建和运行图像、视频、音频等 AI 生成工作流。",
+      "sourceHash": "595508a3e6f28c9be4b533deeb718544898b126fb9fe60a76b1324842cf61bcb",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-22T01:26:30.828Z"
+    },
+    "dietrichgebert/ponytail": {
+      "summary": "Ponytail 是一个提示词工具，可装入 AI 编程代理，让它像资深开发者一样用最少代码完成任务。",
+      "sourceHash": "05c5df6687301fd45bedf477ff160e504e2bab64bcbf8d249d4a7517929e3260",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-22T01:26:30.602Z"
+    },
+    "headroomlabs-ai/headroom": {
+      "summary": "Headroom 是一个在内容送入大模型前压缩工具输出、日志、文件和 RAG 片段的 Python 库，可减少 token 消耗，并提供代理和 MCP 服务器。",
+      "sourceHash": "b25f4c0e024861a309c57ade5817067aed56def1c3d146b0bd62d2b44eff3747",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-22T01:26:30.387Z"
+    },
+    "stablyai/orca": {
+      "summary": "Orca 是一个用 TypeScript 开发的 AI 编码代理编排工具，可在桌面、移动端和远程环境并行运行多个 CLI 代理，并在同一处统一跟踪管理。",
+      "sourceHash": "2fba5eeeecaf8860748e316a512302cdfb478bbbaff0c0b4d956c259a38c92c0",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-22T01:26:30.109Z"
+    },
+    "vllm-project/vllm": {
+      "summary": "vLLM 是一个高吞吐、显存高效的大语言模型推理与服务引擎，用于快速部署和运行各类 LLM。",
+      "sourceHash": "b85579e6dc805e8d38bd55f789f1f4c7dbb6852459f488ceb4d8de3178464ecc",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-22T01:26:29.884Z"
+    },
+    "cloudflare/security-audit-skill": {
+      "summary": "这是一个编码代理技能，让代理按六个阶段执行安全审计，产出可机器读取且经独立验证的漏洞发现。",
+      "sourceHash": "d49f83911dbb4cc72ae67d1701f23de8ed840a0b4596722c3d99c3a0d82ee68b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-22T01:26:29.626Z"
     },
     "sickn33/agentic-awesome-skills": {
       "summary": "AAS Core 是面向 AI 代理的本地控制平面，用于检索 2700 多个 SKILL.md 技能、记录代理选择并预览安装计划。",
@@ -36,13 +106,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-21T01:29:36.528Z"
     },
-    "headroomlabs-ai/headroom": {
-      "summary": "Headroom 是一个在内容送入大模型前压缩工具输出、日志、文件和 RAG 片段的 Python 库，可减少 token 消耗，并提供代理和 MCP 服务器。",
-      "sourceHash": "b25f4c0e024861a309c57ade5817067aed56def1c3d146b0bd62d2b44eff3747",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-21T01:29:36.318Z"
-    },
     "msitarzewski/agency-agents": {
       "summary": "这是一个按工程、设计、营销等职能分类的 AI 智能体角色集合，每个角色都包含人格设定、工作流程和交付物，可安装到 Claude Code、Cursor 等工具中使用。",
       "sourceHash": "c93e2157575e1eb25fc6a5fba946197212e117436963d897f72a3e75172b9b4b",
@@ -57,47 +120,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-21T01:29:34.697Z"
     },
-    "graphify-labs/graphify": {
-      "summary": "Graphify 是一个 Python 工具，可将代码库及其文档、SQL 模式、配置和 PDF 解析为可查询的知识图谱，供 Claude Code 等 AI 助手使用。",
-      "sourceHash": "00e3c065f8096cf9463e78b877d890eaa7a28f0dddf8feb7880b3b2f59b284a2",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-21T01:29:34.489Z"
-    },
     "ruvnet/ruflo": {
       "summary": "Ruflo 是面向 Claude Code 和 Codex 的智能体元框架，用于部署多智能体集群、协调自动化工作流并构建对话式 AI 系统。",
       "sourceHash": "8ae14b0a8a84685fbe9a655968724bff9cdd63f6b9455a593353ef9a696d0548",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-21T01:29:33.488Z"
-    },
-    "comfy-org/comfyui": {
-      "summary": "ComfyUI 是一个基于节点图界面的模块化扩散模型引擎，用于在本地构建和运行图像、视频、音频等 AI 生成工作流。",
-      "sourceHash": "595508a3e6f28c9be4b533deeb718544898b126fb9fe60a76b1324842cf61bcb",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-21T01:29:32.155Z"
-    },
-    "dietrichgebert/ponytail": {
-      "summary": "Ponytail 是一个提示词工具，可装入 AI 编程代理，让它像资深开发者一样用最少代码完成任务。",
-      "sourceHash": "05c5df6687301fd45bedf477ff160e504e2bab64bcbf8d249d4a7517929e3260",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-21T01:29:31.030Z"
-    },
-    "stablyai/orca": {
-      "summary": "Orca 是一个用 TypeScript 开发的 AI 编码代理编排工具，可在桌面、移动端和远程环境并行运行多个 CLI 代理，并在同一处统一跟踪管理。",
-      "sourceHash": "2fba5eeeecaf8860748e316a512302cdfb478bbbaff0c0b4d956c259a38c92c0",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-21T01:29:29.880Z"
-    },
-    "cloudflare/security-audit-skill": {
-      "summary": "这是一个编码代理技能，让代理按六个阶段执行安全审计，产出可机器读取且经独立验证的漏洞发现。",
-      "sourceHash": "d49f83911dbb4cc72ae67d1701f23de8ed840a0b4596722c3d99c3a0d82ee68b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-21T01:29:28.617Z"
     },
     "madslorentzen/ai-job-search": {
       "summary": "这是一个基于 Claude Code 的求职申请框架，可评估职位、定制简历、撰写求职信并准备面试。",
@@ -133,13 +161,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-20T01:43:49.527Z"
-    },
-    "akitaonrails/ai-memory": {
-      "summary": "ai-memory 是面向 AI 编程代理的长期记忆工具，用于跨会话保存上下文，并在不同代理之间交接任务。",
-      "sourceHash": "265e6073d8f5d333f71be23c1bc5ace430be3b585d972307e622bf8bd83a7762",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-20T01:43:46.982Z"
     },
     "mlabonne/llm-course": {
       "summary": "这是一个免费的大语言模型学习课程，分基础、科学家和工程师三部分，配有路线图和Colab笔记本，讲解构建与部署LLM应用。",
@@ -679,27 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-01T02:02:56.538Z"
-    },
-    "t8y2/dbx": {
-      "summary": "DBX 是一款约 25 MB 的轻量级跨平台数据库客户端，支持 100 多种数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP 服务。",
-      "sourceHash": "d8f6768fa0fc23e969b4c5562863527a6e6550fb25dbde58ff3583bc22b809ca",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-01T02:02:56.264Z"
-    },
-    "byoungd/up": {
-      "summary": "这是一份由韩先凯撰写、持续更新的中文书稿，围绕AI时代的终身学习，涵盖英语学习、AI应用、项目实践、人生复盘与低谷恢复等内容。",
-      "sourceHash": "5268480587ef6d2e5ebccf1170f40136d0ca017b9c530fe6d13cd65c4cf2cb8a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-01T02:02:54.734Z"
-    },
-    "modelcontextprotocol/servers": {
-      "summary": "该仓库是模型上下文协议（MCP）的参考服务器实现集合，用于演示 MCP 功能与官方 SDK，并收录社区服务器资源。",
-      "sourceHash": "4a86aa4a9ea5f23255118bfebe857f5c2eea993e20ce81583439b387d860490f",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-01T02:02:54.507Z"
     }
   }
 }
