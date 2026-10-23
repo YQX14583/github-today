@@ -1,12 +1,68 @@
 {
   "version": 1,
   "entries": {
+    "meloong-git/pcl": {
+      "summary": "这是 Minecraft 启动器 PCL 的源代码仓库，包含 UI 库、动画、下载和游戏启动等模块。",
+      "sourceHash": "a87a63c0759bfffe2612558cf762a22c7e3ca018f900be353f5a4d77d31ae22f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-23T01:26:05.578Z"
+    },
+    "luongnv89/claude-howto": {
+      "summary": "这是一份面向 Claude Code 的视觉化示例教程，通过十个模块和可复制模板，教开发者组合使用命令、记忆、子代理、钩子与 MCP 等功能。",
+      "sourceHash": "2d66a911019e2ec03ae317aba065ce22dda8de8dfc0308d65c425722e5feca8b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-23T01:26:04.421Z"
+    },
+    "fastapi/fastapi": {
+      "summary": "FastAPI 是一个基于 Python 的高性能 Web 框架，用于快速构建带自动交互式文档的 API 服务。",
+      "sourceHash": "24734bbe6adc7b34da6229375e26549cf4b7b0e799349db8c2bec36e5f9adf4e",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-23T01:26:03.209Z"
+    },
+    "supabase/supabase": {
+      "summary": "Supabase 是基于 Postgres 的开源开发平台，提供数据库、认证、自动生成 API、实时订阅、存储和 AI 工具，用于构建 Web、移动和 AI 应用。",
+      "sourceHash": "e00f57e19e12526f9bae3c2933de1c82e615f22d9f4ef0ebe1c55d8b045aed8c",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-23T01:26:02.052Z"
+    },
     "graphify-labs/graphify": {
       "summary": "Graphify 是一个 Python 工具，可将代码库及其文档、SQL 模式、配置和 PDF 解析为可查询的知识图谱，供 Claude Code 等 AI 助手使用。",
       "sourceHash": "5b4ed6e306b9e84ff34fce84720048a17bcff611df1b8ab1b4fe93d2afbbb800",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-22T01:26:37.200Z"
+      "lastUsedAt": "2026-10-23T01:26:01.754Z"
+    },
+    "cloudflare/security-audit-skill": {
+      "summary": "这是一个编码代理技能，让代理按六个阶段执行安全审计，产出可机器读取且经独立验证的漏洞发现。",
+      "sourceHash": "d49f83911dbb4cc72ae67d1701f23de8ed840a0b4596722c3d99c3a0d82ee68b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-23T01:26:01.477Z"
+    },
+    "dietrichgebert/ponytail": {
+      "summary": "Ponytail 是一个提示词工具，可装入 AI 编程代理，让它像资深开发者一样用最少代码完成任务。",
+      "sourceHash": "05c5df6687301fd45bedf477ff160e504e2bab64bcbf8d249d4a7517929e3260",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-23T01:26:01.188Z"
+    },
+    "anthropics/knowledge-work-plugins": {
+      "summary": "这是 Anthropic 开源的知识工作插件集合，为 Claude Cowork 和 Claude Code 提供面向销售、数据等岗位的专用技能与命令。",
+      "sourceHash": "ef129cfdf82c1174376c99765bf6b39c58014ad9601fe6d59d7bd9846ba08df0",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-23T01:26:00.795Z"
+    },
+    "php/php-src": {
+      "summary": "PHP 解释器的官方源码仓库，包含 PHP 语言核心实现、内置扩展及测试套件，主要用于构建和开发 PHP。",
+      "sourceHash": "134de781a4b5518a05f496753d874126d08041d4b70080f93875a3e6d24c7cd5",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-23T01:26:00.500Z"
     },
     "akitaonrails/ai-memory": {
       "summary": "ai-memory 是面向 AI 编程代理的长期记忆工具，可在不同代理间交接任务，避免重复说明架构与失败尝试。",
@@ -36,26 +92,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-22T01:26:33.406Z"
     },
-    "supabase/supabase": {
-      "summary": "Supabase 是基于 Postgres 的开源开发平台，提供数据库、认证、自动生成 API、实时订阅、存储和 AI 工具，用于构建 Web、移动和 AI 应用。",
-      "sourceHash": "e00f57e19e12526f9bae3c2933de1c82e615f22d9f4ef0ebe1c55d8b045aed8c",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-22T01:26:32.202Z"
-    },
     "comfy-org/comfyui": {
       "summary": "ComfyUI 是一个基于节点图界面的模块化扩散模型引擎，用于在本地构建和运行图像、视频、音频等 AI 生成工作流。",
       "sourceHash": "595508a3e6f28c9be4b533deeb718544898b126fb9fe60a76b1324842cf61bcb",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-22T01:26:30.828Z"
-    },
-    "dietrichgebert/ponytail": {
-      "summary": "Ponytail 是一个提示词工具，可装入 AI 编程代理，让它像资深开发者一样用最少代码完成任务。",
-      "sourceHash": "05c5df6687301fd45bedf477ff160e504e2bab64bcbf8d249d4a7517929e3260",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-22T01:26:30.602Z"
     },
     "headroomlabs-ai/headroom": {
       "summary": "Headroom 是一个在内容送入大模型前压缩工具输出、日志、文件和 RAG 片段的 Python 库，可减少 token 消耗，并提供代理和 MCP 服务器。",
@@ -78,13 +120,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-22T01:26:29.884Z"
     },
-    "cloudflare/security-audit-skill": {
-      "summary": "这是一个编码代理技能，让代理按六个阶段执行安全审计，产出可机器读取且经独立验证的漏洞发现。",
-      "sourceHash": "d49f83911dbb4cc72ae67d1701f23de8ed840a0b4596722c3d99c3a0d82ee68b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-22T01:26:29.626Z"
-    },
     "sickn33/agentic-awesome-skills": {
       "summary": "AAS Core 是面向 AI 代理的本地控制平面，用于检索 2700 多个 SKILL.md 技能、记录代理选择并预览安装计划。",
       "sourceHash": "db54591e72953fb7d3e3e75eed0be7255a3d8216290e4b329dc5cb50ec7e3acf",
@@ -98,13 +133,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-21T01:29:37.668Z"
-    },
-    "anthropics/knowledge-work-plugins": {
-      "summary": "这是 Anthropic 开源的知识工作插件集合，为 Claude Cowork 和 Claude Code 提供面向销售、数据等岗位的专用技能与命令。",
-      "sourceHash": "ef129cfdf82c1174376c99765bf6b39c58014ad9601fe6d59d7bd9846ba08df0",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-21T01:29:36.528Z"
     },
     "msitarzewski/agency-agents": {
       "summary": "这是一个按工程、设计、营销等职能分类的 AI 智能体角色集合，每个角色都包含人格设定、工作流程和交付物，可安装到 Claude Code、Cursor 等工具中使用。",
@@ -672,34 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-02T02:09:21.978Z"
-    },
-    "tile-ai/tilelang": {
-      "summary": "TileLang 是一个基于 TVM 的领域特定语言，用 Python 语法简化高性能 GPU、CPU 和 NPU 算子内核的开发。",
-      "sourceHash": "464825c272ee6a7fdfbc36e82cb4bda1f1f6e31bb5c04c37caf3fc09e2d3fdf6",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-02T02:09:19.568Z"
-    },
-    "firebase/firebase-ios-sdk": {
-      "summary": "这是 Firebase 为苹果平台提供的开源 SDK 源码仓库，包含除 FirebaseAnalytics 外的各 Firebase 库，供开发者在 iOS、macOS 等苹果应用中集成使用。",
-      "sourceHash": "a6c9bbd776e35106438348104f1c937fc8f591e0f36151fc69d76b58b15fa954",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-02T02:09:14.590Z"
-    },
-    "vectifyai/pageindex": {
-      "summary": "PageIndex 是一个基于推理的无向量 RAG 引擎，用树形索引替代向量数据库和分块，面向长篇专业文档的检索与问答。",
-      "sourceHash": "0dda302c5c86ded4ff3189e8b1494b4e1bf1cdf0e32bb6753d80edb10df8117e",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-01T02:02:56.860Z"
-    },
-    "nawfalmotii79/plfm_radar": {
-      "summary": "AERIS-10 是一个开源低成本 10.5 GHz 脉冲线性调频相控阵雷达系统，提供 3 公里和 20 公里两种版本，供研究人员和开发者实验波束成形与目标跟踪。",
-      "sourceHash": "4d5edf226cebb0e0c660c366e623b3d37dd99f53cd0fac9c99454848793ad454",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-01T02:02:56.538Z"
     }
   }
 }
