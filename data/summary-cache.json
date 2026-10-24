@@ -1,6 +1,62 @@
 {
   "version": 1,
   "entries": {
+    "nodejs/node": {
+      "summary": "Node.js 是一个开源跨平台 JavaScript 运行时环境，主要用于在浏览器之外运行 JavaScript 代码。",
+      "sourceHash": "c7af4fb80e60af3ced209321b86627c574bb196206d346af78fd343c1a451123",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-24T01:30:45.107Z"
+    },
+    "openbmb/voxcpm": {
+      "summary": "VoxCPM2 是 OpenBMB 开源的无分词器多语言语音合成模型，支持 30 种语言、音色设计与可控声音克隆，可输出 48kHz 音频。",
+      "sourceHash": "9c06686c059986d1d539007bf4493ade10a15a655cf525804e8d2182f890154f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-24T01:30:44.034Z"
+    },
+    "snailsploit/claude-red": {
+      "summary": "这是一个面向 Claude 技能系统的攻防安全技能库，提供结构化 SKILL.md 文件，让 Claude 掌握 SQL 注入、EDR 规避等攻击方法。",
+      "sourceHash": "e01cef42e4bc77dfe02043e4b272f94d433c8d1f6c34e21d0593912762f28309",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-24T01:30:42.805Z"
+    },
+    "renhuai123/ziwei-doushu": {
+      "summary": "这是一个基于倪海厦《天纪》体系的紫微斗数开源排盘引擎，用 TypeScript 实现完整排盘算法、四化系统与格局知识库，并提供大规模命盘解读数据集。",
+      "sourceHash": "b6d43790383bfce9489b100425b38a486ca75e9001879f8a24b3c6a00672431f",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-24T01:30:41.375Z"
+    },
+    "nvidia/openshell": {
+      "summary": "OpenShell 是面向自主 AI 智能体的安全私有运行时，通过策略声明限制智能体对文件、系统调用、网络和凭据的访问。",
+      "sourceHash": "2d5a1b01f09d654588f19e5d56a821eefbe4ee5219b290a7e13cd49ceb399cfe",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-24T01:30:39.958Z"
+    },
+    "anthropics/knowledge-work-plugins": {
+      "summary": "这是 Anthropic 开源的知识工作插件集合，为 Claude Cowork 和 Claude Code 提供面向销售、数据等岗位的专用技能与命令。",
+      "sourceHash": "ef129cfdf82c1174376c99765bf6b39c58014ad9601fe6d59d7bd9846ba08df0",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-24T01:30:39.754Z"
+    },
+    "php/php-src": {
+      "summary": "PHP 解释器的官方源码仓库，包含 PHP 语言核心实现、内置扩展及测试套件，主要用于构建和开发 PHP。",
+      "sourceHash": "134de781a4b5518a05f496753d874126d08041d4b70080f93875a3e6d24c7cd5",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-24T01:30:39.595Z"
+    },
+    "cloudflare/security-audit-skill": {
+      "summary": "这是一个编码代理技能，让代理按六个阶段执行安全审计，产出可机器读取且经独立验证的漏洞发现。",
+      "sourceHash": "d49f83911dbb4cc72ae67d1701f23de8ed840a0b4596722c3d99c3a0d82ee68b",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-24T01:30:39.388Z"
+    },
     "meloong-git/pcl": {
       "summary": "这是 Minecraft 启动器 PCL 的源代码仓库，包含 UI 库、动画、下载和游戏启动等模块。",
       "sourceHash": "a87a63c0759bfffe2612558cf762a22c7e3ca018f900be353f5a4d77d31ae22f",
@@ -36,33 +92,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-23T01:26:01.754Z"
     },
-    "cloudflare/security-audit-skill": {
-      "summary": "这是一个编码代理技能，让代理按六个阶段执行安全审计，产出可机器读取且经独立验证的漏洞发现。",
-      "sourceHash": "d49f83911dbb4cc72ae67d1701f23de8ed840a0b4596722c3d99c3a0d82ee68b",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-23T01:26:01.477Z"
-    },
     "dietrichgebert/ponytail": {
       "summary": "Ponytail 是一个提示词工具，可装入 AI 编程代理，让它像资深开发者一样用最少代码完成任务。",
       "sourceHash": "05c5df6687301fd45bedf477ff160e504e2bab64bcbf8d249d4a7517929e3260",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-23T01:26:01.188Z"
-    },
-    "anthropics/knowledge-work-plugins": {
-      "summary": "这是 Anthropic 开源的知识工作插件集合，为 Claude Cowork 和 Claude Code 提供面向销售、数据等岗位的专用技能与命令。",
-      "sourceHash": "ef129cfdf82c1174376c99765bf6b39c58014ad9601fe6d59d7bd9846ba08df0",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-23T01:26:00.795Z"
-    },
-    "php/php-src": {
-      "summary": "PHP 解释器的官方源码仓库，包含 PHP 语言核心实现、内置扩展及测试套件，主要用于构建和开发 PHP。",
-      "sourceHash": "134de781a4b5518a05f496753d874126d08041d4b70080f93875a3e6d24c7cd5",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-23T01:26:00.500Z"
     },
     "akitaonrails/ai-memory": {
       "summary": "ai-memory 是面向 AI 编程代理的长期记忆工具，可在不同代理间交接任务，避免重复说明架构与失败尝试。",
@@ -665,41 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-03T01:52:43.577Z"
-    },
-    "google/skills": {
-      "summary": "该仓库提供面向 Google 产品与技术的 Agent Skills，涵盖 Google Cloud 等，可通过 npx 命令选择安装。",
-      "sourceHash": "a74844488c95452ae821a6a1ce9522d46a1df2aa1e54e5abd5b7cec8b1b43d22",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-03T01:52:42.370Z"
-    },
-    "heygen-com/hyperframes": {
-      "summary": "HyperFrames 是一个开源框架，用 HTML、CSS 和可定位动画生成确定性的 MP4 视频，可通过命令行或 AI 编程代理使用。",
-      "sourceHash": "c99128fcfc06dee39a461be16e1b1517a0bb4a927386c13fcf75cfe252816ad0",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-03T01:52:41.193Z"
-    },
-    "nvidia/openshell": {
-      "summary": "OpenShell 是面向自主 AI 智能体的安全私有运行时，通过策略声明限制智能体对文件、系统调用、网络和凭据的访问。",
-      "sourceHash": "2d5a1b01f09d654588f19e5d56a821eefbe4ee5219b290a7e13cd49ceb399cfe",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-03T01:52:40.065Z"
-    },
-    "friedrich-m/unimate": {
-      "summary": "UniMate 是一个统一模型，可根据文本提示为多种骨架实时生成骨骼动画，无需针对每种骨架重新训练。",
-      "sourceHash": "4bcd8ee77f0f4eb8b1d69ff52cb0e9c23d19eebda3a4a681d01a826420301dd9",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-02T02:09:23.487Z"
-    },
-    "hunxbyts/ghosttrack": {
-      "summary": "GhostTrack 是一个用 Python 编写的开源情报工具，可追踪 IP 地址、手机号码和社交媒体用户名，用于信息收集。",
-      "sourceHash": "f8e3a6afe9178754fef9f1081108fe83d926d3f4386cdd431646bdd04d7d91cc",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-02T02:09:21.978Z"
     }
   }
 }
