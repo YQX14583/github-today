@@ -1,6 +1,104 @@
 {
   "version": 1,
   "entries": {
+    "multica-ai/andrej-karpathy-skills": {
+      "summary": "这是一个 CLAUDE.md 配置文件，用于约束 Claude Code 的编码行为，依据 Andrej Karpathy 对 LLM 编码缺陷的观察，提出四条原则以减少错误假设和过度改动。",
+      "sourceHash": "175c49a76f239ac51b504013ef0f4d614938975f5acceaa8592e8bfa105a0d69",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-27T02:00:12.780Z"
+    },
+    "alchaincyf/huashu-design": {
+      "summary": "Huashu Design 是一个 HTML 原生设计技能，可在各类 AI agent 中用一句话生成网页、App 原型、可编辑 PPTX、动画和信息图等可交付设计。",
+      "sourceHash": "717b7a548cb56cd5c67e331a271323b56231cdf62bdd5354c3cd497c54bf9eec",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-27T02:00:12.535Z"
+    },
+    "gitroomhq/postiz-app": {
+      "summary": "Postiz 是一个开源社交媒体管理平台，用于排期发布、自动化内容并分析数据，可自托管或使用云服务。",
+      "sourceHash": "6029bb7f460a0cdf6bda68fc5a754a141bb8413f8b5a271c84144617c30a93eb",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-27T02:00:10.960Z"
+    },
+    "debpalash/voicestudio": {
+      "summary": "VoiceStudio 是一个完全本地运行的开源语音工具，支持声音克隆、语音设计、视频配音、听写、转写和有声书制作，覆盖 646 种语言。",
+      "sourceHash": "e634cb1d45c1410df0afe3da511f3941558294d50521caf1de9891f42c391879",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-27T02:00:09.391Z"
+    },
+    "panniantong/agent-reach": {
+      "summary": "Agent Reach 是一个 Python 命令行工具，让 AI Agent 能搜索和读取 Twitter、Reddit、YouTube、GitHub、B站、小红书等平台的公开内容，无需 API 费用。",
+      "sourceHash": "26e01c8d3ad8abd20a09bd39e0b8c9fb7a248810c8f502aadbad800832813ca3",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-27T02:00:07.996Z"
+    },
+    "nightly-labs/openbot": {
+      "summary": "OpenBot 是一个本地优先的桌面工作区，为 Codex、Claude 等 AI 代理提供独立工作空间、任务队列、文件共享和代理间协作。",
+      "sourceHash": "00eb37c225268df0e888a1c05c1ae4432d18b17a4e3232d7443da9e48bdccc6a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-27T02:00:06.516Z"
+    },
+    "pollen-robotics/microduck": {
+      "summary": "Microduck 是一个小型双足机器人，用 Rust 编写的守护进程运行强化学习策略，控制十五个舵机实现行走、翻滚和起身等动作。",
+      "sourceHash": "9913f74bbd65a4ec25745662db5c9e51d385256f74061164a9300a6089a0feb8",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-27T02:00:04.953Z"
+    },
+    "nvidia/skillspector": {
+      "summary": "SkillSpector 是用于 AI 智能体技能的安全扫描器，可在安装前检测提示注入、数据外泄和供应链等风险。",
+      "sourceHash": "cbf0ce89a3e8f7f67097aac3e281753b246c100ccdc20146d14614c7ab2af1d9",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-27T02:00:04.710Z"
+    },
+    "pbakaus/impeccable": {
+      "summary": "Impeccable 是面向 AI 编程代理的前端设计指导工具，提供技能、命令和检测规则，帮助生成更规范的前端界面。",
+      "sourceHash": "f861282dfbee28c355b69dc7ba2fa401778e873ccd60d3052a2cd1d1828362c4",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-27T02:00:03.203Z"
+    },
+    "affaan-m/ecc": {
+      "summary": "ECC 是一个面向 Claude Code、Codex 等 AI 编程代理的性能优化系统，提供技能、记忆、安全与先研究后开发的工程化工具链。",
+      "sourceHash": "d17af3c7deed8b577d8b3c0bcc07a16f4f35be020a044e99a5d05dc58588ea59",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-27T02:00:01.790Z"
+    },
+    "makecindy/cindy": {
+      "summary": "Cindy 是一个开源、开箱即用的 AI Agent，整合多种模型与工具，在项目和应用中完成实际工作。",
+      "sourceHash": "dcda7bc0ac91e17f25ab4063d9e6d7ed811d209c11379a6fd8beaa5e13a72261",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-27T02:00:01.493Z"
+    },
+    "jetbrains/thinkrail": {
+      "summary": "ThinkRail 是 JetBrains 开发的智能体 IDE，围绕 pi 编码智能体构建，通过隔离工作区和活规格文档让智能体持续学习项目。",
+      "sourceHash": "a88c746ad8f8f8c71b1a9b70d2396d5d67b1ffefceb093aba11dc258fa6bc23e",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-27T02:00:00.343Z"
+    },
+    "tauricresearch/tradingagents": {
+      "summary": "TradingAgents 是一个基于多智能体大语言模型的金融交易框架，模拟真实交易公司分工，用于分析市场并做出交易决策。",
+      "sourceHash": "884997e6675e900bb11c92a41443217e205d2f5a3f01703f6c041569e72f6c6a",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-27T01:59:59.166Z"
+    },
+    "nutlope/hallmark": {
+      "summary": "Hallmark 是面向 Claude Code、Cursor 等 AI 编程工具的设计技能，用于生成并检查网页，避免成品带有明显的 AI 生成痕迹。",
+      "sourceHash": "dcee295d3dbc2910b68a896bcabc63db78f66dd29a48168d55ba82a73f7e9552",
+      "model": "deepseek-v4-flash",
+      "promptVersion": "2026-08-12-v1",
+      "lastUsedAt": "2026-10-27T01:59:58.848Z"
+    },
     "agricidaniel/claude-seo": {
       "summary": "这是一个在 Claude Code 中运行的开源 SEO 审计工具，通过多个子技能和智能体检查技术 SEO、结构化数据与 AI 搜索就绪度。",
       "sourceHash": "8af1c9991503abec79457bd7e66556b51d6359fcaa2cf3d17ebf104bfa9a013d",
@@ -22,61 +120,12 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-26T01:06:06.543Z"
     },
-    "jetbrains/thinkrail": {
-      "summary": "ThinkRail 是一个基于 pi 编码代理的智能 IDE，通过隔离工作区和活规格为代理提供持久项目知识。",
-      "sourceHash": "5b0fdd40f5785109ffe9d915c0a31caf9355d790695c99396673fe501263fc53",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-26T01:06:05.269Z"
-    },
     "renhuai123/ziwei-doushu": {
       "summary": "这是一个基于倪海厦《天纪》体系的紫微斗数开源排盘引擎，用 TypeScript 实现完整排盘算法、四化系统与格局知识库，并提供命盘解读数据集。",
       "sourceHash": "624e057987106235e9d7283ae96e3020521201713da634ef1739cfdcdea8e143",
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-26T01:06:03.688Z"
-    },
-    "tauricresearch/tradingagents": {
-      "summary": "TradingAgents 是一个基于多智能体大语言模型的金融交易框架，模拟真实交易公司分工，用于分析市场并做出交易决策。",
-      "sourceHash": "884997e6675e900bb11c92a41443217e205d2f5a3f01703f6c041569e72f6c6a",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-26T01:06:02.308Z"
-    },
-    "pollen-robotics/microduck": {
-      "summary": "Microduck 是一个小型双足机器人，用 Rust 编写的守护进程运行强化学习策略，控制十五个舵机实现行走、翻滚和起身等动作。",
-      "sourceHash": "9913f74bbd65a4ec25745662db5c9e51d385256f74061164a9300a6089a0feb8",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-26T01:06:00.903Z"
-    },
-    "pbakaus/impeccable": {
-      "summary": "Impeccable 是面向 AI 编程代理的前端设计指导工具，提供技能、命令和检测规则，帮助生成更规范的界面设计。",
-      "sourceHash": "d9efe15211c72b4d4e155ad3e62a579666e9cb86dfe17377d75eae3f05d43505",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-26T01:06:00.537Z"
-    },
-    "debpalash/voicestudio": {
-      "summary": "VoiceStudio 是一个完全本地运行的开源语音工具，支持声音克隆、语音设计、视频配音、听写、转写和有声书制作，覆盖 646 种语言。",
-      "sourceHash": "18d4da21bc4f688c51f91480efe38a0643b1a41f096bf308c135feb74b24e75c",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-26T01:06:00.155Z"
-    },
-    "nutlope/hallmark": {
-      "summary": "Hallmark 是面向 Claude Code、Cursor 等 AI 编程工具的设计技能，用于生成并检查网页，避免成品带有明显的 AI 生成痕迹。",
-      "sourceHash": "dcee295d3dbc2910b68a896bcabc63db78f66dd29a48168d55ba82a73f7e9552",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-26T01:05:57.988Z"
-    },
-    "makecindy/cindy": {
-      "summary": "Cindy 是一个开源、开箱即用的 AI Agent，整合多种模型、工具与执行框架，在项目和应用中完成实际工作。",
-      "sourceHash": "aad50d21545db136df1b2daccf15a1574298472750616b953c43467c9827066d",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-26T01:05:57.524Z"
     },
     "jbiaojerry/ebook-treasure-chest": {
       "summary": "这是一个汇集帆书、微信读书等平台电子书下载链接的仓库，按标签分类提供 epub、mobi、azw3 格式资源，并支持在线搜索。",
@@ -351,13 +400,6 @@
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-18T00:54:59.438Z"
     },
-    "affaan-m/ecc": {
-      "summary": "ECC 是一个面向 Claude Code、Codex 等 AI 编程代理的性能优化系统，提供技能、记忆、安全与先研究后开发的工程化工具链。",
-      "sourceHash": "d17af3c7deed8b577d8b3c0bcc07a16f4f35be020a044e99a5d05dc58588ea59",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-18T00:54:58.998Z"
-    },
     "hmjz100/linkswift": {
       "summary": "LinkSwift 是一个基于 JavaScript 的网盘直链下载地址获取工具，支持百度、阿里、夸克等九大网盘，可获取文件下载链接并美化界面。",
       "sourceHash": "20f4e9c46bc9ae40926eaecf55a4a9b7e8b2df1bbb11d81cbe63b2912e28fc4b",
@@ -490,13 +532,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-12T02:17:58.388Z"
-    },
-    "multica-ai/andrej-karpathy-skills": {
-      "summary": "这是一个 CLAUDE.md 配置文件，用于约束 Claude Code 的编码行为，依据 Andrej Karpathy 对 LLM 编码缺陷的观察，提出四条原则以减少错误假设和过度改动。",
-      "sourceHash": "175c49a76f239ac51b504013ef0f4d614938975f5acceaa8592e8bfa105a0d69",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-11T01:48:42.504Z"
     },
     "huggingface/transformers": {
       "summary": "Hugging Face Transformers 是一个基于 Python 的模型定义框架，提供文本、视觉、音频和多模态的先进机器学习模型，支持推理与训练。",
@@ -665,41 +700,6 @@
       "model": "deepseek-v4-flash",
       "promptVersion": "2026-08-12-v1",
       "lastUsedAt": "2026-10-06T02:54:20.923Z"
-    },
-    "panniantong/agent-reach": {
-      "summary": "Agent Reach 是一个 Python 命令行工具，为 AI Agent 提供读取和搜索网页、Twitter、Reddit、YouTube、GitHub 等平台的能力，免费且无需 API 费用。",
-      "sourceHash": "a87ea5e8382d892263def90ba616c4d66be632db53101a9ee517ca75a6a1fb43",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-06T02:54:20.686Z"
-    },
-    "pingdotgg/t3code": {
-      "summary": "T3 Code 是一个智能体控制面板，可通过手机、网页和桌面应用远程操控本机的 Claude Code、Codex 等编程智能体。",
-      "sourceHash": "6080057328b93f680e6eb5b7b0ea5e723f429d07522fe388aa2b234839f76c89",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-06T02:54:19.354Z"
-    },
-    "antirez/ds4": {
-      "summary": "DwarfStar 是一个用 C 编写的本地大模型推理引擎，专为在消费级硬件上运行 DeepSeek、GLM、Qwen 等少数特定模型而优化。",
-      "sourceHash": "c88ca0fbf76c426a7e108d48d11034be9f86f51f5b1223910f06b3e231c359d3",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-05T01:52:40.478Z"
-    },
-    "opencut-app/opencut": {
-      "summary": "OpenCut 是一款免费开源的视频编辑器，支持网页、桌面和移动端，目前正基于 Rust 核心重写。",
-      "sourceHash": "d6c998d101f931f3c10ca58bbf8dcfed61b226893765c2115cf533e3844e8101",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-05T01:52:39.020Z"
-    },
-    "garrytan/gstack": {
-      "summary": "gstack 是一套面向 Claude Code 的工具集，提供 CEO、设计、工程经理、发布、文档和 QA 等角色化技能，用于规划、评审、测试和发布软件。",
-      "sourceHash": "6759f20e34460c68cf4b93c36e566ffc4c7a8f23e0c429a64884b64922da2620",
-      "model": "deepseek-v4-flash",
-      "promptVersion": "2026-08-12-v1",
-      "lastUsedAt": "2026-10-05T01:52:38.804Z"
     }
   }
 }
